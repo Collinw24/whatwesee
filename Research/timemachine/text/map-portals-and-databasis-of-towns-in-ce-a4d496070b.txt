@@ -1,0 +1,800 @@
+«Città e Storia», X, 2015, 2, pp. 261-280, doi: 10.17426/27829, ©2016 Università Roma Tre-CROMA
+
+
+
+
+MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE
+           AN APPENDIX OR SUBSTITUTE FOR
+         PRINTED HISTORICAL TOWN ATLASES?*
+                      Juraj Šedivý
+                                       Univerzita Komenského v Bratislave
+
+
+Abstract: In the past, historians offered their readers a depiction of urban history through city-
+scapes, maps and plans (initially as illustrations to texts), followed by specialised historical town
+atlases. The modern world then began to digitise printed works (first on CD/DVD and then on-
+line). Gradually, online portals have emerged with two philosophies – a database (“encyclopaedia”:
+i.e. the text comes first, supplemented with visual sources – including a cartographical represen-
+tation) and a topography (a modern map as the underlying source overlaid with geo-referenced
+historical maps, in certain cases with GIS-localised non-cartographic informational images). The
+idea is to link both approaches through a comprehensive memory portal where the user selects
+one of the two approaches using a filter (e.g. time, location and topic) or locates them on a map
+(the relevant GIS-localised units will be displayed based on the selected historical or modern-type
+map). Memory portals will offer more information than “just” atlases or “just” databases; they are
+open, collaborative and more attractive for the generation of “digital natives”.
+Keywords: Historical Town Atlases; Historical Topography; Data and Topographic Portals; Digitisation.
+
+
+    The reconstruction and modernisation of war-torn centres of large historic
+cities in Europe, accompanied by extensive archaeological excavations in the
+western and eastern parts of central Europe (Germany, Austria, Poland, Czecho-
+slovakia, Hungary and Romania), was the catalyst for the development of urban
+historiography after the Second World War. The post-war departure of society
+from rightist and elitist values to leftist ones (especially in the eastern part of the
+region in question), together with the continuing urbanisation and influx of peo-
+ple to towns connected with the post-war reconstruction of destroyed industry,
+boosted public interest in the activities of urban historians. In the “socialist” part
+of central Europe, the research of cities became one of the few less ideologically
+problematic broader topics for historians of the more distant past since the his-
+tory of the church and nobility had been ostracised as reactionary.
+
+    * The term “central Europe” has yet to be defined, but in general, one can say it is the region
+including Germany, Austria, Poland, the Czech Republic, Slovakia, Hungary, Romania, and his-
+torically the western part of Ukraine. In terms of available funds for urban research, there was
+a visible difference between the western and the eastern part of central Europe.
+    The research for this article was supported by the Slovak Research and Development Agency (APVV).
+262                                          JURAJ ŠEDIVÝ
+
+
+The institutional basis of urban research in central Europe
+    It is not the purpose of this paper to summarise all of the central European
+institutions which primarily deal with developments in urban history; therefore,
+the following lines are just a broad outline1. The post-war boom of urban histo-
+riography was not only displayed at a national level. In 1955 the International
+Commission for the History of Towns (ICHT)2 was established, with the aim
+of creating an academic network of urban historians and coordinating bibliog-
+raphies, editions of resources and historical town atlases3. Approximately a dec-
+ade later, specialised institutions focusing on urban history were established in
+Germany. Due to strong regional scientific traditions and the splitting up of
+the country, several scientific centres were immediately established there. The
+Research Centre for Communal Sciences can perhaps be considered the oldest
+(Kommunalwissenschaftliches Forschungszentrum, KWFZ – since 1973, renamed
+as the Deutsches Institut für Urbanistik, or Difu). It was established in 1966 and is
+headquartered in Berlin, having published the Informationen zur modernen Stadt-
+geschichte (focusing on the 19th and 20th centuries) since 19704. Approximately
+at the same time, a group called Die Alte Stadt, headquartered in Stuttgart (today
+in Esslingen), was formed around Otto Borst, who started publishing a journal of
+the same name in 1974 (renamed as Forum Stadt in 2010)5. In 1969 the Institute
+for Comparative Urban History (Institut für vergleichende Städtegeschichte), led
+by Heinz Stoob, was established at Westfälische Wilhelms-Universität in Mün-
+ster, concentrating on the medieval and early modern periods. Under the long-
+lasting baton of Peter Johanek, it has become the most important urban his-
+torical centre in Germany, having published three various types (monographs,
+guides and editions of historical sources) of scientific output since 1976, entitled
+
+
+     1
+       One of the latest works on the development of urban historiography in central Europe are
+the proceedings of a conference Documenta Pragensia, XXXII, (=Města ve středověku a raném
+novověku jako badatelské téma posledních dvou desetiletí / Städte im Mittelalter und in der frühen
+Neuzeit als Forschungsthema in den letzten zwanzig Jahren), Praha, Archiv hl. města Prahy, 2013.
+     2
+       Alternative titles: Commission internationale pour l‘histoire des villes / Internationale Kommission
+für Städtegeschichte. See http://www.historiaurbium.org/english/home_en.html (2015-05-05).
+     3
+       It informs about its activities and its members in a newsletter available at http://www.histori-
+aurbium.org/english/bollett_en.html (2015-05-05). The European Association for Urban History
+(http://www.eauh.eu) is a similar international organisation. However, it was only founded in 1989.
+It organises conferences every two years and has four committee members from central Europe out
+of a total of eighteen. Compared to ICHT, EAUH focuses more on urban history in the modern age.
+     4
+       See http://www.difu.de/geschichte (2015-05-05).
+     5
+       Die Alte Stadt. Vierteljahreszeitschrift für Stadtgeschichte, Stadtsoziologie, Denkmalpflege und
+Stadtentwicklung. For more on this, see: http://www.steiner-verlag.de/Stadt/ (2015-05-05). This
+continues under Forum Stadt: http://www.forum-stadt.eu/start (2015-05-05).
+               MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                          263
+
+Städteforschung. Veröffentlichungen des Instituts für Vergleichende Städtegeschichte
+in Münster, as well as two types of urban historical atlases (Germany and the
+Rhineland)6. The initially modest number of such centres has increased over the
+last 25 years primarily thanks to support from scientific grant agencies7.
+    In Austria the Austrian Circle for Urban History Research (Österreichischer Ar-
+beitskreis für Stadtgeschichtsforschung) in the Upper Austrian city of Linz, founded
+by Wilhelm Rausch became the true urban historic institution in a broader geo-
+graphic context. The Ludwig Boltzmann Institute for Urban Research (Ludwig-
+Boltzmann-Institut für Stadtgeschichtsforschung) established in 1975, also in Linz,
+was personally linked to the circle and Rausch himself. The institute and the circle
+were at the helm of Austrian urban historiography for several decades and coordi-
+nated the bibliography of urban history in Austria (nearly 80,000 recorded indi-
+vidual items), editions of historical sources (Elenchus fontium historiae urbanae),
+and two projects of urban atlases (of Austria and Vienna); they have informed the
+public about their activities in the Pro Civitate Austriae journal since 1985 and
+have been organising scientific activities, including studies in an academic almanac
+entitled “Contributions to the Urban History of Central Europe” (Beiträge zur
+Geschichte der Städte Mitteleuropas), which has 25 volumes to date. Since 1995 the
+institute has been based in Vienna, and the scientific circle was relocated there in
+2012 as well. The troika of the most significant urban historical institutions also
+includes the Viennese Urban and Country Archive, where Felix Czeike, Ferdinand
+Opll and Peter Csendes have become important personalities8.
+    Historians in the Eastern Bloc tried to establish an organisational base similar
+to the western part of central Europe. The Commission for Urban History was
+established in 1978 in Czechoslovakia at the Academy of Sciences (Jiří Kejř,
+Josef Žemlička, and others), which primarily coordinated the publication of his-
+torical atlases. Even before the split of the republic, it focused on the region of
+today’s Czech Republic. Among the Czech scientific institutions, the Archive of
+the Capital of Prague (V. Ledvinka, J. Pešek, O. Fejtová, and others) extensively
+supports scientific conferences on urban history and their outputs by publishing
+three different kinds of scientific publications: Documenta Pragensia (studies on
+
+    6
+      For more on this, see: http://www.uni-muenster.de/Staedtegeschichte/portal/einfuehrung/
+Forschungstraditionen.html (2015-05-05).
+    7
+      For more on German urban history, see: P. Johanek, Die deutsche Forschung über die Städte
+im Mittelalter und in der frühen Neuzeit in den letzten zwanzig Jahren. «Documenta Pragensia»,
+XXXII/1, ed. Olga Fejtová et al. Praha : Scriptorium 2013, pp. 301-340.
+    8
+      For the newest summary of Austrian research: F. Opll, Österreichische Städte im Mittelalter
+und in der Frühen Neuzeit als Forschungsthema der letzten zwanzig Jahre, «Documenta Pragensia»,
+XXXII/1, Praha 2013, pp. 341-373.
+264                                        JURAJ ŠEDIVÝ
+
+
+urban history in central Europe), Documenta Pragensia Monographia (editions of
+historical sources and analytical monographs), and the Prague Historical Almanac
+(a yearly compendium of studies on Prague’s history)9. The second most impor-
+tant urban archive – the Brno Archive, focuses mostly on Moravian towns and on
+Brno itself10. Among the universities, the most prominent are Charles University
+in Prague (which publishes the magazine Lidé města), and the University of J.
+E. Purkyně in Ústí nad Labem, which publishes editions of historical sources.
+A significant synthesis of the history of medieval Czech, Moravian and Silesian
+towns has been published by František Hoffmann; an early modern history has
+been published by Jaroslav Miller, and topographical and historical overviews
+have been published by Karel Kuča and many others11.
+    In Slovakia, the Section for Urban History of the Slovak Historical Society at
+the Slovak Academy of Sciences was established in 1971, where Richard Marsina
+and Vladimír Segeš were significant personalities. However, its activities were
+limited to bi-annual conferences with a subsequent almanac of studies. Smaller
+regionally-oriented centres are currently attached to universities in Bratislava (the
+History of Bratislava 1-5 and the PamMap web portal), Trnava (editions of city
+registers), and Košice (a specialised magazine called City and History [Mesto a
+dejiny], which has been in publication since 2012)12.
+    Research into the history of towns in Poland is coordinated by the Commis-
+sion for the History of Towns at the Polish Academy of Sciences (Komisja Historii
+Miast Komitetu Nauk Historycznych PAN). It has been organising conferences and
+publishing conference almanacs since the 1970s. Nicolaus Copernicus University
+in Torun (Roman Czaja, Krzysztof Mikulski and Jacek Wijczka), the Pedagogical
+University of Cracow (Zdzisław Noga), the University of Wroclaw (Marta Mly-
+narska-Kaletynowa, Rafał Eysymontt and Mateusz Goliński), and the University
+of Warsaw (Henryk Samsonowicz13) are all centres of urban history research.
+
+     Publication activities: http://www.ahmp.cz/index.html?mid=27&wstyle=0&page=%27%27 (2015-05-05).
+      9
+
+       Specific publications: http://www.archiv.brno.cz/index.php?nav01=1734&nav02=1739 (2015-05-05).
+      10
+    11
+        For an overview of Czech urban historiography, see: O. Fejtová et al. (eds). Städte im
+Mittelalter und in der frühen Neuzeit als Forschungsthema in den letzten zwanzig Jahren, «Documenta
+Pragensia», XXXII/1, Praha 2013.
+    12
+       The most recent overview of relevant Slovak research can be found in: J. Lukačka, M.
+Štefánik, Die Forschung zur Geschichte der mittelalterlichen Städte in der Slowakei während der letz-
+ten zwanzig Jahre, «Documenta Pragensia», XXXII/1, pp. 411-428; E. Kowalská, Frühneuzeitliche
+Städte als Forschungsthema in der slowakischen Historiographie der letzten zwei Jahrzehnte, Ibidem,
+pp. 429-437.
+    13
+       This core figure of Polish urban historiography is still active. Just as the work of František
+Hoffmann (Středověké město v Čechách a na Moravě, Praha, Lidové noviny, 1992) is essential
+reading for the Czech lands, 20092 is a similar classic synthesis on the history of Polish towns:
+               MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                            265
+
+There are also city archives in Warsaw and Cracow14. Since 2004, the Centre for
+the Urban History of East-Central Europe exists in west Ukraine, and has func-
+tioned as an academic institution, organising conferences and publishing works
+on urban history; it has published its first atlas, and has mostly been researching
+the Polish and Ukrainian region from a historical and geographical perspective15.
+    In Hungary, urban history has been mapped by researchers for a long period.
+Erik Fügedi and András Kubínyi were two of the big names in the second half of
+the 20th century. Currently, research is centred around key personalities at uni-
+versities e.g. (Katalin Szende at CEU Budapest, Vera Bácskai at ELTE Budapest,
+István Poetrovics at the University of Szeged, Judit Majorossy at the University of
+Vienna, and Károly Goda at the University of Münster). The Committee for Ur-
+ban History at the Hungarian Academy of Sciences is a coordinating body. Similar
+to such institutions in other countries, the Municipal Archive of Budapest is a
+leading authority and publishes the Urbs – Hungarian Yearbook of Urban History
+journal. Editions of historical sources are published in Hungary, as are atlases of
+urban history. However, individual projects are not under the umbrella of a central
+committee16. In Romania, the Commission of Town History was established in
+1992 under the guidance of the Romanian Academy of Sciences (Comisia de Istorie
+a Oraşelor din România)17. It publishes the Historia urbana journal (V. Ciobanu
+and D. Iacob), editions of historical sources, and historical atlases of Romanian
+towns (D. Iacob). Since 1992 it has been organising one or two colloquia every year
+on various topics of urban history.
+
+Historical Town Atlases
+   Along with textual works (analytical studies, syntheses and editions), the above-
+mentioned institutions and researchers have been interested in another significant
+tool of urban historiography over the past fifty years – historical town atlases, which
+are supposed to cover towns and their surroundings and visually present cultural
+phenomena in a location and the surrounding countryside. These first historical
+
+
+H. Samsonowicz, M. Bogucka, Dzieje miast i mieszczaństwa w Polsce przedrozbiorowej, Wroclaw-
+Warszawa-Krakow, Ossolineum, 1986.
+    14
+       For Polish research, see the historic and graphic overview by Urszula Sowina, Zdzisław Noga
+and Andzej Klonder in «Documenta Pragensia XXXII/1», Praha 2013, pp. 495-511, 513-527,
+529-555.
+    15
+       For basic information, go to: http://www.lvivcenter.org/en/ (2015-05-05).
+    16
+       For a recent overview, see: I. H. Németh, K. Szende, Research on the Town of Medieval and
+Early Modern Hungary since 1989, «Vana Talinn», XXV(XXIX), 2014, pp. 266-294.
+    17
+       P. Niedermaier, Comisia de istorie a oraşelor din România la 20 ani, «Historia Urbana», XXI,
+2013, pp. 5-14 (also available at www.ceeol.com).
+266                                        JURAJ ŠEDIVÝ
+
+
+and topographic depictions of the past had their roots in the 16th to 18th centuries
+(e.g. maps of historic Jerusalem and Rome)18. It is rather significant that the old-
+est urban atlases included works from German regions, which have subsequently
+played an important role in the publishing of atlases. The abrupt boom of atlases in
+the last two decades of the 20th century perhaps echoed the “iconic turn” of West-
+ern civilisation some one to two generations ago. The onset of historical atlases in
+the 1970s and 1980s was much easier in the western part of the continent; academ-
+ics in the socialist part of central Europe ran into difficulties, as many maps and
+aerial photographs were kept from them by the authorities. As a result, they only
+caught up with their counterparts in Germany and Austria in the last two decades
+of the 20th century. In the evolution of historical atlases, one can detect several
+phases: classical printing methods and outputs were used approximately until the
+mid-1990s; afterwards, the maps were processed using digital graphics, and still
+published in printed format. In the last decade, one can gradually see entire atlases
+being made accessible electronically via the Internet, leading to current web portals
+offering more than the classical atlases19.
+    Under the influence of ICHT, a relatively standard format of atlases has crys-
+tallised since the end of the 1960s (these standards were set at meetings in Oxford
+in 1968 and in Münster in 1995). The format is composed of two parts: introduc-
+tory textual studies outlining urban development and then the principal carto-
+graphic element. This is created from a redrawn city plan including information
+taken from land registries from the pre-industrial period marking out plots (the
+scheme is usually from the mid-19th century and to a scale of 1:2500), a map of
+the vicinity of the town, if possible, from the same period (1:25,000/1:50,000),
+and a current urban plan with lots (1:5000) as well as reconstruction maps of
+urban and borough development (1:5000)20. The collection is complemented
+with other thematic maps capturing selected social and economic phenomena,
+providing there are sufficient resources and research (e.g. the size of medieval
+parishes, taxes paid on individual buildings, the jobs of individual taxpayers, and
+
+
+       M. Conzen, Retrieving the Pre-industrial Built Environments of Europe: the Historic Towns Atlas
+      18
+
+Program and Comparative Morphological Study, «Urban Morphology», XII, 2008, 2, pp. 143-156: 144.
+    19
+       E. Chodějovská, E. Semotanová, Dějiny měst, ikonografické a kartografické prameny, metody
+a výstupy v posledním dvacetiletí (Urban history, iconographic and cartographic sources, methods
+and results from the past two decades), Documenta Pragensia XXXII/2, 2013, pp. 293-311.
+    20
+       In his paper Should the Historic Towns Atlas Continue Beyond 1900? (http://www.his-
+toriaurbium.org/english/Opll_Atlases%20beyond%201900_ENGLISH_SIMMS_24112012.
+pdf ), F. OPLL pointed out the need to complement the maps and include further periods: the
+reproduction of the plan at the turn of the 20th century, from the 1920s, and from the 1950s
+(at 1:5/10/25,000 – depending on the size of the city).
+               MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                            267
+
+paths and path management). Facsimiles of historical maps, plans and drawings
+of the town are part of the atlases as well. Individual national editions slightly
+differ in format and content. However, thanks to internationally enforced basic
+standards, their structure is similar and, at least within national projects, the
+atlases capture towns in maps and plans from the same period (e.g. in the Czech
+project, towns are depicted in Müller’s 1720 map of Bohemia, his 1716 map of
+Moravia, the map of the first military survey from the 1760s to the 1780s, the
+map of the second military survey in the first two thirds of the 19th century,
+and the stable land registry from the 1820s to the 1840s as well as in modern
+orthophoto maps). Similar to large syntheses, atlases usually have an institutional
+background as they are produced by teams based at academies and universities.
+Thanks to this commitment, a creditworthy set of atlases has been compiled
+since the 1970s21. In central Europe, Germany (256) and Austria (63+17) play
+a major role in terms of town atlases. Roughly twenty have been published in
+Poland and in the Czech Republic; Romania and Hungary have added their own
+initial sets recently, while Slovakia is still working on its own project22.
+    German historians were among the first to publish historical atlases of towns
+in central Europe. In addition to the national set (Deutscher Städteatlas, pub-
+lished since 1973; Deutscher Historischer Städteatlas, published since 2006), there
+are three regional town atlases – the Westphalian Series (Westfälischer Städteat-
+las), the Rhineland Series (Rheinischer Städteatlas), and the Hessian Series (Hes-
+sischer Städteatlas). The first two projects have been handled by the Institut für
+vergleichende Städtegeschichte at the University of Münster (initiated by Heinz
+Stoob and later headed by Peter Johanek). The Rhineland Series project is equally
+old, initiated by Edith Ennen (Amt für rheinische Landeskunde, Bonn). The Hes-
+sian Series is the youngest regional project (published by the Hessisches Landesamt
+für geschichtliche Landeskunde, Marburg – Ursula Braasch-Schwersmann). The
+total number of published atlases in Germany is close to 300, with a preference
+for larger and mid-sized towns23. The Münster centre offers interactive on-line
+digital urban atlases on its web page, in addition to printed atlases (for example,
+Braunschweig, more of which you can find in Daniel Stracke’s work).
+    In Austria, there have been two projects of historical atlases in existence since
+1981 – the Austrian Town Atlas (Österreichischer Städteatlas) and, due to its size
+
+   21
+       For a general information on the development, see: E. Chodějovská, S. GeaRty, D. Stracke
+in the introduction to this issue.
+    22
+       A set of atlases was compiled by Ferdinand Opll as early as 1995; the initial author is cur-
+rently followed by Sarah Gearty and Jennifer Moor. See http://www.ria.ie/research/ihta/european-
+project.aspx (2015-05-05).
+    23
+       Ibidem.
+268                                        JURAJ ŠEDIVÝ
+
+
+and significance, a separate atlas of the capital Vienna (Historischer Atlas von Wien).
+Even though there is a smaller number of towns covered in Austrian atlases when
+compared to Germany, their nationwide distribution is more even; in Germany
+such atlases are concentrated in only two out of its thirteen states. The project cov-
+ers the development of larger cities with over 100 thousand inhabitants (such as
+Graz, Linz and Innsbruck), mid-sized towns with tens of thousands of inhabitants
+(such as Wiener Neustadt and Eisenstadt), and smaller towns such as Marchegg,
+Rust and Freistadt. The Austrian Circle for Urban History Research, the Ludwig
+Boltzmann Institute for Urban Research and the Viennese City and Regional Ar-
+chive, as well as several dozen individual authors, have been involved in their pub-
+lication. Initially, atlases by Ferdinand Opll appeared frequently, whereas Susanne
+C. Pils has been the most active author in the past decade. A compendium of all the
+atlases published until 2008 was published in 2009 on DVD24. All the published
+volumes are userfriendly available online25. Austrian urban historians, assisted by
+the Hungarian company Arcanum, have made the extensive third military surveys
+of the entire Habsburg Monarchy available online (www.mapire.eu).
+    In the Czech part of what was Czechoslovakia, the concept of the first atlas
+(Litoměřice) was designed by J. Macek, J. Tomas and J. Smetana as early as 1980.
+However, the project was only put into action a decade later26. In 1995, the first
+volume of the Historical Town Atlas of the Czech Republic (Historický atlas měst
+České republiky: in Czech, along with an extensive German and English summa-
+ry) was published, and some 25 more had been added by 2014 (Pardubice, České
+Budějovice, Hradec Králové, Jihlava, Český Krumlov, Kutná Hora, and Mikulov
+are among the better known ones). Josef Žemlička, Robert Šimůnek and Eva
+Semotanová can be considered the moving forces behind this project, and Eva
+Chodějovská remains a prominent figure; all of them are from the Institute of
+History at the Czech Academy of Sciences. Similarly to Vienna, Prague is domi-
+nant over other Czech municipalities in terms of its significance. However, in
+contrast to their Austrian counterparts, the Czech authors listed it in the national
+register; so far, printed atlases of three Prague boroughs have been published:
+Libeň, Královské Vinohrady and Smíchov. The atlas of Plzeň is available online
+as an e-book27. Just like Münster, the Czech centre offers an interactive atlas of
+
+    24
+       Österreichischer Städteatlas Lieferungen 1-10 (1982-2008). In collaboration with Arcanum,
+Budapest (2009). See http://www.arcanum.hu/.
+    25
+       See http://www.wien.gv.at/kultur/archiv/kooperationen/lbi/staedteatlas/mappe.html (2015-05-05).
+    26
+       E. Semotanová, J. Smetana, J. Žemlička, Úvodem k první pětici svazků Historického atlasu měst
+České republiky, http://www.hiu.cas.cz/cs/download/mapova-sbirka/uvod-1_5.pdf (2015-05-05).
+    27
+       However, not all copyrights to all maps have been secured: https://www.plzen.eu/obcan/o-
+meste/multimedia/ebook/knihy/ebook-historicky-atlas.aspx (2015-05-05).
+              MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                        269
+
+Prague and its city boroughs on the map portal of the Historical Town Atlas of
+the Czech Republic28.
+    In Poland, eighteen volumes of a project entitled Atlas Historyczny Miast Pol-
+skich have been published since 1993 (in two languages, also known as His-
+torischer Atlas Polnischer Städte)29. Nicolaus Copernicus University has edited part
+of the project (Roman Czaja and Antoni Czacharowski). The analysed cities are
+concentrated in the western part of Poland (the former Prussia: Toruń, Braniewo,
+Bydgoszcz, and others), Kujawy and Masuria. As part of the project, the first
+volume of the Cracow atlas was published, edited by Z. Noga. The atlases of
+Silesian towns (featuring Wrocław and four smaller cities) were published by the
+University of Wroclaw and were edited by Marta Mlynarska-Kaletynowa and Ra-
+fal Eysymontt. Our Polish colleagues are also planning the publication of tradi-
+tional atlases in electronic format30. In 2014, the Ukrainian Academy of Sciences
+published their first historical atlas of Lviv (edited by Myron Kapral)31. This atlas
+includes 11 map reconstructions, 25 facsimiles, 6 historical townscapes and an
+extensive text.
+    Since 2000, seven volumes of Atlasului Istoric al Oraşelor din România (in
+German known as Städtegeschichteatlas Rumänien) have been published in Ro-
+mania, divided according to historic regions into Series A: Moldova (2), Series
+B: Tara Romanesca (3), and Series C: Transylvania (2)32. Sibiu can be considered
+the most active centre, and Paul Niedermaier and Dan Dumitru Iacob are the
+main moving forces behind the project there. The Romanian atlases include in-
+troductory texts concerning the landscape, a chronology of the most important
+events in a town’s history, demographic development, urban planning, architec-
+ture, descriptions of the town in historical sources, archaeological discoveries,
+street names, and a bibliography as well as historical maps (first, second and third
+military surveys, as well as other local maps and plans, mostly from the 18th to
+the 20th centuries and excluding current maps).
+    Hungarian urban historians joined their counterparts in 2010 by publishing
+two catalogues of the Hungarian Atlas of Historic Towns (Magyar Várostörténeti
+Atlasz), which was edited by the Committee for the History of Towns at the
+
+    28
+       See footnote 25. In addition, the City Archive has published the Prague Plan from 1840-
+1842 and 1856 based on indicative sketches and surveys of the stable land registry.
+    29
+       See http://rcin.org.pl/dlibra/publication?id=70534&tab=3 (2015-05-05).
+    30
+       Courtesy of Prof. Z. Noga (Cracow).
+    31
+       Basic information can be found at: http://www.lvivcenter.org/en/ (2015-05-05).
+    32
+       2000: Sighişoara, 2004: Sebeş, 2005: Suceava, 2006: Târgovişte, 2008: Câmpulung, 2010:
+Siret, and 2013: Brăila. More information can be found at: http://www.icsusib.ro/main/index.ph
+p?s=25ad0cce93e8a0a2dbd3bd80cb647c67&f=change&idroot=8 (2015-05-05).
+270                                     JURAJ ŠEDIVÝ
+
+
+Hungarian Academy of Sciences. András Kubínyi was the leading figure in this
+project. He was succeeded after his death by Katalin Szende and István Tringli.
+The first volume (2010: Sopron) already indicated a highly ambitious project.
+After an extensive introductory text, a classical set follows (a 1:2500 redrawn
+land registry map from 1856, a 1:50,000 city vicinity in the first and the second
+military surveys, a 1:5000 topographic development from medieval times until
+the 18th century, and a 1:5000 modern city plan), followed by 21 thematic maps
+(starting with medieval altar prebends to real estate prices in the 18th century
+and a modern map of protected monuments and objects). Axonometric projec-
+tions are shown in the accompanying material (dealing with the Roman and early
+Hungarian periods) and the cityscapes33. After having completed Sopron and Sá-
+toraljaújhely, the authors are now working on atlases of Buda and Kecskemét34.
+    Overall, when talking about central European town atlases, one can state that
+as a rule they are based on modern state boundaries, even though towns once
+belonged to various other units. The projects are mostly under the umbrella of
+national academies of sciences in collaboration with universities and the archives
+of (mainly) capital cities. In terms of structure, they apply international standards
+and feature a user-friendly bonus: they are published in two languages (firstly the
+national language and then a second language, with German prevailing here over
+English), or they at least feature an extensive second-language summary. Similar-
+ly to elsewhere in Europe, the authors of the atlases are currently at a crossroads
+known as the “transition from the printed to the digital town atlas”.
+
+Changes in historiographical discourses
+    Due to the changed post-war paradigms of historiography, extensive syntheses
+published in the 1950s covering the issues of the origins of medieval towns, their
+definitions and nature, as well as the continuity of ancient and medieval urban
+forms, caught the attention of experts in the field as well as the wider public (Edith
+Ennen in 1953; Hans Planitz in 1954 and several others). The next breakthrough
+in the development of European urban historiography came in the 1970s. Since
+then more quantitative methods have been used by urban historians: e.g. evalua-
+tions of register sources focusing on the management of cities and townspeople,
+the social topography of towns, and historical town atlases. At the same time, in
+addition to medieval urban history, more recent periods have also attracted the
+attention of urban historians. The third most significant change in the approach
+
+   33
+      J. Ferenc, J. Kűskan, K. Szende (eds.), Sopron (=Magyar Várostörténeti Atlasz 1), Sopron,
+Archives and Museum, 2010.
+   34
+      I. Tringli (ed.), Sátoraljaújhely (=Magyar Várostörténeti Atlasz 2), Budapest, MTA, 2011.
+                MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                             271
+
+of urban historians was caused by the massive onslaught of computer technology
+towards the end of the 20th century. The wish to access information fast and the
+current visible shift in the perception of the younger generation (Marc Prensky
+has characterised them as “digital natives”)35 poses a legitimate question, namely
+whether the “monologue” format of classical historical work (be it text-based and
+built on the rational and Enlightenment tradition, or image-based and appearing
+as a finished and mostly printed work) will remain attractive and intelligible for
+future generations of the urban history readers, or whether new approaches to
+the explanation of urban history will have to be sought. What impact will inter-
+active and visually attractive databases, topography and general historical portals
+have upon the historiography of towns?
+    The change seems to be fundamental: whereas today’s fortysomethings have
+been accustomed to using verified information (e.g. scientific encyclopaedias and
+academic dictionaries) and studying a large amount of baseline material (e.g.
+research reports) before formulating a hypothesis, the “digital generation of the
+21st century” (today’s teenagers up to thirtysomethings) is willing to reach out to
+semi-professional and even amateur sources of information for the sake of speed,
+thus making conclusions based on little information (“Wikipedisation”). The
+digital generation prefers shorter multi-source information (hypertext and mul-
+titasking) to a gradually constructed single story (a linear text from one source).
+Readers and e-books (as well as the Internet itself ) are all proof that the printed
+word lost its battle with digital text a long time ago. Print can only be kept if it
+is attached to an image – either static (graphics and photography) or dynamic
+(video) – which is a consequence of the decline of slow reading in favour of the
+fast perception of images (the so-called “iconic turn”). As opposed to solitary
+scientists working in the silence of their studies, “digital natives” have become
+used to working through a network (informally via Skype, or scientifically via
+Academia.edu or other such portals). The past need for private space (in the
+scholarly field as well: publication of long-term research only after its comple-
+tion) has been replaced with the public space, with “sharing”, the presentation
+of “work in progress”, abstracts, and presentations available online. In this “com-
+plementary” sense, competent web portals are clearly winning over completed
+(printed or online) works as far as one’s “eyeballs” are concerned. Naturally, this
+
+
+    35
+      Prensky was one of the first to do research into the different perceptions of the world held by
+digital immigrants (an analogy with people who have had to learn how to operate IT) and digital
+natives (those born into the IT world). See Prensky, Marc: Digital Natives, Digital Immigrants. In:
+«On the Horizon», IX, 2001, Nos. 5 and 6, pp. 1-6. Available at http://www.emeraldinsight.com/
+doi/abs/10.1108/10748120110424816 (28. 2. 2015).
+272                                         JURAJ ŠEDIVÝ
+
+
+is not an insurmountable gap between the old and the young generation; rather,
+it is about the “new” and the “old” approach – two different discussions that have
+been influencing each other all the time.
+
+The digital environment and historic map portals
+    Digital access to information has been a serious challenge for long-term edi-
+tion projects for at least the past two decades. In the first decade of this century,
+it seemed sufficient to make the original printed work digitally available in a one-
+off medium (CD/DVD). The Austrian Town Atlas (a DVD with atlases from
+1982 to 2008) and the Hungarian project (a DVD appendix to a printed atlas,
+2010f.)36 took this path. However, only online solutions have been considered
+recently. The easiest of these to make the original printed and published work
+into a digital version, and then make it available on the Internet; another ap-
+proach is through smaller or larger adjustments using the features of the digital
+environment. In the case of the Czech Plzeň atlas, a simple “switchover” was
+chosen; Plzeň became the European Capital of Culture in 2015, and one can leaf
+through the e-book of the historical atlas of the town37. The Hessischer Städteatlas
+opted for a similar solution by offering all atlases published until 2012 as part of
+the project in a user-friendly PDF format38. The benefits of these solutions for
+users include quick access to information (compared with the printed version,
+the electronic versions allow browsing) and a saving on purchasing costs. Such
+a simple approach could be a temporary and particularly cheap solution for the
+online publishing of older atlases that were published before digital technology
+was used for the processing of the underlying material.
+    The advantage of using newer atlases from the 1980s and 1990s is the use of
+vectorised images that can be switched on and off. This feature is being used by
+the interactively designed atlas of the German town of Braunschweig, edited by
+Daniel Stracke (Münster). In three underlying maps on a small, medium and
+large scale, the user can click on information that would have been included in
+separate thematic map sheets in the printed format (evolution maps and themat-
+ic maps of waterways, historic roads, and fortifications). Compared to the simple
+PDF format or e-books, this solution already uses the advantage of the digital
+environment (the interactive overlaying of an individual layers option)39. The
+
+      See footnote 32.
+      36
+
+      The e-book is not comprehensive because there are not copyrights to all of the maps: https://
+      37
+
+www.plzen.eu/obcan/o-meste/multimedia/ebook/knihy/ebook-historicky-atlas.aspx (2015-05-05).
+   38
+      See http://www.lagis-hessen.de/de/subjects/browse/sn/statl (2015-05-05).
+   39
+      See http://www.uni-muenster.de/Staedtegeschichte/Forschung/interaktive_Kartographie_Braunschweig.
+html (2015-05-05).
+              MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                        273
+
+map portal of the Historical Town Atlas of the Czech Republic, managed by Eva
+Chodějovská and technically supported by Jiří Krejčí, has an analogical concept.
+    An interesting solution is delivered by a simple connection of geo-referenced
+historical maps with the current cartographic underlying document using opac-
+ity. The number of map portals with such solutions that are not actually histori-
+cal atlases in the standard sense is growing, especially in Bohemia. Outside of the
+framework of the Historical Town Atlas of the Czech Republic, historical atlases
+for Plzeň, Kladno, Kutná Hora and Most started popping up on the Internet,
+and probably independently, as they differ from each other in terms of method-
+ology. Towns have made geo-referenced plans, historical maps and aerial views
+available in digital format40. As far as the size of the covered area is concerned,
+the joint project of the Austrian State Archive in Vienna and Arcanum is at the
+forefront. The project partners are offering three military surveys (1763-1887) of
+the entire Habsburg Monarchy (today’s territories of Austria, the Czech Repub-
+lic, Hungary and Slovakia as well as parts of Poland, Ukraine, Romania, Serbia,
+Croatia, Slovenia and Italy as well as Austrian Netherlands) and specifically the
+territory of the Hungarian Kingdom (1869-1887). The maps can be browsed
+and used naturally to track the historic country as well as towns and their sur-
+roundings. A user-friendly feature is that a location can be entered in various
+languages (e.g. “Bratislava” in Slovak, “Pressburg” in German, and “Pozsony” in
+Hungarian), and the icing on the cake is that the authors also offer 3D imagery
+using Google Earth41. The Czech project StareMapy.cz (OldMaps) and its Slovak
+analogy (Staré mapy.sk) are analogical, although less elaborate projects42.
+    As opposed to the relatively simple overlapping of historical and current
+maps, some portals offer other improvements. For instance, the Historical Town
+Atlas of the Czech Republic (as well as some smaller projects, such as the one for
+the city of Most) employ the possibility of inserting historical or modern-day im-
+agery of significant topographic units into the cartographic image (e.g. important
+buildings or streets in vintage postcards and photographs).
+    The creators of the Historisch-topographischer Atlas schlesischer Städte43 have
+gone a step further. The authors offer online access to two processed locations
+out of 34 potential towns in the territory of today’s Poland and the Czech Re-
+public (parts of the historic Silesian region), namely Zgorzelec and Opole. One
+
+   40
+       Plzeň: http://gis.plzen.eu/staremapy/; Kladno offers only the second and third military
+surveys and an orthophoto map dating from 1951. See: http://kladno.gepro.cz/OUT/HTML/
+MISYS3; Kutná Hora: http://www.kutnahora.cz/mapserv/history/; (2015-05-05).
+    41
+       See http://mapire.eu/de/ (2015-05-05).
+    42
+       See http://www.staremapy.sk (2015-05-05).
+    43
+       See https://www.herder-institut.de/staedteatlas_schlesien/atlas.html (2015-05-05).
+274                                    JURAJ ŠEDIVÝ
+
+
+
+
+Fig. 1 - http://gis.mesto-most.cz/mostdominulosti/index.html. On this orthophoto map of
+Most, there are icons which allow access to imagery from other periods (the image above show
+an orthophoto map from 1938 and the photograph of a shopping centre from the 1970s).
+
+can immediately appreciate that the menu is – as is common in central Europe
+– provided in several languages. In both towns, the atlas offers a textual section
+(geographical position, population, and history) and a cartographic section (his-
+torical maps without overlaying modern maps, text commentary, the develop-
+ment of inhabitation, and vignettes). In Zgorzelec, the authors even offer a short
+video trailer with 3D visualisations depicting the topographic evolution of the
+town. This extraordinary didactic teaching aid is turning into something that is
+somehow a shortcoming in classical town atlases, whose sophistication is not at-
+tractive to interested intellectuals who are not historians and those who are not
+urban experts. Despite their shortcomings, the Prague portal and the presenta-
+tion of Zgorzelec offer multimediality as an important tool to make historical
+town atlases more attractive. Contrary to the printed format, the digital environ-
+ment can apply static as well as accompanying dynamic imagery (including video
+footage and interactive 3D models).
+                MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                    275
+
+
+
+
+Fig. 2 - Picture: https://www.herder-institut.de/staedteatlas_schlesien/atlas.html. A 3D re-
+construction of Zgorzelec planted into a military map.
+
+
+    On a different note, a discussion allegedly took place in London at the end of
+the 19th century which suggested that the intense growth of horses pulling carts
+would mean that in one to two decades the city would no longer be able to re-
+move the resulting excrement. Then cars came along, and the issue was resolved.
+It is possible that the philosophy of historical atlases could be reconsidered in a
+new way: a way that will link previously independent ways of explaining history
+– both in text and images (books with illustrations or documentary and period
+film footage) – along with the cartographic material.
+    Having discussed cartographic projects, let us now detour to databases of
+urban history which work with text and (mainly) imagery. The online Ency-
+clopaedia of the History of Brno (Encyklopedie dějin města Brna), established in
+2004, is one of the oldest of its type in central Europe44. It offers a “Wikipedian”
+
+   44
+        See http://encyklopedie.brna.cz/home-mmb/ (2015-05-05).
+276                                        JURAJ ŠEDIVÝ
+
+
+
+
+Fig. 3 - Results for a search in the Topothek.at.
+
+
+view of Brno’s history from two main focal points: events and locations (!) It is
+the advantage of databases like this that they offer a meta-archive (digitised items
+with metadata of historic sources drawn from a great number of relevant memory
+institutions, such as the city museum, archives, gallery, and library) whose entries
+are commented upon by academic experts as well as volunteers (personal observ-
+ers and owners of sources who provide them for digitisation) who can take part in
+the project in a collaborative effort. The recipient is then a user, not just a reader.
+    A similar database has been available at Wien Geschichte Wiki45 since 2014. In
+the case of Vienna, this is essentially a purposefully fragmented version of His-
+torisches Lexikon Wien by Felix Cseike which has been adapted for the purposes
+of the Internet. New formats of memory entities (non-text-based source types,
+
+      45
+           See https://www.wien.gv.at/wiki/index.php/Wien_Geschichte_Wiki (2015-05-05).
+                MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                  277
+
+such as images and maps) are added to the core text of the project. In a certain
+way, such databases can be an inspiration for the new generation of digital town
+atlases. Just as these databases are shifting towards topography, map portals are
+being complemented and new database elements are being added.
+    The most advanced town databases available to date that have made the first
+tiny steps towards becoming a town atlas could be the Austrian Topothek and
+the Slovak PamMap46. The Topothek is a dynamic and a fast growing project that
+creates sub-databases for individual locations (mostly villages as well as smaller
+cities) and which features an identical structure. Users can select miscellaneous
+historical sources according to their own interests (objects, images, video and au-
+dio material, and documents) and text commentary from a relevant time period:
+e.g. a user wants video sources from the Second World War for Wien-Triestervi-
+ertel. The results are then shown on a modern Google-style map.
+    It is only a small step from the Topothek to then hyperlinking databases and to-
+pography, and creating a comprehensive memory portal. A beta-version of such a pro-
+ject for the Slovak capital Bratislava has been available since the summer of 2015 at
+www.pammap.sk (PamMap – Pamäť mesta Bratislavy – Memory of the City of Brati-
+slava). PamMap is an acronym composed of Slovak words (PAM = pamäť [memory]
+for the database elements, and MAP = mapa [map] for the cartographic approach). It
+expresses the main philosophy of the project; namely, the option for the user to make
+either a database or cartographic enquiry on one portal. The structure of the database
+section is near completion, and the user can search relevant results (memory entities)
+in urban history through a requested source type (object / writing / graphics / pho-
+tographs / postcards / 3D visualisation / audio / video) while also specifying the time
+(e.g. 1914-1918), location (e.g. street name), historical event, personality, topics (e.g.
+Germanicum, Judaicum, transportation or the Catholic Church), and the source of
+memory institutions (e.g. the Municipal Archive of Bratislava or the Private Collec-
+tion of XY). This all means that the user can select, for example, photographs of the
+Main Square in Bratislava taken by Joseph Hofer which are stored in the municipal
+archive and are dated between 1930 and 1945.
+    The memory items are localised using a GIS, and thus a similar selection can
+be achieved through map access as well: users can overlay a historical map onto a
+modern-day Google Map and choose the opacity. Similarly to Prague, “pinned”
+icons with memory items related to the location in question will be displayed. By
+clicking on icons localised on the Main Square, users can access specific digitised
+items with the respective metadata. The objective is to display only the relevant
+items for a particular period.
+
+   46
+        See http://www.topothek.at/ or www.PamMap.sk (2015-05-05).
+278                                    JURAJ ŠEDIVÝ
+
+
+
+
+Fig. 4 - The PamMap comprehensive memory portal. Results of a map search for individually
+chosen criteria (material – photo; theme – water transport; period – 1919–1939). The results
+are shown on a selected historic map (in this case from 1931) on the background of a modern
+Google Map with the possibility to adjust the opacity.
+               MAP PORTALS AND DATABASES OF TOWNS IN CENTRAL EUROPE                            279
+
+    A selection using the map will be more suitable for topographically oriented
+enquiries. For example, if an archaeologist is looking for all discoveries from
+the Bronze Age found in water sources as potential sacrificial gifts, he can over-
+lay the modern map with the first or second military surveys that captured the
+country in the pre-industrial period, and then he can follow all the discoveries
+localised near springs and wells on the territory of the modern city. This phi-
+losophy could bring a practically unlimited number of requests for atlases from
+users. For example, after medieval tax registers are processed, historians will be
+able to detect where in a city taxpayers with the name “Hungarus” or “Wiener”
+lived. Once census records from the 19th century including information on
+inhabitants’ employment have been added, users will be able to find out where
+tailors and blacksmiths were located. Similarly, an ethnologist will be able to
+select some Judaica images (photos, postcards or graphic art) from the first
+half of the 20th century, which will certainly be concentrated around a Jewish
+ghetto. While printed atlases offer maps with selected topics, and interactive
+atlases (e.g. Braunschweig) offer limited or pre-selected interactivity, the new
+philosophy of comprehensive memory portals should allow for (nearly) any
+combination of various enquiries.
+    There are several pitfalls in this development, which ends with the historical
+and geographical “Aleph”47. One such problem is how financially demanding and
+laborious such projects can be. The PamMap project has overcome both issues
+through donations and the collaboration of volunteers. However, collaboration
+with the general public is both an aid and a concern. “Post-modern” history
+(including portals such as PamMap) is, to a certain extent, an open work, not
+just according to Umberto Eco’s definition, but also literally. They are open to
+sources which are brought in by volunteers; other people digitise it, and then
+other people furnish it with metadata, including GIS-positioning, on modern-
+type maps. Others contribute financially to maintaining the server, and so on.
+Therefore, where there is a lack of funding to achieve the professionalism of col-
+laborators, there is a real threat of amateurism (i.e. “Wikipedisation”). However,
+the advantage of such comprehensive memory portals, along with their interac-
+tivity, multimedia and openness, is their emotional side, which is in contrast to
+“big history”, for example, in the phases of a city siege, a stage in the growth of
+the city, or the regulation of the embankments of the town. “Small history” of-
+
+    47
+       In a novelette by Jorge Luis Borges, a writer of magical realism, “Aleph” is something that
+contains all the other points in the universe, and anyone who gazes into it can see everything. For
+the English translation, see: http://www.phinnweb.org/links/literature/borges/aleph.html (2015-
+05-05).
+280                                 JURAJ ŠEDIVÝ
+
+
+fers more statements and pictures made by specific people along with their stories
+and their emotional audio and video memories.
+     Comprehensive memory portals can be extremely attractive, especially if you
+think of how much time generations of digital natives are able to spend on social
+networks and in the virtual world of computer games. The creation of similar
+memory portals will happen more often, and not only in central Europe. In ad-
+dition to this, one can already see networking taking place in the creation of sister
+databases with an identical formal structure of the digital platform: e.g. the 48
+sub-databases of local municipalities in Lower Austria, 15 in Upper Austria, 2 in
+Burgenland, 5 of boroughs in Vienna, 1 of a location in Croatia, and 2 in Bavaria
+which are all associated with Topothek.at. An application for a European grant
+for the partial connection of entities up to 1945 in memory portals in Slovakia
+(PamMap) and Austria (Topothek) with databases in the Czech Republic (The
+Encyclopaedia of Brno) and Hungary (The Hungarian National Archive) has
+been submitted. If this comes to fruition, we would get to the point that the
+ICHT wanted to achieve thanks to the comparison of atlases. We would be able
+to compare the development of individual cities in central Europe. However, it
+is important to professionally follow data topography and to initiate and assess
+it. Just like when standards were created for the metadata description of digitised
+charters (TEI – Text Encoding Initiative) or manuscripts (TEI-MASTER DTD),
+one needs to think about the standards applicable for the structuring of com-
+prehensive memory portals, and, if possible, provide geo-references for modern
+maps and make old maps which lack the possibility of being linked to modern
+cartographic systems at least available in an image format, and then place all
+types of sources for underlying maps using geo-referencing and other methods.
+Given the fast development of the digital environment, we shall see whether
+comprehensive memory portals are a saviour or a dead-end for historical towns
+atlases as well.
+

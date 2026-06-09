@@ -1,0 +1,340 @@
+Communications
+in Computer and Information Science                                    1853
+
+Editorial Board Members
+Joaquim Filipe , Polytechnic Institute of Setúbal, Setúbal, Portugal
+Ashish Ghosh , Indian Statistical Institute, Kolkata, India
+Raquel Oliveira Prates , Federal University of Minas Gerais (UFMG),
+Belo Horizonte, Brazil
+Lizhu Zhou, Tsinghua University, Beijing, China
+Rationale
+The CCIS series is devoted to the publication of proceedings of computer science con-
+ferences. Its aim is to efficiently disseminate original research results in informatics
+in printed and electronic form. While the focus is on publication of peer-reviewed full
+papers presenting mature work, inclusion of reviewed short papers reporting on work in
+progress is welcome, too. Besides globally relevant meetings with internationally repre-
+sentative program committees guaranteeing a strict peer-reviewing and paper selection
+process, conferences run by societies or of high regional or national relevance are also
+considered for publication.
+Topics
+The topical scope of CCIS spans the entire spectrum of informatics ranging from foun-
+dational topics in the theory of computing to information and communications science
+and technology and a broad variety of interdisciplinary application fields.
+Information for Volume Editors and Authors
+Publication in CCIS is free of charge. No royalties are paid, however, we offer registered
+conference participants temporary free access to the online version of the conference
+proceedings on SpringerLink (http://link.springer.com) by means of an http referrer from
+the conference website and/or a number of complimentary printed copies, as specified
+in the official acceptance email of the event.
+    CCIS proceedings can be published in time for distribution at conferences or as post-
+proceedings, and delivered in the form of printed books and/or electronically as USBs
+and/or e-content licenses for accessing proceedings at SpringerLink. Furthermore, CCIS
+proceedings are included in the CCIS electronic book series hosted in the SpringerLink
+digital library at http://link.springer.com/bookseries/7899. Conferences publishing in
+CCIS are allowed to use Online Conference Service (OCS) for managing the whole
+proceedings lifecycle (from submission and reviewing to preparing for publication) free
+of charge.
+Publication process
+The language of publication is exclusively English. Authors publishing in CCIS have
+to sign the Springer CCIS copyright transfer form, however, they are free to use their
+material published in CCIS for substantially changed, more elaborate subsequent publi-
+cations elsewhere. For the preparation of the camera-ready papers/files, authors have to
+strictly adhere to the Springer CCIS Authors’ Instructions and are strongly encouraged
+to use the CCIS LaTeX style files or templates.
+Abstracting/Indexing
+CCIS is abstracted/indexed in DBLP, Google Scholar, EI-Compendex, Mathematical
+Reviews, SCImago, Scopus. CCIS volumes are also submitted for the inclusion in ISI
+Proceedings.
+How to start
+To start the evaluation of your proposal for inclusion in the CCIS series, please send an
+e-mail to ccis@springer.com.
+Sander Münster · Aaron Pattee · Cindy Kröber ·
+Florian Niebling
+Editors
+
+
+
+
+Research and Education
+in Urban History in the
+Age of Digital Libraries
+Third International Workshop, UHDL 2023
+Munich, Germany, March 27–28, 2023
+Revised Selected Papers
+Editors
+Sander Münster                                             Aaron Pattee
+Friedrich-Schiller-Universität Jena                        Ludwig-Maximilians-Universität München
+Jena, Germany                                              Munich, Germany
+
+Cindy Kröber                                               Florian Niebling
+Friedrich-Schiller-Universität Jena                        Fulda University of Applied Sciences
+Jena, Germany                                              Fulda, Germany
+
+
+
+
+ISSN 1865-0929                      ISSN 1865-0937 (electronic)
+Communications in Computer and Information Science
+ISBN 978-3-031-38870-5              ISBN 978-3-031-38871-2 (eBook)
+https://doi.org/10.1007/978-3-031-38871-2
+
+© The Editor(s) (if applicable) and The Author(s), under exclusive license
+to Springer Nature Switzerland AG 2023, corrected publication 2023
+
+This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or part of
+the material is concerned, specifically the rights of translation, reprinting, reuse of illustrations, recitation,
+broadcasting, reproduction on microfilms or in any other physical way, and transmission or information
+storage and retrieval, electronic adaptation, computer software, or by similar or dissimilar methodology now
+known or hereafter developed.
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this publication
+does not imply, even in the absence of a specific statement, that such names are exempt from the relevant
+protective laws and regulations and therefore free for general use.
+The publisher, the authors, and the editors are safe to assume that the advice and information in this book
+are believed to be true and accurate at the date of publication. Neither the publisher nor the authors or the
+editors give a warranty, expressed or implied, with respect to the material contained herein or for any errors
+or omissions that may have been made. The publisher remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+This Springer imprint is published by the registered company Springer Nature Switzerland AG
+The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland
+                                        Preface
+
+
+
+Urban and architectural history are key areas in digital humanities and digital heritage.
+While digital heritage refers to tangible and intangible cultural heritage objects and
+their preservation and use in education and research (e.g. UNESCO, 2003), the digital
+humanities focus on the application of digital technologies to support research in the
+humanities. Besides the aspect of general relevance, there are many commonalities in this
+central area, as both fields share concepts such as the idea of spatialization, extensive
+information about an object as a basis for research, and a strong connection to the
+creation and perception of visualization and imagery. Digital repositories are a core
+component of many approaches and meet a wide variety of demands, ranging from
+research in humanities and information technologies, to museum contexts, and library
+studies to tourist applications. Among the functions included in these digital repositories
+are the hosting of digitized historical sources as texts, images, audio-visual material, or
+representations of physical and virtual models as digital files. These repositories also
+store and integrate research data and results, in addition to curating further developing
+methodologies. Due to the wide field of possible research due to the digital turn, different
+approaches, methods, and technologies have emerged – and continue to emerge.
+    These digital libraries and repositories often function as the main facilitators of such
+projects, enabling researchers to digitize a large number of relevant documents and make
+these available to the public. Although the digitization process is currently accelerated by
+large-scale endeavours, such as the 3D digitization campaign in the EU Digital Space for
+Cultural Heritage, there has been a shift towards data-based analysis and integration—
+particularly with regard to statistical analysis, computer vision, or multimodal data.
+Although available technology and data are both important drivers and present possible
+constraints, the question as to whether the research is primarily data-driven or data-led
+often remains open. In this changing context, the question arises as to how research and
+education in urban history can be supported by digital libraries.
+    The primary objective of the 3rd Workshop on Research and Education in Urban
+History in the Age of Digital Libraries, held during March 27th–28th, 2023 in Munich,
+Germany, was to provide a full picture with regards to epistemics, technology, and
+framework conditions for digital projects. This book not only presents major findings and
+aims to highlight crucial challenges for further research, but was also compiled in order
+to encourage debate between the sciences. We showcase contributions on theoretical and
+methodological issues, application scenarios, as well as novel approaches and tools.
+    The 33 submissions to the event were reviewed by a joint program committee in a
+double-blind reviewing process, through which 15 papers were selected for the revised
+volume. These selected papers cover the following five research areas:
+• Theory, Methods, and Systematization
+• Data Handling and Data Schemes
+• Machine Learning and Artificial Intelligence
+vi       Preface
+
+• Visualization and Presentation
+• Education in Urban History
+
+1. Theory, Methods, and Systematization
+   Digital humanities research as an inherently interdisciplinary field has created a high
+   demand for critically reflected methods, techniques, valid strategies, classifications,
+   and quality standards. But do computing methods also lead to new and ground-
+   breaking research questions, approaches, or insights into architectural and urban
+   cultural heritage research? In most cases, the use of computing simply extends non-
+   digital possibilities, without much change to the pre-digital approaches and research
+   questions. Nevertheless, digitalization has dramatically altered research qualities,
+   quantities, and workflows. This section includes three articles about a methodology
+   for 3D reconstruction and digitization, as well as usage scenarios for browser-based
+   tools.
+
+2. Data Handling and Data Schemes
+   The immense effort invested in digitization and the rapid changes in technology and
+   data formats has greatly increased the importance of data standards. Long-term data
+   storage, availability of models, and the interoperability of data formats are major chal-
+   lenges to existing digital infrastructures. This section includes three articles focusing
+   upon databases, data organization, and multi-modal indexing.
+
+3. Machine Learning and Artificial Intelligence
+   Throughout the past few years, various new technological opportunities have arisen
+   from big data, Semantic Web technologies, and the exponential growth in data acces-
+   sible via digital libraries such as Europeana. Data-driven supervised and unsupervised
+   classification approaches have been used to acquire high-level semantic concepts—
+   especially from the interconnection of different types of data. Interdisciplinary col-
+   laborations between computer science and humanities disciplines are essential in
+   developing methods and workflows to enable cultural heritage research to capitalize
+   on machine learning approaches. This section contains one article particularly dealing
+   with computer vision and historical imagery.
+
+4. Visualization and Presentation
+   Historians in cultural heritage research today are encouraged to explore new research
+   directions due to the availability of multitudes of digitized historical photographs in
+   image repositories. Moreover, novel approaches such as the photogrammetric recon-
+   struction of historical buildings from image databases allow for contextualization
+   and intuitive access to data. The typical motivations for accessing such archives and
+   repositories are scientific research, pedagogical applications, and the study of histor-
+   ical sites. These areas require advances in methods for visualization and presentation
+   of data to support the different target groups. Four articles are compiled within this
+   section, showcasing projects and investigations from urban history. These discuss
+   visualizations and presentations of spatial data, as well as novel interdisciplinary
+   approaches, such as combining musicology and computer visualization.
+                                                                           Preface        vii
+
+5. Education in Urban History
+   Education supported by digital libraries plays an ever-increasing role within the study
+   of urban heritage, which has direct effects upon the repositories targeting different user
+   groups and scenarios of formal and informal learning and teaching. Consequently,
+   the five articles in this section cover a large variety of educational scenarios for
+   teaching urban history supported by digital methods, ranging from school education
+   to city-scale virtual tourism experiences.
+
+    We would like to acknowledge the important work done by the chapter reviewers.
+We also thank the sponsors, program committee members, supporting organizations, and
+volunteers for making the joint event held in Munich in March 2023 a success. Without
+their efforts, the event would not have been possible.
+
+                                                                            Sander Münster
+                                                                              Cindy Kröber
+                                                                               Aaron Pattee
+                                                                           Florian Niebling
+                            Organization
+
+
+
+Organizing Committee
+
+Sander Münster               Friedrich Schiller University Jena, Germany
+Aaron Pattee                 Ludwig Maximilian University of Munich,
+                                Germany
+Cindy Kröber                 Friedrich Schiller University Jena, Germany
+Florian Niebling             Fulda University of Applied Sciences, Germany
+
+
+Programm Committee
+
+Fabrizio Apollonio           Università di Bologna – Alma Mater Studiorum,
+                                Italy
+Clemens Beck                 Friedrich Schiller University Jena, Germany
+Jonas Bruschke               Julius-Maximilians-Universität Würzburg,
+                                Germany
+Valerie Gouet-Brunet         Univ. Gustave Eiffel/IGN, France
+Ning Gu                      University of South Australia, Australia
+Stephan Hoppe                Ludwig Maximilian University of Munich,
+                                Germany
+Marinos Ioannides            Cyprus University of Technology, Cyprus
+Thomas Köhler                TU Dresden, Germany
+Piotr Kuroczyński           Hochschule Mainz – University of Applied
+                                Sciences, Germany
+Ferdinand Maiwald            Friedrich Schiller University Jena/TU Dresden,
+                                Germany
+Heike Messemer               TU Dresden, Germany
+Gustavo Nogueira             Friedrich Schiller University Jena/Temporality
+                                Lab, The Netherlands
+Ramon Reyes Rodriguez        Universidad de Guadalajara, Mexico
+Heather Richards-Rissetto    University of Nebraska-Lincoln, USA
+Fulvio Rinaudo               Politecnico di Torino, Italy
+Ying Sun                     Friedrich Schiller University Jena/Mediadesign
+                                Hochschule Berlin, Germany
+Rosa Tamborino               Politecnico di Torino, Italy
+x      Organization
+
+Ronja Utescher        University of Bielefeld, Germany
+Alex Yen              China University of Technology, Taiwan,
+                        Republic of China
+Sina Zarrieß          University of Bielefeld, Germany
+                                                           Contents
+
+
+
+Theory, Methods, and Systematization
+
+An Experimental Methodology for the 3D Virtual Reconstruction of Never
+Built or Lost Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              3
+  Fabrizio Ivan Apollonio, Federico Fallavollita, and Riccardo Foschi
+
+Historical Construction Research Based Upon 3D Digital Documentation
+of the Baroque Palais im Grossen Garten in Dresden . . . . . . . . . . . . . . . . . . . . . . . .                                   19
+   Aaron Pattee, Matteo Burioni, Stephan Hoppe, John Hindmarch,
+   and Mona Hess
+
+Potentials for Research in Urban History–Online Research Tool 4D
+Community Browser . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              32
+  Heike Messemer
+
+
+Data Handling and Data Schemes
+
+Metadata for 3D Digital Heritage Models. In the Search of a Common
+Ground . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   45
+  Igor Bajena and Piotr Kuroczyński
+
+Towards Querying Multimodal Annotations Using Graphs . . . . . . . . . . . . . . . . . . .                                           65
+  Jonas Bruschke, Cindy Kröber, Ronja Utescher, and Florian Niebling
+
+The Accademia de lo Studio de l’Architettura—A Database Project . . . . . . . . . . .                                                88
+  Bernd Kulawik
+
+
+Machine Learning and Artificial Intelligence
+
+Semi-automatic Generation of Historical Urban 3D Models at a Larger
+Scale Using Structure-from-Motion, Neural Rendering and Historical Maps . . . 107
+  Ferdinand Maiwald, Dávid Komorowicz, Iqra Munir, Clemens Beck,
+  and Sander Münster
+
+
+Visualization and Presentation
+
+Digital Urban History Lab – Serious 3D in Research, Education
+and Popularization of Cultural Heritage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
+  Piotr Kuroczyński, Igor Piotr Bajena, and Peggy Große
+xii           Contents
+
+Colouring Cities: A Citizen Science Platform for Knowledge Production
+on the Building Stock - Potentials for Urban and Architectural History . . . . . . . . 145
+   Robert Hecht, Tabea Danke, Hendrik Herold, Polly Hudson,
+   Martin Munke, and Theodor Rieche
+
+Reviving the Sounds of Sacral Environments: Personalized Real-Time
+Auralization and Visualization of Location-Based Virtual Acoustic
+Objects on Mobile Devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 165
+  Dominik Ukolov
+
+From Archival Sources to a 3D-Visualization of Baroque Urban
+Topography: Vienna, Neuer Markt, C. 1760 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187
+  Anna Mader-Kratky, Günther Buchinger, and Alarich Langendorf
+
+
+Education
+
+The Nuremberg Stations of the Cross. Enriching On-Site Experiences
+of a Historical Pathway by the “FAU GeoExplorer” App . . . . . . . . . . . . . . . . . . . . 207
+   Ute Verstegen and Dominik Kremer
+
+Designing Learning Tasks and Scenarios on Digital History for a Research
+Lab for Pupils: Trends, First Implications and Perspectives . . . . . . . . . . . . . . . . . . 220
+  Dora Luise Münster and Sander Münster
+
+Virtual Experiences Using Digital Technologies for South Tyrol Heritage
+Education . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 233
+   Francesca Condorelli, Giuseppe Nicastro, and Alessandro Luigini
+
+Public Health, Artisanal Activities, Daily Life in Medieval Bologna:
+Digital Projects as Teaching Tools for Urban History . . . . . . . . . . . . . . . . . . . . . . . 246
+  Taylor Zaneri and Rosa Smurra
+
+Correction to: Towards Querying Multimodal Annotations Using Graphs . . . . . .                                                 C1
+  Jonas Bruschke, Cindy Kröber, Ronja Utescher, and Florian Niebling
+
+
+Author Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 259
+

@@ -1,0 +1,26 @@
+# Copy to pipeline.local.toml and edit for this machine.
+# Keep real hostnames, keys, and secrets outside git.
+
+[local]
+data_root = "~/whatwesee_photogrammetry_data"
+preview_max_width = 1600
+blur_threshold = 80.0
+dark_mean_threshold = 25.0
+bright_mean_threshold = 235.0
+
+[hetzner]
+ssh_host = "hetzner-photogrammetry"
+remote_root = "/mnt/HC_Volume_000/whatwesee-photogrammetry"
+rsync_extra_args = []
+
+[vast]
+image = "pytorch/pytorch:2.4.0-cuda12.4-cudnn9-devel"
+disk_gb = 256
+offer_query = "verified=true rentable=true reliability > 0.98 gpu_ram >= 48"
+remote_workdir = "/workspace/whatwesee"
+nerfstudio_version = "1.1.5"
+gsplat_version = "1.4.0"
+
+[retention]
+hetzner = "keep_everything"
+vast = "sync_back_then_delete"

@@ -1,0 +1,333 @@
+Synthesis Lectures on Engineers,
+Technology, & Society
+
+Volume 28
+
+
+Series Editor
+Caroline Baillie, School of Environmental Systems Engineering, The University of
+Western Australia, Crawley, WA, Australia
+The mission of this Lecture series is to foster an understanding for engineers and scientists
+on the inclusive nature of their profession. The creation and proliferation of technolo-
+gies needs to be inclusive as it has effects on all of humankind, regardless of national
+boundaries, socio-economic status, gender, race and ethnicity, or creed. The Lectures
+will combine expertise in sociology, political economics, philosophy of science, history,
+engineering, engineering education, participatory research, development studies, sustain-
+ability, psychotherapy, policy studies, and epistemology. The Lectures will be relevant to
+all engineers practicing in all parts of the world.
+Sander Münster · Fabrizio Ivan Apollonio ·
+Ina Bluemel · Federico Fallavollita ·
+Riccardo Foschi · Marc Grellert ·
+Marinos Ioannides · Peter Heinrich Jahn ·
+Richard Kurdiovsky · Piotr Kuroczyński ·
+Jan-Eric Lutteroth · Heike Messemer ·
+Georg Schelbert
+
+
+
+
+Handbook of Digital 3D
+Reconstruction of Historical
+Architecture
+Authors
+See next page
+
+
+
+
+ISSN 1933-3633                     ISSN 1933-3641 (electronic)
+Synthesis Lectures on Engineers, Technology, & Society
+ISBN 978-3-031-43362-7             ISBN 978-3-031-43363-4 (eBook)
+https://doi.org/10.1007/978-3-031-43363-4
+
+Translation from the German language edition: “Handbuch der digitalen 3D-Rekonstruktion von Architektur”
+by Sander Münster et al., © The authors 2023. Published by Universität Heidelberg/Universitätsbibliothek. All
+Rights Reserved.
+
+© The Editor(s) (if applicable) and The Author(s) 2024. This book is an Open Access publication.
+
+Open Access This book is licensed under the terms of the Creative Commons Attribution 4.0 International
+License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adaptation, distribution and
+reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license and indicate if changes were made.
+The images or other third party material in this book are included in the book’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the book’s Creative Commons
+license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need
+to obtain permission directly from the copyright holder.
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this publication does
+not imply, even in the absence of a specific statement, that such names are exempt from the relevant protective
+laws and regulations and therefore free for general use.
+The publisher, the authors, and the editors are safe to assume that the advice and information in this book are
+believed to be true and accurate at the date of publication. Neither the publisher nor the authors or the editors give
+a warranty, expressed or implied, with respect to the material contained herein or for any errors or omissions that
+may have been made. The publisher remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+
+This Springer imprint is published by the registered company Springer Nature Switzerland AG
+The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland
+
+Paper in this product is recyclable.
+Sander Münster                         Fabrizio Ivan Apollonio
+Friedrich-Schiller-Universität Jena    Università di Bologna
+Jena, Germany                          Bologna, Italy
+
+Ina Bluemel                            Federico Fallavollita
+Hochschule Hannover                    Università di Bologna
+Hannover, Germany                      Cesena, Italy
+
+Riccardo Foschi                        Marc Grellert
+Università di Bologna                  Technische Universität Darmstadt
+Bologna, Italy                         Darmstadt, Germany
+
+Marinos Ioannides                      Peter Heinrich Jahn
+Cyprus University of Technology        Technische Universität Dresden
+Limassol, Cyprus                       Dresden, Germany
+
+Richard Kurdiovsky                     Piotr Kuroczyński
+Austrian Academy of Sciences           Hochschule Mainz – University of Applied
+Vienna, Austria                        Sciences
+                                       Mainz, Germany
+Jan-Eric Lutteroth
+University of Applied Sciences Mainz   Heike Messemer
+Mainz, Germany                         TUD Dresden University of Technology
+                                       Dresden, Germany
+Georg Schelbert
+Zentralinstitut für Kunstgeschichte
+Munich, Germany
+Editors’ Foreword
+
+
+
+
+In research on architectural history, digital 3D reconstructions have been used for more
+than 30 years as knowledge carriers, research tools, and means of representation. The
+number of digital reconstructions created has increased continuously in recent years,
+yet they exhibit highly varying technical, graphical, and content-related qualities. This
+raises the question of criteria and approaches to evaluate and validate the use of models,
+tools, and results. In view of this, the use of digital reconstruction methods in architec-
+tural history research has always been subject to ambivalence. Impressive applications
+and potential areas for research are contrasted by a whole series of extremely justified
+scientific and methodological reservations.
+    Between 2018 and 2022, thanks to funding from the German Research Foundation
+(DFG), 14 network members from Germany, Italy, and Austria have been working on the
+Digital 3D Reconstructions as Tools for Research in Architectural History network on the
+question of how 3D reconstructions can methodically and validly advance our knowledge
+of historical architecture and what conditions are conducive to this.
+    This handbook is intended to make these results available to students, experts, and other
+interested parties who wish to study the digital 3D reconstruction of historical architecture
+in more detail. It should serve as a guide for students to get a thematic overview and
+practical insight. The book provides answers to two core questions: What is a digital 3D
+reconstruction? How are they created and what are they used for? Practical instructions,
+condensed knowledge, explanations of technical terms and example projects, literature,
+and further references provide information of varying density and enable an individual
+introduction to the topic.
+    Although all chapters of the handbook have been extensively reviewed and amended by
+all authors, there have been main responsibilities in writing content: The introduction was
+written by Heike Messemer and Sander Münster. The basics and definitions chapter was
+written by Richard Kurdiovsky, Peter Heinrich Jahn, and Sander Münster. The chapter
+about scholarly methods was chaired by Georg Schelbert and Heike Messemer. The main
+author of the scholarly community chapter was Jan-Eric Lutteroth. The chapters on work-
+flows, legislation, and infrastructures were chaired by Sander Münster. The chapters on
+Modelling and Visualization have been written by Federico Fallavollita, Riccardo Foschi,
+
+                                                                                          vii
+viii                                                                           Editors’ Foreword
+
+
+and Fabrizio Apollonio. The documentation chapter was written by Marc Grellert and
+Piotr Kuroczyński.
+   Due to its focus, some topics are not included in the handbook. Teaching 3D tech-
+nologies for humanities and heritage purposes is a highly important topic and there is
+much discourse and research about how to do it: see a recent overview [1] and resources
+[2]. Innovation systems enable academic research to be transferred into business models
+and ventures. Innovation for 3D and cultural heritage is targeted by numerous funding
+activities and ecosystems as well as research activities [3]. Policies on 3D and cultural
+heritage receive only a mention here. Policies are principles of action to be “adopted or
+proposed by an organization or individual” [4] and can define national or international
+priorities for research, preservation, and education, codes of conduct for digital cultural
+heritage or educational frameworks. They are, therefore, very influential in 3D modelling
+for heritage.
+   Another exclusion by intention concerns ongoing activities. As this is a handbook, most
+projects and developments that are not finalized have been excluded. A 2019 overview of
+research activities can be found in the publication Der Modelle Tugend 2.0 by the working
+group on digital 3D construction for digital humanities in the German-speaking countries
+(DHd) [5].
+
+
+References
+1. Münster S et al (2021) Teaching digital heritage and digital humanities – a current state and
+   prospects. Int Arch Photogramm Remote Sensing Spatial Inf Sci XLVI-M-1–2021:471–478
+2. Münster S et al (2021) Virtuelle Akademie zur digitalen 3D-Rekonstruktion. Paper presented at
+   the DHd 2021
+3. Ulutas Aydogan S et al A Framework to Support Digital Humanities and Cultural Heritage Stud-
+   ies Research. In, Cham, 2021. Research and Education in Urban History in the Age of Digital
+   Libraries. Springer International Publishing, pp 237–267
+4. Oxford (2022) Oxford’s English dictionary: Policies
+5. Kuroczyński P et al (eds) (2019) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als
+   virtueller Raum der architekturhistorischen Forschung. Heidelberg University Press, Heidelberg
+Acknowledgements
+
+
+
+
+There are several people we would like to thank: Florian Niebling, Erik Champion,
+Richard Beacham, Stephan Hoppe, Frithjof Schwarz, Irene Cazzaro, Christoph Klose,
+and Constanze Roth for their inputs to the meetings. Language proofreading has been
+done by Kate Sotejeff-Wilson. We thank Liv Eichner, Antonio Esposito, and Dora Luise
+Münster for their feedback on the manuscript. Parts of the chapter about Documentation
+arose from the DFG project IDOVIR with contributions by Jonas Bruschke, Marc Grellert,
+Wolfgang Stille, and Markus Wacker.
+
+
+
+
+                                                                                    ix
+Contents
+
+
+
+
+1   Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      1
+    1.1 A Brief History of 3D Reconstruction . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                  2
+    1.2 Examples of 3D Reconstruction Projects . . . . . . . . . . . . . . . . . . . . . . . . . .                                    4
+    References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   10
+2   Basics and Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             13
+    2.1 Architectural History . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  14
+    2.2 Reconstruction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             16
+    2.3 Sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        18
+    2.4 Models and Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      21
+    2.5 The Architectural Model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      25
+    2.6 Computer-Based 3D Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                             29
+          2.6.1 3D as Reference to Space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           29
+          2.6.2 Digital Versus Virtual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                       30
+          2.6.3 Reconstruction Versus Digitalization . . . . . . . . . . . . . . . . . . . . . . .                                   30
+    2.7 Simulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           32
+    References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   34
+3   Scholarly Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           41
+    3.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           42
+    3.2 Purposes of 3D Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        43
+          3.2.1 Research . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               43
+          3.2.2 Education . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              46
+          3.2.3 Knowledge Organization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                             48
+    3.3 Epistemic Challenges of 3D Modeling in Humanities . . . . . . . . . . . . . . .                                              50
+    3.4 Visual Research Processes and 3D Modeling . . . . . . . . . . . . . . . . . . . . . .                                        51
+    3.5 Scientific Values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              52
+    3.6 Guidelines and Standards for 3D Reconstruction . . . . . . . . . . . . . . . . . . .                                         53
+    References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   56
+
+
+
+                                                                                                                                     xi
+xii                                                                                                                             Contents
+
+
+4     Scholarly Community . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                65
+      4.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           66
+      4.2 Disciplines Which Benefit from the Method . . . . . . . . . . . . . . . . . . . . . . .                                      67
+            4.2.1 Visual Approaches in the Humanities . . . . . . . . . . . . . . . . . . . . . .                                      67
+            4.2.2 Visual Digital Humanities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                            69
+      4.3 Scholars and Topic Areas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                       71
+      4.4 Scholarly Culture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                73
+      References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   75
+5     Workflows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     81
+      5.1 The Process of 3D Reconstruction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                82
+      5.2 Interdisciplinarity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               89
+      5.3 Modeling the Project Process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                          90
+      5.4 3D Reconstructions as Interdisciplinary Projects . . . . . . . . . . . . . . . . . . .                                        91
+      5.5 3D Reconstruction Project Management . . . . . . . . . . . . . . . . . . . . . . . . . .                                      94
+            5.5.1 Definition of Project Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                            94
+            5.5.2 Project Organization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        95
+            5.5.3 Goals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             96
+            5.5.4 Planning and Control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        96
+            5.5.5 Quality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             97
+            5.5.6 Quality Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                          99
+      5.6 Phenomena and Strategies for Cooperation . . . . . . . . . . . . . . . . . . . . . . . .                                     100
+      References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   102
+6     3D Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      107
+      6.1 The Raw Model and the Informative Model . . . . . . . . . . . . . . . . . . . . . . .                                        108
+      6.2 Semantic Description of the 3D Model . . . . . . . . . . . . . . . . . . . . . . . . . . .                                   109
+      6.3 Traditional and Digital Representation Methods . . . . . . . . . . . . . . . . . . . .                                       112
+      6.4 3D Modeling Techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                         115
+            6.4.1 Procedural and Algorithmic Modeling . . . . . . . . . . . . . . . . . . . . . .                                      116
+            6.4.2 Parametric Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        117
+            6.4.3 Automatic Reality-Based Modeling . . . . . . . . . . . . . . . . . . . . . . . .                                     118
+            6.4.4 Direct Handmade Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                               118
+            6.4.5 Hybrid Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      120
+      6.5 Configuration Space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  121
+      6.6 Best Practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             122
+      References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   126
+7     Visualization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    129
+      7.1 From Digits to Visuals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   130
+      7.2 Digital 2D-3D Visualization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        131
+      7.3 Aspects of Digital 3D Visualization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              133
+      7.4 Formal/Geometrical Aspects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                         136
+Contents                                                                                                                                xiii
+
+
+       7.5   Shading Aspects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              136
+             7.5.1 Photorealistic Shading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                       137
+       7.6 Abstract Shading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               142
+       7.7 Representation Aspects and Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                 148
+       7.8 Media and Interfaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   152
+             7.8.1 Images and Films . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                     153
+             7.8.2 Extended Reality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                     153
+             7.8.3 Rapid Prototyping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      153
+             7.8.4 Interaction and Motivational Design . . . . . . . . . . . . . . . . . . . . . . . .                                  155
+       References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   158
+8      Documentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        165
+       8.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           166
+       8.2 Why Documentation is Important . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                               167
+             8.2.1 Scientific Significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      167
+             8.2.2 Preliminary Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                     168
+             8.2.3 Current Developments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                         170
+       8.3 What Are We Dealing With . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           173
+             8.3.1 Model Types, Methods, and Data Formats . . . . . . . . . . . . . . . . . .                                           173
+             8.3.2 Intellectual Argumentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           174
+       8.4 What Needs to be Documented . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              175
+             8.4.1 Documentation of the 3D Models: Metadata . . . . . . . . . . . . . . . .                                             175
+             8.4.2 Documentation of the Decision-Making Processes:
+                     Paradata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           178
+       8.5 How to Document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  179
+       References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   184
+9      Infrastructure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       189
+       9.1 Digital Research Tools and Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              190
+       9.2 Virtual Research Environments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                            192
+       9.3 3D Information Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                       192
+       9.4 Design Challenges in 3D Information Systems . . . . . . . . . . . . . . . . . . . . .                                        193
+       9.5 Linked and Authority Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        193
+       References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   195
+10 Legislation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        199
+   10.1 Intellectual Property . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   200
+   10.2 Legal Aspects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                 200
+   10.3 Licenses: Open, Closed, or Public? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                201
+   References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       203
+Abbreviations
+
+
+
+
+2D       Two-dimensional
+3D       Three-dimensional
+3D CBV   3D Computer-Based Visualization
+4D       Four-dimensional (as three spatial dimensions plus time)
+AI       Artificial Intelligence
+AR       Augmented Reality
+BIM      Building Information Modeling
+CAD      Computer Aided Design
+CGI      Computer Generated Images
+CMC      Computer Mediated Communication
+CV       Computer Vision
+GIS      Geo Information System
+ICT      Information and Communication Technologies
+LoD      Level of Detail
+ML       Machine Learning
+MR       Mixed Reality
+NURBS    Non-Uniform Rational B-Spline
+VR       Virtual Reality
+XR       Extended Reality
+
+
+
+
+                                                                    xv
+

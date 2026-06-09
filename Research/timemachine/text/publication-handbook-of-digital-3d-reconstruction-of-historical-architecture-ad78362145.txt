@@ -1,0 +1,1118 @@
+Basics and Definitions
+                                                                                                2
+
+
+
+   Abstract
+
+   This chapter introduces key concepts of 3D modeling in the humanities. A 3D model
+   can represent a great variety of objects. The objects of 3D modeling of historical
+   architecture are lost or extant buildings, their modifications, and designs that were
+   never executed. These buildings are as much part of the cultural heritage as their plans.
+   The chapter begins with a survey of source-based historical knowledge as the basis of
+   analysis, historic interpretation, and reconstruction of any historical situation. It then
+   addresses modeling in general as a scientific practice, its use in architecture, and the
+   advantages of its digitization.
+
+
+
+
+   Guiding questions
+   • What are the basic definitions and concepts related to 3D modeling?
+   • Why and how does it with historic architecture and cultural heritage?
+   • What are sources, and what is their purpose?
+   • How is reconstruction done?
+   • Why model, and how can one do this in a scientific way?
+   • What is a model? (in general, and in architecture)
+   • What are the conditions for digital 3D modeling?
+
+
+
+
+© The Author(s) 2024                                                                      13
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_2
+14                                                                   2 Basics and Definitions
+
+
+
+     Basic terms
+     • Historic architecture
+     • Cultural heritage
+     • Sources
+     • Reconstruction
+     • Modeling and models
+     • 3D reconstruction versus 3D modeling
+     • Simulation
+
+
+
+
+2.1       Architectural History
+
+Architectural history explores buildings, constructions, and structures, deals with urban
+planning, and analyses architectural theory, discourse, and media such as architectural
+drawings and models. It also explores the people, groups, and networks that were behind
+all this. Architectural history thus regards architecture as a cultural phenomenon.
+    As a scientific discipline, architectural history has close ties to art history, archeology,
+and architectural education. It is thus interdisciplinary and can include social sciences,
+economics, or technical sciences. This great diversity of disciplines yields a very wide
+range of possible research questions. As a historical discipline, architectural history deals
+with the past, including the recent past, and explores things such as appearance and form,
+placement, functions of built environments, and the influences of people such as patrons
+or users, on developments in the history of style, of immanent meanings or changes in
+meaning. In other words, it tries to reconstruct the historical context. In this way, an object
+is located temporally, spatially, socially, and discursively.
+    It is important to note that buildings have rarely come down to us as they originally
+looked, but that they are subject to permanent changes. These changes can be formally
+visible (e.g., early modern parts added to a medieval building), and purely functional
+(e.g., an 18th-century monastery building redeveloped for university purposes). For a
+well-founded historical analysis, the original state must therefore be examined. And if
+this has not been preserved, it must be reconstructed—whether ideally as pure thought, in
+descriptive texts, or materially in an architectural drawing or model, either as an analog
+or a digital reconstruction. This last option is much more immediately vivid—and is the
+topic of this handbook.
+    Architecture is a built social order and a reflection of humanity’s thoughts and actions.
+Buildings with religious, political, profane, or other uses embody an important part of
+the cultural heritage of human societies. Due to its (mostly) physical nature, architecture
+belongs to a tangible cultural heritage. Even architectural projects that remained on paper
+belong to the cultural heritage, but in this case to the intangible one. Other examples
+2.1     Architectural History                                                                          15
+
+
+of intangible cultural heritage are music, dance, customs, or workflows, while natural
+heritage comprises for example mountains or caves. Representational buildings, whether
+religious like temples and churches or secular like princely palaces or parliaments, often
+demonstrate the cultural achievements to which their creators dedicate the most effort
+and material resources. It is not uncommon for these buildings to be erected on symbolic
+sites, whether they acquire this special meaning before or after they have been built.
+
+
+      Further reading: Architecture as part of cultural heritage
+      Architecture is part of our cultural heritage. In general, cultural heritage can be
+      understood as traces and expressions from the past, which are used in and influence
+      contemporary society [2]. Cultural heritage can be regarded as property that a per-
+      son cannot inherit; instead, it must be acquired, e.g., by a society that perceives it
+      as valuable [3]. While cultural heritage traditionally focuses on tangible objects, a
+      broader understanding adds intangible heritage (e.g., dances, customs, workflows)
+      and natural heritage (Fig. 2.1). Architecture, understood as the human-built environ-
+      ment, is the manifestation of social practices and therefore relates to both, tangible
+      and intangible cultural heritage. It serves different purposes and users, takes on
+      different shapes and sizes, and depends on different conditions, but always serves
+      human demands. As diverse as architecture is, so are the possibilities for dealing
+      with it in the sciences and in the humanities. There are some great examples of 3D
+      modeling of intangible cultural heritage, regarding customs and daily life [4, 5] in
+      past cultures [6], but the focus here is on tangible heritage.
+
+
+
+
+       Cultural Heritage –    Intangible              Natural Cultural        Digital Cultural Her-
+       e.g., monuments        Cultural Her-           Heritage – e.g.,        itage – e.g., computer
+                              itage – e.g.,           mountains               games
+                              rites
+
+      Fig. 2.1 Types of cultural heritage [1] (Images: Münster (left-middle), right: https://www.eur
+      opeana.eu/de/item/916118/S_TEK_object_TEKS0057154, accessed on 1.2.2023)
+
+        Another important concept is the digital (cultural) heritage, of which digital 3D
+      models form part. It comprises technologies to preserve, research, and communicate
+16                                                                    2 Basics and Definitions
+
+
+
+     cultural heritage [7] and it includes materials like texts and images, created digitally
+     or digitized, as well as digital resources of human knowledge or expression (e.g.,
+     cultural, educational, or scientific) [8]. This latter facet comprises various digital
+     technologies to study cultural heritage [9]. Around those topics, various scholarly
+     communities have formed during the past few decades such as digital humanities,
+     digital archeology, or digital history studies [10].
+
+
+   In human history, the decay or deliberate destruction of such symbolic architecture is
+just as constant as the attempts to commemorate it, to preserve its lost meaning or to
+charge the sites with a new one. Although physical reconstruction is the most consistent
+and effective form of remembrance here, it remains the exception not least because of
+the high construction costs. Other forms predominate, such as remembrance in rites, oral
+traditions, texts, and pictures.
+   Forms of remembrance that focus on the visual presentation of the destroyed object,
+primarily drawings and haptic models, can be considered close to the methods of archi-
+tecture. For a long time, they were the only way for the public to remember buildings that
+no longer existed or of which only a few remains survived. Information and communica-
+tion technology has revolutionized the representation and communication of architecture.
+Graphic data processing has achieved a vividness in the representation of destroyed build-
+ings, especially in interiors, that has rarely been achieved by other media until now.
+The digital 3D models of historical architecture which resulted from this process are
+the subject of this book.
+
+
+     Further reading: Research on 3D reconstruction in general Theoretical founda-
+     tions and epistemological recommendations of 3D modeling of cultural heritage have
+     been studied for a long time, e.g., within various EU projects [11, 12]; on a national
+     level in Germany by the task group for 3D reconstruction of the DHd association [13],
+     the Digital Art History workgroup [14], and the DFG Network for 3D reconstruction
+     of architectural history [15], and by numerous recent publications [16–18].
+
+
+
+
+2.2        Reconstruction
+
+Reconstruction is the process of re-creating something that no longer exists or is unknown,
+for example, a lost work of music, literature, or art, a destroyed building, or a sequence
+of events (Fig. 2.2). The term reconstruction describes both the process and its outcome.
+    The concept of reconstruction can be traced back to the Renaissance and from its very
+beginning, it was closely connected with archeology. Shortly before his death, the famous
+Italian painter and architect Raffaello Santi (1483–1520) developed a memorandum for
+2.2   Reconstruction                                                                                    17
+
+
+
+
+ 3D Reconstruction of a non-   3D Reconstruction of a never realized   3D Digitization of a pottery arte-
+ extant (destroyed) church     (planned) garden.                       fact.
+
+Fig. 2.2 3D modeling versus state of existence (Images: Münster)
+
+
+an archeological survey of the ancient ruins of Rome. The aim was not to document
+the buildings in their ruined state, because as such they seemed to be insufficient like
+“bones without flesh,” but to present them in their concluded original appearance, this by
+using ortho-projected plans [19].
+    Like Santi’s one, a reconstruction always needs to be based on sources, which we need
+to analyze and interpret. Otherwise, it would be no more than imagination or subjective
+fantasy. Yet, the interpretative part of the process leads to an inevitable characteristic of a
+reconstruction: it is hypothetical. Things that have passed are gone and irretrievable. We
+must always be aware of this: when we reconstruct, we create anew.
+    Motives to reconstruct can be manifold, and it is important to be aware that they may
+be ideologically underpinned. Destruction, be they unaccountable as in natural disasters,
+wanton and deliberate as in wars, accidental or caused by negligence as in fires, is often
+the occasion to physically rebuild a building or parts of it, following the lost forms as
+faithfully as the current state of mind allows, desires, or even forbids.
+    Reconstruction is closely linked to the idea of the original—and Western culture holds
+the physical original in particularly high esteem. We often value the reconstruction much
+less and tend to criticize it more easily. Therefore, we must carefully and consciously
+distinguish whether a reconstruction was carried out from the ground up, including the
+time interval between the reconstruction and the destruction, or whether only parts of
+a building were reconstructed—this is where the concept of restoration begins to blur.
+And we must consider the significance of buildings for cultural identity, as well as the
+ideologies and mentalities that led to a reconstruction.
+    Reconstruction is not limited to the 1:1 translation of physical remains into a virtual
+model. What has been lost can be reconstructed in writing descriptive texts, visually as
+drawings, or haptically in scaled-down models. These forms have long been used by
+architectural history researchers. With the expansion of new media in recent decades,
+digital, virtual reconstructions create new technical capabilities to expand, modify, and
+add.
+18                                                                   2 Basics and Definitions
+
+
+   Digital media reconstruction of historical architecture is part of the digital humanities.
+According to the Principles of Seville, virtual reconstruction is a digital process that is
+fundamentally analogous to physical reconstruction. “A virtual model is used to visually
+reconstruct a building or object built by humans at a certain time in the past, starting
+from the available physical evidence of these buildings or objects, scientifically justified
+comparative conclusions and, in general, all the studies carried out by archaeologists
+and other experts related to archaeological and historical science” [20, p. 2]. Of course,
+this does not apply to archaeology and antiquities alone, but to all historical disciplines.
+Medieval archaeology is therefore just as affected as the restoration and conservation of
+historical monuments, buildings, and objects.
+   Virtual or digital reconstruction not only strives to restore an artifact to how it looked at
+the time of its creation but can also reconstruct successive phases of use of an object and
+thus the sequence of building states. Reconstructing lost or altered architecture virtually
+using digital models brings an enormous advantage for visualization: a digital model is
+easier to change than a physical (i.e., material-based) model. The visualization is no longer
+static but can be dynamically adapted to different angles and converted into different for-
+mats. Digital 3D reconstructions of historical architecture support the understanding and
+research of lost or disappeared building conditions, sources, and historical objects. Dur-
+ing a digital reconstruction, the provenance, consistency, and correspondence of sources
+are checked and discrepancies—for example between ground plans and elevations or
+vedutas—are revealed (→ Scholarly Method).
+
+
+2.3       Sources
+
+Sources are the very basis for any study in architectural history and consequently for every
+reconstruction. This section explains the different categories and types of sources and the
+methods for their use. It gives insights into collaboration between disciplines involved in
+reconstruction processes (the humanities and technical sciences) which all use the same
+sources, with different methods and aims.
+   All historical research is based on sources [21]. Sources are a specific class of cul-
+tural heritage items that provide information about past events, phenomena, or objects.
+In most cases they are tangible (e.g., administration files from archives, historic letters,
+architectural drawings, plans, or old photographs, inscriptions and other traces on the
+object itself), but they can be intangible (e.g., oral history provided by former users or
+inhabitants of a building).
+   Sources are always biased, by the creators’ intention or limited view. Understanding
+by means of sources is therefore never a neutral act, but requires critical reflection [22],
+as formalized by source criticism, which analyzes and interprets historical sources e.g., in
+their contemporary historical context.
+2.3     Sources                                                                               19
+
+
+
+      Further reading: Sources for 3D reconstructions
+
+                                            Architectural drawings: if available, ortho-
+                                            projected plans and drawings are the most im-
+                                            portant source for geometrical reconstructions
+                                            of non-extant architecture and allow unbiased
+                                            access to geometrical properties.
+
+
+                                            Cadaster and maps: ground plots and cadas-
+                                            tral information provide directly measurable
+                                            information, although mostly of lower detail.
+
+
+
+                                            Historical photographs and vedutas enable a
+                                            natural impression of an architectural object
+                                            and contain information about materials. In
+                                            contrast to plans, geometrical information is
+                                            distorted by perspective.
+
+
+                                            Material evidence (e.g., archaeological re-
+                                            mains, similar buildings): if available, physi-
+                                            cal remains contain comprehensive infor-
+                                            mation about geometries, materiality, and
+                                            behavior of an object. In many cases they ena-
+                                            ble (semi-)automated 3D digitization.
+
+                                            Geographical information (e.g., elevation
+                                            models) are usually very stable, less change-
+                                            dependent, can provide information, e.g., about
+                                            outer dimensions of building or an arrange-
+                                            ment of floors.
+
+                                            Textual descriptions are in some cases the
+                                            only sources available or can provide unique
+                                            information e.g., about spatial arrangements or
+                                            materials.
+
+
+      Fig. 2.3 Sources for 3D reconstructions (Images: P. H. Jahn, ThULB, Münster)
+
+
+
+
+   Sources are classified by the type of textual, image, or audiovisual media, or object
+sources such as physical remains of buildings [23, 24]. For 3D reconstructions the most
+relevant and often-used sources are visual (architectural drawings, views, photographs,
+etc.), textual (historic descriptions, files from building administrations, etc.), and physical
+(the still existing object or preserved parts of it) (Fig. 2.3).
+20                                                                       2 Basics and Definitions
+
+
+    Technical data from the natural sciences and engineering are also sources. Laser scans
+and surveys record the actual state of a building. They can serve as sources for the humani-
+ties (e.g., to review historical plan sources). The scientific advantage of a digital 3D model
+of historical architecture is interdisciplinary collaboration [25]. A digital 3D model is
+often created within a cooperation of several fields (3D modeling, architectural history,
+monument preservation, surveying technology, etc.) (→ Scholarly Community).
+    Another main distinction is between primary and secondary sources. Primary sources
+date from the period being studied or were created by participants to describe the object
+being studied. They reflect the individual view of the author [22]; examples are drafts,
+building surveys, or texts such as personal diaries. A secondary source describes, inter-
+prets, or analyses a historical object, event, or phenomenon (e.g., a historic text which
+describes an even older [primary] source that no longer exists). Scientific texts about an
+architectural object are secondary literature. Occasionally, tertiary sources are mentioned:
+these are published in collections of material based on secondary (or primary) sources,
+e.g., compilations or (digital) repositories of sources [26, 27]. Tertiary sources thus include
+all the contemporary analogies and logics which are often used to bridge gaps of primary
+sources. In architecture, this includes typologies, building styles, and construction logics.
+    A distinction should be drawn between (a) 3D digitization—also called retro-
+digitization—where an extant cultural heritage object is a source, and (b) digital 3D
+reconstruction—also called source-based reconstruction, where the modeled object
+can only be envisioned through other sources describing it (e.g., planning documents
+describing a never-realized, destroyed, or altered object) [28, 29] (→ 3D Modelling).
+    Sources serve to critically review the model (or its process of creation), and to falsify
+the content of a source (i.e., as an additional means for source criticism). An example
+would be a digital 3D reconstruction based on laser scanning, a technique that provides a
+very precise image of an object that still exists or based on exact recent building measure-
+ments. If this model is then compared with historical plans, their accuracy can be checked:
+whether they were measured as precisely as today’s building surveys or only copied from
+older plans without checking the spatial dimensions, etc.1 The conclusions we can draw
+from comparing a constructed 3D model and historical plans can complement, confirm,
+or refute each other. In the course of a digital reconstruction, not only the provenance but
+also the consistency of the sources is checked. For example, discrepancies between floor
+plans and elevations or vedutas can be uncovered. The most fundamental prerequisite for
+a critical review is the disclosure of the sources and scientific reasoning underlying the
+model and documenting the creation process of the 3D reconstruction.
+
+
+
+
+1 This also works the other way around: reconstructed buildings (e.g., after partial destruction) are
+measured and compared to historical sources.
+2.4     Models and Modeling                                                                    21
+
+
+
+      Further reading: Linking models and sources as a research prospect Source data
+      should be embedded into 3D models to develop new research questions and to gener-
+      ate new insights. Since the source basis for creating models (architectural drawings,
+      photographs, texts, etc.) is now increasingly available in digital formats, they could
+      be directly incorporated into or linked to the models [30, 31]. The digital 3D model
+      thus acquires a platform character and can provide:
+
+      • A working space in which the function, affiliation, or interpretation of individual
+        elements (picture, plan, written document) can be tested.
+      • Access to further media formats (image and text sources), which allow the model
+        to be assessed.
+      • Presentation of an overall result (or interpretation of only a section, by hiding
+        certain areas).
+
+
+
+
+2.4         Models and Modeling
+
+Why do modeling? And why digitally and in 3D? The aim of this section is to understand
+the basic way of thinking when modeling is practiced. The term derives from physical
+models and develops from downscaled ones used since at least the late Middle Ages in
+the arts and in architecture to visualize a draft physically, haptically, and spatially.
+    Modeling as a principle dates back to Antiquity, for example, downscaled models
+of farms as symbolic burial objects in the Old Egyptian funeral cult which refer sym-
+bolically to the alimentation of the defunct [32, pp. 7–8, figs. 1.8–1.12, 33, pp. 49–51,
+Fig. 2.2]—and the world of toys with which mankind is traditionally amusing and teach-
+ing its children is well known to everybody. But in its wider sense modeling is a special
+procedure or approach to generate and/or communicate knowledge using simplified rep-
+resentations of reality. Simplifying to gain knowledge seems paradoxical, because how
+should knowledge increase by such a reducing process like simplification? Vice versa,
+simplification separates the important aspects from the unimportant ones. In other words:
+models focus on the task of research or learning by reducing complexity (Fig. 2.4). Only
+certain properties of the task are modeled as these are bearers of meaning and thus con-
+sidered. That is why modeling, in general, means creating “the (simplified) replica of an
+original system” (or an object) which must be “sufficiently similar to the original system
+with respect to the purpose of its realization” (author translation of [34], p. 18).
+    An established explanatory scheme of models in three fundamental aspects is provided
+by the so-called general model theory as codified by Stachowiak [35]. Also, according to
+this theory, a model represents a simplified or reduced version of an original, but added
+is the fundamental aspect of the subjective and pragmatic purpose of each modeling [35,
+pp. 131–133]:
+22                                                                   2 Basics and Definitions
+
+
+
+
+Fig. 2.4 Scientific modeling with the didactic aim: A piece of a DNA model created by the Garvan
+Institute of Medical Research (Image: Theodore Barons, 2014)
+
+
+• Representation: Models represent originals, whether from imagination (ideas, con-
+  cepts), expressions, symbols, or physical objects. A model is generally understood to
+  mean the reproduction of an original, and it always refers to an original.
+• Reduction: Models usually do not include all features of the original but only those
+  considered relevant by the creator.
+• Pragmatism: Models function as a surrogate of the original within a certain time span,
+  for a certain purpose (transactions), and a certain group of recipients.
+
+Of these three aspects, representation might be the clearest: models have always to be
+more or less similar to the related original like a picture to the depicted (nothing to say
+that the latter can also be thought of as a model relation).
+   Reduction (or simplification) is subdivided into different procedures (and always
+related to pragmatism). Generally usual are for physical models reducing in size by
+downscaling and transforming into other materials. Downscaling makes the model easier
+to handle (better moveable, to provide overviews, etc.; on the other hand: for a pragmatic
+upscaling of very small or even microcosmic objects cfr. Fig. 2.4). Transformation into
+2.4   Models and Modeling                                                                   23
+
+
+
+
+Fig. 2.5 The epistemic twofold model relation, adopted from Bernd Mahr [36] (Image: P. H. Jahn)
+
+
+other materials is often determined by economic reasons, because during model-based
+preparatory phases the effort of expensive respectively valuable materials shall be
+avoided. Didactic models are often much cheaper in their materiality than the represented
+originals. And if original materials are not stable in their conditions (i.e., bodies of living
+creatures) they have to be substituted by stable ones in the model. These are only a few
+examples of a wide range of possibilities for material transformation, but with these the
+principle might be clear. The result of both, downscaling and material transformation,
+is the reduction of complexity. As an extreme case of material transformation—one
+could speak here of a dematerializing hyper-transformation—can be regarded as the
+transformation from the physical into the digital as used in computer-based 3D modeling.
+   Pragmatism is important: models are always created or produced for a research,
+teaching, or design task. Therefore, a model can be produced for solving a task
+(model for something) or to represent an object respectively a system (model of some-
+thing) (Fig. 2.5). The time span (as the core aspect of the pragmatic feature) is limited
+to the duration of the work with the model, its modeling included, or the validity of
+knowledge stored in the model and expressed by it. Put simply, in time, a model becomes
+outdated and obsolete e.g. if the original changes or—in case of research—new insights
+have been gained. Recipients can vary from small teams of scientists or designers (in
+arts, design, architecture, technics, etc.) and their clients to broader audiences in didactic
+settings.
+   For a better understanding of what a model can be, here are some examples:
+
+• A descriptive replica, or reduced model (e.g., of a castle, a car, or a human heart),
+  which is, therefore, a physical and stable object.
+• An explanatory model to reproduce part of a phenomenon, even simulate the effects
+  of a physical one (e.g., lighting), or communicate a value or knowledge.
+• A predictive model, e.g., to simulate the behavior of (natural or artificial) light to
+  evaluate a lighting system for use in an environment.
+24                                                                      2 Basics and Definitions
+
+
+• A prototype of an object intended for industrial mass production, which may be a
+  registered model, whose counterfeiting is prohibited by law.
+• A dynamic model, e.g., in medicine of the role of the diaphragm in the entry of air
+  into the lungs, in the engineering of floating air over a car or an aircraft design, or
+  in architecture the simulation of façade components like panels for protection against
+  solar radiation.
+
+As we have seen, modeling can also be non-physical, abstract, and therefore only a system
+of thoughts, or, as often in natural sciences like climate research, a system of calculation.
+In any case, it is to be mentioned that each modeling must always be thought carefully
+about what to examine or convey to a target group or audience. Then the model has to be
+designed according to complexity, level of detail, accuracy, proximity, or distance from
+reality, and so on. To be aware of these basics is the best way to create good and evident
+models that will fulfill their purpose.
+
+
+     Further reading: Conditions of scientific models In science and research, models
+     are a helpful and practicable medium of generating knowledge about problems and
+     their solutions or to illustrate results. The latter communicative function is also used
+     in educational situations or museums. To be scientific, a model itself or its producers
+     have to provide evidence about the sources and hypothesis on which it is based,
+     because the arguments need to be traced and verified (inside the model by sources
+     and/or annotations, outside it by commentaries). To guarantee traceability, all primary
+     (analog or digital) data beyond the model should be secured and stored for future
+     research. The model may not be published alone, but with the data and knowledge
+     generated during the preparatory research, and the epistemic results of the modeling
+     process (→ Scholarly Method).
+        Due to its pragmatic feature, the model should never be the sole medium of research
+     activity. For example, in architectural research, the model of a building may either play
+     an important role in solving a research question about spatial and material properties
+     or in investigating research questions about social, historical, or political contexts. In
+     the former case, formal details may be more important. In the latter case, too, the
+     model could also be significant, but its formal details would be of less interest.
+        3D modeling as a reconstruction tool of historic architecture, is a method and
+     practice of the humanities. In this research field, a model is generally created “post
+     factum”—after the original [37, p. 335]. In contrast to modeled drafts which are made
+     “ante factum”, because they prepare the object to be fabricated, these post-factum-
+     models are created subsequently to illustrate the original including the developed
+     reconstruction of it.
+2.5 The Architectural Model                                                                         25
+
+
+2.5       The Architectural Model
+
+Architecture has been visualized in planning and construction practice using downscaled
+3D models for hundreds of years. Architectures are usually dealing with complex spatial
+structures that are difficult to survey on the outside and difficult to see through on the
+inside. The first written statements on architectural models come from architects of the
+Renaissance.
+    The Florentine Leon Battista Alberti (1404–1472), a universal erudite humanist, who
+practiced and theorized on architecture, stated about architectural models: “Having con-
+structed these models, it will be possible to examine clearly and consider thoroughly the
+relationship between the site and the surrounding district, the shape of the area, the num-
+ber and order of the parts of a building, the appearance of the walls, the strength of the
+covering, and in short the design and construction of all the elements […]. It will also
+allow one to increase or decrease the size of those elements freely, to exchange them, and
+to make new proposals and alterations until everything fits together well and meets with
+approval” [38, pp. 120–126, 32, pp. 26–30, 33, pp. 121–123].2
+    Alberti refers here to several pragmatic advantages of the 3D and thus spatial archi-
+tectural model compared to 2D and thus plane, non-spatial drafts. The model, which is
+conceived as a scaled-down version of the reference original, is intended to make the
+building to be designed spatially visible, comprehensible, and transparent, thus anticipat-
+ing ideas of the effect the building may have when constructed. A fine example from
+Alberti’s time is the model of the Strozzi Palace, built in Florence and still existing today
+(Fig. 2.6). The scaled-down version is made of wood, can be disassembled into individ-
+ual stories, and has some interchangeable modules with variants for the façade design. In
+addition to the reduction in size, for further simplifications building materials are trans-
+formed from stone and plaster into wood and details such as door and window frames in
+the interiors of rooms are omitted.3
+    With his desire for problem-free modification at any time, Alberti formulated a prag-
+matism that can almost be called visionary in principle, and which digital 3D modeling
+is only now able to fulfill in practice. In physical modeling, which had been practiced for
+centuries, modification of the model always involved a degree of manual work—be aware
+
+
+2 L. B. Alberti, […] de Re aedificatoria opus elegantissimum, et quam maxime utile, Florence 1485,
+2nd book (without pagination); cited after the current English edition: On the art of building in ten
+books. Transl. by Joseph Rykwert et al, MIT Press, Cambridge, Mass. 1987 [5th edn 1994], p. 34.—
+For further aspects of Alberti’s theory on architectural modelling [39, pp. 78–81].
+3 Recently displayed on the original site in the Museino di Palazzo Strozzi, on loan from the Museo
+Nazionale del Bargello, Florence [38], pp. 101–107, 222–224 (cat. no. 79), figs. 37–56; [40], pp. 75–
+86, esp. pp. 77–78, figs. 2.2–2.3, plate III; [41], pp. 19–73, esp. pp. 32/35, figs. on pp. 72/73p; the
+catalogue articles nos. 143–145, pp. 519–520 (n. b.: by Amanda Lillie, who is unusually supposing
+that the preserved alternative stripes for the façades should be fragments of lost two further models
+of the whole building).
+26                                                                       2 Basics and Definitions
+
+
+
+
+Fig. 2.6 Wooden draft model of Palazzo Strozzi in Florence, 15th century (Image: https://com
+mons.wikimedia.org/wiki/File:Giuliano_da_sangallo_o_bendetto_da_maiano,_modello_per_pal
+azzo_strozzi,_1489_ca,_01.JPG, accessed on 1.2.2023)
+
+
+that in Alberti’s time, model making in wood was the work of a professional cabinet-
+maker. Exceptionally, in the case of the given example (Figs. 2.6 and 2.7), the architect
+of Strozzi Palace, Giuliano da Sangallo the Younger, was a trained model maker so he
+was able to model his own draft.
+   On the representational deficit of 2D drawings, which the model can compensate
+for due to its three-dimensionality, the only slightly younger Sienese universal artist
+Francesco di Giorgio Martini (1439–1502), who was also active as an architect and addi-
+tionally as an engineer, commented: “As difficult as it is to represent all things in drawings,
+
+
+
+
+Fig. 2.7 Florence, Palazzo Strozzi, in 2021 and documentary façade elevation in orthogonal pro-
+jection (Image: Teo Pollastrini, 2021; modifications: P. H. Jahn; Xylography, taken from: Gustavo
+Strafforello, La patria, geografia dell’Italia, Turin 1894): Compared to Fig. 2.6, the third story is
+heightened and topped by a more voluminous cornice
+2.5 The Architectural Model                                                                            27
+
+
+the written word is just as unsuitable to explain everything. For too many different things
+are interrupted and stand opposite each other, so that they overlap. Therefore, it is neces-
+sary to make models of all things. [...] in his imagination many things seem simple to the
+architect, and he thinks they must succeed.”4
+    This statement refers to models of machines, but it can easily be applied to architectural
+models. In any case, 3D visualization is superior to 2D ones such as plan and elevation,
+it introduces depth as the third dimension and provides furthermore variability in the
+viewer’s perspective. The given historical examples show clearly the still valid concept of
+modeling in architecture as a three-dimensional representation of a building structure. The
+modeled building is a draft only represented on paper and touches the basic question of
+model theory: the model refers either to an imaginary or a real object. Depending on the
+pragmatic purpose of visualization it ranges in size from a tiny reduced scale to models
+at the original scale (so-called maquette), and formally from schematic to fully detailed
+surfaces. All these different kinds of representation always refer to the idea of a spatial
+model.
+    Digital 3D modeling has the advantage over physical modeling that, if required, the
+classical 2D orthogonal projections of the architectural plan (floor plan, elevation/view,
+and sections) can be drawn from a virtual 3D model at any time, namely by switching
+off one dimension and projecting the model body orthogonally onto an image plane.
+Creating pictorial perspective views of buildings (so-called renderings) is easy to realize
+with digital 3D modeling software. Before the digital age, architectural perspectives had
+to be painstakingly derived from plans or a physical building model using the rules of
+descriptive geometry. To conclude: before the digital age, a drawing was turned into a
+model by processing a draft; in the digital age, the process is quite the reverse, from
+model to drawing. Nevertheless, in digital 3D reconstruction of historic architecture, the
+conventional modeling from drawing still has to be practiced if visual media as plans are
+basic sources for the reconstruction model.
+    Modern research in architectural history as established in the 19th century has adopted
+the preparatory use of architectural models during the process of drafting reconstruction
+models, but this not as prospective models to visualize a building project but as post
+factum models of now non-extant buildings or parts thereof, either based on reliable doc-
+umentation or purely hypothetically. For example, classical archeological research has
+produced thousands of physical models of complete Antique temples (Fig. 2.8), other
+buildings of that period, or whole cities that had fallen in ruins.
+
+
+
+4 Florence, Biblioteca Medicea Laurenziana, manuscript 282 (Codex Ashburnham 361), fol. 33r,
+resp. Turin, Biblioteca Reale, Codex Saluzzianus 148, fol. 33v, edited in: Francesco Di Giorgio,
+Trattati di architettura, ingegneria e arte militare. A cura di Corrado Maltese. Trascrizione di Livia
+Maltese Degrassi (Trattati di architettura, vol. 3), 2 vols., Milan 1967, vol. I, p. 142. Thanks to Elaine
+Sophie Wolff, Innsbruck/Pisa, for providing this source by giving a modern translation from the
+Italian Renaissance idiom.
+28                                                                     2 Basics and Definitions
+
+
+
+
+Fig. 2.8 Reconstruction 1:20 model of the Parthenon temple in Athens: manufactured 1883–89 by
+the modelmaker Adolfe Jolly in Paris on commission of the Metropolitan Museum of Art, New York,
+following a concept developed by architect Charles Chipiez with archeologist Georges Perrot, com-
+piling contemporary research on the Parthenon of Alexis Paccard, Benoit Loviot, and Charles Simart
+(permanent loan from The Met NY in Munich at the State Museum for Plaster Casts of Classical
+Sculptural Work) (Image: P. H. Jahn)5
+
+
+
+     Further reading: From the physical to the digital model Physical modeling of
+     architecture had been practiced before digital 3D modeling was invented, and it is still
+     in use, mostly for presentation purposes, and in some cases for preparing designs [42].
+     Another purpose of this traditional modeling practice is to retrace and continue design
+     processes started prior to the digital age—an example gives the model workshop at
+     the famous La Sagrada Família church building in Barcelona (Fig. 2.9). The special
+     and very complex mixture of neo-gothic and partially bizarre organic forms required
+     a special effort of three-dimensional representation, which was achieved with dozens
+     of models in different levels of detail and scales, this from the beginning of building
+     activity in the 1880ies (cfr. blog by Samantha Hinsbey, 2020: https://www.jovinlim.
+     com/blog/2020/6/18/modelmaking-throughout-history-sagrada-familia). As the given
+
+
+
+5 Inge Kader, Infoblatt: Parthenonmodell, https://www.abgussmuseum.de/de/infoblaetter/parthenon
+modell, accessed on 1.2.2023; additionally: https://www.abgussmuseum.de/de/das-modell-des-par
+thenon, accessed on 28.09.2022.
+2.6     Computer-Based 3D Modeling                                                              29
+
+
+
+      insight might imagine, modeling with physical materials has always required crafts-
+      manship (Fig. 2.9) (sometimes near to handicraft work), and is a very complicated
+      process, often given to trained model makers [43, esp. pp. 137–159, 44].
+
+
+
+
+      Fig. 2.9 Physical modeling: Model workshop in the La Sagrada Família, Barcelona (Image:
+      Münster 2010)
+
+
+
+
+2.6         Computer-Based 3D Modeling
+
+Computer-based, i.e., digital, 3D technologies have become increasingly important for
+sustaining conservation, research, and broad accessibility of cultural heritage as knowl-
+edge carriers, research tools, learning materials, and means of representation over the
+past three decades [45–47]. An overarching consensus is that 3D modeling represents or
+translates either a material cultural object or an intangible cultural phenomenon into a
+spatial, temporal, and semantic virtual model. There are key differences in the assessment
+of material and immaterial objects (e.g., usages or digital data). As mentioned in the pre-
+vious paragraphs, another essential difference is between the reconstruction of objects that
+are no longer existent or that have never been realized (e.g., plans) and the digitization of
+objects that are still existent [48, 49].
+
+2.6.1       3D as Reference to Space
+
+Commonly, the prefix 3D refers to the spatial model central for digital 3D modeling.
+In addition to 3D, further dimensions have become established, e.g., in mathematics,
+computer graphics, and geosciences (Fig. 2.10).
+30                                                                                                                  2 Basics and Definitions
+
+
+
+
+ 2D refers to spatially two-      2.5D means in com-         3D means the virtual or         4D stands for a spatially 3D     5D and higher: the semantic en-
+ dimensional scaled models        puter graphics the per-    physical dimensions of          and temporally scaled model.     richment of the model is occa-
+ and representations such as      spective representation    height, length, and width. In   An example contains infor-       sionally mentioned as a fifth
+ elevations or floor plans with   of a model on a spatial-   contrast to 2.5D this yields    mation about a building’s        dimension. [e.g., 81, pp. 64f.].
+ the dimensions width and         ly two-dimensional         3D scaled objects, e.g., 3D     changes over time, such as the
+ length.                          scaled medium such as      printed geometries.             construction process.
+                                  a computer monitor or
+                                  a printout.
+
+
+Fig. 2.10 Model and visual dimensions of virtual 3D reconstruction (Münster 2019)
+
+
+2.6.2           Digital Versus Virtual
+
+There is a basic consensus that digital 3D models are created using computers and thus
+differ from physical reconstructions of artifacts or even paper-based reconstructions such
+as architectural drawings [50]. In this context, the terms “digital” and “virtual” recon-
+struction are largely used interchangeably, although the underlying concepts of the digital
+as “data in the form of especially binary digits” [51] are quite different from the vir-
+tual as “existing or occurring on computers or on the Internet” [52]. While the digital
+thus describes a materiality, the concept of the virtual is based on a reference to reality
+in terms of content. Empirically, in the German-speaking world, the term virtual recon-
+struction” is used more frequently, with 61,000 results compared to 13,000 results for
+“digital reconstruction” in a Google search [53]. “Digital reconstruction” predominates in
+English with 484,000 versus 181,000 results. In accordance with the practice described,
+both terms will be used synonymously in this book [54].
+
+
+2.6.3           Reconstruction Versus Digitalization
+
+3D digitization or reality-based modeling [55, 56] stands for “the process of converting
+something to digital form” [57]. Digitization describes the technological transfer of a real
+object to a digital asset. For this purpose, various data acquisition technologies are used
+[54, 58, 59] (→ 3D Modelling). For tangible objects, the main distinction is between
+light-dependent and light-independent methods [60]. Light-dependent systems emit light
+to retrieve information about the 3D surface. This comprises active approaches where
+coded light is projected onto a surface (e.g., white-light scanners using structured light
+to determine the surface shape and laser scanning sending laser beams at a varying angle
+to determine 3D surface points using the time-of-flight principle [61, 62]) and passive
+methods using imagery as videos or photos [63] without specifically coded light [60, 64].
+The outcome is a dense 3D point cloud, which is then processed into a meshed surface
+[65]. Methods not using visible light comprise a large variety of tomographic methods
+2.6   Computer-Based 3D Modeling                                                                31
+
+
+such as CT scanning to model the internal structures or volume of the object [61]. A
+taxonomy of the quality of 3D digitization of tangible heritage was developed within
+the EU VIGIE study [66, 67]. According to this study, the main attributes describing a
+digitized object are geometry, composition (as material information), and production (as
+the model acquisition process) [68].
+    3D reconstruction or virtual-based modeling: Whereas digitization refers to the
+technological conversion of an object into a digital representation (Fig. 2.11), a digital
+reconstruction or virtual-based modeling process [56] requires human interpretation of
+data to create a hypothesis of a past object [48, 69–71] (→ 3D Modelling). The model
+is then mostly created on the computer using manually controlled graphic modeling soft-
+ware originating from construction and engineering in the case of computer-aided design
+(CAD), or from design and creative industries in computer-generated imaging and graph-
+ics software (CGI). Since those processes are highly labor-intensive, approaches to reduce
+the workload include generative or parametric modeling (predefining objects by rulesets
+with changeable parameters) or semi-automated modeling (e.g., from historical imagery)
+[48, 70].
+    3D meshing and texturing: Both 3D digitization and reconstruction lead to 3D models
+representing surfaces and/or volumes of a tangible heritage object. Since the model-
+ing approaches of volumetric models vary significantly depending on the methods used
+[72], 3D surface representation can be discrete—based on points (point clouds), trian-
+gular meshes (vertices, edges, faces), or continuous as e.g., NURBS, geometric solids
+(constructive solid geometry, CSG), and boundary representations (B-reps) [61] (→ 3D
+Modelling).
+    Besides the geometry features of a 3D model, its radiometric parameters and mate-
+riality representation are relevant [73]. For surfaces, the main distinction is between
+
+
+
+
+Fig. 2.11 Schematic reconstruction (upper left) versus digitization (lower left) workflow, both
+resulting in a virtual 3D model (right) (Images: Münster, except right: Rainer Uhlemann, lightframe
+fx)
+32                                                                   2 Basics and Definitions
+
+
+synthetically generated procedural textures and reality-based textures (→ Visualization).
+Related to the latter category, another distinction is between the acquisition of material
+properties [74] and digital visualization [75].
+
+
+2.7       Simulation
+
+Simulation refers to a “procedure for reproducing a system with its dynamic processes in
+a model that can be experimented with in order to arrive at findings that can be transferred
+to reality” (translated from [76], p. 1; for a definition from humanities [77], see also [78]).
+Law and Kelton [79] distinguish three types of simulation depending on the models used:
+
+• Static versus dynamic: A static simulation provides a replica of a system at a spe-
+  cific point in time. A dynamic simulation represents a system whose states, attributes,
+  processes, etc. are time-dependently variable [80].
+• Discrete (countable) versus continuous (measurable) values.
+• Deterministic (always the same output for a specific set of values) versus stochastic
+  (random output at a certain level) values.
+
+In the context of cultural heritage, the term “simulation” is used in various ways:
+
+• Simulation for analysis. Examples include:
+  – Object behavior, often in disaster situations, as in fluid simulation (CFD) to analyze
+      flooding [81], to simulate structural behavior, e.g., of monuments in earthquakes
+      [82] or fire [83], but also to prove requirements for materials in construction [84].
+  – Simulation of environmental effects, e.g., of lighting to assess conditions in historic
+      buildings [85, 86], degradation by climate features [87], ancient ventilation systems
+      [88], or acoustic conditions [89].
+  – Simulation of cultural effects, e.g., of crowds [90], mechanical processes [91], or
+      daily cultural life [4, 92].
+• Simulation as calculation of imagery (rendering) [93] means the computed com-
+  bination of various features such as material appearance, lighting, and geometrical
+  behavior, either of static scenes (images) or of time variate or dynamic (films or inter-
+  active games) to a visual output. This computation of a virtual model to create a
+  visualization is called rendering [94]. Methods include ray tracing [95, 96] and global
+  illumination [97].
+
+A more metaphorical use of the term is the “simulation” of a building process when
+unexecuted architectural plans are analyzed. If such plans are modeled in 3D, this
+procedure is like an assessment of their buildability [25]. Strictly speaking the term
+“re-construction” does not fit this kind of architectural 3D modeling because it was not
+2.7     Simulation                                                                                33
+
+
+preceded by a construction. Nevertheless, the modeling of unexecuted building plans is
+also commonly called “construction”. As an established method of architectural history
+research, it is advantageous in interpreting the buildability as well as spatial and aesthetic
+effects of the projected buildings.
+
+
+      Summary This chapter introduces key concepts in digital 3D modeling of historic
+      architecture as part of cultural heritage, the use of sources and data as a basis for any
+      reconstruction, and modeling as a scientific method and practice. Architectural plans
+      and models are used for 3D reconstruction of historic architecture; in our digital age,
+      these processes are transferred from physical modeling into the digital sphere.
+      Concepts
+
+      • Sources: historical research is always based on sources (and data obtained from
+        them), their critical analysis and interpretation, which will always be subjective
+        views constructed in specific contexts.
+      • Model: a pragmatically reduced representation of an original [65 pp. 131–133].
+      • Digital 3D Reconstruction: “the creation of a virtual model of historic entities that
+        requires an object-related, human interpretation” [70, p. 7].
+
+      Key literature
+
+      • Jill A. Franklin, T. A. Heslop et al. (eds.): Architecture and Interpretation. Essays
+        for Eric Fernie. Woodbridge, Suffolk: Boydell 2012 [98].
+      • Petra Brouwer, Martin Bressani et al. (eds.): Narrating the Globe: The Emergence
+        of World Histories of Architecture. Cambridge, Mass./London: MIT Press 2023
+        [99].
+      • Sander Münster: Die Begrifflichkeiten der 3D-Rekonstruktion, in: Piotr
+        Kuroczyński/Mieke Pfarr-Harfst/Sander Münster (eds.), Der Modelle Tugend 2.0.
+        Vom digitalen 3D-Datensatz zum wissenschaftlichen Informationsmodell. Com-
+        puting in Art and Architecture 2, Heidelberg: arthistoricum.net 2019, 39–57
+        [54].
+      • Jan-Eric Lutteroth/Stephan Hoppe: Schloss Friedrichstein 2.0—Von digitalen 3D-
+        Modellen und dem Spinnen eines semantischen Graphen. In: ibid., 185–198 [100].
+      • Anthony Brundage: Going to the Sources: A Guide to Historical Research and
+        Writing. 6th edition, Hoboken, NJ: Wiley-Blackwell 2017 [23].
+      • Stephan Hoppe/Stefan Breitling (eds.): Virtual Palaces, Part II: Lost Palaces and
+        Their Afterlife. Virtual Reconstruction between Science and Media. PALATIUM
+        e-Publication 3, Munich: PALATIUM 2016 [101].
+34                                                                   2 Basics and Definitions
+
+
+     • Soraya de Chadarevian/Nick Hopwood (eds.): Models. The Third Dimension of
+       Science. Stanford, CA: Stanford University Press 2004 [102].
+     • Patrick Healy: The Model and its Architecture. Delft School of Design Series on
+       Architecture and Urbanism 4, Rotterdam: 010 Publishers 2008 [103].
+     • Mark Morris: Models: Architecture and the Miniature. Architecture in Practice,
+       Southern Gate, Chichester: Wiley Academy Press 2006 [104].
+     • Matthew Mindrup: The Architectural Model. Histories of the Miniature and the
+       Prototype, the Exemplar and the Muse. Cambridge, Mass./London: MIT Press
+       2019 [33].
+
+
+
+
+References
+
+ 1. Reilly P (1992) Three-dimensional modelling and primary archaeological data. In: Reilly P
+    et al (eds) Archaeology and the information age. A global perspective. Routledge, London, pp
+    147–173
+ 2. UNESCO (1989) Draft medium term plan 1990–1995
+ 3. Kuhnke B (2016) Kulturarvspolitik (Regeringens proposition, 2016/17:116)
+ 4. Chandler T (2013) Playing Angkor: exploring the archaeological themes of the Khmer empire
+    through game engine technologies. In: 41st computer applications and quantitative methods in
+    archaeology conference 2013 Perth
+ 5. Anderson M (2010) Putting the “reality” in virtual reality: new advances through game engine
+    technology
+ 6. Skublewska-Paszkowska M et al (2022) 3D technologies for intangible cultural heritage
+    preservation-literature review for selected databases. Herit Sci 10(1):3
+ 7. Georgopoulos A (2018) CIPA’s perspectives on cultural heritage. In: Münster S et al (eds)
+    Digital research and education in architectural heritage. 5th conference, DECH 2017, and
+    first workshop, UHDL 2017, Dresden, Germany, 30–31 March 2017, revised selected papers.
+    Springer, Cham, pp 215–245
+ 8. UNESCO (2018) Concept of digital heritage
+ 9. Ch’ng E et al (2013) Visual heritage in the digital age
+10. Münster S et al (2021) Digital topics on cultural heritage quantified. Built Heritage
+11. European Commission (2011) Survey and outcomes of cultural heritage research projects sup-
+    ported in the context of EU environmental research programmes. From 5th to 7th Framework
+    Programme
+12. European Commission (2019) Common challenges and perspectives for digital cultural her-
+    itage in H2020 projects
+13. Arbeitsgruppe Digitale Rekonstruktion des Digital Humanities im deutschsprachigen Raum
+    e.V. Arbeitsgruppe Digitale Rekonstruktion des Digital Humanities im deutschsprachigen
+    Raum e.V. http://www.digitale-rekonstruktion.info/. Accessed 12 Jan 2015
+14. Arbeitskreis Digitale Kunstgeschichte Arbeitskreis Digitale Kunstgeschichte. https://www.dig
+    itale-kunstgeschichte.de/wiki/Arbeitskreis_Digitale_Kunstgeschichte. Accessed 1 Aug 2021
+References                                                                                          35
+
+
+ 15. Schueckel S (2018) DFG bewilligt Wissenschaftliches Netzwerk “Digitale 3D-
+     Rekonstruktionen als Werkzeuge der architekturgeschichtlichen Forschung”. TU
+     Dresden
+ 16. Kuroczyński P et al (eds) (2019) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als
+     virtueller Raum der architekturhistorischen Forschung. arthistoricum.net, Heidelberg
+ 17. Kuroczyński P et al (eds) (2019) Digital art history. Computing in art and architectural history.
+     arthistoricum.net, Heidelberg
+ 18. Klinke H (2018) Special issue: digital space and architecture. J Digit Art Hist 3
+ 19. Jahn PH et al (2012) Brief an Papst Leo X. betreffend die Bewahrung, Vermessung und zeich-
+     nerische Aufnahme der antiken Baudenkmäler Roms [um 1518]. In: Zeitschrift für Medien-
+     und Kulturforschung, Heft 1/2012: Schwerpunkt Entwerfen, pp 73–95
+ 20. Sociedad Española de Arqueología Virtual (2010) The Seville Charter. http://www.arqueolog
+     iavirtual.com/carta/. Accessed 10 Jan 2014
+ 21. Opgenoorth E (1997) Einführung in das Studium der neueren Geschichte
+ 22. Lipartito K (2014) Historical sources and data. In: Organizations in time: History, theory,
+     methods, pp 284–304
+ 23. Brundage A (2017) Going to the sources: a guide to historical research and writing, 6th edn.
+     Wiley-Blackwell, Hoboken, NJ
+ 24. Dalton MS et al (2004) Historians and their information sources. Coll Res Libr 65(5):400–425
+ 25. Münster S et al (2017) Von Plan- und Bildquellen zum virtuellen Gebäudemodell. Zur Bedeu-
+     tung der Bildlichkeit für die digitale 3D-Rekonstruktion historischer Architektur. In: Ammon
+     S et al (eds) Bildlichkeit im Zeitalter der Modellierung. Operative Artefakte in Entwurf-
+     sprozessen der Architektur und des Ingenieurwesens. eikones. Wilhelm Fink Verlag, München,
+     pp 255–286
+ 26. Brilliant M (2022) Primary, secondary, and tertiary sources in history
+ 27. Alderman J (2014) Primary, secondary, and tertiary sources
+ 28. Münster S (2016) Interdisziplinäre Kooperation bei der Erstellung geschichtswis-
+     senschaftlicher 3D-Rekonstruktionen
+ 29. DFG (2016) DFG-Praxisregeln “Digitalisierung”
+ 30. Bruschke J, Wacker M (2018) DokuVis – ein Dokumentationssystem für digitale Rekonstruk-
+     tionen. In: Breitling S, Giese J (eds) Bauforschung in der Denkmalpflege – Qualitätsstandards
+     und Wissensdistribution. University of Bamberg Press, Bamberg, pp 213–218
+ 31. Pattee A et al (2022) A machine learning approach to assist architectural research by matching
+     images directly with text. In: EUROMED 2022
+ 32. Smith AC (2004) Architectural model as machine. A new view of models from antiquity to the
+     present day. Elsevier, Architectural Press, Amsterdam et al
+ 33. Mindrup M (2019) The architectural model. Histories of the miniature and the prototype, the
+     exemplar and the muse. MIT Press, Cambridge, Mass et al
+ 34. Sauerbier T (1999) Theorie und Praxis von Simulationssystemen. Eine Einführung für Inge-
+     nieure und Informatiker. Vieweg, Wiesbaden
+ 35. Stachowiak H (1973) Allgemeine Modelltheorie. Springer, New York
+ 36. Mahr B (2008) Ein Modell des Modellseins. Ein Beitrag zur Aufklärung des Modellbegriffs.
+     In: Dirks U et al (eds) Modelle. Peter Lang, Frankfurt am Main et al, pp 187–220
+ 37. Wilton-Ely J (1996) Architectural model. In: The dictionary of art, Bd. 2. London et al, pp
+     335–338
+ 38. Lepik A (1994) Das Architekturmodell in Italien 1335–1550. Veröffentlichungen der Biblio-
+     theca Hertziana (Max-Planck-Institut) in Rom, Bd. 9. Werner, Worms
+ 39. Wendler R (2013) Das Modell zwischen Kunst und Wissenschaft. Wilhelm Fink, München
+36                                                                      2 Basics and Definitions
+
+
+40. Frommel S et al (2015) Les maquettes d’architecture: fonction et évolution d’un instrument de
+    conception et de réalisation (itinéraires - percorsi 3). Picard, Paris/Campisano, Rome
+41. Millon HA (1994) Models in Renaissance Architecture. In: idem (ed) The Renaissance from
+    Brunelleschi to Michelangelo. The representation of architecture. Thames & Hudson, London,
+    pp 19–73
+42. Ratensky A (1983) Drawing and modelmaking. Whitney Library of Design, New York
+43. Moon K (2005) Modeling messages. The architect and the model. Monacelli Press, New York
+44. Frankhänel T (2015) Introducing Theodore Conrad or: why should we look at the architectural
+    model maker. In: Frommel S et al (2015) Les maquettes d’architecture: fonction et évolu-
+    tion d’un instrument de conception et de réalisation (itinéraires - percorsi 3). Picard, Paris/
+    Campisano, Rome, pp 259–268
+45. Sanders DH (2012) More than pretty pictures of the past. An American perspective on vir-
+    tual heritage. In: Bentkowska-Kafel A et al (eds) Paradata and transparency in virtual heritage.
+    Ashgate, Burlington, pp 37–56
+46. Greengrass M et al (2008) The virtual representation of the past. Digital research in the arts
+    and humanities
+47. Favro D (2006) In the eyes of the beholder. Virtual Reality re-creations and academia. In:
+    Haselberger L et al (eds) Imaging ancient Rome: Documentation, visualization, imagination:
+    proceedings of the 3rd Williams symposium on classical architecture, Rome, 20–23 May 2004.
+    J Roman Archaeol Portsmouth, pp 321–334
+48. De Francesco G et al (2008) Standards and guidelines for quality digital cultural three-
+    dimensional content creation. In: Ioannides M et al (eds) Digital heritage: proceedings of the
+    14th international conference on virtual systems and multimedia. Project papers. Archaeolin-
+    gua, Budapest, pp 229–233
+49. Doulamis A et al (2015) 5D modelling: an efficient approach for creating spatiotemporal pre-
+    dictive 3D maps of large-scale cultural resources. ISPRS Ann Photogram Remote Sens Spat
+    Inf Sci II-5(W3):61–68
+50. Carpo M (2001) Architecture in the age of printing. Orality, writing, typography, and printed
+    images in the history of architectural theory. MIT Press, Cambridge, Mass et al
+51. Merriam-Webster Definition of digital. https://www.merriam-webster.com/dictionary/digital.
+    Accessed 8 Feb 2022
+52. Merriam-Webster Definition of virtual. https://www.merriam-webster.com/dictionary/virtual.
+    Accessed 2 Feb 2022
+53. Google Google Search. google.com. Accessed 8 Feb 2022
+54. Münster S (2019) Die Begrifflichkeiten der 3D-Rekonstruktion. In: Kuroczyński P et al (eds)
+    Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architekturhis-
+    torischen Forschung. arthistoricum.net, Heidelberg, pp 38–58
+55. Qin R et al (2022) Geometric processing for image-based 3D object modeling. In: Kocaman S
+    et al (eds) 3D/4d city modelling: from sensors to applications
+56. Russo M (2021) AR in the architecture domain: state of the art. Appl Sci-Basel 11(15):6800
+57. Merriam-Webster Definition of digitalization. https://www.merriam-webster.com/dictionary/
+    digitalization. Accessed 23 Aug 2017
+58. Manferdini AM et al (2010) Reality-based 3D modeling, segmentation and web-based visual-
+    ization. In: Paper presented at the EuroMed, Nicosia, Cyprus
+59. Voltolini F et al (2007) Integration of non-invasive techniques for documentation and preser-
+    vation of complex architectures and artworks. Paper presented at the ISPRS
+60. Pavlidis G et al (2018) 3D depth sensing. In: Bentkowska-Kafel A et al (eds) Digital techniques
+    for documenting and preserving cultural heritage. ARC Humanities Press, pp 195–198
+61. Cieslik E (2020) 3D digitization in cultural heritage institutions guidebook
+References                                                                                          37
+
+
+ 62. Di Stefano F et al (2021) Mobile 3D scan LiDAR: a literature review. Geomat Nat Haz Risk
+     12(1):2387–2429
+ 63. Torresani A et al (2019) Videogrammetry vs photogrammetry for heritage 3d reconstruction.
+     Int Arch Photogram Remote Sens Spat Inf Sci XLII-2/W15:1157–1162
+ 64. Alliez P et al (2017) Digital 3D objects in art and humanities: challenges of creation, interop-
+     erability and preservation. White paper. Digital 3D objects in art and humanities: challenges
+     of creation, interoperability and preservation, hal01526713v2
+ 65. Donadio E et al (2018) Three-dimensional (3D) modelling and optimization for multipurpose
+     analysis and representation of ancient statues. In: Remondino F et al (eds) Latest developments
+     in reality-based 3d surveying and modelling. MDPI AG-Multidisciplinary Digital Publishing
+     Institute, pp 95–118
+ 66. Ioannides M et al (2020) European study on quality in 3D digitisation of tangible cultural
+     heritage (VIGIE 2020/654)
+ 67. Pritchard D et al (2021) Study on quality in 3D digitisation of tangible cultural heritage
+ 68. Ioannides M (2021) VIGIE 2020/654 study - final presentation
+ 69. Münster S (2013) Workflows and the role of images for a virtual 3D reconstruction of no longer
+     extant historic objects. In: ISPRS annals II-5/W1 (XXIV international CIPA symposium), pp
+     197–202
+ 70. Münster S et al (2016) A classification model for digital reconstruction in context of humani-
+     ties research. In: Münster S et al (eds) 3D research challenges in cultural heritage II. Springer
+     LNCS, Cham, pp 3–31
+ 71. Dell’Unto N et al (2022) 3D models and knowledge production. In: Archaeological 3D GIS,
+     pp 18–28
+ 72. Grifoni E et al Multianalytical investigation and 3D Multiband modeling: an integrated survey
+     of the Garnier Valletti pomological collection. In: 2020 IMEKO TC-4 international conference
+     on metrology for archaeology and cultural heritage, Trento, Italy (2020)
+ 73. Moitinho V et al (2018) An interdisciplinary discussion of the terminologies used in cultural
+     heritage research. In: Bentkowska-Kafel A et al (eds) Digital techniques for documenting and
+     preserving cultural heritage, pp 3–16
+ 74. Boochs F et al (2014) Colour and space in cultural heritage: key questions in 3D optical doc-
+     umentation of material culture for conservation, study and preservation. In: Ioannides M et al
+     (eds) Digital heritage. Progress in cultural heritage: documentation, preservation, and pro-
+     tection5th international conference, EuroMed 2014, Limassol, Cyprus, 3–8 November 2014.
+     Proceedings. Springer, Cham, pp 11–24
+ 75. Birn J (2007) Lighting & rendering
+ 76. VDI (2014) Simulation von Logistik-, Materialfluss- und Produktionssystemen 3633
+ 77. Hinterwaldner I (2010) Das systemische Bild. Ikonizität im Rahmen computerbasierter
+     Echtzeitsimulationen. Eikones, Wilhelm Fink Verlag, München
+ 78. Koszewski K (2021) Visual representations in digital 3D modeling/simulation for architectural
+     heritage. In: Niebling F et al (eds) Research and education in urban history in the age of digital
+     libraries. Springer International Publishing, Cham, pp 87–105
+ 79. Law AM et al (2000) Simulation modeling and analysis, 3 edn
+ 80. Chahrour R (2006) Integration von CAD und Simulation auf Basis von Produktmodellen im
+     Erdbau
+ 81. Grau-Bové J et al (2019) Fluid simulations in heritage science. Herit Sci 7(1):16
+ 82. Ciocci MP et al (2018) Engineering simulations of a super-complex cultural heritage building:
+     Ica Cathedral in Peru. Meccanica 53(7):1931–1958
+ 83. Huang YH (2020) The use of parallel computing to accelerate fire simulations for cultural
+     heritage buildings. Sustainability 12(23):10005
+38                                                                        2 Basics and Definitions
+
+
+ 84. Levy R et al (2010) Structural analysis: a tool for testing 3D computer reconstructions of Thule
+     whalebone houses
+ 85. Leccese F et al (2020) Application of climate-based daylight simulation to assess lighting con-
+     ditions of space and artworks in historical buildings: the case study of cetacean gallery of the
+     Monumental Charterhouse of Calci. J Cult Herit 46:193–206
+ 86. Michael A et al (2015) Lighting performance of urban vernacular architecture in the East-
+     Mediterranean area: field study and simulation analysis. Indoor Built Environ 26(4):471–487
+ 87. Leissner J et al (2015) Climate for culture: assessing the impact of climate change on the future
+     indoor climate in historic buildings using simulations. Herit Sci 3(1):38
+ 88. Balocco C et al (2009) Numerical simulation of ancient natural ventilation systems of historical
+     buildings. A case study in Palermo. J Cult Herit 10(2):313–318
+ 89. Wall JN (2014) Virtual Paul’s cross: the experience of public preaching after the reformation.
+     In: Kirby T et al (eds) Paul’s cross and the culture of persuasion in England, 1520–1640. E. J.
+     Brill, Leiden, pp 61–92
+ 90. Gutierrez D et al (2005) Predictive crowd simulations for Cultural Heritage applications. In:
+     Paper presented at the proceedings of the 3rd international conference on computer graphics
+     and interactive techniques in Australasia and South East Asia - GRAPHITE ‘05, Dunedin, New
+     Zealand
+ 91. Snickars P (2019) Metamodeling. 3D-(re)designing Polhem’s Laboratorium mechanicum. Der
+     Modelle Tugend 2.0
+ 92. Wyeld TG et al (2007) Doing cultural heritage using the torque game engine: supporting
+     indigenous storytelling in a 3D virtual environment. Int J Archit Comput 5(2):417–435
+ 93. Champion E (2019) From historical models to virtual heritage simulations. In: Kuroczyński
+     P et al (eds) Der Modelle Tugend 2.0 Digitale 3D-Rekonstruktion als virtueller Raum der
+     architekturhistorischen Forschung
+ 94. Foley JD (1995) Computer graphics : principles and practice. Addison-Wesley systems pro-
+     gramming series, 2nd edn
+ 95. Encarnação JL et al (1996) Graphische Datenverarbeitung
+ 96. Šrámek M (1998) Visualization of volumetric data by ray tracing. Dissertation
+ 97. Larson GW (2003) Rendering with radiance. The art and science of lighting visualization, 2nd
+     edn
+ 98. Jill A et al (eds) (2012) Architecture and interpretation. Essays for Eric Fernie. Boydell,
+     Woodbridge, Suffolk
+ 99. Brouwer P, Bressani M, Armstrong CD (2023) Narrating the globe: the emergence of world
+     histories of architecture. MIT Press, Cambridge, MA et al
+100. Lutteroth J-E, Hoppe S (2018) Schloss Friedrichstein 2.0—Von digitalen 3D-Modellen
+     und dem Spinnen eines semantischen Graphen: Digitale 3D-Rekonstruktion, 3D-Modell,
+     Adelssitz, Architekturgeschichte, Barockschloss, CIDOC-CRM, Forschungsumgebung, Kun-
+     stgeschichte, Ostpreußen, semantische Datenmodellierung, virtuelle Rekonstruktion. In:
+     Kuroczyński P, Bell P, Dieckmann L (eds) Computing art reader. Einführung in die digitale
+     Kunstgeschichte. Computing in Art and Architecture, pp 184–198
+101. Hoppe S et al (eds) (2016) Virtual palaces, part II: Lost palaces and their afterlife. Virtual
+     Reconstruction between Science and Media. PALATIUM e-Publication 3, Munich
+102. Chadarevian S et al (eds) (2004) Models—the third dimension of science. Stanford University
+     Press, Stanford, CA
+103. Healy P (2008) The model and its architecture. Delft School of Design Series on Architecture
+     and Urbanism 4, 010 Publishers, Rotterdam
+104. Morris M (2006) Models: architecture and the miniature. Architecture in Practice, Wiley
+     Academy Press, Southern Gate, Chichester
+References                                                                                      39
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

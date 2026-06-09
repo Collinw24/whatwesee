@@ -1,0 +1,29 @@
+# Local OS/editor noise.
+.DS_Store
+**/.DS_Store
+
+# Python generated files.
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+
+# Local machine config and large working data should stay outside the repo.
+*.local.toml
+data/
+datasets/
+packages/
+whatwesee_photogrammetry_data/
+whatwesee_evidence_data/
+
+# Third-party PDFs — keep text extracts only for copyright safety.
+Research/timemachine/pdfs/
+
+# IDE and editor noise.
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*.swo
+*~

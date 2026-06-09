@@ -1,0 +1,37 @@
+# Copy for operator notes. Keep real keys and secrets outside git.
+
+[runtime]
+work_root = "/workspace/whatwesee"
+source_root = "/workspace/src"
+minimum_free_disk_gb = 80
+minimum_gpu_vram_gb = 48
+
+[hetzner]
+ssh_host = "user@staging-host.example.com"
+photogrammetry_root = "/srv/staging/photogrammetry"
+evidence_root = "/srv/staging/evidence"
+
+[vast]
+image = "pytorch/pytorch:2.4.0-cuda12.4-cudnn9-devel"
+offer_query = "verified=true rentable=true reliability > 0.98 gpu_ram >= 48"
+disk_gb = 256
+ssh_user = "root"
+
+[transfer]
+rsync_jobs = 8
+aria2_max_concurrent_downloads = 8
+aria2_connections_per_server = 16
+uv_concurrent_downloads = 16
+uv_concurrent_builds = 8
+uv_concurrent_installs = 8
+
+[colmap_cuda]
+enabled = true
+required = true
+repo = "https://github.com/colmap/colmap.git"
+ref = "main"
+install_prefix = "/workspace/colmap-cuda"
+cuda_arch = "80"
+build_jobs = 26
+gui = false
+opengl = false

@@ -1,0 +1,1021 @@
+Scholarly Method
+                                                                                             3
+
+
+
+   Abstract
+
+   As this chapter shows, digital 3D reconstructions of historic architecture serve many
+   purposes in research and related areas. This comprises answering research questions by
+   creating a 3D model, preserving cultural heritage, communicating knowledge in edu-
+   cation, and providing a structure for knowledge organization. The process of creating a
+   3D reconstruction is often challenging, for example, because of lacking or ambiguous
+   sources. In order to create a 3D reconstruction based on scientific values, guidelines,
+   and standards are needed.
+
+
+
+
+   Guiding questions
+   • How can a 3D reconstruction contribute to knowledge?
+   • Where are 3D reconstructions made?
+   • Why do a 3D reconstruction in a scientific context?
+   • When can the model be reused in other research contexts?
+   • How can one create a scientifically correct 3D reconstruction?
+   • What guidelines are there for preparing a scientific 3D reconstruction?
+
+
+
+
+© The Author(s) 2024                                                                   41
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_3
+42                                                                       3 Scholarly Method
+
+
+
+     Basic terms
+     • Epistemic
+     • Scholarly method
+     • Purposes
+     • Scientific principles
+     • Standards
+
+
+
+
+3.1        Introduction
+
+Digital 3D reconstructions are getting increasingly established as a scholarly method. In
+the process, the use of 3D models can support and even revolutionize various work steps.
+The model can be seen as a substitute, extended, or concentrated object of investigation.
+At the same time, it may substitute objects of investigation that are ephemeral or in danger
+of destruction. The model is key for communicating research results. When equipped
+with appropriate descriptions, the model can serve as a comprehensive documentation
+format for knowledge about the object. The process of creating a 3D reconstruction is
+complex and often involves several disciplines bringing in their own expertise and research
+questions. Throughout this process knowledge is generated—while new questions arise,
+others are answered. An overview of 3D reconstruction and its purposes in digital models
+of historic architecture will be given here. Challenges in the reconstruction process are
+discussed here regarding missing information, lack of raw 3D models, and visual research
+process. For scholars to produce scientifically sound 3D models, they need guidelines.
+This chapter shows that following these guidelines ensures that 3D reconstructions are
+transparent regarding the used methodology and the decision-making process. In some
+contexts, research questions are not the focus of 3D reconstructions, as will be explained
+in the following chapter.
+
+
+     Further reading: Research on scholarly methods Investigations on epistemic set-
+     tings in visual digital humanities are widely driven by researchers originating in
+     humanities and mostly focus on exemplification and problematization within a cer-
+     tain disciplinary context. On digital methods in art history, Drucker [1] sketches a
+     historical evolution and current state of application of digital methods in humani-
+     ties. Kohle defined fields of supplement by digital tools and practices in art history
+     [2] and Heusinger describes a general visual humanities research process [3]. Sim-
+     ilarly, many texts describe comprehensive state-of-the-art methodologies for digital
+     archaeology [4–6]. Furthermore, there are many standards, guidelines, and rules for
+     dealing with historical content (→Guidelines and charters for 3D reconstruction). An
+3.2     Purposes of 3D Modeling                                                                  43
+
+
+
+      adjacent issue is general workflow modeling of the reasoning behind archaeological
+      or architectural construction. Barceló discusses approaches to computable reasoning
+      and artificial intelligence to support archaeological reasoning [7]. Some meta-reviews
+      on similar aspects in museology exist [8, 9], and methodological overviews are avail-
+      able for adjacent disciplines, such as game research [10], editorial studies [11–13], or
+      graphic design [14].
+
+
+
+
+3.2         Purposes of 3D Modeling
+
+Purposes of 3D modeling include research, preservation, education, culture of remem-
+brance, and knowledge organization of cultural heritage [15] as shown in Fig. 3.1.
+
+
+3.2.1       Research
+
+An example of this category is a reconstruction to test an (existing) research question or
+hypothesis with a 3D model, taking a step-by-step approach to the facts related to the
+question. This supports the imagination of the researcher/communicator to facilitate the
+generation of knowledge. Often, further questions or areas of application develop during
+the research process and can be answered by creating a 3D model.
+
+
+
+
+Fig. 3.1 Purposes of 3D modeling in the reconstruction process (Image: Schelbert/Messemer)
+44                                                                          3 Scholarly Method
+
+
+Table. 3.1 Research contexts of digital 3D models
+Research objective                                                      Source   Object   System
+Data quality assessment (e.g., consistency of sources)                  X
+Visualization (e.g., investigation of shape or appearance)                       X
+The creative process (e.g., planning or construction)                            X
+Conceptualization and contextualization (e.g., typologies, functional   X        X        X
+segments, archetypical elements, provenance)
+Numerical analysis (e.g., structural analysis, lighting)                         X
+Hypothetic simulation (e.g., of hypothetic objects deriving from an                       X
+architectural system)
+
+
+    A particular strength of 3D models is to enable empathy with the (lost or planned)
+real spatial situation. Models have always had this function, for example, design models
+in Renaissance and Baroque architecture, but as a rule, this effect did not justify the high
+cost of constructing a model, so it remained a side effect. In the digital model, creating
+a spatial impression places particularly high demands on the level of detail, especially if
+it is to be perceived through VR devices, which is not always the case. Both the source
+situation and the technical and other resources rarely allow complex simulations, such as
+visibility and social behavior, to be truly represented and measured in three dimensions.
+In principle, to create realistic impressions, it would be necessary to develop methods for
+recording the size relationships to humans in space. Initial work on this has been done,
+e.g., by Bernhard Frischer on the position of the sun [16], by Peter Scholz, University of
+Stuttgart, on Roman rhetoric,1 and on crowds in space [17, 18]. Research functions of 3D
+models are given a typology in Table 3.1, which distinguishes between research objects
+and objectives [19, 20].
+    Research object: 3D reconstruction is employed to investigate and assess objects and/
+or sources. Sometimes not a specific object, but schemes and systems are the focus of
+research, e.g., to evaluate the Vitruvian scheme of architectural orders. Against this back-
+ground, 3D reconstruction methods are often employed to derive archetypes or specific
+features [21].
+    Research objectives are the epistemic interest to be served by a 3D reconstruction
+(Fig. 3.2). They may include:
+
+
+
+1 Peter Scholz leads the audiovisual project Oratorische Prgamatik und politische Entscheidungs-
+findung in der griechischen Antike, funded by the German Research Foundation (DFG), https://
+gepris.dfg.de/gepris/projekt/464282420?context=projekt&task=showDetail&id=464282420&,
+accessed 16.09.2022.
+3.2    Purposes of 3D Modeling                                                                                                       45
+
+
+
+
+                                                  Conceptualization: Sacral Numerical analysis and simu- Hypothetical
+ Data quality assessment of Visualization of an
+                                                  topology of the western   lation: Lighting simulation  Simulation: Physically correct
+ source: medieval state of  unbuilt plan: Piaris-
+                                                  portal of the Freiberger  tested for the Santiago de   reconstruction of the optical
+ the St. Jacob grave chapel tenkirche in Vienna
+                                                  Dom                       Compostela cathedral crypt illusion by M.C. Escher
+
+
+Fig. 3.2 Example research applications of 3D models in architectural history studies (Images:
+Muenster, [35, 36, p. 125, 37, p. 588])
+
+
+• Data quality assessment: This is closely related to contextualization and assessment
+  of the consistency of sources. For example, digital reconstruction of content depicted
+  in drawings or paintings can be used to test perspective features or consistency [22].
+• Visualization: The most common way to visualize is to formulate a hypothesis of the
+  shape, properties, and appearance of a certain historical object. Concerning this aspect,
+  digital reconstruction allows the noninvasive application and testing of alterations or
+  restoration (e.g., for destroyed statues) [23–25].
+• Process investigation: This includes research into historical preparation processes
+  (e.g., planning or construction processes employed by artisans) [26, 27].
+• Conceptualization: A major question for underlying concepts and intentions, e.g.,
+  structuring concepts [28], refers to functions of certain parts of an object (e.g., rooms,
+  figuration, or proportions)[29, 30].
+• Contextualization: The contextualization of objects (e.g., geo-location, relationship to
+  other objects, historical circumstances, historical contextualization) and identification
+  of archetypal characteristics may refer to artisan specifications and typologies, as well
+  as comparison of iconographical concepts. Contextualization may lead to interest in
+  sources, specific objects, or systems [2].
+• Numerical analysis and simulation: This is a frequent use case, especially for 3D
+  digitization models [31]. Occasionally, 3D reconstructions are employed to simulate
+  and analyze no longer extant heritage and structural analysis is one area of application
+  [32].
+• Hypothetical simulations: Different usages are possible without making reference
+  to concrete historical objects, e.g., the exploration of hypothetically possible objects,
+  which derive from a certain architectural order and the (hypothetical) limits and bound-
+  aries of this system [21, 33] or the analysis of perspective drawings like M. C. Escher’s
+  [34] impossible objects.
+46                                                                                               3 Scholarly Method
+
+
+
+     Further reading: Digitization to preserve heritage objects 3D digitization tech-
+     niques are frequently used in preservation [38] (Fig. 3.3) to:
+
+
+
+
+             Preserve object properties in case   Create replicas: Body scan and   Degradation analysis:
+             of damage: 3D digitization of        3D printed plaster model for     Material loss estimation
+             heritagein risk from citizen         blind museum visitors [36].      of a stonewall [37].
+             photographs [163].
+
+
+     Fig. 3.3 Examples for preservation applications
+
+
+
+     • Preserve object properties in case of damage: Recent examples are the recording
+       of surface and material properties prior to an unplanned disaster (Notre Dame in
+       Paris [39]), in case of planned destruction, and post factum from extant images (e.g.,
+       the destroyed sites in Palmyra and Bamyan [40, 41]). In digital 3D reconstruction,
+       the objectives of a virtual model are primarily to sort, store, and compile spatial
+       knowledge [42]. For example, the 3D model of the Domus Severiana provided a
+       spatial map and thus a possibility to georeference sources [43].
+     • Create replicas: Especially in museums, artifacts are frequently replaced by
+       replicas created in fully digital workflows [36].
+     • Identify art forgery by creating a digital 3D footprint of the original [44–46],
+     • Degradation analysis to detect the degradation of surfaces and materials
+       [37, 47, 48].
+
+
+
+
+3.2.2      Education
+
+In this category, the digital 3D model is intended to represent existing knowledge and
+is thus in the direct tradition of haptic models (Fig. 3.4). The focus is on a didactic
+extension of knowledge communication. The 3D model facilitates knowledge transfer,
+which previously took place through abstraction from text and/or image. This can support
+both imagination and cultural remembrance, which is about how people deal with their
+history, past, and collective memory.
+3.2     Purposes of 3D Modeling                                                                                                  47
+
+
+
+
+ Informal learning: 3D recon-   Formal learning: Use of 3D Visu-     Digital competency develop-     Edutainment: AI-generated im-
+ structed and printed city      alizations to teach historical ar-   ment: Hackathon to educate      age reassembling the Assassins
+ model in a museum exhibition   chitecture in a university seminar   and apply 3D modelling skills   Creed computer games series
+
+
+Fig. 3.4 Example educational applications of 3D models in architectural history studies (Images:
+Left: The Foundation of Medieval Cities, exhibit (Images: Architectura Virtualis GmbH; Middle:
+Muenster; Right: Image generated with Dall-E)
+
+
+      In education, 3D models of cultural heritage are used in various settings:
+
+• Teaching history and heritage in informal settings like museums, games, or televi-
+  sion broadcasts [49, 50]. The role and effects of media like visualizations in museum
+  education is a key focus of scientific discourse [51–56], as are settings that employ
+  3D models [57–60]. As one example, interactive applications for 4D city exploration
+  [61–63] allow virtual visits and remote spatial learning [64], support guiding visitors
+  through the city [63, 65, 66], provide access to additional information, and enable
+  users to gather a virtual view of temporal change and historic spaces, buildings, and
+  monuments or covered parts [66–72].
+• Teaching heritage in formal education is another highly important scenario. A mul-
+  titude of projects employ 3D models in higher education [73, 74], or evaluate the use
+  of 3D models of cultural heritage in schools [75, 76].
+• Teaching digital competencies via heritage focuses on educating modeling techniques
+  or VR technologies, while the historical object is “only” a training example. This
+  closely relates to the concept of data literacy comprising data collection, exploration,
+  management, analysis, and visualization skills [77]. Data literacy has been defined by
+  various recommendations and standards [78, 79].
+• Edutainment or infotainment incorporates aspects of teaching addressed to a broader
+  audience or linked to commercial offerings. Edutainment and infotainment are becom-
+  ing increasingly important—examples are VR history tours offered as activity in
+  several cities or museums [80] or the discovery mode in the computer game Assassins
+  Creed [81].
+48                                                                                               3 Scholarly Method
+
+
+
+
+Raumbuch to structure and   Digital Information space com-   H-BIM comprising point       The Metaverse/Mirrorworld: The
+visualize photographic-     prising 3D models and sources    clouds and simulation data   Metaverse Museum resides in Second
+orientation in a crypt      of a palace                      for a heritage building      Life and shows digital heritage objects
+
+
+Fig. 3.5 Knowledge structuring applications using 3D models (Images: Left: Muenster; Middle left:
+Bruschke; Middle right: [82]; Right: Wikimedia Commons/Mirabella)
+
+
+3.2.3        Knowledge Organization
+
+In this category, the digital 3D model is intended to structure or systematize all existing
+knowledge about an object/topic (Fig. 3.5). It serves as a multi-layered information carrier
+of the object-related knowledge. 3D models are used in various disciplines to structure
+knowledge and information. (a) Digital inventories as in the spatial book (Raumbuch)
+approach [43, 83] in archaeology, similar approaches to monument documentation [84,
+85], and digital cartography—“deep” or “thick mapping” [86, 87]—focus on the spatial
+organization of digital data. (b) Digital information spaces like Digital Twin in manu-
+facturing [88] extend the inventory by fully digital simulation workflows but focus on
+contemporary data. (c) 4D models, e.g., of cities, add a temporal layer to organize data
+in a 4D inventory [85, 89]. Finally, (d) the Mirrorworld approach describes a universal
+data integration principle, but is still hypothetical [90]. Those concepts relate to numer-
+ous overarching standards and protocols for organizing 3D cultural heritage objects and
+inventories, e.g., BIM [91]/H-BIM [92–97] for architectural models and 3D-GIS [98] and
+CityGML [99] for geo and city-scale models.
+
+
+     Further reading: Knowledge as a theoretical approach The creation and recep-
+     tion of digital 3D reconstructions and the visualization of visual humanities objects
+     are based on complex sociotechnical interaction processes. According to Barceló, we
+     “do not understand past social actions by enumerating [all possibilities]” [7, p. 414],
+     but need a linkage between digital tools and human interpretation. Against this back-
+     ground, our research focuses on aspects of knowledge transformation and transfer,
+     within and between humans as well as between humans and—as data—computers.
+     This is closely related to concepts of intrapersonal knowledge such as reasoning or
+     memorization, as well as to groups of people, their communication, and joint mental
+     modeling [100]. Moreover, concepts like visual reasoning or embodied knowledge
+     [101, 102] focus on an object that contains and represents knowledge, e.g., architec-
+     ture. A well-established and hierarchical classification of information and knowledge
+3.2     Purposes of 3D Modeling                                                                   49
+
+
+
+      is the distinction between signs, data, information, and knowledge (Fig. 3.6). In this
+      definition, knowledge does not only include a perception and cognition of signs, but
+      also aspects of their relevance and mental connection for a recipient [103].
+
+
+
+
+      Fig. 3.6 Knowledge pyramid [103, 104]
+
+          The main intention of both research and education is to gain and transfer knowledge.
+      According to Müller [105], knowledge in the context of visual media relates to: (1) the
+      production of visual media, (2) the visual medium as an object, and (3) the reception
+      of visual media. Digital 3D reconstruction models, as well as visualizations, act as: (1)
+      boundary objects—cross-culturally understandable media [106]—for research and
+      communication in visual humanities and (2) embody substantial knowledge—in
+      terms of psychological and physiological cognition, i.e., of proportions or dimensions
+      of objects—when creating models and visualizations [107]. From a theoretical per-
+      spective, both aspects are closely related to semiotics and model theory. According
+      to semiotics, all visual entities represent a certain meaning [108]. Specific geometric
+      shapes are recognized by humans as letters and words with a certain meaning. Graphi-
+      cal shapes like arrows direct human vision. These effects rely on individual cultural or
+      professional backgrounds—i.e., an archaeologist and architectural engineer focus on
+      different aspects when seeing a depiction of an ancient shrine [109, 110]. In addition,
+      they are influenced by the contexts, or frames, of visual communication media (defini-
+      tion: [111]; research perspectives: [112]). The visual asset of knowledge is embedded
+      or “embodied” in visual media. Lastly, visual perception and reasoning are highly
+      influenced by the properties or Gestalt of visual assets [113]—e.g., color or shape—
+      and related level of abstraction [114]. While semiotics focus on function and Gestalt
+      on signs, model theory (→ Models and Modeling) focuses on the relation between an
+      original and a model as its “abstraction” [115].
+50                                                                               3 Scholarly Method
+
+
+3.3       Epistemic Challenges of 3D Modeling in Humanities
+
+The analog research process in history studies traditionally comprises the investigation
+of a historical object either directly or via historical sources, which researchers inspect
+visually to answer a specific research question (Fig. 3.7). Virtual 3D techniques (Fig. 3.8)
+add the transformation layers of digital modeling and computer graphical visualization—
+potentially losing, altering, or adding information, e.g., by interpretation or selection. This
+increases the complexity of the research process and potentially causes additional bias in
+history research due to nontransparency and fuzziness. The 3D reconstruction of no longer
+extant objects adds another main issue. Digital 3D modeling approaches usually strive to
+show a consistent building and “make it hard to be vague” [116], cited in [42], also [117]
+by requiring exact measurements and 3D shape information of all architectural parts.
+   Consequently, 3D reconstructions force their creators to complete missing information
+that available sources—potentially biased, incomplete, and low-quality—cannot provide,
+e.g., about parts of buildings not shown in images or impossible to read. This approach
+contrasts with the problem-centric approach in history studies, the leading paradigm for
+over 50 years, where the attempt to “show how it actually was” [118] has usually given
+way to basing research on available historical sources [119, 120]. A consequent issue is
+how to overcome this clash between sparse, questionable, partial, or missing historical
+
+
+
+
+          (1)                 (2)                       (3)                        (4)
+
+Fig. 3.7 The analog research process: A historical column (1) is either directly receivable or docu-
+mented with sources (2), which is perceived by the researcher (3) to investigate a specific research
+question (4)
+
+
+
+
+ (1)            (2)              (3)                  (4)                  (5)                (6)
+
+Fig. 3.8 The digital transformation process: a historical column (1) is documented with sources (2)
+on the basis of which a digital model is created (3), which is mapped by a visualization (4), which
+is perceived by the researcher (5) to investigate a specific research question (6)
+3.4 Visual Research Processes and 3D Modeling                                              51
+
+
+information and the demands for all-embracing information to achieve digital 3D recon-
+struction of past architecture. Although this is still unresolved at a conceptual level, there
+are various attempts to document inconsistencies (→ Visualization) and make the results
+scientifically reproducible (→ Documentation).
+
+
+   Further reading: Are 3D reconstructions multi-purpose? Even after the comple-
+   tion of the research work, the purpose of models may change. The advantage of the
+   all-embracing approach is that it merges different research subjects into a unified
+   knowledge space [121].
+
+
+   3D models can represent valuable primary data, especially if they are based on mea-
+surements, scans, or similar survey methods in real spatial situations, which can be useful
+for further research. For example, additional data—such as the furnishings of a structure,
+or movement sequences within the spaces—could be connected to a basic model. Yet, 3D
+reconstruction models cultural heritage are rarely accessible online as open access. The
+reasons for this are manifold:
+
+• 3D model data is due to its size and less-standardized file formats more challenging to
+  share than images and movies.
+• To date, no Current licensing models are still only limited applicable for 3D models
+  (→ Legislation). This results in fears of losing one’s own reputation by releasing data.
+• Fears that one’s own work could be reused in other contexts.
+• Current digital repositories for 3D models are still limited e.g. with regards to
+  interoperability (→ Infrastructure).
+
+The problem of data sharing involves also conceptual issues, authorship could be made
+transparent if multiple authors made extensions to a 3D model.
+
+
+3.4      Visual Research Processes and 3D Modeling
+
+Despite several visual approaches to art and architectural history research, such as style
+criticism as an examination of genetic and morphological connections [122, p. 20],
+iconography and iconology, exploration of the content or symbols behind the visible
+forms [122, 123], or structural analysis [122], practices are highly researcher-specific
+and experience-based. They have not been connected in an overarching methodology
+[124, 125]. Generally, research about the use of images has been utilized in various con-
+texts like engineering, design, architecture, or science. Visual media greatly support the
+52                                                                      3 Scholarly Method
+
+
+research processes of reasoning or forming ideas [102] and enable deep learning [126].
+Such aspects are theorized in several approaches, such as visual decision-making [127]
+or visual learning theories [128–130]. Issues related to the quality of images as visual
+signs include similarities to a depicted object, visual styles, or creation processes [131].
+The perception and visual reasoning of art historians [124, 132, 133] and archaeologists
+[110] have been subject to many empirical studies. Most of the investigations on archi-
+tectural perception do not distinguish between laypersons and experts, and if they do, the
+expert group are architects [134] rather than architectural historians. Images as sources
+and their relevance for 3D reconstruction are a prominent topic in academic literature
+[135, 136], and images are the most prominent type of sources for reconstruction projects
+[137]. Other than in text-related disciplines, digital reconstructions usually involve multi-
+ple authors, intuitive decisions, and expertise [138]. So far, neither an academic culture nor
+mechanisms have been fully established for making digital models and generated images
+scientifically linkable and discussable (→ Documentation). This includes the capacity to
+quote parts or areas in models and images, and for others to modify them. In addition to a
+number of technical requirements, approaches are being developed to document processes
+and their results, as is the capacity of making a model logic transparent [20, 139].
+
+
+3.5        Scientific Values
+
+Requirements for digital 3D models to be regarded as scientific generally correspond to
+generally academic requirements [140]. The model must be accessible to be verifiable.
+It must be possible to see at least some of the data and there must be information about
+its provenance. Likewise, to meet scientific requirements, models must be able to provide
+information about the object, its nature, and its history, as well as about the origin of the
+model itself (→ Documentation). Required information include:
+
+•    Authorship (of each element of the 3D model)
+•    Versioning (of each element of the 3D model)
+•    Level of detail
+•    Online availability
+•    Long-term archiving
+•    Documentation of the reconstruction process
+•    Marking of hypotheses (e.g., visually, textually)
+•    Metadata and paradata
+•    Linking to sources used for the reconstruction.
+3.6    Guidelines and Standards for 3D Reconstruction                                       53
+
+
+Providing access to research results/authorship/publication [141] and the absence of
+value(s) [142] have often been addressed from both an epistemological and an empiri-
+cal perspective, e.g., in the positivism controversy [143]. In addition to the well-known
+technical principles of objectivity, reliability, and validity of scientific work [144, p. 22],
+scientific knowledge must explain, justify, and be comprehensible [145, p. 17].
+   A similar long-running discourse on architecture and art history—especially digital
+images—has considered specific scientific access and value, and a tendency toward frag-
+mentation, small form and prevailing the quantitative [146]. Scientific values implied in
+3D models in humanities include:
+
+•     Authenticity (relationship to the object)
+•     Hypotheses or modeling (relationship to the research thesis)
+•     Plausibility (relationship to the cognitive process)
+•     Recognizability (relationship of the above values to form/design)
+•     Flawlessness (problems of abovementioned values in relation to form/design)
+•     Immersivity (relationship of object to viewer by means of visualization)
+•     Source fidelity (problems of object to viewer due to visualization)
+•     Correspondence with textual explanations (problem awareness through image-text
+      direction).
+
+The methods for examining models can be differentiated according to whether they are
+primarily focused on the sources, the structure, or the appearance of the model.
+
+
+3.6        Guidelines and Standards for 3D Reconstruction
+
+A large number of guidelines and standards cover different aspects of the scientific
+requirements for models. However, categories and prioritization are still necessary. 3D
+reconstructions within research projects and generally with a scientific claim, should be
+based on the principles of good scientific practice and thus be comprehensible and theo-
+retically reproducible. A binding basis for this is provided by the DFG guidelines [147].
+The following key principles of the DFG guidelines are particularly relevant for digital
+reconstruction, as Marc Grellert and Mieke Pfarr-Harfst noted in 2019: “From the point of
+view of the current challenges in the field of knowledge-based digital reconstruction, the
+following recommendations of the DFG are significant in terms of good scientific practice:
+First, to work lege artis; second, to consistently self-doubt all results; third, to document
+results (Recommendation 1); fourth, scientific publications are the primary medium of
+54                                                                          3 Scholarly Method
+
+
+accountability of scientists for their work (Recommendation 12); and fifth, to secure and
+preserve primary data (Recommendation 7)” [148, p. 275].
+   Specifically geared to the particularities of 3D projects in archaeology is the AHDS
+Guides to Good Practice for CAD [149], which can be applied to other disciplines. The
+Reconstruction Argument Method conceived by Mieke Pfarr-Harfst and Marc Grellert
+aims “to juxtapose images of reconstruction with sources and link them to a textual argu-
+ment. The core is a triad of reconstruction—argument—source, which can be completed
+by mapping variants with the attributes ‘assured’, ‘probable’, ‘possible’, and ‘hypotheti-
+cal’” [148, p. 264]. Using this method, the creation process and visualization result of a
+3D reconstruction is documented in all its individual steps, substantiated (with sources,
+arguments, theses), and made comprehensible.
+
+
+
+     Guidelines and charters for 3D reconstruction
+     • The UNESCO Charter on Digital Heritage [150] provides a framework for
+       practitioners in 3D reconstruction to create scientifically sound 3D models. It is
+       up to the people involved in the reconstruction process to make use of them and
+       to share their work with the scientific community and beyond.
+     • The AHDS Guides to Good Practice for CAD [149] provides comprehen-
+       sive information and practical advice on data creation (suitable CAD data
+       formats, terminology conventions), documenting the 3D reconstruction process,
+       and archiving of the resulting data.
+     • The Community Standards for 3D Data Preservation (CS3DP) initiative was
+       established to examine 3D data documentation, dissemination, and preservation
+       practice. On that base, it developed recommendations for standardization and 3D
+       data preservation [150].
+     • The London Charter, initiated in 2006 [151, 152], “defines principles for the
+       use of computer-based visualization methods in relation to intellectual integrity,
+       reliability, documentation, sustainability and access.”
+     • Principles of Seville: As stated in the London Charter, some areas of studies
+       may refine the principles according to their specific needs. This was the case
+       for archaeology, publishing “The Principles of Seville. International Principles
+       of Virtual Archaeology” [153] in 2011 with the latest version in 2017 [154].
+       They encompass eight principles: interdisciplinarity, purpose, complementarity,
+       authenticity, historical rigor, efficiency, scientific transparency, training, and eval-
+       uation. Unlike the London Charter, they include Principle 4: Authenticity for
+       archeological remains, Principle 1: Interdisciplinarity, and Principle 7: Scientific
+       Transparency.
+3.6     Guidelines and Standards for 3D Reconstruction                                        55
+
+
+Kuroczyński sees the use of a virtual research environment (VRE) as a fundamental
+method for ensuring the scientific nature of 3D reconstructions: “The basic prerequisite is
+that open-source applications are used and the requirements of linked data technologies
+are taken into account so that the digital research results can be networked and made
+available on a web-based basis (open science). In addition, the 3D datasets must be inte-
+grated and visualized within the VRE as part of the research data” [155, p. 176]. Related
+to this, it has turned out to be difficult because there are so many standards for dealing
+with historical contents.
+   The scientific nature of 3D models also depends on whether the data is machine-
+readable and accessible. A standard here is the 5-Star Model for Open Data by Tim
+Berners-Lee [156].
+   For traceability and sustainable documentation (→ Documentation), a written publi-
+cation in which the creation process of a 3D reconstruction is documented is still the
+common way to make the scientific objective and strategy behind the 3D model, as
+well as the argumentation and the conclusions resulting from the work with the model,
+comprehensible and received in the long term.
+
+
+      Summary This chapter offers an overview of the contexts in which 3D reconstructions
+      are created, challenges that may arise in the reconstruction process, and how to deal
+      with them. It shows the reader how to ensure a scientifically sound 3D reconstruction
+      using specific charters, standards, and guidelines.
+      Standards and guidelines
+
+      • Denard, H. (2009) The London Charter. For the Computer-Based Visualization of
+        Cultural Heritage, Version 2.1. [152].
+      • Deutsche Forschungsgemeinschaft (2016). DFG-Praxisregeln “Digitalisierung”
+        [157].
+      • Deutsche Forschungsgemeinschaft (2013). Grundlagen guter wissenschaftlicher
+        Praxis [147].
+      • Principles of Seville. International Principles of Virtual Archaeology. Ratified by
+        the 19th ICOMOS General Assembly in New Delhi, December 2017 (http://sevill
+        eprinciples.com, accessed on 1.2.2023).
+
+      Projects
+
+      • 4D-Browser: Open online research tool to search, find, and analyze historical
+        photographs in a spatiotemporal way within a 4D model of a city, developed by
+56                                                                           3 Scholarly Method
+
+
+
+       the junior research group HistStadt4D (UrbanHistory4D) in 2016–2021, in fur-
+       ther development at the Friedrich-Schiller-Universität and Technische Universität
+       Dresden [158]. https://4dbrowser.urbanhistory4d.org, accessed on 1.2.2023.
+     • Bamberg 4D: The project “4D city model of Bamberg around 1300” is developing
+       a scientifically sound reconstruction of the medieval cathedral city from around
+       1300. https://www.uni-bamberg.de/bauforschung/forschung/projekte/digitales-sta
+       dtmodell/4d/, accessed on 1.2.2023.
+     • Utopian Theatres: 3D reconstruction of three theaters planned in the 1920s and
+       1930s, which were never built, by Rachel Hann 2006–2009 with explicit reference
+       to the principles of the London Charter [159]. http://www.utopiantheatres.co.uk/,
+       accessed on 1.2.2023.
+
+     Key literature
+
+     • Beacham, R.; Denard, H.; Niccolucci, F. An Introduction to the London Charter.
+       In Papers from the Joint Event CIPA/VAST/EG/EuroMed Event, Ioannides, M.,
+       Arnold, D., Niccolucci, F., Mania, K., Eds.; 2006; pp. 263–269 [151].
+     • Bentkowska-Kafel, A., H. Denard and D. Baker (2012). Paradata and Transparency
+       in Virtual Heritage. Burlington, Ashgate [160].
+     • Kuroczyński, P.; Pfarr-Harfst, M.; Münster, S., (Eds.) Der Modelle Tugend 2.0: Dig-
+       itale 3D-Rekonstruktion als virtueller Raum der architekturhistorischen Forschung.
+       Heidelberg University Press: Heidelberg, 2019 [161].
+     • Münster, S. Digital 3D Technologies for Humanities Research and Education: An
+       Overview. Applied Sciences 2022, 12, 2426 [162].
+
+
+
+
+References
+
+ 1. Drucker J (2013) Is there a “digital” art history? Vis Resour 29(1–2):5–13
+ 2. Kohle H (2013) Digitale Bildwissenschaft
+ 3. Heusinger L (1989) Applications of computers in the history of art. In: Hamber A et al (eds)
+    Computers and the history of art. Mansell Publications, London and New York, pp 1–22
+ 4. Evans TL et al (2006) Digital archaeology. Bridging method and theory
+ 5. Frischer B et al (2008) Beyond illustration. 2D and 3D digital technologies as tools for discov-
+    ery in archaeology. BAR international series 1805
+ 6. Kansa EC et al (2011) ARCHAEOLOGY 2.0. New approaches to communication & collabo-
+    ration
+ 7. Barceló JA (2010) Towards a true automatic archaeology: integrating technique and theory
+ 8. Huvila I (2014) Archives, libraries and museums in the contemporary society: perspectives of
+    the professionals. In: iConference 2014 proceedings. Berlin, pp 45–64
+References                                                                                        57
+
+
+  9. Romanelli M (2015) Museums. New technologies for change. In: Schiuma G (ed) Proceedings
+     of IFKAD 2015. International forum on knowledge asset dynamics, Bari, pp 1745–1755
+ 10. Lankoski P et al (2015) Game research methods. An overview
+ 11. Sahle P (2013) Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedin-
+     gungen des Medienwandels. Band 2: Befunde, Theorie und Methodik, vol 9. Schriften des
+     Instituts für Dokumentologie und Editorik
+ 12. Sahle P (2013) Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedin-
+     gungen des Medienwandels. Band 3: Textbegriffe und Recodierung, vol 7. Schriften des
+     Instituts für Dokumentologie und Editorik
+ 13. Sahle P (2013) Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedin-
+     gungen des Medienwandels. Band 1: Das typografische Erbe, vol 9. Schriften des Instituts für
+     Dokumentologie und Editorik
+ 14. Noble I et al (2014) Visual research/an introduction to research methodologies in graphic
+     design. 2nd edn., reprint. edn
+ 15. Georgopoulos A (2018) CIPA’s perspectives on cultural heritage. In: Münster S et al (eds) Dig-
+     ital research and education in architectural heritage. 5th conference, DECH 2017, and first
+     workshop, UHDL 2017, Dresden, Germany, March 30–31, 2017, Revised selected papers.
+     Springer, Cham, pp 215–245
+ 16. Frischer B, Fillwalk J (2012) The digital Hadrian’s Villa project. Using virtual worlds to con-
+     trol suspected solar alignments. In: Guidi G, Addison AC (eds) Proceedings of the VSMM
+     2012. Virtual systems in the information society, 2–5 September 2012, Milano, pp 49–55
+ 17. Maim J et al (2007) Populating ancient Pompeii with crowds of virtual Romans. In: Arnold
+     D et al (eds) 8th international symposium on virtual reality, archaeology and cultural heritage
+     (VAST 2007). Eurographics Association, Brighton, pp 109–116
+ 18. Thalmann D et al (2014) Geometric issues in reconstruction of virtual heritage involving large
+     populations. In: Ioannides M et al (eds) 3D research challenges in cultural heritage a roadmap
+     in digital heritage preservation. Springer Berlin, Heidelberg
+ 19. Pfarr-Harfst M (2013) Virtual scientific models. In: Ng K et al (eds) Electronic visualisation
+     and the arts. London, pp 157–163
+ 20. Günther H (2001) Kritische Computer-Visualisierung in der kunsthistorischen Lehre. In:
+     Frings M (ed) Der Modelle Tugend. CAD und die neuen Räume der Kunstgeschichte. Weimar,
+     pp 111–122
+ 21. Ling Z et al (2007) Rule-based 3D modeling for Chinese traditional architecture. In:
+     Remondino F et al (eds) 3D-ARCH 2007. Zürich
+ 22. Carrozzino M et al (2014) Virtual reconstruction of paintings as a tool for research and learn-
+     ing. J Cult Herit 15(3):308–312
+ 23. Fontana R et al (2002) Three-dimensional modelling of statues: the Minerva of Arezzo. J Cult
+     Herit 3(4):325–331
+ 24. Arbace L et al (2013) Innovative uses of 3D digital technologies to assist the restoration of a
+     fragmented terracotta statue. J Cult Herit 14(4):332–345
+ 25. Erdmann L et al (2016) Lukas aus der Asche - Auferstandenes Kulturerbe aus dem 3D-Labor
+ 26. Frommel CL et al (2000) Le facciate di San Carlino. In: Frommel CL et al (eds) Francesco
+     Borromini. Electa, Milan, pp 45–67
+ 27. Camerlenghi N (2018) St paul’s outside the walls. A Roman Basilica, from antiquity to the
+     modern era
+ 28. Saft S et al (2012) Computational approach towards structural investigations for the restoration
+     of historical keyboard instruments. J Cult Herit 13(3):165–174
+58                                                                             3 Scholarly Method
+
+
+29. Wiemer W (2005) Harmonie und Maß – Ergebnisse der Proportionsanalysen der Abteikirche
+    Ebrach. In: Archaeology in architecture: studies in honor of Cecli L. Striker. Mainz, pp 199–
+    216
+30. Masini N et al (2004) An algorithm for computing the original units of measure of medieval
+    architecture. J Cult Herit 5(1):7–15
+31. Koller D et al (2009) Research challenges for digital archives of 3D cultural heritage models.
+    J Comput Cult Herit 2(3):1–17
+32. Mele E et al (2003) Modelling and analysis of a basilica under earthquake loading. J Cult Herit
+    4(4):355–367
+33. Wagener O et al (2016) Medieval castles and their landscape. A case study towards historic
+    reconstruction. In: Hoppe S et al (eds) Virtual palaces, part II. Lost palaces and their afterlife.
+    Virtual reconstruction between science and the media, pp 170–200
+34. Penrose LS et al (1958) Impossible objects: a special type of visual illusion. Br J Psychol
+    49(1):31–33
+35. Barbutev A (2022) 3D Digitization service for Heritage-in-risk
+36. Neumüller M et al (2014) 3D printing for cultural heritage: preservation, accessibility, research
+    and education. In: 3D research challenges in cultural heritage. Springer, pp 119–134
+37. Kolokoussis P et al (2021) 3d and hyperspectral data integration for assessing material degra-
+    dation in medieval masonry heritage buildings. Int Arch Photogram Remote Sens Spat Inf Sci
+    43:583–590
+38. Gomes L et al (2014) 3D reconstruction methods for digital preservation of cultural heritage:
+    a survey. Pattern Recogn Lett 50:3–14
+39. De Luca L (2020) Towards the semantic-aware 3D digitisation of architectural heritage: the
+    “Notre-Dame de Paris” digital twin project. In: Proceedings of the 2nd workshop on structuring
+    and understanding of multimedia heritage contents, pp 3–4
+40. Grün A et al (2004) Photogrammetric reconstruction of the great buddha of Bamiyan,
+    Afghanistan. Photogram Rec 19:177–199
+41. Wahbeh W et al (2016) Combining public domain and professional panoramic imagery for
+    the accurate and dense 3D reconstruction of the destroyed bel temple in Palmyra. ISPRS Ann
+    Photogram Remote Sens Spat Inf Sci 3:81
+42. Sachse P (2002) Idea materialis. Entwurfsdenken und Darstellungshandeln. über die allmäh-
+    liche Verfertigung der Gedanken beim Skizzieren und Modellieren
+43. Wulf U et al (2006) Investigating buildings three-dimensionally. The “Domus Severiana” on
+    the Palatine. In: Haselberger L et al (eds) Imaging ancient Rome: documentation, visualization,
+    imagination: Proceedings of the 3rd Williams symposium on classical architecture, Rome, 20–
+    23 May 2004. J Roman Archaeol Portsmouth, pp 221–233
+44. Lindley J (2020) Preventing art forgery and fraud through emerging technology: application of
+    a regulatory pluralism model. In: Research handbook on art and law. Edward Elgar Publishing
+45. Sidorov O et al (2019) Craquelure as a graph: application of image processing and graph neural
+    networks to the description of fracture patterns. In: Proceedings of the IEEE/CVF international
+    conference on computer vision workshops
+46. Guerra MG et al (2020) Standard quantification and measurement of damages through fea-
+    tures characterization of surface imperfections on 3D models: an application on architectural
+    heritages. Procedia CIRP 88:515–520
+47. Sitnik R et al (2019) Monitoring surface degradation process by 3D structured light scan-
+    ning. In: Optics for arts, architecture, and archaeology VII. International Society for Optics
+    and Photonics, p 1105811
+References                                                                                         59
+
+
+ 48. Grilli E et al (2018) Supervised segmentation of 3D cultural heritage. In: 2018 3rd digital
+     heritage international congress (DigitalHERITAGE) held jointly with 2018 24th international
+     conference on virtual systems & multimedia (VSMM 2018), 26–30 October 2018, pp 1–8
+ 49. Münster S (2011) Militärgeschichte aus der digitalen Retorte - Computergenerierte 3D-
+     Visualisierung als Filmtechnik. In: Kästner A et al (eds) Mehr als Krieg und Leidenschaft.
+     Die filmische Darstellung von Militär und Gesellschaft der Frühen Neuzeit (Militär und
+     Gesellschaft in der frühen Neuzeit, 2011/2). Potsdam, pp 457–486
+ 50. Ott M et al (2011) Towards a new era for cultural heritage education: discussing the role of
+     ICT. Comput Hum Behav 27(4):1365–1371
+ 51. Flaten A (2008) Ashes2Art: a pedagogical case study in digital humanities. In: CAA
+ 52. Sanders DH (2004) Virtual archaeology: yesterday, today, and tomorrow. In: Niccolucci F et al
+     (eds). CAA2004. Prato 13–17 April 2004, p n.a.
+ 53. Fisher CR et al (2009) Integrating new technologies into established systems: a case study from
+     Roman Silchester. Computer applications to archaeology 2009 Williamsburg, Virginia, USA,
+     22–26 March 2009
+ 54. Doukianou S et al (2020) Beyond virtual museums: adopting serious games and extended real-
+     ity (XR) for user-centred cultural experiences. In: Liarokapis F et al (eds) Visual computing for
+     cultural heritage. Springer Series on Cultural Computing. Springer International Publishing,
+     Cham, pp 283–299
+ 55. Daniela L (2020) Virtual Museums as learning agents. Sustainability 12(7):2698
+ 56. Haynes R (2018) Eye of the Veholder: AR extending and blending of museum objects and
+     virtual collections. In: Augmented reality and virtual reality. Progress in IS, pp 79–91
+ 57. Ferrara V et al (2013) Reusing cultural heritage digital resources in teaching. In: Digital
+     heritage international congress (DigitalHeritage), 28 October 2013–1 November 2013, pp
+     409–412
+ 58. Gicquel PY et al (2013) Design and use of CALM: an ubiquitous environment for mobile
+     learning during museum visit. In: Digital heritage international congress (DigitalHeritage), 28
+     October 2013–1 November 2013, pp 645–652
+ 59. Motejlek J et al (2019) A taxonomy for virtual and augmented reality in education
+ 60. ViMM WG 2.2 (2017) Meaningful content connected to the real world (report)
+ 61. Kim K et al (2009) Augmented reality tour system for immersive experience of cultural her-
+     itage. Paper presented at the Proceedings of the 8th international conference on virtual reality
+     continuum and its applications in industry - VRCAI ‘09, Yokohama, Japan
+ 62. Ioannidi A et al (2017) Flaneur: augmented exploration of the architectural urbanscape. In:
+     2017 IEEE symposium on computers and communications (ISCC), 3–6 July 2017, pp 529–533
+ 63. Ioannidis C et al (2020) A multi-purpose cultural heritage data platform for 4d visualization
+     and interactive information services. Int Arch Photogram Remote Sens Spat Inf Sci XLIII-B4–
+     2020:583–590
+ 64. Mortara M et al (2018) 3D Virtual environments as effective learning contexts for cultural
+     heritage. Ital J Educ Technol 26(2):5–21
+ 65. De Fino M et al (2020) Virtual tours and informational models for improving territorial attrac-
+     tiveness and the smart management of architectural heritage: the 3d-Imp-Act project. Int Arch
+     Photogram Remote Sens Spat Inf Sci XLIV-M-1–2020:473–480
+ 66. Chatzidimitris T et al (2013) Mobile augmented reality edutainment applications for cultural
+     institutions. In: Proceedings of the 4th international conference on information, intelligence,
+     systems and applications, Mikrolimano, Greece, 10–12 July 2013
+ 67. Vicent N et al (2015) Arqueología y tecnologías digitales en Educación Patrimonial. Educatio
+     Siglo XXI 33(1):83–102
+60                                                                           3 Scholarly Method
+
+
+68. Petrucco C et al (2016) Teaching our cultural heritage using mobile augmented reality. J E-
+    Learn Knowl Soc 12:115–128
+69. Luna U et al (2019) Augmented reality in heritage apps: current trends in Europe. Appl Sci-
+    Basel 9(13):2756
+70. Bekele MK et al (2018) A survey of augmented, virtual, and mixed reality for cultural heritage.
+    ACM J Comput Cult Herit 11(2):Article 7
+71. Torres M et al (2011) Picture the past from the present. In: 3rd international conference on
+    internet multimedia computing and service, Chengdu, China. ACM, pp 51–54
+72. Chang YL et al (2015) Apply an augmented reality in a mobile guidance to increase sense of
+    place for heritage places. Educ Technol Soc 18(2):166–178
+73. Köhler T et al (2015) Smart communities in virtual reality. A comparison of design approaches
+    for academic education (reprint). In: Köhler T et al (eds) Virtual enterprises, communities &
+    social networks. TUDpress, Dresden, pp 25–38
+74. Gerth B et al (2005) 3D modeling for non-expert users with the castle construction kit v0.5. In:
+    Mudge M et al (eds) 6th international symposium on virtual reality, archaeology and cultural
+    heritage (VAST 2005). Eurographics Association, Pisa, pp 49–57
+75. Di Blas N et al (2005) 3D worlds and cultural heritage: realism vs virtual presence
+76. Di Blas N et al (2009) Digital storytelling as a whole-class learning activity: lessons from
+    a three-years project. In: Iurgel IA et al (eds) Interactive storytelling, Berlin, Heidelberg.
+    Springer Berlin Heidelberg, pp 14–25
+77. Schüller K et al (2019) Future Skills: Ein Framework für Data Literacy. HFD position paper 47
+78. Ridsdale C et al (2015) Strategies and best practices for data literacy education knowledge
+    synthesis report
+79. Arbeitsgruppe Curriculum 4.0 (2018) Curriculumentwicklung und Kompetenzen für das dig-
+    itale Zeitalter. Thesen und Empfehlungen der AG Curriculum 4.0 des Hochschulforum Digi-
+    talisierung. HFD position paper 39
+80. Bekerman R (2017) The TIMERIDE VR experience
+81. McMillan M et al (2019) Assassin’s creed, an analysis. In: Lee N (ed) Encyclopedia of com-
+    puter graphics and games. Springer International Publishing, Cham, pp 1–11
+82. Yang X et al (2019) HBIM modeling from the surface mesh and its extended capability of
+    knowledge representation. ISPRS Int J Geo Inf 8(7):301
+83. Heine K et al (2006) WWW-based building information system for “Domus Severiana” palace
+    at Palatine in Rome by open source software
+84. Messaoudi T et al (2018) An ontological model for the reality- based 3D annotation of heritage
+    building conservation state. J Cult Herit 29:100–112
+85. Breitling S et al (2018) Digitale Kartierungen in der Bauforschung und Baudenkmalpflege. In:
+    Breitling S et al (eds) Bauforschung in der Denkmalpflege. Qualitätsstandards und Wissensdis-
+    tribution, vol 5. Forschungen des Instituts für Archäologische Wissenschaften, Denkmalwis-
+    senschaften und Kunstgeschichte, Bamberg, pp 163–180
+86. Camerlenghi N et al (2018) Learning from Rome: making sense of complex build environ-
+    ments in the digital age. JSAH (J Soc Archit Hist) 77:256–266
+87. Presner T et al (2014) HyperCities: thick mapping in the digital humanities
+88. Glaessgen E et al (2012) The digital twin paradigm for future NASA and U.S. air force vehi-
+    cles. In: 53rd AIAA/ASME/ASCE/AHS/ASC structures, structural dynamics and materials
+    conference
+89. Jaillot V (2020) 3D, temporal and documented cities: formalization, visualization and naviga-
+    tion
+90. Kaplan F et al (2020) The advent of the 4D mirrorworld. Urban Plan 5(2):307–310
+References                                                                                      61
+
+
+ 91. ISO BIM – The present EN ISO 19650 standards provide the construction industry with an
+     approach to manage and exchange information on projects. https://group.thinkproject.com/de/
+     ressourcen/bim-standards-und-praktiken/. Accessed 2 Feb 2022
+ 92. Diara F et al (2019) Evaluation of an integrative approach between HBIM and architecture
+     history, vol XLII-2/W11
+ 93. Barazzetti L et al (2015) HBIM and augmented information: towards a wider user community
+     of image and range-based reconstructions. Int Arch Photogram Remote Sens Spat Inf Sci XL-
+     5/W7:35–42
+ 94. Jouan P et al (2019) Digital twin: a Hbim-based methodology to support preventive conser-
+     vation of historic assets through heritage significance awareness. Int Arch Photogram Remote
+     Sens Spat Inf Sci XLII-2/W15:609–615
+ 95. Dore C et al (2019) Historic building information modelling (HBIM). In: Architecture and
+     design, pp 49–92
+ 96. Murphy M (2017) Historic building information modelling (HBIM). Innovation in intelligent
+     management of heritage buildings (i2MHB) - TD cost action TD1406
+ 97. Schulz O et al (2021) Image-documentation of existing buildings using a server-based BIM
+     collaboration format workflow.
+ 98. Dell’Unto N et al (2022) Archaeological 3D GIS
+ 99. OGC (2012) OGC city geography markup language (CityGML) encoding standard, version
+     2.0.0
+100. Cannon-Bowers JA et al (1993) Shared mental models in expert team decision making. In: N.
+     J. Castellan J (ed) Individual and group decision making: current issues. Lawrence Erlbaum
+     Associates, Inc., Hillsdale, pp 221–246
+101. Arnheim R (1969) Visual thinking
+102. Gooding DC (2004) Cognition, construction and culture. Visual theories in the sciences. J
+     Cogn Cult 4:551–593
+103. Hasler Roumois U (2010) Studienbuch Wissensmanagement. Grundlagen der Wissensarbeit in
+     Wirtschafts-, Non-Profit- und Public-Organisationen. vol 2954
+104. Frické M (2018) Knowledge pyramid
+105. Müller MG et al (2015) Grundlagen der visuellen Kommunikation. Theorieansätze und Anal-
+     ysemethoden
+106. Star SL et al (1989) Institutional ecology, “translations” and boundary objects. Amateurs
+     and professionals in Berkeley”s museum of vertebrate zoology 1907–1939. Soc Stud Sci
+     19(4):387–420
+107. Wilson RA et al (2015) Embodied cognition. In: Stanford encyclopedia of philosophy. Stan-
+     ford
+108. Morris CW (1938) Foundations of the theory of signs
+109. Simon HA (1990) Invariants of human behavior. Annu Rev Psychol 41:1–19
+110. Goodwin C (1994) Professional vision. Am Anthropol 96(3):606–633
+111. Scheufele DA (1999) Framing as a theory of media effects. J Commun 49(1):103–122
+112. Geise S et al (2014) What is visual framing research? a systematic overview of an emerg-
+     ing field of (visual) communication research. In: Paper presented at the annual meeting of the
+     international communication association 64th annual conference, Seattle
+113. Gerrig RJ et al (2010) Psychology and life, 19th edn.
+114. Tversky B (2005) Visuospatial reasoning. In: Holyoak K et al (eds) Handbook of reasoning.
+     Cambridge University Press, Cambridge, pp 209–249
+115. Mahr B (2004) Das Wissen im Modell
+62                                                                               3 Scholarly Method
+
+
+116. Fish JC (1994) Why do designers sketch? Visual cognition and computer assisted visualisa-
+     tion. In: Trappl R (ed) Proceedings of the 12th European meeting on cybernetics and systems
+     research. World Scientific, pp 499–506
+117. Vogel G-H (2019) Die Sichtbarmachung des Unsichtbaren: Ästhetische Konventionen in
+     Rekonstruktionsmodellen. In: Kuroczyński P et al (eds) Der Modelle Tugend 2.0: Digitale
+     3D-Rekonstruktion als virtueller Raum der architekturhistorischen Forschung. Heidelberg, pp
+     98–122
+118. von Ranke L (1824) Geschichten der romanischen und germanischen Völker von 1494 bis
+     1514. Zur Kritik neuerer Geschichtsschreiber.
+119. Wengenroth U (1998) Was ist Technikgeschichte?
+120. Raphael L (2012) Geschichtswissenschaften im Zeitalter der Extreme: Theorien, Methoden,
+     Tendenzen von 1900 bis zur Gegenwart
+121. Schelbert G (2019) Ein Modell ist ein Modell ist ein Modell – Brückenschläge in der Digi-
+     talität. In: Kuroczyński P et al (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als
+     virtueller Raum der architekturhistorischen Forschung, Heidelberg
+122. Seippel R-P (1989) Architektur und Interpretation. Methoden und Ansätze der Kunst-
+     geschichte in ihrer Bedeutung für die Architekturinterpretation
+123. Panofsky E (1939) Studies in iconology. Humanistic themes in the art of the renaissance
+124. Brieber D et al (2014) Art in time and space: context modulates the relation between art
+     experience and viewing time. PLoS ONE 9(6):e99019
+125. Münster S et al (2018) Image libraries and their scholarly use in the field of art and architectural
+     history. Int J Digit Libr 19(4):367–383
+126. Mintzberg H et al (2010) Decision making: it’s not what you think. In: Nutt PC et al (eds)
+     Handbook of decision making. Wiley-Blackwell, Oxford, pp 73–82
+127. Nutt PC et al (2010) Handbook of decision making
+128. Gagné RM et al (1988) Principles of instructional design, 3rd edn.
+129. Pahl J-P et al (1998) Didaktische Vereinfachung. Eine kritische Reprise des Werkes von Diet-
+     rich Hering
+130. Schwan S et al (2006) VirtuelleRealität und E-Learning. Accessed 10 Jan 2014
+131. Bresciani S (2013) Understanding the visual in team communication. A collaborative dimen-
+     sions approach. In: International communication association (ICA) annual meeting, 17–21
+     June 2013, London
+132. Bullot NJ et al (2013) The artful mind meets art history: toward a psycho-historical framework
+     for the science of art appreciation. Behav Brain Sci 36(2):123–137
+133. Kapoula Z et al (2009) Effect of title on eye-movement exploration of cubist paintings by
+     Fernand Leger. Perception 38(4):479–491
+134. Stamps AE et al (1997) Design review and public preferences: effects of geographical location,
+     public consensus, sensation seeking, and architectural styles. J Environ Psychol 17(1):11–32
+135. Hermon S (2008) Reasoning in 3D. A critical appraisal of the role of 3D modelling and vir-
+     tual reconstructions in archaeology. In: Frischer B (ed) Beyond illustration: 2D and 3D digital
+     technologies as tools for discovery in archaeology, vol 1805. Tempus Reparatum, Oxford, pp
+     36–45
+136. Remondino F et al (2009) 3D virtual reconstruction and visualization of complex architectures
+     - the 3D-ARCH project. In: Remondino F et al (eds) 3D-ARCH 2009. Zürich
+137. Münster S (2016) Interdisziplinäre Kooperation bei der Erstellung geschichtswis-
+     senschaftlicher 3D-Rekonstruktionen
+138. Münster S et al (2014) Beyond software. Design implications for virtual libraries and plat-
+     forms for cultural heritage from practical findings. In: Ioannides M et al (eds) Digital heritage.
+     Progress in cultural heritage: documentation, preservation, and protection, vol LNCS 8740.
+     Springer International Publishing Switzerland, Cham, pp 131–145
+References                                                                                         63
+
+
+139. Hoppe S (2001) Die Fußnoten des Modells. In: Frings M (ed) Der Modelle Tugend. CAD und
+     die neuen Räume der Kunstgeschichte. Weimar, pp 87–102
+140. Frommel S, Schlimme H (eds) (2020) Editorial. Virtual models and scientific value. In:
+     SCIRES-IT SCIentific RESearch and Information Technology 10(1):1–4. http://www.sciresit.
+     it/issue/view/830
+141. Keul H-K (1999) Der Wert der Wertfreiheit. Zu M. Webers theoretischem Postulat und seiner
+     universal-pragmatischen Transformation. In: Znepolski I (ed) Max Weber - Relectures l Ouest,
+     relectures l st. Actes du colloque de Sofia
+142. Weber M (1988) Die ‘Objektivität’ sozialwissenschaftlicher und sozialpolitischer Erkenntnis.
+     In: Winckelmann J (ed) Gesammelte Aufsätze zur Wissenschaftslehre. Tübingen
+143. Ritsert J (2010) Der Positivismusstreit. In: Kneer G et al (eds) Soziologische Kontroversen.
+     Eine andere Geschichte von der Wissenschaft vom Sozialen. Suhrkamp, Berlin, pp 102–130
+144. Peterßen WH (1987) Wissenschaftliches Arbeiten. nicht leicht, aber erlernbar
+145. Meinsen S (2003) Konstruktivistisches Wissensmanagement
+146. Schelbert G (2015) Kohle, Hubertus: Digitale Bildwissenschaft, Glückstadt: Verlag Werner
+     Hülsbusch 2013 (Rezension). ArtHist
+147. Deutsche Forschungsgemeinschaft (2013) Grundlagen guter wissenschaftlicher Praxis
+148. Grellert M et al (2019) Die Rekonstruktion – Argument – Methode: Vorschlag für einen
+     minimalen Dokumentationsstandard im Kontext digitaler Rekonstruktionen. In: Kuroczyński
+     P et al (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller Raum der
+     architekturhistorischen Forschung. Heidelberg
+149. Eiteljorg H (2003) CAD: a guide to good practice (Ahds guides to good practice)
+150. UNESCO (2003) Charter on the preservation of digital heritage
+151. Beacham R et al (2006) An introduction to the London charter. In: Ioannides M et al (eds)
+     Papers from the joint event CIPA/VAST/EG/EuroMed event, pp 263–269
+152. Denard H (2009) The London charter. For the computer-based visualisation of cultural her-
+     itage, version 2.1
+153. León AG (2011) The implementation of an international charter in the field of Virtual Archae-
+     ology. In: XXIII CIPA Symposium - Proceedings
+154. Principles of Seville. International principles of virtual archaeology. Ratified by the 19th ICO-
+     MOS General Assempbly in New Delhi DHSC
+155. Kuroczyński P (2018) Neuer Forschungsraum für die Kunstgeschichte: Virtuelle Forschung-
+     sumgebungen für digitale 3D-Rekonstruktionen. In: Kuroczyński P et al (eds) Computing Art
+     Reader: Einführung in die digitale Kunstgeschichte. Computing in art and architecture, 1 edn.,
+     Heidelberg, pp 160–181
+156. Berners-Lee T (2012) 5 Star Open Data. https://5stardata.info/de/. Accessed 20 Oct 2023
+157. DFG (2016) DFG-Praxisregeln “Digitalisierung”
+158. Münster S et al (2021) Where are we now on the way to 4D urban history research and
+     discovery? ISPRS Ann
+159. Hann RC-bDvftrtauouutaftsas, Diss. Leeds 2010, o. O. 2010, online zuganglich über. http://
+     www.utopiantheatres.co.uk/
+160. Bentkowska-Kafel A et al (2012) Paradata and transparency in virtual heritage
+161. Kuroczyński P et al (eds) (2019) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als
+     virtueller Raum der architekturhistorischen Forschung. Heidelberg University Press, Heidel-
+     berg
+162. Münster S (2022) Digital 3D technologies for humanities research and education: an overview.
+     Appl Sci 12(5):2426
+163. Münster S (2023) Advancements in 3D heritage data aggregation and enrichment in Europe:
+     implications for designing the Jena Experimental Repository for the DFG 3D viewer. Appl Sci
+     13:9781
+64                                                                          3 Scholarly Method
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

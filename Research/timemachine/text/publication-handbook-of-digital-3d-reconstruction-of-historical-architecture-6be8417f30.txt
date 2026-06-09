@@ -1,0 +1,810 @@
+3D Modeling
+                                                                                              6
+
+
+
+   Abstract
+
+   The chapter introduces the concepts of the raw model and informative model; it
+   clarifies the concept of semantic segmentation and defines the digital representation
+   methods and 3D modeling techniques; finally, it lists the different configuration spaces
+   of a 3D model in different software packages.
+
+
+
+
+   Guiding questions
+   • What are the methods of digital representation?
+   • What are the 3D modeling techniques?
+   • What are the differences between representation methods and 3D modeling tech-
+     niques?
+
+
+   Basic terms
+   • Raw Model (acquisition/digitization)
+   • Informative Model (information enriched reconstruction)
+   • Discrete and Continuous modeling
+   • Semantic segmentation
+   • Mesh
+   • Non-Uniform Rational B-Spline (NURBS)
+   • Tessellation (discretization)
+   • Level of Detail (LoD)
+
+
+
+© The Author(s) 2024                                                                   107
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_6
+108                                                                        6 3D Modeling
+
+
+6.1      The Raw Model and the Informative Model
+
+Retro-digitization is the process of conversion into the digital format of a work designed
+and published in an earlier era. There are several approaches for converting a real object
+into digital form; sometimes, the raw data captured from reality has to be interpreted and
+manipulated to produce a critical digital version of the object. At other times the object
+is no longer extant or was never realized and the 3D information must be extracted from
+documental sources, critically analyzed, and used as a starting point to reconstruct the
+3D model [1].
+   According to this premise, two main models within retro-digitization can be defined
+in this context: the digitization, or Raw Model, and the reconstruction, or Informative
+Model. This classification is proposed for the first time in this book, and it is aimed to
+emphasize their different natures. The Raw Model (RM) is the unprocessed digital survey
+of real sources (e.g., the point cloud/textured mesh resultant from the laser scanning of
+the remains of a Roman theatre). The Informative Model (IM) is the critical rationalized
+hypothetical virtual reconstruction.
+   The RM is based on data that can now be obtained almost automatically using the
+tested digital methodologies of architectural survey. Raw means unprocessed, thus this
+model is based on the captured original data and it is not equivalent to the ultimate result
+of an architectural survey which is usually interpreted and processed by the operator (e.g.,
+the points that are coplanar or colinear in a point cloud are approximated with a plane
+or a line [2]). The RM is data obtained with automated procedures. The precision and
+accuracy of this data are linked to the correctness of the survey procedures adopted and
+the tools used.
+   The two most used techniques to generate a RM are digital photogrammetry and
+digital scanning. Both produce a 3D point cloud that can be automatically (or semi-
+automatically) transformed into a textured polygonal 3D model. Digital photogrammetry
+calculates 3D information of the displayed objects from photographs taken at different
+angles and returns 3D models of remarkable graphic quality that embed information even
+on the material surface of the artifact. The technique is based on capturing and processing
+photographs; therefore, it is relatively inexpensive because the tools needed are a cam-
+era and a computer to run the processing program, which is less expensive than a laser
+scanner. There are several applications on the market and the cost is easily managed by
+any architectural firm or university research department. Digital scanning uses laser scan-
+ners which gathers information about the geometry of objects by sending a laser beam
+at different angles and measuring the distance between the laser emitter and the object’s
+surface by the beam’s time of flight. The cost and quality of the scans are related to the
+type of scanner used. These tools are considerably more costly than photogrammetry but
+return metrically very accurate data. Today when it is economical and practical, these two
+techniques are used together. Those techniques are described in the literature [3–6].
+   The IM is built from a series of inferences based on reference data. This concept,
+therefore, can be compared to what is known as reverse engineering. This process starts
+from a reference in its final form with missing data and tries to deduce what was the
+6.2     Semantic Description of the 3D Model                                               109
+
+
+process that generated it. The RM lacks any semantic segmentation and organization and
+can be used as a source to build the IM. Several studies are attempting to automate the
+creation of a semantically structured IM starting from the RM data, e.g. by identfying
+architectural segments from point clouds by using AI [7]. To date, these studies have not
+produced satisfactory results, at least for application to architectural cultural heritage. The
+current algorithms are not capable of identifying with sufficient efficiency the complexity
+and the variety of architectural typologies. Will it be possible to automate this step in
+the future? This question cannot be answered now, but the complexity of virtual recon-
+structions is similar to the complexity of any creative act; therefore, it requires a certain
+amount of creative and analogical intelligence which is typical of the complexity of the
+human mind.
+
+
+      Further reading: Research on modeling The research on technologies for 3D mod-
+      eling and 3D digitization has been important for decades. In recent decades, various
+      large-scale projects on the EU level on 3D modeling in cultural heritage primarily
+      focused on 3D digitization from contemporary survey data [8]. A major objective
+      during the FP7 to Horizon 2020 framework programs was to ease use, reduce costs,
+      and increase quality. With the following transition to the Horizon Europe framework,
+      valorization, and wide use became the focus. As recent projects on the EU level, the
+      VIGIE study [9] examines use cases for 3D/4D digitization of tangible heritage and
+      the EU DT–20 competence center [10] investigates and develops support structures
+      for 3D digitization from contemporary survey data. Various articles were published
+      to provide an overview of particular technologies of relevance for 3D modeling and
+      visualization, recently on laser scanning [11], photogrammetry [12], machine learning
+      [13, 14], and extended reality technologies [15].
+
+
+
+
+6.2         Semantic Description of the 3D Model
+
+Semantic segmentation/organization of data is the act of logically subdividing and struc-
+turing information by making groups and naming each element according to similarities
+(shape, type, position, etc.). It is rooted in the scientific organization and systematiza-
+tion of knowledge, or taxonomy, which means a scheme of (hierarchical) classification in
+which things are organized into groups or types, uniquely named and identified. It allows
+for knowledge to be indexed and organized (e.g., a search engine taxonomy), so users can
+more easily find the information they are searching for (Fig. 6.1).
+   The semantic segmentation/organization of data is not only a matter of digital rep-
+resentation; it rather intrinsically belongs to architecture [16]. This structure must be
+linked to the language and type of architecture and must be as simple as possible. It is,
+110                                                                          6 3D Modeling
+
+
+
+
+Fig. 6.1 Semantic segmentation of a 3D photogrammetric model (Image: Foschi)
+
+
+therefore, important to build the Informative Model by individually modeling its archi-
+tectural elements and keeping them well organized. The parts should be named clearly
+and unequivocally and grouped hierarchically [17, 18]. A building could be semantically
+segmented into its elements as follows: the roof, the attic, the base, the window, the
+door, the column, the wall, etc. Each element could be differentiated from the others
+by adding to its name an indication of the positioning or numbering it in the group of
+analogous elements. This first semantic structure is extremely important because it allows
+anyone to clearly name each part of the analyzed architecture and refer to it unequivocally.
+Only through clear and rational identification of these architectural elements it is possible
+to appropriately decoding the model. Building a 3D model by assembling single ele-
+ments also simplifies and rationalizes the process of 3D modeling: it allows copy-pasting
+instances of parts that are equal/analogous, speeding up the modeling and analysis pro-
+cess, and decreasing the file size. Semantic reading, therefore, has its digital equivalent
+in the structure of 3D models like in any CAD and BIM software. This simple 3D model
+structure can be refined and hierarchically organized at a later stage. This second level
+of the semantic organization of the model can follow various paths, which are generally
+also linked to the purpose of virtual reconstruction. For example, in an antique building,
+the architectural elements could be organized according to the architectural order. We
+could create a column level, and below this column level, insert the elements of the shaft,
+the base, and the capital. Or we could divide and organize the elements according to the
+floors of the building, etc. Of course, these choices are linked to the architectural typology
+analyzed and the semantic choices must rationally reflect this important relationship.
+6.2     Semantic Description of the 3D Model                                               111
+
+
+
+      Further reading: Algorithmic modeling and machine learning
+      • Algorithmic modeling: Traditional algorithmic-only approaches, as in pho-
+        togrammetry, employ algorithms to complete a specific operation, e.g., to detect,
+        describe, and match geometric features in images [19]. In contrast, machine
+        learning uses algorithmic approaches to train a statistical model in a super-
+        vised or unsupervised way via training data—e.g., to detect features [20]. Current
+        evolvements in computer vision are closely coupled to the massive renaissance
+        in machine learning [21] with the use of convolutional neural networks (CNNs)
+        [22] since 2012. Machine learning approaches are currently heavily researched
+        and used for image and 3D point cloud analytics in cultural heritage [13], but
+        also increasingly for 3D modeling tasks.
+      • 3D/4D model generation via machine learning: In 3D reconstruction of cultural
+        heritage, machine learning-based technologies are primarily used for specific
+        tasks within the modeling process: to preselect imagery [23, 24], in seman-
+        tic segmentation to classify parts of images [25–27], and to recognize specific
+        objects.[27–30] Another strand—bypassing the modeling stage—is generating
+        visualizations directly from imagery [28, 31, 32]. Machine-learning-based tech-
+        nologies currently require large-scale training data [13, 27, 28] only capable of
+        recognizing well-documented and visually distinctive landmark buildings [33].
+        Machine learning fails to deal with less distinctive architecture, such as houses
+        of similar style. Regarding transparency, most machine learning approaches are
+        applied within black box settings in a non-standardized way [13, 34]. Specif-
+        ically, generative adversarial networks (GAN) as a combination of proposal
+        and assessment components of machine learning are frequently employed in
+        3D modeling. Application scenarios are single photo digitization [35], comple-
+        tion of incomplete 3D digitized models [36, 37], or photo-based reconstructions
+        [38]. Neural Radiance Fields (NeRF), which use viewpoint cuing [39], have
+        gained importance since 2020. Although primarily an image transformation-
+        based approach to calculate new viewpoints, NeRF enables, e.g., lighting changes
+        [40] or 3D mesh calculation from sparse imagery.
+
+
+The semantic construction of the 3D model is linked to the knowledge of architecture;
+not only its history but also all those qualities that define it: type, geometry, shape, archi-
+tectural orders, etc. Therefore, the culture of the creator of the 3D model is an important
+aspect. A scholar reconstructing a Renaissance building will have to study the design
+of the architectural orders and the history of Renaissance architecture. The quality of a
+virtual reconstruction depends primarily on the scholar’s discipline culture and experi-
+ence. For this reason, a multidisciplinary approach from different expertise is desirable:
+architects, historians, engineers, archaeologists, etc.
+112                                                                       6 3D Modeling
+
+
+6.3      Traditional and Digital Representation Methods
+
+Digital representation has somehow closed a cycle between the real physical model and its
+representation. From a 2D drawing, it is possible to construct a digital 3D model; this 3D
+model can be printed into a physical model (→ Media and Interfaces); this physical model
+or maquette can be scanned and transformed into a digital point cloud; this point cloud
+can be transformed into a mesh model; the process can go on and the cycle repeats itself.
+Therefore, digital representation has not only increased the accuracy of the drawings but
+has also allowed transformations between the real physical model and its representation
+in a more fluid and versatile way.
+   Despite its importance, while there are shared standards and norms for traditional 2D
+drawings (plans and elevations), for the construction and evaluation of digital 3D models
+these norms have not yet been fully defined.
+   Scholars that use 3D models as tools hardly ever make explicit reference to the methods
+of representation and techniques they adopted to build them. Nevertheless, it would be
+advisable for scientists and researchers to always declare the techniques and methods
+used, to enhance transparency and interoperability of the 3D models (→ Documentation).
+This is also an important prerequisite for the scientifical reuse of 3D models, made by
+others, as a source of knowledge. In the next few paragraphs, the representation methods
+and 3D modeling techniques are defined and illustrated.
+   The methods of digital representation concern the intrinsic mathematical/geometrical
+nature of the 3D models and are either continuous or discrete (Fig. 5.5):
+
+• Continuous methods: the geometry is described in a continuous way with mathe-
+  matical equations, the Mathematical /Surface Modelling is part of this category (e.g.,
+  Non-Uniform Rational B-Spline (NURBS) modeling)
+• Discrete methods: the geometry is described in a discrete way, not with equa-
+  tions, but with points described by coordinates (vertices), lines (edges), and planar
+  faces (polygons); numerical/polygonal modeling is part of this category (e.g., mesh
+  modeling).
+
+All the other methods mostly used in the architectural world can be considered subsets of
+one of these two. For example, point cloud modeling is a subset of mesh modeling, and
+spline and Bezier modeling are subsets of NURBS modeling (Fig. 6.2).
+   Parametric modeling, handmade modeling, digital sculpting, etc. are not methods of
+digital representation, they are 3D modeling techniques (→ 6.4 3D Modeling Techniques)
+to create models of continuous or discrete nature.
+   Continuous and discrete modeling have analogies with the traditional methods of
+representation. Some scholars [41] propose to consider them as a direct addition to the
+traditional representation methods which are:
+6.3 Traditional and Digital Representation Methods                                           113
+
+
+
+
+Fig. 6.2 Continuous (NURBS, on the left) and discrete (mesh) 3D models with different tesselation
+(Image: Foschi)
+
+
+•   Double orthogonal projection
+•   Axonometric projection
+•   Perspective projection
+•   Topographic terrain projection (with contour lines).
+
+Choosing between the discrete or continuous method has similar implications as choosing
+to use an axonometry or a perspective. What is this method useful for? Why is it more
+useful than the other/s? What aspects are you highlighting by choosing it? Even if the
+final appearance of an object represented with one method or the other might be similar
+(or even the same), the implications of using one or the other methods are different, due
+to the scope and the data that the method carries.
+   For example, if we represent the front view of the same cube in double, axonometric,
+and perspective projections, the resulting image is the same, a square. Yet, the construc-
+tions that generated those results are different, and so are the purposes that lead us to
+choose one method over the other. We use double orthogonal projections to study and
+check the measurements and proportions of the object; we use axonometric projection
+to represent the relationship between volumes or the mechanism of the object; we use
+perspective projection to mimic how the object is perceived by human eyes. Axonometric
+and double projections are widely used in mechanical drawings and executive architectural
+drawings, while perspective projection is widely used in painting and architectural render-
+ings. Similarly, we use the digital methods of mathematical representation (NURBS)
+to describe the form accurately and continuously. Instead, we use the polygonal method
+(mesh) to build organic shapes or produce renderings.
+   3D models can also be generated with hybrid methods, i.e., a model can be formed
+from mathematical solids and mesh solids. This also happens in traditional representa-
+tion methods: for example, a perspective section includes both the section in true form,
+114                                                                            6 3D Modeling
+
+
+as in double orthogonal projections, and the perspective view to formally evaluate the
+space (Fig. 6.3). Mastering all representation methods (both digital and traditional) is
+important because each of them has a specific vocation and is more effective than another
+only in some contexts.
+    To sum up, the methods of digital representation can be classified into two distinct
+families: continuous and discrete. Continuous methods describe the shape continuously
+and accurately through mathematical equations; the NURBS mathematical representation
+is the most popular today. Discrete methods describe the shapes in an approximate and
+discrete way through a list of vertices, described through their coordinates, and a list of
+edges/faces that connect them; mesh polygonal modelling is the most popular today. The
+point cloud is a subset of the numerical representation in which the shape is described
+solely by a list of points in space (Fig. 6.4).
+    To give a clarifying example, imagine modeling a sphere. With the continuous method,
+the sphere will consist of a mathematical equation that describes the surface continuously
+and accurately. With the discrete method, the sphere will consist of a set of vertices
+connected by edges filled with triangular faces (some applications support polygonal faces
+with more than three edges but they always hide triangles inside) which discretizes the
+surface with a certain approximation (Fig. 6.2). Naturally, the more tessellated the surface
+of the sphere (more vertices, or smaller triangular faces), the less approximated the surface
+will be with respect to the ideal sphere.
+
+
+
+
+Fig. 6.3 Perspective section of the never-built church of S. Margherita, Bologna, 1685 (Agostino
+Barelli), informative reconstructive model (Image: Fallavollita)
+6.4   3D Modeling Techniques                                                                115
+
+
+
+
+Fig. 6.4 Conceptual scheme of 3D modeling classification (Image: Fallavollita and Foschi)
+
+
+6.4       3D Modeling Techniques
+
+3D modeling techniques are the practices, processes, and norms used to create the
+3D models described with any of the digital representation methods (continuous or dis-
+crete). To make an analogy with traditional drawing: the watercolor technique can be
+applied to realize perspective views, axonometric views, or double projections and it is
+used to obtain a shaded image. Analogously, the technique of parametric modeling can be
+used to generate both mesh and NURBS models. The 3D modeling techniques describe
+the act of constructing the shapes. These must not be confused with the digital represen-
+tation methods that define how the computer represents the mathematical nature of the
+shapes.
+    Given this assumption we can define the following 3D modeling techniques:
+
+• Procedural algorithmic modeling
+  Software programs are e.g., McNeel Rhinoceros + Grasshopper, Autodesk Revit +
+  Dynamo, Blender + Geometry Nodes;
+• Parametric modeling
+  Software programs are e.g., Autodesk Inventor, Dassault Catia, PTC Creo Parametric;
+• Automatic reality-based modeling
+  Software programs are e.g., Agisoft Metashape, Reality Capture;
+116                                                                            6 3D Modeling
+
+
+• Direct handmade modeling
+  Software programs are e.g., Rhinoceros, Autodesk Autocad, Maxon Zbrush, Blender,
+  Autodesk 3D Studio Max, Maxon Cinema 4D;
+• Hybrid modeling
+  Nowadays supported by almost all commercial software packages. Almost all com-
+  mercial software packages, nowadays, are considered hybrid modellers.
+
+It is important to note that the classification proposed here is provisional. Professional
+3D modelling applications are constantly evolving and the list of techniques and meth-
+ods supported is subject to change.As a result, the software examples provided are for
+guidance only and are not exclusive.
+
+
+6.4.1     Procedural and Algorithmic Modeling
+
+Procedural/algorithmic modeling is when the 3D model is generated through the definition
+of an ordered set of non-destructive actions/operations/steps/commands that are memo-
+rized, and each step can always be accessed and modified to update the final output. The
+actions can be in the form of strings of text, mathematical formulas, nodes connected with
+wires, and so on. This technique is used when dynamic manipulation of the process is a
+key factor in defining the final form (Fig. 6.5).
+   Applications that allow modeling through a graphical programming interface, such as
+Revit + Dynamo, Houdini, Blender + Geometry Nodes, and Rhinoceros + Grasshopper
+[42], are considered algorithmic modelers. All these applications share the same approach,
+where each command is in the form of a node that is connected chronologically to other
+operations through wires. This makes the algorithm easier to create, explore, investigate,
+modify, and share. More apps are nowadays integrating this type of interface because
+
+
+
+
+Fig. 6.5 Creating a 3D model with an algorithm in a graphical scripting language (Image: Foschi)
+6.4   3D Modeling Techniques                                                              117
+
+
+it enables modeling very complex 3D objects with much less effort than hand-made
+direct approaches. Furthermore, the algorithms can be shared, to allow others to reuse
+and modify them without needing to reproduce the same process step by step.
+   “Procedural” means made with/through a procedure, so procedural modeling should
+be synonymous with algorithmic modeling, but is sometimes used with a different con-
+notation. For example, in software such as Cinema 4D and 3DS Max, it is possible to
+model in a non-destructive way by applying and stacking modifiers on simpler starting 3D
+geometries. This approach is much less versatile than that with a graphical programming
+interface. Nevertheless, both methods can be used to store the whole modelling process,
+and access and modify it at each point, so they can be considered as part of the same
+category.
+   MathWorks, MATLAB and GeoGebra can be used to generate a 3D model through a
+sequence of non-destructive commands that are always accessible and modifiable, but the
+command needs to be inputted in the form of strings of text or mathematical formulas, so
+they are less popular for digital 3D reconstruction of cultural heritage but are still part of
+the same category.
+   Each modeling technique has algorithms or code hidden inside its commands, but
+in 3D modeling in the past few decades algorithmic modeling has acquired a specific
+connotation with applications that focus on the algorithm, and it is findable, accessible,
+and modifiable at any time. If the algorithms are hidden from users and a lot of manual
+interaction is needed to create the 3D model, the technique would rather be categorized
+as direct handmade modeling.
+
+
+6.4.2     Parametric Modeling
+
+Parametric modeling is similar to algorithmic/procedural modeling and sometimes these
+terms are interchangeable, despite slight differences. In parametric modeling, it is not
+always possible to access each step of the process and modify it non-destructively. For
+example, in applications such as Autodesk Fusion 360, PTC Creo, and Inventor, it is pos-
+sible to create a 3D object and change the initial parameters (size, position, generative
+curves, etc.). However, it is not possible to access the chronological sequence of the oper-
+ations performed on the model from the beginning; only some parameters are modifiable,
+and it is not possible to add additional operations in between other operations already per-
+formed. This is what differentiates parametric modeling from algorithmic/procedural 3D
+modeling, although each technique could be used to produce similar results [43]. Their
+focus is different: parametric modeling focuses on the input parameters and the outcome;
+algorithmic/procedural modeling focuses on the process (Fig. 6.6).
+118                                                                         6 3D Modeling
+
+
+Fig. 6.6 Parametric
+modeling of a Ionic column,
+by chaning the parameter of
+the height we can update the
+3D model (Image: Fallavollita
+and Foschi)
+
+
+
+
+6.4.3     Automatic Reality-Based Modeling
+
+In automatic reality-based modeling, the 3D model is generated through the application of
+a set of computer-based analyses and elaborations (Fig. 6.7), predefined by the developer
+of the software, starting from a set of input data (e.g., point clouds or images) captured by
+the user from reality with minimal manual interaction. Two main approaches that make
+use of automatic reality-based modeling are photogrammetry and laser scanning.
+   Someone could claim that user interaction is still necessary to tell the computer how
+to use the captured data and to validate the result, however, the polygonal shape and
+textures of the model could potentially be automatically generated from start to finish
+without needing any interaction. Every other manipulation of the point cloud or the mesh
+model itself is not part of the automatic reality-based modeling algorithm, but it rather
+must be considered as direct handmade modeling.
+
+
+6.4.4     Direct Handmade Modeling
+
+Direct handmade 3D modeling is probably the most popular way to generate a shape
+with a computer. It consists of generating the 3D model manually by using the tools
+provided by the software (Fig. 6.8). It requires constant mouse and keyboard navigation
+of the 3D space and interaction of the 3D model, and most of the changes to the model
+are destructive, meaning that the model cannot be updated by changing parameters that
+were inputted in previous steps. For example, the CAD modeling of a house, the 3D mesh
+sculpting of a character, or the low poly polygonal modeling for video games assets can be
+6.4   3D Modeling Techniques                                                              119
+
+
+
+
+Fig. 6.7 Automatic reality-based modeling using photogrammetry. Top left: aligned photo and
+sparse point cloud; top right: aligned photo and dense cloud; bottom left: mesh; bottom right:
+textured model (Image: Foschi)
+
+
+performed entirely through direct handmade modeling. Digital sculpting is also considered
+as direct handmade modeling because the tools that are mainly used specifically resemble
+the tools of a sculptor (e.g., scalpel, brushes, scrapers).
+   Nowadays applications that only provide direct handmade modeling tools are hard
+to find; almost every application integrates some non-destructive workflows for specific
+operations because they speed up the shape-finding process. The reverse is also true:
+modeling applications that define themselves as algorithmic, automatic reality-based, or
+parametric modelers almost always integrate direct handmade modeling tools.
+120                                                                         6 3D Modeling
+
+
+
+
+Fig. 6.8 Handmade modeling through digital sculpting and polygonal modeling (Image: Foschi)
+
+
+6.4.5    Hybrid Modeling
+
+All the modeling techniques that make use of multiple approaches are considered hybrids.
+For example, a model can be generated by using direct handmade modeling for the pre-
+liminary shape and algorithmic modeling for adding more complex details. So basically,
+most of the software packages and applications nowadays are probably adopting hybrid
+approaches.
+   Among hybrid techniques, building information modeling (BIM) has to be considered
+as a special case. It deals with modeling, because the BIM method is more about data
+organization, automatization, and interoperation, including information about materials,
+prices, forces, technical systems, and construction site facilities. Thus, BIM is mainly used
+for the holistic management of architectural projects, and it is not exclusively dedicated
+to modeling.
+6.5    Configuration Space                                                              121
+
+
+6.5         Configuration Space
+
+Other than classifying the models by their level of interpretation (raw or informative), the
+digital representation method adopted (continuous or discrete), and the technique used to
+generate them (procedural, algorithmic, etc.), we can also differentiate models by how the
+software considers their configuration space. There are four main ways that applications
+are used to describe the configuration space of 3D models (Fig. 6.9):
+
+•     Surface modeling (B-rep)
+•     Solid modeling (closed and manifold B-rep)
+•     Wireframe modeling (interlinked edges)
+•     Volumetric modeling (voxels).
+
+Surface modeling or boundary modeling (B-rep) describes the models as collections of
+connected surfaces. This way of considering the models allows open and non-manifold
+geometries, in other words, geometries that do not have a clear distinction between the
+inside and the outside and thus have no calculable volume.
+   Solid modeling describes shapes as volumes and has a predilection for Boolean oper-
+ations. It can also be generated by B-reps: this changes how the software checks the
+validity of the geometry generated, which basically would not allow generating any open
+or non-manifold geometry.
+   Most 3D modeling applications adopt hybrid approaches. Computer applications that
+define themselves as surface modelers can be used to connect single surfaces and gener-
+ate closed poly-surfaces to then apply Boolean operations that by definition can only be
+performed between watertight solids. Other applications that define themselves as solid
+modelers allow the user to split the solids into the single boundary surfaces that enclose
+the volume. These ambiguities that can be observed in many applications are mostly
+
+
+
+
+Fig. 6.9 Surface, solid, wireframe, and volumetric modeling (Image: Foschi)
+122                                                                         6 3D Modeling
+
+
+due to the fact that software developers try to meet users’ needs by implementing new
+commands.
+   Volumetric models and wireframes of 3D models are other two ways of describing the
+configuration space. In volumetric modeling, the volume is usually occupied by points
+(points sometimes are shaped like cubes or spheres: then they are called voxels and thus
+there is a discrete volume), and each of these points is enriched with specific data, such as
+structural stresses, temperature, type of material, density, and so on. This type of model is
+mostly used to store and visualize data from tomographic surveys in engineering, arche-
+ology, and medicine, or for physical simulations (fluids, rigid bodies, etc.). Lastly, wire
+modeling only provides the cage of a 3D model, made of edges that meet at vertices. In
+this case, there is no distinction between the outside and inside of the configuration space
+and thus it has no calculable volume.
+
+
+6.6       Best Practices
+
+There are five main aspects to consider for properly designing the model:
+
+•   Semantic organization
+•   Scale and level of detail
+•   Solid modeling
+•   Model tessellation
+•   Interoperability
+
+The semantic organization of a 3D model mostly uses one of two methods: philological
+and constructive/semantic. The two options may be coincident in some cases but in most
+cases, they return differently segmented models. The creator has to decide which path to
+choose and how to organize the semantic and logical structure of the model. To give an
+example, think of a reconstruction of a column of an Ionic order (it could be a Corinthian
+or Doric order, it does not matter). In constructive semantic logic, the base of the column
+generally includes the initial part of the column, the attachment to the base formed by
+a strip (listello) and an arched connection (apophyge/cavetto/fillet). In philological logic,
+however, the base will stop exactly below the shaft of the column and the listello +
+apophyge will be part of the shaft and not of the base (Fig. 6.10).
+6.6     Best Practices                                                                      123
+
+
+
+
+Fig. 6.10 Different segmentation of the column base: constructive semantic approach on the left,
+philological approach on the right (Image: Fallavollita and Foschi)
+
+
+   The second aspect concerns the scale and the level of detail (LoD). It is generally said
+that in virtual space one draws on a scale of 1:1. This statement is misleading because in
+architecture the representation is generally on a reduced scale, also in 3D digital modeling.
+As in traditional drawing, there are different scales of representation, and thus of LoD.
+For example, we could define that a certain model has a LoD comparable to a scale of
+1:100 while another 3D model is equivalent to a scale of 1:20 because it has greater
+detail. Certain modeling applications, e.g., BIM applications and game engines, allow
+for multiple LoDs within the same model. It must be remembered that these different
+levels are nothing more than different models that are displayed when different scales are
+requested. Again, the analogy with traditional methods is still valid both in theory and in
+practice.
+
+
+      Further reading: Level of detail
+      Level of detail and/or development (LoD) is used to differentiate between multiple
+      variants of the same model with a different number of polygons or different levels
+      of complexity [44]. Some systems distinguish between five gradations (Fig. 6.11).
+      Since these are only roughly described in terms of graduation, in practice this often
+      leads to intermediate levels, such as LoD 2.5 as a model of the building exte-
+      rior envelope including window partitioning. Specific LoD classifications have been
+      developed in some fields of application, as described for BIM [45] or, with different
+      LoD scales, CityGML for GIS [46].
+124                                                                          6 3D Modeling
+
+
+
+
+   Fig. 6.11 Model detail qualities of virtual 3D reconstruction according to City GML [46]
+   (Image: Foschi)
+
+
+
+   Solid modeling is the third aspect of architectural modeling [47]. One way to obtain
+traditional and manageable models is to conceive and draw a 3D model composed of
+closed, non-self-intersecting solids. There are two main reasons for following this proce-
+dure: conceptual and technical. The conceptual is most important and concerns the logical
+construction of architecture. The real world of constructions is made up of solid objects
+that cannot under any circumstances interpenetrate or be “floating”: physical and static
+laws do not allow exceptions. Of course, in the virtual world, these exceptions are allowed:
+we can construct two solids that intersect or are hovering in space; moreover, we can con-
+ceive objects composed of single surfaces or open poly-surfaces. These exceptions must
+be avoided because they would have no possible equivalent in architectural reality. The
+technical reason concerns some consequences that these exceptions could have in digital
+representation. If a 3D model contains some parts composed of open surfaces or open
+meshes, they will not be 3D printable. In addition, open or self-intersecting poly-surfaces
+6.6     Best Practices                                                                    125
+
+
+may cause errors and glitches in the rendering phase. If two surfaces overlap, they will be
+likely displayed as a patchy or flickering surface; this is because the computer does not
+know which surface is on top and returns a confused surface (known as z-fighting effect).
+Moreover, where the light hits open poly-surfaces there may be unrealistic shadow effects
+or light leaking. For these technical reasons, it is useful to conceive and build architec-
+tural digital 3D models according to non-self-intersecting closed and manifold solids. The
+possible objection to this simple solid modeling principle could be that in some cases
+computer graphics requires specific measures to obtain rendering effects or to lighten the
+model. For example, when you need to render a glass object that contains a liquid such as
+a glass of wine, the element of the wine should slightly be interpenetrated to (or moved
+away from) the solid of the glass. Or in video games, all the surfaces that are not visible
+are eliminated to make the game lighter to run. These exceptions should not undermine
+or weaken the solid modeling principle as they are usually implemented at a later stage
+if needed.
+    The fourth aspect concerns tessellation, the process of transforming mathematical
+models into polygonal models. Switching from a mathematical environment to a polygo-
+nal one is easy because it is just a matter of populating the continuous surfaces with points
+and connecting them with edges and planar faces. The inverse is hard because as soon as
+they are converted into polygonal models, NURBS models lose all the information about
+the curvature of their surfaces. Nevertheless, even if this conversion is destructive and
+passes from a continuous to a discretized model, it is necessary both to produce shaded
+rendered images and to eventually be able to 3D print the model. In fact, each 3D mod-
+eling software that handles NURBS internally converts them into meshes in real time to
+allow the graphic cards to shade and display the models in the interactive view while
+working on the model. Because of that, someone might say that to produce images it is
+more convenient to directly model with discretized surfaces. This might be true some-
+times, but if the discretized model turns out to be too much or too little tessellated at
+the end of the modeling process, the only way to update it is to entirely remodel it from
+scratch, which is why the NURBS model is almost always preferable at least when aiming
+to accuracy and versatility.
+
+
+      Summary
+      The chapter deals with the concepts of raw model and informative model; it clarifies
+      the concept of semantic segmentation and defines the digital representation methods
+      and 3D modeling techniques; finally, it lists the different configuration spaces of a
+      3D model in different software packages.
+      Standards and guidelines
+
+      • Beacham, R.; Denard, H.; Niccolucci, F. An Introduction to the London Charter.
+        In Papers from the Joint Event CIPA/VAST/EG/EuroMed Event, Ioannides, M.,
+        Arnold, D., Niccolucci, F., Mania, K., Eds.; 2006; pp. 263–269.
+126                                                                            6 3D Modeling
+
+
+  • Denard, H. (2009) “The London Charter. For the Computer-Based Visualization
+    of Cultural Heritage, Version 2.1.” (https://www.londoncharter.org, accessed on
+    1.2.2023).
+  • Principles of Seville. International Principles of Virtual Archaeology. Ratified by
+    the 19th ICOMOS General Assembly in New Delhi, December 2017 (http://sev
+    illeprinciples.com, accessed on 1.2.2023).
+
+  Key literature
+
+  • Albisinni, P. and L.D. Carlo, eds. Architettura disegno modello: Verso un archivio
+    digitale dell’opera di maestri del XX secolo. 2011, Gangemi Editore (2011) [47].
+  • Aubin, P.F. (2013). Renaissance Revit: Creating Classical Architecture with
+    Modern Software. G3B Press [43].
+  • Apollonio, FI. (2012). Architettura in 3D. Modelli digitali per i sistemi cognitivi.
+    Milano: Bruno Mondadori [16].
+  • Migliari, R., Geometria Descrittiva—vol. 1, vol. 2—Metodi e costruzione. 2009:
+    Città Studi Edizioni [48].
+  • Pottmann, H., Architectural geometry. 2007: Bentley institute press [49].
+  • AAD_ALGORITHMS AIDED DESIGN, Parametric Strategies using Grasshop-
+    per. 2014: Le Penseur [50].
+
+
+
+
+References
+
+1. Spallone R (2015) Reconstruction modeling, animation and digital fabrication of ‘architectures
+   on paper’. Two ideal houses by Carlo Mollino. SCIRES-IT-SCIentific RESearch and Informa-
+   tion Technology 5(1):101–114
+2. Bianchini C et al (2014) Survey m, interpretation as multidisciplinary components of a Knowl-
+   edge System. SCIRES-IT-SCIentific RESearch and Information Technology 4(1):15–24
+3. Shan JT (2008) C. Topographic laser ranging and scanning: principles and processing. CRC,
+   Boca Raton, FL, USA, p 590
+4. Luhmann T et al (2006) Close range photogrammetry: principles, techniques and applications.
+   Whittles Publishing, Dunbeath, Scotland, UK
+5. Remondino F et al (2005) 3D modeling of close-range objects: photogrammetry or laser scan-
+   ning? In: Beraldin JA et al (eds) Proceedings SPIE 5665, videometrics VIII, p 56650M. https://
+   doi.org/10.1117/12.586294
+6. Alshawabkeh Y et al (2021) Integration of laser scanner and photogrammetry for heritage BIM
+   enhancement. ISPRS Int J Geo Inf 10(5):316
+7. Tamke M et al (2014) From point clouds to definitions of architectural space-potentials of
+   automated extraction of semantic information from point clouds for the building profession
+8. Münster S, Utescher R, Ulutas Aydogan S (2021) Digital topics on cultural heritage inves-
+   tigated: how can data-driven and data-guided methods support to identify current topics and
+   trends in digital heritage? Built Heritage 5(1):25. https://doi.org/10.1186/s43238-021-00045-7
+9. Ioannides M et al (2020) European study on quality in 3D digitisation of tangible cultural
+   heritage (VIGIE 2020/654)
+References                                                                                       127
+
+
+10. 4CH - Competence Centre for the Conservation of Cultural Heritage (2021)
+11. Di Stefano F et al (2021) Mobile 3D scan LiDAR: a literature review. Geomat Nat Haz Risk
+    12(1):2387–2429
+12. Remondino F et al (2017) A critical review of automated photogrammetric processing of large
+    datasets. Int Arch Photogram Remote Sens Spat Inf Sci XLII-2/W5:591–599
+13. Fiorucci M et al (2020) Machine learning for cultural heritage: a survey. Pattern Recogn Lett
+    133:102–108
+14. Münster S, Maiwald F, Lenardo ID, Henriksson J, Isaac A, Graf M et al (2024) Artificial
+    Intelligence for Digital Heritage Innovation. Setting up a R&D roadmap for Europe. MDPI
+    Heritage
+15. Russo M (2021) AR in the architecture domain: state of the art. Appl Sci-Basel 11(15):6800
+16. Apollonio FI (2012) Architettura in 3D. Modelli digitali per i sistemi cognitivi. Milano, Bruno
+    Mondadori
+17. Pfarr-Harfst M (2010) Dokumentationssystem für Digitale Rekonstruktionen am Beispiel der
+    Grabanlage Zhaoling, Provinz Saanxi, China. Dissertation
+18. Pattee A et al (2022) A machine learning approach to assist architectural research by matching
+    images directly with text. In: EUROMED 2022
+19. Lowe DG (2004) Distinctive image features from scale-invariant keypoints. Int J Comput Vis
+    60(2):91–110
+20. Yi KM et al (2016) LIFT: learned invariant feature transform. In: Leibe B et al (eds) Computer
+    vision – ECCV 2016. Springer International Publishing, Cham, pp 467–483
+21. Krizhevsky A et al (2017) ImageNet classification with deep convolutional neural networks.
+    Commun ACM 60(6):84–90
+22. Jahrer M et al (2008) Learned local descriptors for recognition and matching. Proc Comput Vis
+    Winter Worksh 2008:39–46
+23. Münster S et al (2019) Digital cultural heritage meets digital humanities. Int Arch Photogram
+    Remote Sens Spat Inf Sci XLII-2/W15:813–820
+24. Bell P et al (2019) Computer Vision und Kunstgeschichte – Dialog zweier Bildwissenschaften.
+    In: Kuroczynski P et al (eds) Digital art history. Heidelberg, pp 61–78
+25. Martinovic A et al (2015) 3D all the way: semantic segmentation of urban scenes from start to
+    end in 3D. IEEE Comput Vis & Pattern Recogn 4456–4465
+26. Hackel T et al (2016) Fast semantic segmentation of 3D point clouds with strongly varying
+    density. ISPRS Ann 3(3):177–184
+27. Aiger D et al (2017) Large-scale 3D scene classification with multi-view volumetric CNN
+28. n.b. (2019) ArchiMediaL. Enriching and linking historical architectural and urban image col-
+    lections. http://archimedial.net/
+29. Radovic M et al (2017) Object recognition in aerial images using convolutional neural networks.
+    J Imaging 3(2)
+30. Khademi S et al (2021) Deep learning from history. In: Niebling F et al (eds) Research and edu-
+    cation in urban history in the age of digital libraries. Springer International Publishing, Cham,
+    pp 213–233
+31. 4dReply Closing the 4D Real World Reconstruction Loop. https://cordis.europa.eu/project/id/
+    770784. Accessed 8 Feb 2022
+32. Martin-Brualla R et al (2021) NeRF in the wild: neural radiance fields for unconstrained photo
+    collections
+33. Münster S, Maiwald F, Bruschke J, Kröber C, Sun Y, Dworak D, Munir I, Komorowicz D, Beck
+    C, Münster DL (2024) A digital 4D information system at world scale: Research challenges,
+    approaches and preliminary results. MDPI Appl. Sciences
+34. Zielke T (2020) Is Artificial Intelligence Ready for Standardization?
+35. Kniaz VV et al (2019) Generative adversarial networks for single photo 3d reconstruction. Int
+    Arch Photogram Remote Sens Spat Inf Sci XLII-2/W9:403–408
+128                                                                                 6 3D Modeling
+
+
+36. Hermoza R et al (2018) 3D Reconstruction of incomplete archaeological objects using a gener-
+    ative adversarial network. Proc Comput Graph Int 2018:5–11
+37. Nogales Moyano A et al (2021) ARQGAN: an evaluation of generative adversarial networks’
+    approaches for automatic virtual restoration of Greek temples
+38. Microsoft In Culture (2021) See ancient Olympia brought to life
+39. Mildenhall B et al (2021) Nerf: representing scenes as neural radiance fields for view synthesis.
+    Commun ACM 65(1):99–106
+40. Srinivasan PP et al (2021) Nerv: neural reflectance and visibility fields for relighting and view
+    synthesis, pp. 7495–7504
+41. Geometria Descrittiva - vol. 1 - Metodi e costruzione RM, CittàStudiEdizioni, 2009, ISBN
+    9788825173291
+42. AAD_ALGORITHMS AIDED DESIGN PSuGPLP, 2014. ISBN 978–88–95315–30–0
+43. Aubin PF (2013) Renaissance revit: creating classical architecture with modern software. G3B
+    Press
+44. Luebke DP (2003) Level of detail for 3D graphics. The Morgan Kaufmann series in computer
+    graphics and geometric modeling, 1st edn.
+45. Martens B (2019) Virtuelle Rekonstruktion: Building Information Modelling (BIM) als
+    Rahmenbedingung für eine langfristige Nutzung von digitalen 3D-Gebäudemodellen. In:
+    Kuroczyński P et al (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller
+    Raum der architekturhistorischen Forschung. Heidelberg University Press, Heidelberg
+46. OGC (2012) OGC city geography markup language (CityGML) Encoding standard, version
+    2.0.0
+47. Albisinni P et al (eds) (2011) Architettura disegno modello: Verso un archivio digitale dell’opera
+    di maestri del XX secolo. Gangemi Editore (2011), ISBN 9788849220988
+48. Migliari R (2009) Geometria Descrittiva - vol. 1 - Metodi e costruzione
+49. Pottmann H (2007) Architectural geometry
+50. AAD ALGORITHMS AIDED DESIGN (2014) Parametric strategies using grasshopper
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

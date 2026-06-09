@@ -1,0 +1,902 @@
+Documentation
+                                                                                                8
+
+
+
+   Abstract
+
+   The documentation of the working steps, the decisions made in a reconstruction, the
+   applied method, and the results form one of the cornerstones of scientific practice.
+   Over the centuries, scientific publication established itself with fixed basic principles,
+   such as verifiability of methods, objectivity, disclosure of sources, comprehensibility
+   of argumentation, accessibility of results, accuracy, reliability, and uniformity [1]. In
+   computer-aided, hypothetical 3D reconstruction of destroyed architecture, the appli-
+   cation of the above basic principles faces an as yet unsolved challenge. The model
+   creation process is rarely documented, and when it is, the documentation is usually
+   not publicly available. The knowledge embedded in reconstructions, scientific inter-
+   pretation, argumentation, and hypothesis, is in danger of being lost. Due to the lack
+   of resources, diverse and rapidly developing software applications, modelling methods
+   and types, no application-based method for documenting and publishing 3D models
+   has been established. Three decades into the spread of computer-assisted 3D visual-
+   ization in the research and mediation of cultural heritage, discussion of the question of
+   what and how to document has intensified. The Internet as a publication venue seems
+   to make sense to most. Web-based documentation requires technical infrastructures
+   and services as well as defined scientific methods for comprehensible modeling and
+   sustainable provision. The following chapter is dedicated to describing and clarifying
+   these developments.
+
+
+
+
+© The Author(s) 2024                                                                     165
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_8
+166                                                                    8 Documentation
+
+
+
+  Guiding questions
+  • What guidelines and projects exist?
+  • Why is documentation important?
+  • What needs to be documented?
+  • How can one document and publish?
+
+
+  Basic terms
+  • Metadata and paradata
+  • Scientificity and traceability
+  • Findability and accessibility
+  • Interoperability and reusability
+
+
+
+
+8.1      Introduction
+
+The topic of documenting 3D reconstructions is examined below under four questions:
+
+1. Why is documentation important?
+2. What kind of research data are we dealing with at all?
+3. What should be documented?
+4. How should documentation be done?
+
+The consideration of these aspects has two focal points: firstly, the documentation
+of information accompanying a 3D model and secondly, the documentation of the
+decision-making processes related to the reconstruction. Documentation should provide
+information about the circumstances surrounding the reconstruction and the digital model
+behind it as well as information about the actors, backgrounds, and technical conditions.
+Documentation ensures that the occasion, purpose, background, sources, and the decision-
+makers and others’ creative considerations for and against creating a reconstruction in a
+certain way, are comprehensible. Documentation is part of good scientific practice [2].
+In every scientific discipline, documentation of research results and the processes behind
+them is required in order to make findings and justifications comprehensible and available
+to future generations as a basis for further research.
+   Documentation of the decision-making processes and the sources behind them can be
+highly important for one’s own reconstruction practice. Knowledge and effort have gone
+into reconstruction models. These models therefore have a certain value. If one wants
+to use and change these models again later, it is important to be able to reconstruct the
+8.2 Why Documentation is Important                                                      167
+
+
+decision-making processes and the sources used in order to resume or repeat the work with
+as little effort of one’s own as possible. Furthermore, such documentation can strengthen
+one’s own reputation. If reconstructions are visible to the public and questions about
+their credibility arise, then documentation can help to communicate the earlier decisions
+and thus reject any doubts raised. If, on the other hand, objections are justified, then
+documentation helps one to make changes in a reconstruction model more quickly, more
+precisely, and thus more economically. Especially in the commercial sector, such as TV
+documentaries, entertainment, or reconstructions for museums, this can be advantageous.
+
+
+8.2      Why Documentation is Important
+
+8.2.1    Scientific Significance
+
+Digital models have become widely established as tools of mediation and research in
+the context of architectural and urban studies [3]. Especially the increasing dissemination
+of digital architectural reconstructions in exhibitions and research projects and the public
+funding that often accompanies them raises questions about the sustainability of the recon-
+structions presented and the knowledge embedded in them. It is necessary to ask where
+and how reconstruction models and 3D datasets can be permanently presented, secured,
+and accompanying information documented. Yet it is challenge to document decision-
+making processes and the underlying thought processes and interpretations in digital
+reconstructions in a publicly accessible, transparent, and comprehensible way. If this does
+not succeed, the knowledge and thus the potential scientific value of a reconstruction
+risks being lost. Simply saving the results is not sufficient for valid documentation. The
+publication of research results from digital 3D reconstructions in print media, television,
+exhibitions and the Internet, including pure 3D repositories such as Sketchfab.com, usu-
+ally only represent the result of research processes along with rudimentary accompanying
+information, but not their genesis and the discourse conducted in the process. Moreover,
+the lack of documentation of the reconstruction processes and the decisions and justifi-
+cations they contain leads to the loss of knowledge about rejected solutions. However,
+these contain valuable information that was developed during the reconstruction process.
+In the event of a change in the source situation or a re-evaluation of the sources used, the
+documentation of sources that were rejected or not considered as plausible would make
+it possible to start the reconstruction process anew and ideally make use of the earlier
+findings.
+    Actors have been aware of the problem of lack of documentation for a long time: in
+theoretical policy papers such as the London Charter [4] and Principles of Seville [5] (→
+Scholarly Method) are formulated in terms of sustainability, verifiability, and knowledge
+preservation: “The documentation of evaluative, analytical, deductive, interpretative and
+168                                                                           8 Documentation
+
+
+creative decisions made in the course of computer-assisted visualization should be avail-
+able in such a way that the relationship between research sources, tacit knowledge and
+explicit conclusions and visualization-based results can be understood” [6]. The working
+group on digital 3D construction for digital humanities in the German-speaking countries
+(DHd) sees the documentation as one of five core issues, as is reflected in their 2019
+publication, Der Modelle Tugend 2.0 [7]. Despite this awareness, scientific documenta-
+tion of digital reconstruction is an absolute exception even in 2024. Several reasons seem
+to converge here. To date, documentation is generally neither explicitly demanded by
+funding agencies, nor are additional funds made available for it. This applies to funding
+lines of the federal and state governments, but also to museum commissions, in that dig-
+ital reconstructions often trigger or are created based on the latest state of research and
+with scientific advice. Thus, it is usually left up to the persons and institutions that create
+a reconstruction to finance documentation with their own funds. Furthermore, there is no
+agreement on documentation standards, structure, or content.
+
+
+8.2.2     Preliminary Work
+
+At the latest since the EPOCH Research Agenda [8] in 2004–2008, the topic of docu-
+menting 3D reconstructions has come into focus. One result of this four-year research
+project is the London Charter, which remains decisive for theoretical considerations and
+practical implementations. For some years now, there have been initial attempts in the
+professional community to meet the challenge of a lack of documentation with concrete
+solutions. These include a good overview of the ideas that have emerged up to 2017 [9]
+and a first draft for a tool for systematic documentation [10] with a web-based tool based
+on wiki technology (i.e., interlinked pages). The aim of the tool was to systematically doc-
+ument sources, their interpretation, hypothesis formation, and the resulting visualizations.
+However, the development never went beyond a prototype.
+   To better ensure data sharing, projects have focused on data modeling and linked
+data technologies in the context of digital 3D modeling—most notably the CIDOC Con-
+ceptual Reference Model (CRM) [11, 12], an ontology for cultural heritage, originally
+designed for use in museums. Within the framework of the project Virtual Reconstruc-
+tions in Transnational Research Environments—The Portal: Castles and Parks in Former
+East Prussia [13], the first CIDOC CRM-referenced application ontology was developed
+to document the creative decision-making processes and the results of a digital (hypo-
+thetical) 3D reconstruction, including versions and variants. In follow-up projects at the
+Hochschule Mainz, the OntSciDoc3D application ontology has been successfully used
+in the semantic enrichment and labeling of digital 3D models with information on the
+provenance of the digital 3D dataset and the historical context of the represented object
+[14].1
+
+1 Link to the. owl file: https://www.ontscidoc3d.hs-mainz.de/ontology, accessed on 1.2.2023.
+8.2 Why Documentation is Important                                                       169
+
+
+   At the Hochschule für Technik und Wirtschaft Dresden, the online tool DokuVis was
+developed, which enables exchange between modelers and scientific advisors directly on
+the 3D model. Further features are the display of variants and versions, integration of
+project management, measurement of distances and surfaces, and the ability to generate
+section views of and interactively compare sources with the model [15].
+   Extensive theoretical considerations on the topic of documentation were already
+developed in 2010 at the Department of Digital Design at the Technische Universität
+Darmstadt (TUD), first preliminary work 2010 Mieke Pfarr [16]. This department started
+from the assessment that simple, intuitive, and user-friendly approaches are needed to
+move toward a practice of scientific documentation. In 2016, the Reconstruction Argu-
+mentation Method (RAM) was developed, which was transferred into an online-based
+documentation tool, ScieDoc,2 in 2017 [17, 18]. The core of the RAM approach in
+ScieDoc is the division of a reconstructed building into different spatial areas. Each of
+these areas is represented by 2D images of the reconstruction (renderings), by images of
+the sources used, and by a textual argumentation explaining how the reconstruction was
+inferred from the sources. For each area, it is possible to map several variants. ScieDoc
+was used in 86 projects by 2022.
+   Currently, Building Information Modeling (BIM), the 3D modeling standard in the con-
+struction industry, is being discussed in the field of digital (hypothetical) reconstructions
+[19–21]. BIM enables to store project information and to assign customized properties
+to building elements. BIM supporting software ensures interoperability and reusability of
+the project data through the common data exchange format Industry Foundation Classes.3
+   With an archaeological approach, Demetrescu [22] sees virtual reconstruction as an
+extension of the findings in excavations and links them with virtual elements and sources.
+Prototypically, an interactive tool was developed for the visualization and exploration of
+the data in conjunction with the 3D models [9].
+   Many actors also dealt with partial aspects of documentation. Above all, the degree
+of uncertainty associated with incomplete sources and the wide scope for interpretation
+plays a prominent role. Various metrics were developed, such as the level of hypothesis
+[23], or one based on fuzzy logic [24], or a classification depending on the information
+content and the need for interpretation of sources. [25] The question of visualizing the
+different levels of uncertainty directly on the model has been discussed several times [26]
+(→ Shading Aspects).
+   Thus, although several approaches to documentation of decision-making processes
+exist, the proposed solutions should rather be seen as prototypes that cannot be used
+ad hoc by a broad community. In 2022, the DFG project IDOVIR started, which com-
+bines the approaches of the abovementioned projects ScieDoc and DokuVis and uses the
+RAM method developed at the TUD. It is free to use and takes 15 min to learn. As it
+
+
+2 http://www.sciedoc.org, accessed on 1.2.2023.
+3 ISO 16739-1:2018, see https://www.iso.org/standard/70303.html.
+170                                                                        8 Documentation
+
+
+is embedded in the system landscape of the University and State Library Darmstadt, the
+professional provision and continuation of the project results is guaranteed.
+   Beyond documentation of the decision-making processes, it is desirable to be able to
+permanently refer to a reconstruction and to cite it well in a scientific sense. For many
+reconstructions that are created for exhibitions or documentaries, permanent access to the
+results achieved is often not guaranteed. For this purpose, it would be useful to have
+freely accessible 3D repositories, which visualize 3D models and make 3D datasets avail-
+able, document the corresponding metadata, and provide information on the often unclear
+legal situation regarding the (re-)use of results or models of a reconstruction. Complemen-
+tary to the IDOVIR project in this context is the DFG-funded project DFG 3D-Viewer,
+which provides an infrastructure for publishing, locating, and displaying 3D models and
+records information on the circumstances surrounding both the digital reconstruction and
+the digital 3D model behind it.
+   Both DFG projects have agreed on common data structures and terms and are also
+seeking this understanding with other initiatives in the field of digital infrastructures.
+Both are briefly explained and recommended in the section on key projects at the end of
+this chapter.
+   One general challenge is that no new tool, method, or standard can solve the restrictions
+concerning the publication of the (historical) sources on which a reconstruction is based
+[27]. This would be necessary for scientific discourse, but the rights holders do not always
+allow this or demand fees, a circumstance that results in major restrictions and hurdles.
+General agreements would have to be reached here.
+
+
+8.2.3    Current Developments
+
+Documentation that enables computer-assisted work with the digitally available research
+data requires formalization of the knowledge in a human- and machine-readable form.
+This is primarily a matter of setting up rules for all data that clearly communicate the logic
+and meaning of that data to the computer, so that instead of data ruins, a homogeneous
+and consistent database is created.
+   As early as the 1980s, fundamental ideas and concepts for the description and docu-
+mentation of art and architecture were developed. Foto Marburg provided an important
+basis for this with far-reaching considerations on the cataloging of cultural heritage [28],
+which led to their documentation and administration system MIDAS in 1989 [29].
+   Standards enable subject-specific classification of subject matter and make an essential
+contribution to the unambiguous indexing of cultural heritage. First and foremost, these
+are the controlled Getty Vocabularies, such as Art & Architecture Thesaurus (AAT), Getty
+Thesaurus of Geographic Names (TGN), Cultural Objects Name Authority (CONA), and
+Union List of Artist Names (ULAN), as well as ICONCLASS for iconographic indexing.
+8.2 Why Documentation is Important                                                          171
+
+
+
+   Further Reading: Classification Standards for Knowledge Modeling
+      Controlled Vocabularies: A controlled vocabulary is an organized arrangement
+      of words and phrases used to index content and/or to retrieve content through
+      browsing or searching. It typically includes preferred and variant terms and has
+      a defined scope or describes a specific domain [52, p. 12].
+      Thesaurus: A thesaurus combines the characteristics of synonym ring lists and
+      taxonomies, together with additional features. A thesaurus is a semantic net-
+      work of unique concepts, including relationships between synonyms, broader
+      and narrower (parent/child) contexts, and other related concepts. Thesauri may
+      be monolingual or multilingual [52, p. 24].
+      Taxonomies: A taxonomy is an orderly classification for a defined domain. It
+      may also be known as a faceted vocabulary. It comprises controlled vocabulary
+      terms (generally only preferred terms) organized into a hierarchical structure.
+      Each term in a taxonomy is in one or more parent/child (broader/ narrower)
+      relationships to other terms in the taxonomy. There can be different types of
+      parent/child relationships, such as whole/part, genus/species, or instance relation-
+      ships. However, in good practice, all children of a given parent share the same
+      type of relationship. A taxonomy may differ from a thesaurus in that it gener-
+      ally has shallower hierarchies and a less complicated structure. For example, it
+      often has no equivalent (synonyms or variant terms) or related terms (associative
+      relationships) [52, p. 22].
+      Ontologies: These are less commonly used than the above three standards for
+      art information. In common usage in computer science, an ontology is a formal,
+      machine-readable specification of a conceptual model in which concepts, prop-
+      erties, relationships, functions, constraints, and axioms are all explicitly defined
+      [52, p. 24]. A main distinction is between application-overarching reference
+      ontologies and the deriving application ontologies, which are purpose-specific
+      applications of reference ontologies [13].
+
+
+In cultural heritage, CIDOC CRM has prevailed as a reference ontology since the mid-
+1990s. This human- and machine-readable formalization of knowledge is based on around
+100 classes (entities) and 150 relations (properties) that describe the essential facts and the
+context of an object, starting from an activity, e.g., the creation of a work of art (Fig. 8.1).
+   The demand for the worldwide networking of knowledge is being addressed by the
+development of the Internet into Web 3.0. The idea of a Web 3.0 network of knowledge
+was first presented in 2001 under the term Semantic Web by Tim Berners-Lee, the inven-
+tor of the World Wide Web [30]. It is based on a Resource Description Framework
+(RDF), a graph-based data format. The basic units of RDF are the triples consisting of
+subject, predicate and object. Data models such as CIDOC CRM [31] are used to describe
+172                                                                       8 Documentation
+
+
+
+
+Fig. 8.1 Graphical representation of the CIDOC CRM referenced application ontology OntSci-
+Doc3D for mapping the knowledge of the 3D reconstruction process, https://www.ontscidoc3d.hs-
+mainz.de/ontology/, accessed on 1.2.2023 (Image: AI MAINZ, 2019)
+
+
+individual basic units, which in turn enable the machines to read out the meaning of the
+digitally available data (semantics = meaning). If the RDF datasets (graph databases) are
+linked with other external, similarly structured online resources, a network of information
+is created that extends beyond the datasets themselves and is known as Linked (Open)
+Data.
+    The formalized and structured documentation of knowledge is the basic prerequisite
+for the processing information or making it available digitally. The proper handling of
+digital research data became an important concern of national education and research
+initiatives in the 2010s, which found expression in the endeavor to establish National
+Research Data Infrastructures (→Further reading: Infrastructure programs for 3D data).
+The new data culture formulated here [32] follows the general desire of academic circles
+for digital research data to be findable, accessible, interoperable, and reusable (FAIR)
+(→Legislation) [33].
+    Parallel to these developments in digital humanities, digital 3D modeling was examined
+in the engineering sciences. With the development of computer graphics since the 1960s
+and the arrival of powerful PCs in planning offices since the 1990s, efficiency increased
+because of improved interoperability and sustainability of digital 3D datasets. Regarding
+digital source-based 3D reconstruction, the approaches from architecture and spatial and
+urban planning represent interesting points of reference.
+    Since the mid-1990s, representatives from the construction industry, with software
+companies, have been developing a data exchange format that can store not only the
+8.3 What Are We Dealing With                                                            173
+
+
+geometry but also the object-based properties (property sets) and exchange them between
+different disciplines involved in construction. The resulting data exchange format, Industry
+Foundation Classes (IFC), form the common language of those involved in construction
+and introduce a new planning methodology that began in the 1970s and became known as
+Building Information Modeling (BIM) in the early 2000s [34]. The methodology is based
+on the communication of the parties involved by means of discipline-related 3D models
+(architectural design, construction engineering, MEP engineering, etc.), which are feder-
+ated in a coordination model, as the Single Source of Truth. The IFC ensures a low-loss
+flow of information in the process and the information is mapped in the object-oriented
+3D model, which has a different Level of Geometry, and Level of Information as well as
+accompanying documents (2D plans, photos, drawings, audio-/video-files, etc.) linked to
+it, depending on the required Level of Information Need. The increase in efficiency is thus
+based on an internationally recognized standard according to which projects are structured
+and BIM Execution Plans designed in response to Exchange Information Requirements
+[35].
+    In the early 2000s, a similar effort began in spatial and urban planning. As a result,
+an xml-based application schema for storing and exchanging digital 3D city models was
+introduced. City Geography Markup Language [36] enables digital 3D city models to be
+enriched with additional information that is of crucial importance for sustainable urban
+planning and administration of large scale build environment.
+
+
+8.3      What Are We Dealing With
+
+8.3.1    Model Types, Methods, and Data Formats
+
+Digital 3D reconstruction deals with a wide variety of data that pose a particular challenge
+in terms of documentation. If we start from the 3D models, different types of models and
+modelling methods entail different properties [37]. The common subdivision introduces
+three types of models: wireframe, surface, and solid. The wireframe model is mainly
+used today for visualization purposes. Thus, the surface and solid models are the actual
+model types, which are essentially based on two different modeling methods. While the
+surface model consists of several independent surfaces that are not assigned to a concrete
+object, the solid model is a closed body that represents an object.
+    In terms of methods, object-based 3D modeling software solutions use Construc-
+tive Solid Geometry (CSG), which depicts completed solid models of the objects.
+This modeling methodology is preferred in industrial design, machinery, and construc-
+tion (architecture and civil engineering, especially in BIM-supporting applications). The
+surface models that favor free-form modeling are used in animated films, product and
+architectural visualization, and urban planning. The associated modeling methodology is
+called Boundary Representation (B-Rep).
+174                                                                      8 Documentation
+
+
+   The manifold data formats for 3D datasets pose a further challenge. With regard
+to documentation, especially interoperability and thus the sustainability of data formats, a
+distinction is made between proprietary 3D model formats (e.g. C4D for Maxon Cinema
+4D or 3DS for Autodesk 3D Studio Max) which are specific to software in which they
+were created, and data exchange formats (e.g., OBJ, DAE, STL, FBX, IFC, CityGML,
+X3D, and gITF), which are widely used and supported by many software applications
+[38]. The construction industry and urban planning use specific standards that integrate
+both the geometric information and the meaning of the objects or the surfaces that define
+them, such as IFC for BIM (ISO 16739–1:2018) or CityGML [39]. For web-based visu-
+alization of the 3D models, formats such as X3D and gITF were designed, which enable
+high-performance interactive display [40], but present challenges when converting the
+digital models from proprietary formats.
+   Finally, two trends should be briefly mentioned. First, standardization of methods
+and types of models, such as CSG/BIM and B-Rep/CityGML, can technically guarantee a
+documentation link and interoperability, are developing further and further, also regarding
+the graphic appearance. Second, increasing differentiation of the creation process for
+quasi-photorealistic reconstructions, e.g., immersive virtual reality simulations. A wide
+variety of software types are used, each of which fulfills specific functions to create
+geometries and represent textures, vegetation, or lighting conditions in generative models.
+However, the generative approach is not based on storing the resulting 3D geometries
+but on parameters and generates a 3D object in real time [41, 42]. In result storing 3D
+information in a state is not possible. With such modeling methods and creation processes,
+annotation of documentation directly on the 3D model is rather more difficult and storage
+in non-proprietary file formats may be impossible [43].
+   The question of a common language, the lowest common denominator of digital
+3D models, may arise here. Agreement on a modeling, documentation, and publication
+method could guarantee the FAIR use of 3D models as serious 3D in archaeology, art
+and architectural history. Further considerations in this regard can be based on the con-
+cept of the Digital Critical Model [44], and the Scientific Reference Model [45, 51] (→
+Scholarly Method).
+
+
+8.3.2    Intellectual Argumentation
+
+The documentation of decision-making processes is about recording trains of thought,
+interpretations of sources, and the considerations derived from them. Intellectual argu-
+mentation is supposed to explain—based on selected sources and analogies—why the
+reconstruction turned out the way it did, and which other possibilities were considered
+or discarded. If documentation exists at all, it is usually not in interoperable form. The
+situation is very inconsistent: apart from a few project descriptions online or in printed
+publications, documentation tends to exist internally, if at all. The spectrum ranges from
+8.4 What Needs to be Documented                                                             175
+
+
+handwritten records and/or the collection of sources used in file folders to embedding in
+complex internal communication tools that are based on commercial software and then
+developed by the users. Publishing/networking the data in this internal form is rather
+undesirable and seems technically difficult.4
+   In addition, some projects map decision-making processes with online databases and
+may link sources and considerations to 2D images of the reconstructions, or annotate
+them on the 3D models, and try to establish further references using Linked (Open) Data
+technologies. In almost all cases these are pilot projects that take up larger resources and
+have not yet been put to widespread use.
+
+
+8.4       What Needs to be Documented
+
+Documentation concerns the information about the created dataset and the decision-
+making processes involved in the reconstruction accompanied by object (physical and
+digital) related data. The information about a dataset is called metadata (data about
+data). From the long experience of recording objects, e.g., in a museum context, two main
+types exist: descriptive and administrative metadata. The essential data that is collected
+during documentation is known as the core dataset. Since 2006, the digital visualiza-
+tion of cultural heritage has included paradata [4]. By paradata, we mean the collection
+of information describing the process of creating the 3D model and the associated 3D
+visualization. First and foremost, it is the recording and documentation of the creative
+interpretation process that distinguishes the source-based 3D reconstructions from a retro-
+digitization of existing objects by terrestrial laser scanning or photogrammetry [46]. Here,
+the sources used, the gaps in knowledge uncovered, and the interpretation of the result
+are to be documented.
+
+
+8.4.1     Documentation of the 3D Models: Metadata
+
+The descriptive metadata describes the digital 3D model and the represented physical
+object. Usually, the name of the object, its function or type, its origin, its classification in
+an architectural epoch, the persons and events associated with it, etc. are mentioned.
+   The technical metadata related to the digital 3D model can include information on file
+size, file format, number of faces, edges, and nodes, model type, modeling methodology,
+software used, etc. This type of data can be partly mapped automatically during web-based
+3D visualization.
+
+
+4 The assessment is based on unpublished qualitative interviews conducted in the DFG project
+IDOVIR with people who create digital reconstructions, from larger production companies to self-
+employed individuals.
+176                                                                               8 Documentation
+
+
+   The administrative metadata regulates the legal aspects of the object, in this case the
+digital 3D model. They name the author (creator) and possibly the persons involved, the
+persons and/or institutions as rights holders, and the license under which the 3D model
+can be used. They are the basic prerequisite for legally secure access to the 3D model
+and its future use.
+   As part of the development of infrastructure projects, core datasets for the documenta-
+tion of 3D models, including digital-source-based 3D reconstruction, are currently being
+discussed and developed.5 The documentation schema presented here represents the com-
+parison between IDOVIR and DFG 3D-Viewer and represents the status of the discussion
+from June 2022 (Fig. 8.2).
+   When capturing the digital 3D model, the data types can be classified according to the
+following pattern. The description of the dataset should contain the basic, mostly field-
+based information about the digital 3D model. Usually, this is the model’s name, the time
+period the model represents, and a free-text description of the model.
+   A central part of the documentation is the rights declaration, which clarifies the use of
+the model and should ideally be available under Creative Commons licenses. It con-
+tains field-based entries on the license, the author (creator), and other rights holders
+(e.g. legal bodies). It is important to refer to common international standards and norms
+regarding licenses (→ Legislation), persons, and entities (ORCID,6 GND,7 VIAF,8 etc.).
+In this way, ambiguities regarding machine information processing can be avoided and
+the datasets can be linked. To document the history of the model more comprehensively,
+the software used, the modeling method, other people involved, and time span of the 3D
+modeling can be recorded. Information on the physical (no longer existing) object is doc-
+umented, which further contextualizes the model. Here, in addition to listing alternative
+names for the object, the object type can be defined following controlled vocabularies, and
+a link given to the Wikipedia and Wikidata datasets. Historical relationships to persons
+with a role and to historical events can ensure further contextualization of the object. The
+location of the object in relation to norm data, such as Geonames, should enable clear
+georeferencing of the object in question.
+   Finally, the project under which the 3D model was created can be documented within
+a project description. Here, it is useful to include the project title, possibly its acronyms,
+the website, the purpose, and the result as well as a free-text description of the project and
+
+5 The mapping of metadata started in 2022 as a workshop series and included the DFG projects
+DFG 3D-Viewer (https://dfg-viewer.de, accessed on 1.2.2023.) and IDOVIR (https://idovir.com/,
+accessed on 1.2.2023), the specialist information serviceBAUdigital (https://fid-bau.de, accessed on
+1.2.2023), Baureka (https://baureka.de, accessed on 1.2.2023) and national and European efforts
+such as the German Research Data Infrastructure, particularlyNFDI4Culture and the Europeana
+(https://europeana.eu, accessed on 1.2.2023). It has been extended to further international infrastruc-
+tures since then.
+6 https://orcid.org/, accessed on 1.2.2023.
+7 https://www.dnb.de/, accessed on 1.2.2023.
+8 https://viaf.org/, accessed on 1.2.2023.
+8.4 What Needs to be Documented                                                         177
+
+
+
+
+Fig. 8.2 Miro board documentation scheme for alignment of core datasets between IDOVIR
+and DFG 3D Viewer (Image: AI MAINZ, 2022)
+
+
+the project duration including the institutions involved in the project and their respective
+roles (Fig. 8.3).
+178                                                                      8 Documentation
+
+
+
+
+Fig. 8.3 Documentation of the 3D reconstruction of the wooden synagogue in Volpa in the 3D
+repository developed in the DFG 3D-Viewer project. (Image: AI MAINZ, 2022)
+
+
+8.4.2    Documentation of the Decision-Making Processes: Paradata
+
+When documenting the decision-making processes, the intellectual argumentation
+behind them is central. It must be explained which sources, analogies, and considera-
+tions led to the reconstruction (Fig. 8.4). These explanations should be visually juxtaposed
+with the presented sub-area of a reconstruction in manageable spatial divisions (e.g., north
+façade, east façade, etc.) to enable immediate reference and comparison. The reconstruc-
+tion can be visualized in a 2D image of the reconstruction model or by means of an
+8.5   How to Document                                                                      179
+
+
+
+
+Fig. 8.4 IDOVIR: documentation of the reconstruction of Altenberg Monastery (Image: IDOVIR,
+2022)
+
+
+annotation and a pre-set perspective on the 3D model. Both have different constraints and
+advantages. The 2D image does not require much effort to create. The representation of
+the 3D model may mean saving in a format suitable for the web, which may lead to a
+loss of representation or high effort but allows a good spatial clarification of the situation.
+   Furthermore, it makes sense to describe the variants considered and excluded in order
+to secure the knowledge stored in them and make it visible and, as described in the
+previous section, to include the metadata.
+   It could also be helpful to show the degree of uncertainty. Interesting work at the
+University of Bologna (→ Visualization) should be mentioned here [44], which is devel-
+oping proposals on how the degree of uncertainty and sources used could be visualized
+on the 3D model or its representation.
+
+
+8.5       How to Document
+
+Once it has been decided what is to be documented, there is the legitimate question of how
+to do so. This technical methodological aspect has so far been disregarded in the relevant
+guidelines and directives, not least due to the lack of research data infrastructures. As a
+result, 3D datasets could not be documented on a significant scale. New technological
+solutions were presented in the above section on preliminary work.
+   With funding from the German Research Foundation (DFG) and efforts from the Ger-
+man Research Data Infrastructures (NFDI), technological services are currently being
+developed and made available in the short term to enable the documentation and publi-
+cation of research data, including 3D models, while adhering to the FAIR Principles and
+applying Linked Data technologies.
+180                                                                            8 Documentation
+
+
+   In analogy to Tim Berners Lee’s 5 Star Model for Open Data, the technical solutions
+for documenting 3D models within the 3D repositories are also described here in stages
+(Fig. 8.5).
+   ★ Provide your 3D model and the associated metadata on the web under an Open
+License (OL). The format does not matter (scanned sheet, PDF, etc.)
+   ★★ Provide your 3D model in a format supporting Model Structure (MS) and the
+associated metadata on the web in a structured format (e.g. Excel instead of a scanned
+sheet, image or PDF)
+   ★★★ Provide your 3D model in Neutral Format (NF) and use open, non-proprietary
+formats (e.g. CSV instead of Excel) for the associated metadata on the web
+   ★★★★ Provide your 3D model with Structural Elements Properties (SEP) and use
+URIs to label things so that your data can be linked to
+
+
+
+
+Fig. 8.5 Assessment schema for 3D formats in terms of their interoperability, based on the criteria
+of the 5-star deployment schema presented by Tim Berners-Lee in 2012 (Image: AI MAINZ/Igor
+Bajena, 2023)
+8.5     How to Document                                                                   181
+
+
+    ★★★★★ Provide your 3D model as Linked Open Model (LOM) and link your data
+with other data to create contexts (Linked Open Data).
+    This technical networked semantic documentation of 3D models (metadata) in
+3D repositories is followed by documentation of the creative processes behind the visual
+representation (paradata). The striking feature of this context is the focus on recording
+the individual decision in a source-based reconstruction of art and architectural objects
+that no longer exist. Depending on the scientific questions of the research projects, what
+is to be documented may vary. Regarding standardization, jointly developed core datasets
+are of fundamental importance. The comprehensive documentation of decisions in a
+reconstruction process can also make use of the stage-like representation described above.
+The main difference here is that the 3D model does not necessarily have to be provided,
+as in the case of 3D repositories on the web.
+    Finally, it is important in the “how to document” that the hurdles are kept as low as pos-
+sible e.g.: A cost-free infrastructure that can perhaps already be used as a communication
+platform during reconstruction. A minimal training time and as little additional effort as
+possible. Securing the data through renowned, experienced institutions such as libraries,
+can build trust. The core task remains to reveal the knowledge behind the reconstruc-
+tion, whether in 2D or 3D. Ultimately, any form of documentation—publicly accessible
+or not—is better than no documentation at all.
+
+
+      Summary
+      After reading this chapter you should understand why it is important to document
+      meta- and paradata of digital 3D reconstructions, what and how to document, and
+      how to document projects with existing online tools.
+      Standards and guidelines
+
+      • UNESCO Charter (2003) Charter on the preservation of the digital heritage, pub-
+        lished 2009 (https://unesdoc.unesco.org/ark:/48223/pf0000179529, accessed on
+        1.2.2023).
+      • DFG Guidelines for Safeguarding Good Scientific Practice (2019), https://www.
+        dfg.de/download/pdf/foerderung/rechtliche_rahmenbedingungen/gute_wissens
+        chaftliche_praxis/kodex_gwp.pdf, accessed on 1.2.2023; https://www.dfg.de/dow
+        nload/pdf/foerderung/rechtliche_rahmenbedingungen/gute_wissenschaftliche_p
+        raxis/kodex_gwp_en.pdf, accessed on 1.2.2023.
+      • DFG Code of Practice “Digitization” (2016) https://www.dfg.de/formulare/12_
+        151/, accessed on 1.2.2023.
+      • London Charter, Denard H (2012) A new introduction to the London charter. In:
+        Bentkowska-Kafel A et al (eds) Paradata and transparency in virtual heritage.
+182                                                                      8 Documentation
+
+
+
+    Ashgate, Burlington, pp 57–72. https://www.londoncharter.org/fileadmin/templa
+    tes/main/docs/london_charter_2_1_de.pdf, accessed on 1.2.2023.
+  • Principles of Seville. International Principles of Virtual Archaeology. Ratified by
+    the 19th ICOMOS General Assembly in New Delhi, December 2017 (http://sev
+    illeprinciples.com, accessed on 1.2.2023).
+  • FAIR Principles, Wilkinson et al (2016) The FAIR guiding principles for scien-
+    tific data management and stewardship. Scientific Data 3(1):160,018. https://doi.
+    org/10.1038/SDATA.2016.18.
+
+
+  Projects
+
+  • DFG 3D-Viewer (2021–2023). The development of a 3D viewer infrastructure
+    for historical 3D reconstructions is intended to provide permanent publishing
+    and archiving of 3D datasets and the associated metadata, and to enable collabo-
+    ration and expert discourse on digital 3D models. The overall goal of the project
+    is to develop a web-based 3D viewer and exchange format for distributed 3D
+    repositories that ensure findable, accessible, interoperable and reusable 3D mod-
+    els as research data. Subgoals include creating an interdisciplinary application
+    profile, including the assignment of rights (licensing of models) and develop-
+    ing a prototype 3D repository and workflow for delivering a 3D model into 3D
+    repositories. https://dfg-viewer.de/en/dfg-3d-viewer, accessed on 1.2.2023.
+  • DFG Project IDOVIR: Infrastructure for the documentation of virtual recon-
+    structions (2022–2024). The aim of IDOVIR is to make decision-making
+    processes in architectural reconstruction permanently traceable and openly acces-
+    sible online with embedding at the University and State Library Darmstadt. The
+    core is the presentation of the intellectual argumentation behind a reconstruc-
+    tion. Special attention is paid to the ability to present any number of variants
+    or working states. Other features of the research infrastructure, which can be
+    used free of charge, include low-threshold use (familiarization time 15 min),
+    guided data entry, automatic PDF generation of the documentation, visualization
+    via 2D renderings and an interactive 3D model, and various tools for evalua-
+    tion, measurement, and communication. Depending on the available resources, it
+    allows minimal or extensive documentation. IDOVIR also developed a proposal
+    on how to depict the degree of uncertainty (plausibility) of the reconstruction
+    and the sources used. https://idovir.com/, accessed on 1.2.2023.
+  • Semantic Kompakkt: A tool for the semantic annotation of 3D models, devel-
+    oped within NFDI4Culture (2020–2025). The open-source components Wikibase
+    (indexing, knowledge graph), Open Refine (data transformation and import) and
+    Kompakkt (storage, visualization, interaction) will be integrated. Initially, for the
+8.5     How to Document                                                                    183
+
+
+
+         use case of cultural heritage and its specific vocabularies and ontologies such as
+         CIDOC CRM, this enables the annotation of 3D data within an open and flexible
+         knowledge graph environment. This facilitates the linking of 3D models, anno-
+         tations, and their cultural context with the semantic web and with national and
+         international standards data. Semantic Kompakkt is designed as a collaborative
+         environment with different levels of read/write access, where research groups can
+         use graphical user interfaces to upload and annotate data with a clear provenance
+         and metadata.
+             https://gitlab.com/nfdi4culture/ta1-data-enrichment/kompakkt-docker,
+         accessed on 1.2.2023.
+
+      Key literature
+
+      • Grellert, M., Pfarr-Harfst, M., 2019. The Reconstruction Argument Method—
+        Minimum Documentation Standard in the Context of Digital Reconstruction.
+        In: Kuroczyński, P., Pfarr-Harfst, M., Münster, S. (eds.), Der Modelle Tugend
+        2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architekturhistorischen
+        Forschung, arthistoricum.net, Heidelberg, pp. 264–280 [47].
+      • Wacker, M., Bruschke, J., 2019. Documentation of digital reconstruction projects.
+        In: Kuroczyński, P., Pfarr-Harfst, M., Münster, S. (eds.), Der Modelle Tugend
+        2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architekturhistorischen
+        Forschung, arthistoricum.net, Heidelberg, pp. 282–294 [48].
+      • Apollonio, F.I., 2016. Classification Schemes for Visualization of Uncertainty
+        in Digital Hypothetical Reconstruction. In: Münster, S., Pfarr-Harfst, M.,
+        Kuroczyński, P., Ioannides, M. (eds.), 3D Research Challenges in Cultural
+        Heritage II: How to Manage Data and Knowledge Related to Interpretative Dig-
+        ital 3D Reconstructions of Cultural Heritage, Springer International Publishing,
+        Cham, pp. 173–197 [25].
+      • Kuroczyński P., Bajena I.P., Große P., Jara K., Wn˛ek K., 2021. Digital Recon-
+        struction of the New Synagogue in Breslau: New Approaches to Object-Oriented
+        Research. In: Niebling F., Münster S., Messemer H. (eds.): Research and
+        Education in Urban History in the Age of Digital Libraries. UHDL 2019. Com-
+        munications in Computer and Information Science, vol 1501. Springer, Cham,
+        pp. 25–45 [49].
+      • Apollonio F.I., Fallavollita F., Foschi R., 2021. The Critical Digital Model for the
+        Study of Unbuilt Architecture, in: F. Niebling et al. (Eds.): UHDL 2019, CCIS
+        1501, pp. 3–24 [50].
+      • Kuroczyński P., Apollonio F.I., Bajena I., Cazzaro I., 2023. Scientific Refer-
+        ence Model – Defining standards, methodology and implementation of serious
+        3D models in archaeology, art and architecture history, in: The International
+184                                                                             8 Documentation
+
+
+
+     Archives of the Photogrammetry, Remote Sensing and Spatial Information
+     Sciences, Volume XLVIII-M-2 – 2023, pp. 895–902 [51].
+   • Bajena I.P., Kuroczyński P., 2023. Development of the Methodology and Infras-
+     tructure for digital 3D Reconstructions, in: Proceedings of (IN)TANGIBLE
+     HERITAGE(S) A conference on technology, culture and design, Canterbury
+     2022, AMPS conference proceedings series, ISSN 2398–9467, pp. 72–83 [45].
+
+
+
+
+References
+
+ 1. Brink A (2013) Anfertigung wissenschaftlicher Arbeiten S, S. 3–4. https://doi.org/10.1007/978-
+    3-658-02511-3
+ 2. German Research Foundation (2023) „Guidelines for Safeguarding Good Research Practice.
+    Code of Conduct”, https://doi.org/10.5281/zenodo.3923601.
+ 3. Münster S (2011) Entstehungs- und Verwendungskontexte von 3D-CAD-Modellen in den
+    Geschichtswissenschaften. In: Meissner K et al (eds) Virtual enterprises, communities & social
+    networks. TUDpress, Dresden, pp 99–108
+ 4. Denard H (2012) A new introduction to the London charter. In: Bentkowska-Kafel A et al (eds)
+    Paradata and transparency in virtual heritage. Ashgate, Burlington, pp 57–72
+ 5. Principles of Seville. International principles of virtual archaeology. Ratified by the 19th ICO-
+    MOS general assempbly in New Delhi DHSC
+ 6. London Charter, Denard H (2012) A new introduction to the London charter. In: Bentkowska-
+    Kafel A et al (eds) Paradata and transparency in virtual heritage. Ashgate, Burlington, pp 57–
+    72. https://www.londoncharter.org/fileadmin/templates/main/docs/london_charter_2_1_de.pdf,
+    accessed on 1.2.2023.
+ 7. Kuroczyński P et al (eds) (2019) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als
+    virtueller Raum der architekturhistorischen Forschung. arthistoricum.net, Heidelberg
+ 8. Arnold D et al (2008) EPOCH research agenda – final report
+ 9. Demetrescu E et al (2017) A white-box framework to oversee archaeological virtual reconstruc-
+    tions in space and time: Methods and tools. J Archaeol Sci: Rep 14:500–514
+10. Pletinckx D (2012) In: (2012) How to make sustainable visualizations of the past: an EPOCH
+    common infrastructure tool for interpretation management. In: Bentkowska-Kafel A et al (eds)
+    Paradata and transparency in virtual heritage. Ashgate Publishing, Farnham, pp 203–244
+11. Doerr M (2003) The CIDOC CRM – an ontological approach to semantic interoperability of
+    metadata. AI Mag 24(3)
+12. Doerr M et al (2011) CRMdig: a generic digital provenance model for scientific observation.
+    In: Proceedings of TaPP’11: 3rd USENIX workshop on the theory and practice of provenance,
+    Heraklion
+13. Kuroczyński P et al (2016) 3D models on triple paths – new pathways for documenting and
+    visualising virtual reconstructions. In: Münster S et al (eds) 3D research challenges in cultural
+    heritage II. Springer LNCS, Cham, pp 149–172
+14. Kuroczyński P, Große P (2020) OntSciDoc3D—Ontology for Scientific Documentation of
+    source-based 3D reconstruction of architecture. In: Long Abstracts of the International Confer-
+    ence on Cultural Heritage and New Technologies, Vienna, (https://chnt.at/wp-content/uploads/
+    OntSciDoc3D--Ontology-for-Scientific-Documentation-of-source-based-3D-reconstruction-of-
+    architecture.pdf)
+References                                                                                       185
+
+
+15. Bruschke J, Wacker M (2018) DokuVis – ein Dokumentationssystem für digitale Rekonstruk-
+    tionen. In: Breitling S, Giese J (eds) Bauforschung in der Denkmalpflege – Qualitätsstandards
+    und Wissensdistribution. University of Bamberg Press, Bamberg, pp 213–218
+16. Pfarr-Harfst M (2010) Dokumentations system für Digitale Rekonstruktionen am Beispiel der
+    Grabanlage Zhaoling, Provinz Saanxi, China. Dissertation
+17. Pfarr-Harfst M et al (2016) The reconstruction – argumentation method. In: Digital heritage.
+    Progress in cultural heritage: documentation, preservation, and protection. Lecture notes in
+    computer science, pp 39–49
+18. Grellert M, Pfarr-Harfst M, Schmid J (2019) Documentation for virtual reconstructions. One
+    year R-A-M – reconstruction-argumentation-method – a report of first experiences. In: Proceed-
+    ings of the 22nd international conference on cultural heritage and new technologies. CHNT 22,
+    2017, Wien
+19. Kuroczyński P et al (2021) Digital reconstruction of the new Synagogue in Breslau: New
+    approaches to object-oriented research. In: Research and education in urban history in the age
+    of digital libraries. Springer International Publishing, Cham, pp 25–45
+20. Kuroczyński P et al (2019) Historic Building Information Modeling (hBIM) und Linked Data –
+    Neue Zugänge zum Forschungsgegenstand objektorientierter Fächer. In: Sahle P (ed) DHd
+    2019. Digital humanities: multimedial & multimodal. Konferenzabstracts. Universitäten zu
+    Mainz und Frankfurt, Mainz, pp 138–141
+21. Martens B (2019) Virtuelle Rekonstruktion: Building Information Modelling (BIM) als
+    Rahmenbedingung für eine langfristige Nutzung von digitalen 3D-Gebäudemodellen. In:
+    Kuroczyński P et al (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller
+    Raum der architekturhistorischen Forschung. Heidelberg University Press, Heidelberg
+22. Demetrescu E (2015) Archaeological stratigraphy as a formal language for virtual reconstruc-
+    tion. Theory and practice. J Archaeol Sci 57:42–55
+23. Hauck O et al (2014) Cultural heritage markup language – how to record and preserve 3D
+    assets of digital reconstruction. In: CHNT 19, Vienna. http://chml.foundation/wp-content/upl
+    oads/2015/06/CHNT19_Hauck_Kuroczynski.pdf. 09 July 2015
+24. Niccolucci F et al (2006) A fuzzy logic approach to reliability in archaeological virtual recon-
+    struction. In: Niccolucci F et al (eds) Beyond the artifact. Digital interpretation of the past.
+    Budapest
+25. Apollonio FI (2016) Classification schemes for visualization of uncertainty in digital hypotheti-
+    cal reconstruction. In: Münster S et al (eds) 3D Research challenges in cultural heritage II: how
+    to manage data and knowledge related to interpretative digital 3D reconstructions of cultural
+    heritage. Springer International Publishing, Cham, pp 173–197
+26. Kensek KM et al (2004) Fantastic reconstructions or reconstructions of the fantastic? Track-
+    ing and presenting ambiguity, alternatives, and documentation in virtual worlds. Autom Constr
+    13(2):175–186. https://doi.org/10.1016/j.autcon.2003.09.010
+27. Michl F (2018) Digitale Bilder—analoges Recht: Von den Untiefen des Bildrechts. In:
+    Kuroczyński P, Bell P, Dieckmann L (eds) Computing Art Reader: Einführung in die digitale
+    Kunstgeschichte. arthistoricum.net (Computing in Art and Architecture, Band 1), Heidelberg,
+    pp 254–264
+28. Lutz Heusinger (1983) Kunstgeschichte und EDV: 8 Thesen. In: Bd. 11 Nr. 4, Kritische
+    Berichte. https://doi.org/10.11588/kb.1983.4.9808. https://journals.ub.uni-heidelberg.de/index.
+    php/kb/article/view/9808/3674)
+29. Laupichler F (1998) MIDAS, HIDA, DISKUS - was ist das? AKMB news 4
+30. Berners-Lee T et al (2001) The semantic web. J Sci Am 284(5):34–43
+186                                                                            8 Documentation
+
+
+31. Doerr M, Bruseker G, Bekiari C, Ore CE, Belios T, Stead S (2020) Volume A: definition of
+    the CIDOC conceptual reference model. Version 6.2.9. ICOM/CIDOC documentation stan-
+    dards group, continued by the CRM special interest group. http://www.cidoc-crm.org/Version/
+    version-6.2.9
+32. RfII Recommendations “Performance through Diversity”—May 2016, pp 46. https://d-nb.info/
+    1121685978/34
+33. Wilkinson et al (2016) The FAIR guiding principles for scientific data management and stew-
+    ardship. Scientific Data 3
+34. Eastman CM (1975) The use of computers instead of drawings in building design. In: AIA
+    Journal 63:46–50
+35. See UK BIM Framework setting out the approach for implementing BIM in the UK using the
+    framework for managing information provided by the ISO 19650 series. https://www.ukbimf
+    ramework.org/standards/
+36. Ohori KA et al (2018): Modeling cities and landscapes in 3D with CityGML. In: Building
+    information modeling. Springer, pp 199–215. https://doi.org/10.1007/978-3-319-92862-3_1
+37. Roubanov D (2014) Mechanikkonstruktion (M-CAD),. In: Eigner M et al (eds) Modellbasierte
+    virtuelle Produktentwicklung. Springer Vieweg, pp 115–136
+38. Fernie K et al (2020) 3D content in Europeana task force. https://pro.europeana.eu/post/3d-con
+    tent-in-europeana-task-force-review
+39. OGC (2012) OGC City Geography Markup Language (CityGML) Encoding Standard, Version
+    2.0.0
+40. Cieslik E (2020) 3D digitization in cultural heritage institutions guidebook
+41. Havemann S et al (2004) Generative parametric design of gothic window tracery. VAST 2004:
+    the 5th international symposium on virtual reality, archaeology and cultural heritage
+42. S. Garagnani et al (2013) parametric accuracy: building information modeling process applied
+    to the cultural heritage preservation. In: 3DARCH 2013
+43. Rossenova L, Schubert Z, Vock R, Sohmen L, Günther L, Duchesne P, Blümel I (2022) Collab-
+    orative annotation and semantic enrichment of 3D media: a FOSS toolchain. In: Proceedings of
+    the 22nd ACM/IEEE joint conference on digital libraries (JCDL ‘22). Association for Comput-
+    ing Machinery, New York, NY, USA, Article 40, pp 1–5. https://doi.org/10.1145/3529372.353
+    3289
+44. Apollonio FI et al (2021) The critical digital model for the study of unbuilt architecture. In:
+    Research and education in urban history in the age of digital libraries. Springer International
+    Publishing, Cham, pp 3–24
+45. Bajena IP, Kuroczyński P (2023) Development of the Methodology and Infrastructure for dig-
+    ital 3D Reconstructions. In: Proceedings of (IN)TANGIBLE HERITAGE(S) A conference on
+    technology, culture and design, Canterbury 2022, AMPS conference proceedings series, ISSN
+    2398–9467, pp 72–83
+46. DFG (2016) DFG-Praxisregeln “Digitalisierung”
+47. Grellert M et al (2019) Die Rekonstruktion – Argument – Methode: Vorschlag für einen mini-
+    malen Dokumentationsstandard im Kontext digitaler Rekonstruktionen. In: Kuroczyński P et al
+    (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architek-
+    turhistorischen Forschung. Heidelberg
+48. Wacker M et al (2019) Documentation of digital reconstruction projects. In: Kuroczyński P et al
+    (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architek-
+    turhistorischen Forschung. Heidelberg, pp 282–294
+49. Kuroczyński P et al (2021) Digital reconstruction of the new Synagogue in Breslau: new
+    approaches to object-oriented research. In: Niebling F et al (eds) Research and education in
+    urban history in the age of digital libraries. Springer International Publishing, Cham, pp 25–45
+References                                                                                     187
+
+
+50. Apollonio FI et al (2021) The critical digital model for the study of unbuilt architecture. In:
+    Niebling F et al (eds) Research and education in urban history in the age of digital libraries.
+    Springer International Publishing, Cham, pp 3–24
+51. Kuroczyński P, Apollonio FI, Bajena I, Cazzaro I (2023) Scientific Reference Model – Defin-
+    ing standards, methodology and implementation of serious 3D models in archaeology, art and
+    architecture history, in: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences, Volume XLVIII-M-2 – 2023, pp 895–902
+52. Getty (2022) What are controlled vocabularies?
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

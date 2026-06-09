@@ -1,0 +1,750 @@
+Time Machine Organisation TMO
+Operational Plan 2020 -2021     September 2020
+       Table of contents
+
+       1 Introduction ........................................................................................................... 2
+       2 The Time Machine Concept and Agenda................................................................. 2
+           2.1 The basic ideas ......................................................................................................................... 3
+                   The Time Machine Processing and Digitisation Infrastructure ........................................................... 3
+                   The Requests for Comments (RFCs) .................................................................................................... 4
+                   The Local Time Machines (LTMs) ........................................................................................................ 5
+
+       3 TMO Action Plan..................................................................................................... 6
+           3.1 The broader Objectives ............................................................................................................ 6
+           3.2 The Planning Process................................................................................................................ 7
+           3.3 The Immediate Priorities .......................................................................................................... 8
+           3.4 Actions in the period 2020 - 2021 ............................................................................................ 9
+                   I. Time Machine Agenda ..................................................................................................................... 9
+                   II. Local Time Machine Services ........................................................................................................ 10
+                   III. Project Scouting Services and Cooperation.................................................................................. 11
+                   IV. Third Party Services ..................................................................................................................... 13
+                   V. Dissemination ............................................................................................................................... 14
+                   VI. Communication ........................................................................................................................... 15
+
+       4 Services for TMO members .................................................................................. 16
+                   Project Scouting Services (PA III)....................................................................................................... 16
+                   Local Time Machine (LTM) Services (PA II)........................................................................................ 17
+                   Communication (PA VI) ..................................................................................................................... 17
+        5 TMO Governance ..................................................................................................18
+       6 Annex: TMO budgets for 2020 -2021 .................................................................... 21
+           6.1 Budget for 2020 ..................................................................................................................... 21
+           6.2 Updated Budget for 2020....................................................................................................... 22
+           6.3 Preliminary Budget for 2021 .................................................................................................. 23
+
+
+                                                                                                                                                                         1
+TMO Operational Plan 2020 -2021
+               1 Introduction
+       The Time Machine Organisation (TMO) is an association under Austrian law created by the Time Machine community in order to ensure the long-term
+       sustainability of the concept and ambitious research and innovation agenda that had been designed by the Time Machine CSA project 1 in the period 2019-2020.
+       The Time Machine Community comprises a large number of researchers, innovators, decision makers and other professionals and stakeholders in the area of
+       Cultural Heritage 2. This strong network currently counts over 600 institutions from 45 countries, including close to 200 top European research institutes, a huge
+       representation – more than 100 organisations - from galleries, libraries, archives and museums (GLAM), as well as leading large enterprises, innovative SMEs,
+       institutional bodies and influential civil society organisations.
+       Initially conceived as a FET flagship, Time Machine CSA (TM) has developed a realistic long-term operational roadmap with concrete objectives and milestones that
+       requires consistent long-term funding to maximise its socioeconomic impact. TMO will make the transition from the organisation environment set up during the
+       conception phase to one that will have the required resources enabling to implement the full roadmap. The operation plan presented in this document describes
+       the actions and approach towards this objective.
+       Following this brief introduction, Section 2 provides an overview of the TM main ideas and structure, as these have been developed in the CSA project. Section 3
+       presents the action plan for the period 2020-2021. Section 4 provides the list of services to the TMO members. Finally, Section 5 presents the TMO governance
+       structure and associated roles and responsibilities.
+
+
+
+
+               2 The Time Machine Concept and Agenda
+       Time Machine is a large-scale research initiative aiming to create the Big Data of the Past - a distributed digital information system mapping
+       the European social, cultural and geographical evolution across times. In the proposed approach, digitisation is only the first step of a long series of extraction
+       processes, including document segmentation and understanding, alignment of named entities and simulation of hypothetical spatiotemporal 4D reconstructions.
+       Such computational models with an extended temporal horizon are key resources for developing new critical reflections on the future of our institutions, and
+       insights for historians, social scientists, creative arts professionals, policy-makers, and for the general public, with a significant common denominator: contributing
+       to informed decision-making from everyday life to academic, professional and political matters. The vision is, therefore, to enable Europe to turn its long history,
+       as well as its multilingualism and multiculturalism, into a living social and economic resource.
+
+
+
+
+       1 Horizon 2020 Coordination and support action (CSA) Grant Agreement No. 8020323
+
+
+       2
+           The expression “Cultural Heritage” in the document will often refer to every trace of European social, cultural and geographical evolution, which is wider than its current scope.
+
+                                                                                                                                                                                                2
+TMO Operational Plan 2020 -2021
+            2.1 The basic ideas
+       The Time Machine Processing and Digitisation Infrastructure
+       The Time Machine Processing Infrastructure will be composed of a digital content processor and three simulation engines (Figure 2-1):
+                a 4D Simulator that manages a continuous spatiotemporal simulation of all possible pasts and futures that are compatible with the data.
+                a Universal Representation Engine that manages the multidimensional representation space resulting from the integration of extremely diverse types of
+                digital cultural artefacts (text, images, videos, 3D).
+                a Large-Scale Inference Engine that will shape and assess the coherence of 4D simulations based on human-understandable concepts and constraints.
+
+
+
+
+                                                        Figure 2-1: TM Digital Content Processor and the three simulation engines
+
+       The Time Machine Digitisation Infrastructure will be composed of a network of digitisation hubs and will be organised on a European scale. A peer-to-peer platform
+       will be in charge of managing and optimising digitisation strategies at European level and will also be tasked with the development of generic solutions for archiving,
+       directly documenting the digitisation processes, and swiftly putting the digitised documents online.
+       The core software components are presented in Box 2-1.
+
+
+                                                                                                                                                                            3
+TMO Operational Plan 2020 -2021
+                                                   Box 2.1 TM Core software components: Data Graph, 4D Map, Code Library and Project Repository
+           Data Graph
+                The Data Graph (incrementally implemented by research in Pillar 1) is the central component of the Time Machine, containing all the information modelled in the Time
+                Machine. The graph is constructed both manually using editing Apps and automatically through the processing of the Digital Content Processor. Apps permit visualise and
+                edit the Data Graph, thus performing Internal (e.g. inclusion of Nodes and Links) and External Operations (e.g. Visualisation).
+           4D Map
+                The 4D Map is a second central component of Time Machine. It plots both ongoing projects and the dataset of these projects. This means that the 4D Map is both the map
+                where activities can be followed and the map aggregating results. The density of the 4D Map is not uniformed. In particular some zones may be modelled only in 3D, 2D
+                and even 1D, as a list of included elements. The 4D Map includes a layer of Municipalities on which Local Time Machines can be anchored. The 4D Map can be navigated
+                using the several 4D interfaces.
+           Code Library
+                The Code Library is a library accessible in several programming language regrouping key Operators function for processing Data in the Time Machine Environment.
+           Projects Repository
+                The Projects Repository monitors all the active projects of the Time Machine. Projects are usually conducted by institutions but can also be launched by individuals. Projects
+                may be new or documentation of ancient projects. Projects can mine Sources and ingest their extracted data into the Data Graph. These Projects are associated with a
+                Zone of Coverage that associated them with Local Time Machines, producing content for GeoEntitites. Projects may also produce intermediary datasets that can be
+                downloaded even if they are not yet integrated in the Data Graph. Projects can also develop Apps that interact with the 4D Map and the Data Graph. Projects can contribute
+                to the Code Library by working on the GitHub repository of the Time Machine to produce new Operators. These different objectives are non-exclusive from one another.
+
+
+
+       The Requests for Comments (RFCs)
+       Reaching consensus on the technology options to follow in a programme as large as Time Machine is a complex issue. To ensure the open development and
+       evaluation of work, a process inspired by the Request for Comments (RFC) that was used for the development of the Internet protocol 3 will be adapted to the needs
+       of Time Machine. Time Machine Requests for Comments will be freely accessible publications, identified with a unique ID, constituting the main process for
+       establishing rules, recommendations, core architectural choices for the Time Machine components. Their basic principles are presented in Box 2-2.
+
+                                                                         Box 2-2: Basic features of the TM Requests for Comments
+           The Time Machine RFCs are based on the following principles
+                      Accessibility. RFCs are freely accessible, free of charge.
+
+
+
+       3
+           https://en.wikipedia.org/wiki/Request_for_Comments
+
+                                                                                                                                                                                             4
+TMO Operational Plan 2020 -2021
+                   Openness. Anybody can write an RFC.
+                   Identification. Each RFC, once published, has a unique ID and version number.
+                   Incrementalism. Each RFC should be useful for its own right and act as a building block to others. Each RFC must be aimed as a contribution, extension or revision of
+                   the Time Machine Infrastructure.
+                   Standardisation. RFCs should aim to make use of standardised terms to improve the clarity level of its recommendation.
+                   Scope. RFCs are designed contribution and implementation solutions solving practical problems. RFC are not research papers and may not necessarily contain
+                   experimental evidence. The RFCs cover not only the technical infrastructure but the data standards, legal frameworks, values and principles.
+                   Self-defining process. Like for the development of the Internet, RFCs are the main process for establishing the Time Machine Infrastructure and Processes but also the
+                   processes and roles for managing RFCs themselves.
+
+       The Local Time Machines (LTMs)
+       The Time Machine Network is organised as a virtually unlimited amount of Local Time Machines (LTMs). Each LTM is anchored in the space of a city or a region and
+       has the ambition to build a dense database of spatiotemporal information laying the foundation of a 4D model of its physical environment.
+       The Time Machine Organisation is responsible for the development of the core infrastructure which includes structures like the Data Graph or the 4D Map. The
+       Apps are pieces of software that allow users to experience and edit the information in the Data Graph and the 4D Map. They can be grouped into families of Apps
+       like the Navigators or the Annotators. The way these components fit together is shown in Figure 2-2.
+
+
+
+
+                                        Figure 2-2: General structure of Local Time Machines and their relation to Projects, Apps and Core Components.
+                                                                                                                                                                                        5
+TMO Operational Plan 2020 -2021
+       LTMs are areas characterised by density of operations. There is no single coordination that aims to manage all the projects that have arisen in a specific area. All
+       those involved in the various projects and activities, through their organisation charts, can in any case converge towards a community which will therefore have an
+       autonomous logic of structuring and functioning that emerges locally. The projects involved can include projects with national and international grants, institutional
+       projects having internal funding, projects financed by local administrative institutions, projects held by companies on cultural heritage benefiting of services and
+       tools implemented by the Time Machine Organisation through the Local Time Machines Infrastructure, but also small-scale projects led by individuals.
+       The project-based horizontal structure has key advantages:
+                Standard processes facilitate easy on-boarding of new projects and members. They ensure openness by-design
+                Standard operations and libraries of standard operators guaranty by design the desired level of compatibility between processes and datasets.
+                Centralised repositories for projects, operations and data sets enable a constantly up-to-date map of activities in progress.
+       Another development principle of the LTMs is scalability by design. To maximise growth of the Time Machine environment, the right balance must be found between
+       part of the infrastructure under the control of the Time Machine Organisation and pieces of software independently developed. The Time Machine should be as
+       distributed as possible, but as centralised as necessary.
+       The Time Machine Organisation (TMO) helps the regional/local actors in this process by providing technology, methodology and supporting infrastructure facilitating
+       the digitisation pipelines, the standardisation of the information gathered and the development of related services. In the course of time, LTMs pass through
+       different maturity phases. Each maturity phase permits to envision specific exploitation strategies. A series of events taking the form of LTM Academy events will
+       be organised to present, compare and evaluate ongoing work.
+
+
+
+            3 TMO Action Plan
+            3.1 The broader Objectives
+       The TMO primary objective is to keep up with strengthening and enriching the large community that constitutes its member base. To this effect, TMO will invest in
+       developing and offering in the short term a range of services that add value to its members.
+       These include project scouting services that will enhance joint project work, as well as developing a structuring environment for LTM projects and communication
+       of developments in the field of Cultural Heritage. Another line at a later stage will be to develop an offer comprising structure, tools and support for LTM projects,
+       facilitating project work in the area of Cultural Heritage. The access to this progressively unfolding service offer, as well as their relevance to the interests and
+       concerns of the members, will be a strong motivation for the TM community to continue supporting TMO.
+       Another important aim for TMO is to follow developments with regards to other large-scale funding opportunities in the frame of Horizon Europe or other similar
+       funding programmes. To this effect, TMO will pursue EU lobbying, political communication, and alliances with other projects. Time Machine has a concrete chance
+       to be financed in the second wave of European Partnerships or other large-scale initiatives in the field of Cultural Heritage. In this respect, it is important to invest
+       resources in planning and blueprints, for example, through the development of RFCs, that contribute to increasing the degree of the programme maturity and,
+       thus, the chances of obtaining such large-scale funding.
+
+                                                                                                                                                                              6
+TMO Operational Plan 2020 -2021
+            3.2 The Planning Process
+
+       TMO resources come from:
+               Membership fees
+               EU central funding
+               National funding
+               Service specific funding
+       The membership fees are dedicated to operate basic TMO-wide actions and
+           services:
+                Creating a basic office infrastructure
+                Organising the community (Communication Manager, LTM Manager,
+                Programme Manager)
+                Offering a basic level of concrete services that offer direct benefits to
+                                                                                                          Figure 3-1: Planning process for the TMO action plan
+                partners (Technical Infrastructure, Project Scouting Services)
+       EU central funding (Horizon Europe, ESIF, Digital Europe, etc.) will be accessed
+              via proposals in response to calls. In this respect, TMO will be involved     The starting point for the programming cycle is the Time Machine Roadmap
+              in consortium development, participation, and project partnering to           that defines the priority objectives to be achieved at a given period of time.
+              (a) implement parts of the TM R&I agenda via open calls as well as (b)        Based on available funding, the Executive Board prepares a proposal defining:
+              to scale up and increase the quality of its service offer to its members,         The short-term targets and the associated implementation plans for the
+              (c) to participate in strategic initiatives.                                      current programming period
+       National and regional funds will be used to implement and shape Local Time               The longer-term objectives that should receive attention for following
+              Machine activities.                                                               programming periods
+       Service specific funding (innovation & start-up funds, entrepreneurship funds)           The Communication and Coordination actions that support
+               will be used to bootstrap and scale up services as well as to support            implementation in the current period, as well as objectives to be reached
+               technology transfer activities.                                                  in following programming periods
+       TMO has a rolling programming process that uses available funding resources              The Business Development objectives, specifying resources to be
+       to implement TM related actions and to obtain further funding to pursue such             secured for the following programming periods.
+       actions. The process is illustrated in Figure 3-1.
+                                                                                            Bi-annual reporting periods are foreseen for progress assessment and work
+                                                                                            reprogramming by the Executive Board.
+
+
+                                                                                                                                                                        7
+TMO Operational Plan 2020 -2021
+            3.3 The Immediate Priorities
+       For the bootstrapping phase (2020-2021) TMO will organise available resources around topics dealing with initiating the implementation of the Time Machine
+       Agenda, create immediate services for its members and securing funding for its longer-term plans. The priorities identified for this period are shown in Table 3-1.
+
+                  Priority Area                                       Objective                                                      Links with other Priority Areas
+
+                                         • Establish a sustainable process and workflow for (1) planning,
+                                                                                                                • PA I develops the results to be used for PA II, III and IV.
+         I. Time Machine Agenda            writing and reviewing RFC and (2) for transforming some RFC into
+                                                                                                                • PA I provides key material for PA V and VI.
+                                           services
+
+
+         II. Local Time Machines         • To create the infrastructure driving the rapid development of        • PA II provides guidance for communication actions in PA VI
+         Services                          LTMs based on projects                                               • PA II may provide material for dissemination in PA V
+
+
+                                                                                                                • PA III offers the longer-term funding for implementing PA I and II
+                                         • To obtain funding from procurements of institutional funders
+         III. Project Scouting and                                                                                activities
+                                           (Horizon Europe, Digital Europe, ESIF…) through winning
+         Cooperation                                                                                            • PA III provides guidance for communication actions in PA VI
+                                           partnerships of TM members and selected third parties
+                                                                                                                • PA III may provide material for dissemination in PA V
+
+                                                                                                                • PA IV offers the longer-term funding for implementing PA I and II
+                                         • To demonstrate the socio-economic relevance of TM and obtain           activities
+         IV. Services to Third Parties
+                                           funding from services to third parties                               • PA IV provides guidance for communication actions in PA VI
+                                                                                                                • PA IV may provide material for dissemination in PA V
+
+
+                                         • To “package” and make available the knowledge created in other
+                                                                                                                • PA V provides material for communication actions in PA VI
+         V. Dissemination                  PAs through publications, lectures, courses and other forms of
+                                                                                                                • PA V provides background knowledge for PA I - IV
+                                           dissemination
+
+
+                                                                                                                • PA VI supports all other PAs subject to communication objectives:
+                                         • To raise awareness and communicate the impact of TMO
+                                                                                                                  scientific impact and recognition for PA I, and II, lobbying and
+         VI. Communication                 activities and use communication tools to serve strategic TMO
+                                                                                                                  partnering for PA III and membership base satisfaction and
+                                           objectives
+                                                                                                                  customers for PA III and PA IV
+
+                                                                    Table 3-1: TMO Priority Areas for the period 2020 – 2021
+
+
+
+
+                                                                                                                                                                                       8
+TMO Operational Plan 2020 -2021
+            3.4 Actions in the period 2020 - 2021
+       Based on the priorities the following action areas have been identified:
+       I. Time Machine Agenda
+
+         Targeted Results
+         1) Establishment of the full process for RFC Writing and Reviewing (RFC on RFC (RFC-0000), RFC on RFC Editorial committee (RFC-0003), RFC on Publication Platform (RFC-0004))
+         2) Writing and Publication of the RFCs planned in the RFC Tree (RFC-0002). Current list includes 6 planned RFCs for 2020 and 13 for 2021 (see below)
+         3) Transform RFC into Infrastructure and Service
+
+         Responsibility:
+         Daniel Jeller, Frédéric Kaplan
+         Resources:
+         TMO Core Staff, RFC Editorial Committee Members, TMO Executive Board Members
+
+         Planning of work
+         2020 (6 planned RFCs): RFC on RFC, RFC on TM Glossary, RFC on RFC Tree, RFC on RFC Editorial Committee, RFC on Publication Platform, RFC on LTM
+         2021 (15 planned RFCs): RFC on Technical Charter, RFC on Vision Mission and Values Charter, RFC on Intellectual Property Rights and Licenses, RFC on Training, RFC on LTM Value Scale, RFC on LTM
+         Training, RFC on Definition of Typologies of Digitisation Interventions, RFC on Standardisation and Homologation, RFC on Open Hardware, RFC on Data Lifecycle, RFC on Operation Graph, RFC on
+         TM Data Graph, RFC for TM APIs, RFC for Classification and Planning of Languages to address, RFC on Annotation
+         2022 (16 planned RFCs): RFC on Digital Content Processor (DCP) of Level 1, RFC on Digital Content Processor (DCP) of Level 2, RFC on Digital Content Processor (DCP) of Level 3, RFC on Synergy and
+         Interaction in EU Research Infrastructure, RFC on General Standards for the Super Computing Architecture, RFC on Time Machine Box, RFC Digitisation Hubs, RFC for Named Entity Recognition, RFC
+         on Text Recognition and Processing Pipeline, RFC on Structured Document Pipeline, RFC on Map and Cadastre Processing Pipeline, RFC on Audio Processing Pipeline, RFC on Video Processing
+         Pipeline, RFC on Music Score Pipeline, RFC on Photographic Processing Pipeline, RFC on Photogrammetric Pipeline
+         2023 (11 planned RFCs): RFC on Enhancing Collaboration, RFC on Franchise System, RFC on Solidarity, RFC on Top-Down Initiatives, RFC on Distributed Storage, RFC on Distributed Storage System
+         for Public Data, RFC on Distributed Storage System for Private Data, RFC on On-demand Digitisation, RFC on Global Optimization of Digitisation Process, RFC for Orthographic Normalisation, RFC on
+         Content Filtering
+         2024 (8 planned RFCs): RFC on Knowledge Transfer, RFC on Smart Cluster, RFC on Collaboration Indicators, RFC on Large-Scale Inference Engine, RFC on the 4D Grid, RFC on 4D Simulations, RFC TM
+         Tools for History Research, RFC on New Scanning Technology
+         2025 (4 planned RFCs): RFC on 4D Simulator, RFC on Universal Representation Engine, RFC for Machine Translation, RFC on Mirror World Prototyping.
+         2026 (7 planned RFCs): RFC on Legal Issues linked with Mirror Worlds, RFC on Mirror World Extension Strategy, RFC on Mirror World Technical Standards, RFC on Virtual/Augmented Reality and
+         Discovery, RFC on 4D Mirror World, RFC for Improved Simulation using TM Simulation Engines
+
+
+
+
+                                                                                                                                                                                                           9
+TMO Operational Plan 2020 -2021
+         2027 (1 planned RFC): RFC on Large Scale Mirror World 2025 (4 planned RFCs): RFC on 4D Simulator, RFC on Universal Representation Engine, RFC for Machine Translation, RFC on Mirror World
+         Prototyping.
+         2026 (7 planned RFCs): RFC on Legal Issues linked with Mirror Worlds, RFC on Mirror World Extension Strategy, RFC on Mirror World Technical Standards, RFC on Virtual/Augmented Reality and
+         Discovery, RFC on 4D Mirror World, RFC for Improved Simulation using TM Simulation Engines
+
+         Actions and timing
+         Task 1.1: Planning and Infrastructure Development (Q3-Q4 2020) – Infrastructure Team
+         Based on the content produced during the Time Machine CSA, the RFC writing, reviewing and publishing process will be set up using Github and Open Review, with the first five RFC’s to be developed
+         simultaneously as a base for subsequent RFC development.
+         Task 1.2: Engagement of RFC writers (Q4 2020- Q1 2021) – RFC Editorial Committee, TMO Executive Team Members
+         Constant monitoring of the RFCs (writing, editing, processing of input…) will be implemented to ensure that the priority of RFCs is adjusted to the evolving needs of the community and key
+         stakeholders and to ensure the smooth production of related/dependent RFCs.
+         Task 1.3: Growing and Maintaining the RFC Tree (2020-2021) – Infrastructure Team, RFC Editorial Committee
+         Growth of the RFC Tree and thus the Time Machine itself will take place via the process of writing, reviewing and publishing individual RFCs. The process will be managed by using Github and Open
+         Review following the list of planned RFCs for 2020 as outlined above. Day-to-day monitoring will ensure the proper use of the tools by the writers and reviewers.
+         Deliverables:
+         D1.1 RFC process including set-up of necessary tools (Q4 2020) and recruitment of writers: output of Task 1.1, providing the process and platform for the production of RFCs.
+         D1.2 2020 RFCs (Q4 2020): output of Tasks 1.2 and 1.3, planned 2020 RFCs
+         D1.3 2021 RFCs (Q1 – Q4 2021): output of Tasks 1.2 and 1.3, planned 2021 RFCs
+
+
+
+
+       II. Local Time Machine Services
+
+         Targeted Results
+         1) Creation of the Local Time Machine (LTM) Webspace and Project Environment on timemachine.eu
+         2) Development of the App and Code Library Environment
+         3) Time Machine Academy; Coordination and Training of the Time Machine Development Team
+
+         Responsibility:
+         Isabella di Lenardo, LTM Manager (autumn 2020)
+         Resources:
+         TMO Core Staff, Infrastructure Team, LTM Project Network Contacts
+
+
+
+                                                                                                                                                                                                           10
+TMO Operational Plan 2020 -2021
+         Planning of work
+         Planning is provided in RFC-0005 (RFC on LTM)
+
+         Actions and timing:
+         Task 2.1: Planning and Infrastructure Development (Q4 2020 Q4 2021) – LTM Coordination Team, Infrastructure Team
+         The RFC on Local Time Machines will be produced to provide the foundation for planning and to outline related infrastructure needs for the initial LTM service offering. Based on this, the necessary
+         infrastructure will be developed to underpin the planned LTM services and growth strategy, including but not limited to the LTM Web Space, LTM Project Environment, LTM App Development
+         Environment and LTM Code Library Environment. Additional core LTM RFCs will also be produced as referenced in PA I.
+         Task 2.2: Training (Q4 2020 Q4 2021) – LTM Coordination Team
+         Education is a core pillar of the LTM growth strategy, specifically in terms of introducing the concept outlined in RFC-0005, successful onboarding new projects, formation of the Time Machine
+         Development Team and in the production of related RFCs. To this end, an RFC on LTM Training will be produced in Q4 2020 to be followed by a progressive roll-out of Time Machine Academies in
+         2021.
+         Task 2.3: Stakeholder Engagement (Q4 2020 – Q4 2021) – LTM Manager, Communication Team
+         Consistent communication with and engagement of internal and external stakeholders, including the dissemination of LTM project news and results. Key outputs for 2020-2021 will be to provide
+         the necessary information to PA V and PA VI to support campaigns and other growth activities related to the launch and continuous promotion of the LTM Webspace, LTM Project Environment and
+         LTM Academies.
+         Deliverables:
+         D2.1 LTM Webspace (Q4 2020): output of Task 1.1, providing the process and platform for the production of RFCs.
+         D2.2 LTM Project Environment (Q4 2020): output of Task 2.1, launch of the LTM Project Environment
+         D2.3 LTM App and Code Library Environment (Q3 2021): output of Task 2.1, launch of the LTM App & Code Library Environment.
+         D2.4 LTM Academy Events (Q1-Q4 2021): output of Task 2.2, delivery of both virtual and in-person LTM Academy Events.
+
+
+
+       III. Project Scouting Services and Cooperation
+
+         Targeted Results
+         1) Successful integration of the TMO into relevant consortia / project initiatives and driving of revenue for TMO operations as well as roadmap implementation
+         2) Successful and widely known support of TMO member-driven applications
+         3) Successful communication of TMO related topics into all major European funding initiatives and early awareness of funding related developments
+         4) Established and efficient workflows, instruments, capacities and structures for operation
+         5) Profitable operation (in terms of additionally generated revenues)
+
+
+
+
+                                                                                                                                                                                                             11
+TMO Operational Plan 2020 -2021
+         Responsibility
+         Sander Münster, Project Scouting Team
+         Resources:
+         TMO Core Staff, TM Ambassadors
+
+         Planning of work
+         Continuous follow-up of tender opportunities for TM related topics
+         Screening and association of identified opportunities to specific parts of the TM agenda
+         Making processed information available to TM partners
+         Taking initiative to form plans for consortia and strategies to exploit the identified opportunities
+
+         Actions and timing:
+         Task 3.1: Planning and Capacity Development (Q4-Q4 2020) – Project Scouting Team
+         Development of project scouting workflows, building and maintaining an overview of current of tender opportunities for topics related to the TM Agenda, development of project partnering scheme
+         workflow & model agreement, and prototyping of mechanisms to utilize regional/LTM’s projects funding.
+         Task 3.2: Facilitate the TMO’s Participation in Project Proposals (Q4 2020 - Q4 2021) – Project Scouting Team
+         Drive the TMO’s participation in relevant calls by providing expert input/information, drafting/preparing WP/task content, preparing budget/resource related planning and coordination of work
+         between TMO and consortia.
+         Task 3.3: Provide Preparation Support Services for TMO Member’s Project Proposals (Q4 2020 – Q4 2021) – Project Scouting Team
+         Support TMO members with their projects by providing guidance on rules and procedures for proposal preparation and submission, finding partners, building consortia, project pre-evaluation and
+         project writing support.
+         Task 3.4: Stakeholder Engagement (Q4 2020 – Q4 2021) – Project Scouting Team, Communication Manager
+         Consistent communication and engagement with the TMO community and promotion of benefits both internally and externally. Key elements include calls for partnership in TMO driven project
+         proposals, information on mapped calls, events, lobbying of policy makers and funding bodies, dissemination of best practices and success stories and promotion of Project Scouting services to
+         both TMO members and the public.
+         Deliverables:
+         D3.1 TMO involvement in relevant proposals/projects (Q4 2020 - Q4 2021): output of Task 3.2, proposals and projects with direct TMO involvement, to be monitored and reported bi-weekly to
+         ensure alignment of related activities across PAs.
+         D3.2 Support of TMO member proposals/projects (Q4 2020 – Q4 2021): output of Task 3.3, proposals and projects benefiting from Project Scouting services, to be monitored and reported bi-weekly
+         to ensure alignment of related activities across PAs.
+
+
+
+
+                                                                                                                                                                                                        12
+TMO Operational Plan 2020 -2021
+       IV. Third Party Services
+
+         Targeted Results
+         1) Develop services to Third Parties by exploiting TMO know-how in different aspects related to digitisation of Cultural Heritage
+         2) Promote such services to interested Third Parties and secure contracts
+         3) Implement service contracts enabling TMO to increase its awareness and resources for future work
+
+         Responsibility
+         Thomas Aigner, Andreas Maier, Sander Münster
+         Resources
+         Schuman Associates S.C.R.L, TMO Core Staff, TM Ambassadors, TM Experts
+
+         Planning of work
+         Planning and Implementation of Feasibility Studies and corresponding Consulting Activities, such as:
+          •    Consulting Studies aiming to define specific sub-programmes related to Cultural Heritage in different initiatives at EU level (Horizon Europe, Digital Europe, etc.)
+          •    Consulting on Cultural Heritage digitisation programmes that nations / regions / institutions wish to launch
+          •    Feasibility Studies on the use of TM technology
+          •    Feasibility Studies on the development of LTMs
+          •    Feasibility Studies on the benefits of LTMs for a city / region / thematic area
+
+
+         Identification of relevant target groups:
+          •    national/regional authorities in cultural heritage
+          •    national/regional authorities in charge of research and innovation
+          •    associations or isolated organisations in the GLAM sector
+          •    other stakeholders involved in digital approaches in relation to Cultural Heritage
+
+
+         Actions and timing
+         Task 4.1: Study of the TMO’s Capacity for Service Provision (Q4 2020) – Third Party Services Team
+         Define the TMO’s capacity to provide relevant services that can be realistically promised during the business development exercise.
+         Task 4.2: Prepare offers of Third Party Services (Q4 2020) – Third Party Services Team
+         Package and organise the promotion of certain services, including the definition of basic rules for funding (coordination costs for TMO, any share for service promoters,…)
+         Task 4.3: Opportunity follow-up and contract negotiation (Q4 2020 – Q4 2021) – Third Party Services Team
+         Follow-up of opportunities and negotiation of contracts with prospective third party clients.
+
+
+                                                                                                                                                                                       13
+TMO Operational Plan 2020 -2021
+         Task 4.4: Project implementation (Q4 2020 – Q4 2021) – Third Party Services Team
+         Execution of contracts for third party consulting projects, including follow-up of services and quality control.
+         Task 4.5: Stakeholder engagement (Q4 2020 – Q4 2021) – Project Scouting Team, Communication Manager
+         Promotion of third party services externally via the TMO network, including dissemination of success stories and testimonials
+         Deliverables:
+         D4.1 TMO third party services capacity (Q4 2020): output of Task 4.1, report on the capacity of the TMO community to provide third party services and demand, to serve as the basis for the overall
+         offer.
+         D4.2 TMO offer of third party services (Q4 2020): output of Task 4.2, detailed offer of third party services.
+         D4.3 Executed projects (Q1 2021 – Q4 2021): output of Task 4.4, projects benefiting from Project Scouting services, to be monitored and reported bi-weekly to ensure alignment of related activities
+         across PAs.
+
+
+
+       V. Dissemination
+
+         Targeted Results
+         1) Facilitate exchange and effective communication of TMO community
+         2) Raise awareness of TM progress, results, benefits etc
+         3) Foster engagement of relevant communities
+         4) Facilitate communication between TM network and external parties
+
+         Responsibility
+         Caroline Maximoff, Executive Board
+         Resources
+         TMO Core Staff, TMO Members, TM Ambassadors
+
+         Planning of work
+         Continuous interaction with PAs I, II, III and IV to obtain information about developments and achievements
+         Organisation of TM Conferences and other public events
+         Production of information material and providing content for newsletters
+
+         Actions and timing
+         Task 5.1: Dissemination materials (Q4 2020) – Communications Team
+
+
+                                                                                                                                                                                                            14
+TMO Operational Plan 2020 -2021
+         Building on the set materials created during the CSA, the general dissemination materials will be assessed and updated as needed, with new materials created to ensure effective promotion of LTM
+         services, Project Scouting services and Third Party services. This includes digital and print items (e.g. fact sheet), the timemachine.eu website and other graphic content.
+         Task 5.2: Time Machine 2020 Conference (Q4 2020) – Communication Team
+         Strategic planning of the content and programme for and delivery of the TM 2020 conference, including a series of preparatory webinars.
+         Task 5.3: Time Machine 2021 Conference (Q4 2021) – Communication Team
+         Strategic planning of the content and programme for and delivery of the TM 2021 conference.
+         Deliverables:
+         D5.1 Dissemination materials (Q4 2020, Q2 2021, Q4 2021): output of Task 5.2, review and updating of existing dissemination and promotion materials and creation of new materials in line with
+         TMO objectives and service offering.
+         D5.2 Time Machine 2020 (Q4 2020): output of task 5.3, organising and hosting of the TM 2020 conference.
+         D5.3 Time Machine 2021 (Q4 2021): output of task 5.3, organising and hosting of the TM 2021 conference.
+
+
+
+
+       VI. Communication
+
+         Targeted Results
+         1) Enlargement of the TMO membership base
+         2) Raise awareness of TMO among policy makers and potential stakeholders
+
+         Responsibility:
+         Caroline Maximoff, Julia Noordegraaf, Thomas Aigner
+         Resources:
+         TMO Core Staff, TM Ambassadors, TM Executive Board Members, TMO Members
+
+         Planning of work
+         Development of a communication plan and strategy and monitoring mechanism
+         Campaigns supporting lobbying for funding opportunities
+         Campaign supporting establishment of strategic partnerships
+         Campaign promoting services aimed at enlarging the membership base
+
+         Actions and timing
+         Task 6.1: Planning & strategy (Q4 2020) – Communications Team
+
+
+                                                                                                                                                                                                         15
+TMO Operational Plan 2020 -2021
+         A communication plan and strategy will be developed to ensure the effective promotion of TMO benefits and services, community engagement and the targeted distribution of results. Identification
+         of target groups, core messages, pertinent measures to reach each group, a time plan and measurable sets of KPIs will be included. The strategy will be based on that used in the TM CSA, ensuring
+         continuity and taking into account lessons learned.
+         Task 6.2: Public / key stakeholder engagement (external) (Q4 2020 - Q4 2021) – Communications Team
+         Making use of the materials provided by PA V Dissemination, this ongoing task will be to make use of all appropriate channels – including email, print, web, webinars, social media, SEA, interviews,
+         events and others – to raise broader awareness of the TMO, its activities and their related benefits. This will also include targeted campaigns to lobby for funding on behalf of the TMO and its
+         members and to grow the TMO member base. Regular monitoring will ensure that KPIs can be reached and that adjustments can made on a timely basis, including SEO for the TM website.
+         Task 6.3: Community engagement (internal) (Q4 2020 - Q4 2021) – Communications Team
+         Making use of the materials provided by the dissemination priority area, this ongoing task will be to make use of all appropriate channels – including email, print, web, webinars, social media, SEA,
+         interviews, events and others – to engage with and to inform the TMO community of relevant news, progress, opportunities and benefits. This will also include targeted campaigns to promote TMO
+         services and thus encourage member involvement. Regular monitoring will ensure that KPIs can be reached and that adjustments can made on a timely basis.
+         Deliverables:
+         D6.1 Communication strategy (Q4 2020): output of Task 5.1, presenting the communication strategy as outlined.
+         D6.2 External communication activities & campaigns (Q4 2020 - Q4 2021): output of Task 6.2, review and updating of existing dissemination and promotion materials and creation of new materials
+         in line with TMO objectives and service offering.
+         D6.3 Internal communication activities & campaigns (Q4 2020 - Q4 2020): output of task 6.3, hosting of the TM 2020 conference.
+
+
+
+
+            4 Services for TMO members
+       The TMO strives to deliver high quality and relevant services to its members with the overarching goal of strengthening the Time Machine Community’s ability to
+       develop, implement and promote projects and research initiatives in relation to Time Machine, to obtain funding and achieve the greatest impact for their activities,
+       research results and deliverables.
+       TMO offers support for:
+                 •       potential projects by finding suitable calls, building consortia and developing proposals.
+                 •       existing projects by integration into the Local Time Machine (LTM) network, knowledge sharing and enhancing the visibility of project outcomes
+       Two of our Priority Areas focus on specific services for our members:
+
+
+       Project Scouting Services (PA III)
+       TMO Project Scouting Services are designed to support Founding and Regular TMO members with launching potential projects which fall within the TM’s scope,
+       including identifying suitable calls, finding partners/building consortia and ultimately producing winning proposals.
+
+
+                                                                                                                                                                                                              16
+TMO Operational Plan 2020 -2021
+       Depending on the membership level, benefits for members with potential projects include:
+                Identifying suitable funding schemes and opportunities
+                Matchmaking with potential partners
+                Assistance with proposal writing
+                Potential for TMO involvement in proposal/project where appropriate/relevant (letter of support or active role such as managing coordination or
+                communications)
+
+
+       Local Time Machine (LTM) Services (PA II)
+       LTM Services are designed to support Founding and Regular TMO members in ensuring that their projects integrate into the TM ecosystem and that the potential
+       impact of their work is maximised. As part of the LTM Priority Area, an LTM Webspace and Project Environment will be made available.
+       The LTM development strategy aims to intercept the needs of the TMO community to build a common infrastructure and of the larger community of members to
+       have access to specific services. The LTM services offer takes into account different types of needs of institutions and individuals already involved in the community
+       but also of institutions and stakeholders that we want to reach. Benefits for members include the integration of their past and existing projects in the LTM Project
+       Environment, which enables:
+                Integration of your project into a LTM and thus into the broader TM ecosystem, ensuring compatibility with other projects.
+                Collaboration and knowledge sharing with other members.
+                Access to tools produced within other LTM projects
+                Access to the LTM Code Library Environment
+                Access to App Development Environment
+                Enhanced visibility and impact from inclusion in TMO communication activities where relevant/appropriate (social, newsletter, events)
+                Training and networking opportunities via LTM Academy events
+                Dedicated support in the above items provided by the TMO’s LTM manager
+       The LTM Coordination team will develop guidelines in the form of charts (Technical; Ethical; Copyrights Statement, etc.) in parallel and in coherence with the
+       proposition issued by RFCs (RFC on Technical Charter, RFC on Vision Mission and Values, RFC on Intellectual Property Rights and Licences) specifying the
+       requirements for the inclusion of a project in the LTM Project Environment and support members in the process.
+
+
+       Communication (PA VI)
+       TMO members are invited to proactively request that relevant news and information from their projects be included in TMO communication activities, which will
+       help to increase their public visibility.
+
+
+
+                                                                                                                                                                           17
+TMO Operational Plan 2020 -2021
+            5 TMO Governance
+       In the TMO organigram, a General Assembly (GA) is the highest decision making body, where all TMO partners participate as voting members. An Executive Board
+       is tasked with decision making with regards to strategy and operational direction.
+       The General Assembly is in charge of the overall strategy and governance. The Executive Board has responsibility for the implementation of the TMO strategy, while
+       the TMO President undertakes overall management and interaction with external stakeholders, including the funding organisations.
+       Roles, responsibilities and names (approved at the GA) are shown in Table 5-1.
+
+                                                                      Table 5-1: Roles, responsibilities and current nominations
+                                  Position                                                                  Responsibility                                          Name
+                                                                         • Acts as the chairperson at the GA and in the Executive Board
+                                                                         • Conducts all current business of the Association
+         President                                                       • Represents the Association to the public                                             Frédéric Kaplan
+                                                                         • Develops strategic partnerships
+                                                                         • Maintains high-level contacts with major funding bodies
+         Vice President – relations to DH institutions/ scholarship                                                                                            Julia Noordegraaf
+                and education
+         Vice President – relations to political stakeholders,                                                                                                  Harry Verwayen
+                Europeana network and Archives Portal Europe             • Support the president in all current business related to VP portfolio
+
+         Vice President – relations to archival institutions /                                                                                                  Thomas Aigner
+                governance and communication
+
+                                                                         • Financial conduct of the Association in cooperation with the Executive Director     Robert Sablatnig
+         Treasurer
+                                                                         • Prepares the Association’s annual accounts and assets of the past fiscal year
+
+         Deputy Treasurer                                                • Supports the Treasurer in his/her duties                                          Valérie Gouet-Brunet 4
+                                                                         • Legal transactions with third parties
+                                                                         • Preparing the minutes of GA and Executive Board meetings                            Sander Münster 5
+         Secretary
+                                                                         • Convocation of the GA and summoning of the regular and extraordinary
+                                                                           assemblies of the GA and Executive Board in cooperation with the president
+
+
+       4 Also, co-opted member in charge of territories / geography
+       5 Also, co-opted member in charge of outreach and innovation/business development/partnerships with third parties
+
+
+
+
+                                                                                                                                                                                      18
+TMO Operational Plan 2020 -2021
+                                    Position                                                                 Responsibility                                            Name
+           Deputy Secretary                                                • Supports the Secretary in his/her duties                                               Dorit Raines 6
+           Co-opted – Chief Officer for Science and Data                                                                                                            Andreas Maier
+           Co-opted – Chief Officer for Local Time Machines                                                                                                       Isabella di Lenardo
+           Co-opted – GLAM                                                 • Strategic coordination of activities related to his/her domain of expertise          To be nominated
+           Co-opted – Creative Industries                                                                                                                         To be nominated
+           Co-opted – Policy, legal ethical issues, open data                                                                                                     To be nominated
+                                                                                                                                                                   Tomi Ahoranta
+                                                                           • Examination of arbitration cases escalated to the General Assembly                    Lousiane Ferlier
+           Arbitration Panel
+                                                                           • Recommendations for addressing arbitration cases
+                                                                                                                                                                    Karina Gibert
+
+                                                                           • Responsible for overall management and coordination of TMO activities across
+                                                                             priority areas
+                                                                           • Communication with and reporting to the Executive Board to ensure overall
+           Programme Manager                                                 programme planning, activities and deliverables progressing and remain aligned         Kevin Baumer
+                                                                             with strategic objectives.
+                                                                           • Responsibility for TMO finances (budget)
+                                                                           • Supporting and leading the Time Machine core staff
+                                                                           • Responsible for TMO infrastructure
+                                                                           • Plans, acquires, maintains and further develops technical infrastructure
+                                                                           • Setting up and maintaining all communications infrastructure
+           Head of Technical Infrastructure                                • Supports external partners that use TM infrastructure                                   Daniel Jeller
+                                                                           • Management of new infrastructures for projects
+                                                                           • Managing further development of existing websites and the creation of new sites
+                                                                             for sub-projects / conferences and similar areas
+                                                                           • Responsible for TMO funding and financing related activities
+                                                                           • Plans, supervises and develops the funding and financing related activities and
+                                                                             structures of the TMO                                                             Özkan Oguz / Supervisor:
+           Project Scouting & Business Development Manager                                                                                                      Selda Ulutas Aydogan
+                                                                           • Management of the Project Scouting team
+                                                                           • Management of cooperation with external partners and reporting to the TMO
+                                                                             board on Business Development and Funding
+
+       6
+           Also, co-opted member in charge of smart tourism/smart specialisation
+
+                                                                                                                                                                                        19
+TMO Operational Plan 2020 -2021
+                              Position                                  Responsibility                                             Name
+
+                                         • Defines the communication and dissemination strategies in cooperation with the
+                                           Executive Board
+         Communication Manager           • Prepares and implements communication and dissemination action plans                Caroline Maximoff
+                                         • Is responsible for the availability of communication tools
+                                         • Develops relations with stakeholders in his/her sector of intervention
+
+                                         • Inventory state of the art of all existing/planned LTM’s projects
+                                         • Map the community of active members, already involved in projects, and new
+                                           potentials in the Local Time Machine density areas
+         Local Time Machine Manager      • Communicate with the LTMs project community trying to understand trend needs     To be hired autumn 2020
+                                           (technical tools-building community-data publishing ...) to help TMO to better
+                                           profile services and platforms
+                                         • Coordinates the organization of the Local Time Machine Academy events
+
+                                         • Ensures proper running of the TMO offices, including invoicing, book keeping,       Caroline Maximoff
+         Administration Manager
+                                           members’ management, staff administration etc.
+
+
+                                         •
+
+
+
+
+                                                                                                                                                   20
+TMO Operational Plan 2020 -2021
+            6 Annex - TMO budgets for 2020 -2021
+            6.1 Budget for 2020 (approved by the General Assembly in February 2020)
+
+
+
+
+                                                                                      21
+TMO Operational Plan 2020 -2021
+            6.2 Updated Budget for 2020 (to be presented to the General Assembly in November 2020)
+
+
+
+
+                                                                                                     22
+TMO Operational Plan 2020 -2021
+            6.3 Preliminary Budget for 2021
+
+
+
+
+                                              23
+TMO Operational Plan 2020 -2021
+

@@ -1,0 +1,936 @@
+Workflows
+                                                                                              5
+
+
+
+Currently, digital reconstructions are mainly a process in one single context by interdis-
+ciplinary workgroups using expert technologies. 3D reconstructions in the humanities are
+primarily created within long-term interdisciplinary projects. This chapter provides an
+overview of the team processes and workflows to create 3D reconstructions. Interdisci-
+plinary teamwork creates specific challenges due to the different work processes of the
+disciplines involved—e.g., humanities, design, and computing. Since 3D reconstructions
+are projects, both processes and quality need to be managed. This chapter contains a set
+of empirically grounded recommendations for the organization and management of 3D
+reconstruction projects.
+
+
+
+   Guiding questions
+   • What are generic process models for 3D reconstruction projects?
+   • What are typical project settings?
+   • What are the recommendations for those projects?
+
+
+   Basic terms
+   • Interdisciplinarity
+   • Project management
+
+
+   As highlighted in the previous chapter, interdisciplinary collaboration is a key feature
+of many 3D modeling projects in the humanities; this chapter highlights some key features
+and strategies for cooperation.
+© The Author(s) 2024                                                                    81
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_5
+82                                                                                5 Workflows
+
+
+
+     Further reading: Research on Workflows
+     In contrast to philosophical approaches, little empirical research exists on practices
+     and users of digital 3D modeling in the humanities [1]. As an example, Huvila
+     investigated user roles and practices in archaeology [2, 3] as well as certain practices
+     within the ARKDIS project [4]. Another empirical perspective is the research on
+     usability and requirements for software design for humanities researchers, which
+     were investigated within the VERA project [5, 6].
+
+
+
+5.1         The Process of 3D Reconstruction
+
+The process of digital 3D reconstruction encompasses the creation of a virtual modelby
+means of software tools, which is mostly done by specialized modelers, followed by visu-
+alization, through which the model is rendered into a presentation format. This process is
+usually closely accompanied by historical research through which a sound understanding
+of the object to be modeled is developed on the basis of sources that provide information
+from the past [7–9].
+
+
+     Further reading: The 3D Digitization Process
+     For 3D digitization, process, and workflow schemes [10–13] differ greatly by appli-
+     cation scenario parameters, e.g., retrieval technology and heritage object parameters.
+     Workflows involve two key aspects: documentation (data acquisition, e.g., of image or
+     range data, and registration) and 3D modeling (computing into a 3D model, including
+     point cloud generation, structuring and modeling, and texture mapping) [14, 15].
+     Data Acquisition
+     Data acquisition quality is influenced by several attributes [16, 17]:
+
+     •   Resolution: size and granularity of the samples.
+     •   Accuracy of the measure: variation from the original.
+     •   Repeatability.
+     •   Environmental sensitivity including robustness of the acquisition method under
+         different climate conditions (e.g., light, wind, temperature).
+
+     Framework conditions are set by acquisition time, portability of the equipment,
+     flexibility (e.g., to retrieve at different conditions), and price [15]. Depending on
+     attributes, framework conditions and purpose different technologies are used for 3D
+     data acquistion (Figs. 5.1 and 5.2).
+5.1 The Process of 3D Reconstruction                                                             83
+
+
+
+
+  Fig. 5.1 Acquisition technologies used in projects relating to immovable objects [18, p. 30]
+
+
+
+
+  Fig. 5.2 Acquisition technologies used in projects relating to immovable objects [18 p. 31]
+84                                                                                5 Workflows
+
+
+
+     Data Processing
+     Data processing comprises a wide range of mostly algorithmic approaches to creat-
+     ing a 3D model out of the acquired data. The aim of related workflows is to set up
+     a multi-stage data processing pipeline, which varies by data type, quality, expected
+     results, and object(recent examples for museum artifacts [19], monuments [20]).
+     Pipeline design is influenced by objectives including levels of output quality, veloc-
+     ity, reproducibility, flexibility, robustness, and automation [21, 22]. This contradicts
+     with the huge variety of cultural heritage qualities [23, 24]. Recent achievements
+     use data fusion [21] to improving model quality.
+
+
+   In view of the resulting division of labor, it is essential to consider cooperation,
+communication, and quality management. The entire working process of virtual 3D recon-
+struction can roughly be divided into sources, modeling, and visualization (Fig. 3.1),
+which may be made up of numerous steps and tasks and take on different forms (Fig. 5.3).
+
+
+     Further reading: 3D Reconstruction Step-By-Step Tutorial
+     This tutorial was recorded in 2020 as a video screencast and describes the 3D
+     reconstruction of a historical townhouse from a cadastral plan and photography for
+     the web. Tools and services used are the Overpass Service,1 QGIS,2 and Maxon
+     Cinema 4D (Fig. 5.3).3
+
+
+
+
+1 https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#out, accessed on 1.2.2023.
+2 https://www.qgis.org, accessed on 1.2.2023.
+3 https://www.maxon.net, accessed on 1.2.2023.
+5.1 The Process of 3D Reconstruction                                                                               85
+
+
+              Stage 1: Export of vectorized building footprints from Open Street Map (OSM) via the Overpass
+              Exporter
+              1                                                         Export vectorized building footprints
+                                                                        from OSM via Overpass.
+
+
+
+
+              2                                                         Mark a square on the map and the build-
+                                                                        ing layer from OSM selected for export-
+                                                                        ing.
+
+
+
+
+              Stage 2: Georeferencing with QGIS: QGIS is an open GIS used to match the historical map and
+              the building footprints.
+              3                                                     Import the OSM base layer and the his-
+                                                                    torical cadastral plan as raster layers. Se-
+                                                                    lect corresponding points via the georef-
+                                                                    erencing tool.
+
+
+
+
+              4                                                         After defining corresponding 6–10
+                                                                        points the transformed map is projected
+                                                                        to the OSM base layer.
+
+
+
+
+  Fig. 5.3 Example workflow: printout of a video tutorial for the 3D reconstruction of a histor-
+  ical townhouse from a cadastral plan and photography for the web [25]
+86                                                                                                         5 Workflows
+
+
+             5                                                   Import the OSM building paths as vector
+                                                                 layer.
+
+
+
+
+             6                                                   Export the transformed cadaster map as
+                                                                 png raster graphic, OSM building
+                                                                 ground plot layer as kml markup file.
+
+
+
+
+            Stage 3: 3D Modelling and texturing in Maxon Cinema 4D
+            7                                                      Convert the kml layer to dxf file format
+                                                                   via a web conversion service. Cinema
+                                                                   4D cannot import kml files directly.
+
+
+
+
+            8                                                        Import the converted layer as dxf in Cin-
+                                                                     ema4D.
+
+
+
+
+            9                                                        Import of raster graphics
+
+
+
+
+     Fig. 5.3 (continued)
+5.1 The Process of 3D Reconstruction                                               87
+
+
+          10                           Scale layers to aligning both, vectorized
+                                       ground plots and the historical raster
+                                       graphics.
+
+
+
+
+          11                           Draw outline of the building footprint as
+                                       spline path by clicking outer points.
+
+
+
+
+          12                           Extrude object via NURBS to create a
+                                       volumetric geometry.
+
+
+
+
+          13                           Convert object into a polygonal geome-
+                                       try and insert a horizontal cut.
+
+
+
+
+          14                           Select two upper opposite points each
+                                       and set distance = 0 to center.
+
+
+
+
+  Fig. 5.3 (continued)
+88                                                                 5 Workflows
+
+
+           15               Create a new empty material definition
+                            and load image showing the front of the
+                            building.
+
+
+
+
+           16               Select facade polygons and apply mate-
+                            rial to those polygons.
+
+
+
+
+           17               Switch to “texturing mode” and select
+                            texture to adjust.
+
+
+
+
+           18               Align outer points of the texture coordi-
+                            nates to the edges of the photo texture.
+
+
+
+
+            19              Calculate texture as raster graphic.
+
+
+
+
+     Fig. 5.3 (continued)
+5.2     Interdisciplinarity                                                                       89
+
+
+              20                                        Export as Collada file to upload into a
+                                                        web viewer.
+
+
+
+
+      Fig. 5.3 (continued)
+
+
+
+
+5.2          Interdisciplinarity
+
+Interdisciplinarity refers to a “confrontation of several disciplines with a [joint] topic or
+issue” [26. p. 7]. Related to this, Schelsky speaks of a “partial scientific development
+unit at the empirical object” [27, p. 72]. Interdisciplinary collaboration is characterized
+by developing a joint terminology and methodology [28, 29]. Interdisciplinary insti-
+tutionalization ranges from temporary collaborations to the creation of new “hybrid”
+research disciplines [30, p. 16], such as the digital humanities as a combination of applied
+computing fostering research in humanities.
+    An important distinction, shown schematically in Fig. 5.4, relates to forms of disci-
+plinary collaborations. Multidisciplinarity refers to independent research on a topic by
+different disciplines. Transdisciplinarity names collaborative development and research
+on a topic including scientific disciplines as well as other stakeholders, such as non-
+governmental organizations or special interest groups. This concept is mainly associated
+with a research on complex and highly social relevant issues such as environmental
+protection or societal changes [32].
+
+
+
+
+Fig. 5.4 Types of disciplinary cooperation [31, p. 7]
+90                                                                                    5 Workflows
+
+
+5.3       Modeling the Project Process
+
+How does a 3D reconstruction project work? A general model of project processes
+includes the four phases of project initiation, planning, implementation, and completion
+[33, 34], and a parallel task of monitoring and control [35], each of which is characterized
+by specific objectives and characteristics (Figs. 3.4 and 5.5).
+   Interdisciplinary research projects do not follow a standardized project process, but
+each has their own rhythm [26]. Accordingly, the phases named below, and the associ-
+ated work tasks do not represent a linear sequence but rather components of a process
+(Table 5.1).
+   The entire workflow is sequenced into substeps using organizational modules such as
+work tasks or work packages. Milestones are agreed as transition points between orga-
+nizational elements, to create deadlines for work actions and to evaluate actual progress
+compared to planning [38].
+
+
+
+
+Fig. 5.5 Project life cycle [36, 310, p. 91]
+
+Table. 5.1 Phases of interdisciplinary research [26, p. 29f., 37]
+Phase                     Common goals and questions
+Start                     Coordinating the project team (interests, positions, competencies)
+                          Operationalizing the project goals
+                          Drafting the cooperation structure
+                          Assigning roles (moderation, work packages)
+                          Developing a project plan, selecting dates for evaluation
+                          Defining quality criteria
+Implementation            Elaborating intermediate and partial steps (detailed planning)
+Completion                Securing results and publication
+                          Accounting for the cooperation
+5.4     3D Reconstructions as Interdisciplinary Projects                                     91
+
+
+   During intensive work phases in the run-up to “more selective events” (milestones,
+presentations, reports, etc.) most of the project work is done [26, p. 30]. Tasks that are
+not essential for achieving results, such as communication work, are neglected in these
+intense phases. 3D reconstruction projects are Innovative and research-intensive and are
+thus difficult to plan [39], so unplanned cuts—due to personnel changes or unexpected
+difficulties—may come to light, creating the need to adjust objectives. A particularly
+important aspect of academic projects is the sensible design of the overall duration of the
+project. Newly constituted and interdisciplinary project teams need time to build the team
+and set up the project [38].
+
+
+5.4         3D Reconstructions as Interdisciplinary Projects
+
+In digital reconstructions, information technologies serve to produce virtual historical
+models. Computer science provides the tools, while archaeology and the history of cul-
+ture, art and architecture, architectural research, and museum studies provide perspectives
+on the content. Owing to the highly specialized nature of the tools, the model is usually
+not created by the persons responsible for the content, but, in interdisciplinary projects,
+by modelers who come from computer science, architecture, geosciences, engineering,
+and design. The disciplines involved in the 3D reconstruction projects have very different
+approaches [40]. This requires synchronization and is often the source of problems in
+practice.
+
+
+      Further reading: Generic Process Models of Disciplines Involved in 3D Recon-
+      structions
+      A computer science view of the visualization process
+      From the point of view of computer science, 3D reconstruction is a visualization
+      project. An associated procedure ideally includes the successive steps of data input
+      and data selection, modeling and simulation, and output (Figs. 3.5 and 5.6).
+
+
+
+
+      Fig. 5.6 Generic visualization process model [41]
+92                                                                                5 Workflows
+
+
+
+        Data: The starting point of a visualization is data. Schumann and Brodlie clas-
+     sify data based on their origin: as empirically measured values from a real-world
+     or a theoretical world such as mathematics, or as designed data such as artis-
+     tic representations from an artificial world, e.g. textual sources or drawn images
+     [42, 43].
+        Data selection: In terms of process theory, in a historical 3D reconstruction data
+     is selected from sources. Deduction is usually less of a problem than the extrap-
+     olation of incomplete source data. In addition to data reduction as proposed by
+     Schumann, the following aspects of data selection arise [42]:
+
+     1. Removal of irrelevant data
+     2. Dataset abstraction
+     3. Indication of an area of interest
+     4. Interpolation or extrapolation of missing data
+     5. Compilation of the required data
+     6. Selection of subsets.
+
+        Modeling: A model is created using computer tools: the geometric shape is
+     defined, virtual lighting and the material properties of the reference object simulated.
+        Simulation: This step comprises the creation of a geometric model, a definition
+     of texturing, i.e., the assignment of surface color and structure or animation.
+        Output: The virtual 3D model is available as a digital dataset and as such is
+     only indirectly accessible to both the editor and the viewer. To make it visible
+     and editable, it must therefore be mapped and thus converted into static individual
+     images or more complex mapping contexts such as animations or interactive display
+     formats.
+     The design process
+     In the strict sense, design includes finding the form. In a 3D reconstruction, this
+     process involves both architectural design—reconstructing a plan of the building
+     structures [44],—and graphic design of visualizations (Fig. 5.7).
+5.4     3D Reconstructions as Interdisciplinary Projects                                       93
+
+
+
+
+      Fig. 5.7 Analysis-synthesis-evaluation model of the design
+
+         More recent design theories understand the phases of analysis and synthesis as a
+      unit and thus explain design in terms of a complex circle (Fig. 3.6), which borrows
+      from hermeneutics and systems theory [45]. Reference is made to the principle of
+      “analysis through synthesis” [46, 47, p. 6]. While the ideal technical process has a
+      clear target or termination criteria, design difficulties are generally counted among
+      the “wicked problems” for which no clear endpoint or solutions are possible [48,
+      49, p. 7]. The process therefore does not end when a goal is achieved, but when the
+      approach to the goal or external termination criteria is deemed sufficient (Fig. 5.8).
+
+
+
+
+      Fig. 5.8 Hermeneutic model of historical science
+94                                                                              5 Workflows
+
+
+
+     The historical processes
+     Similarly, to design processes, the historical research process has a cyclical struc-
+     ture (Fig. 3.7). Since the mid-1950s historical research has become primarily
+     problem-focused [50]. This research paradigm is strongly linked to the emergence
+     of constructivist explanatory models, based on interpreting historical facts and
+     reassessing historical sources. In a constructivist view, each “action […] is pre-
+     ceded by intentions” [51, 52], whereby a source as a residue or tradition represents
+     the intention of its historical creator. In their entirety, historical sources provide
+     an incomplete and often contradictory picture of the past and thus an incomplete
+     database for a 3D reconstruction. This insoluble dilemma ultimately led to the view
+     that historical science is a limited construction [50], and as such cannot provide a
+     reliable, holistic picture of the past. Hermeneutics represents the classic and most
+     widespread investigation paradigm of historical sciences [53], where this qualitative
+     method is understood as a cyclical interplay between the researcher’s prior under-
+     standing and understanding of the sources. In terms of process, the latter is based
+     on the former and, by examining sources using the methodical steps of formal “ex-
+     ternal” and content-related “internal” source criticism, the researcher expands their
+     (pre-)understanding.
+     Since all three modes of work are combined in a 3D reconstruction project this
+     can cause conflicts. A central mark of visualization processes is their decreasing
+     flexibility over a time—with high costs in case of applying unplanned fundamental
+     changes at late stage. Vice versa, hermeneutic processes are generating fundamental
+     insights often late in a research process. Consequently, 3D modelling require balanc-
+     ing between these different work modes and mitigation e.g. by defining parameters
+     which are most likely to become subject of change at later stages.
+
+
+
+
+5.5        3D Reconstruction Project Management
+
+5.5.1      Definition of Project Work
+
+3D reconstruction projects are a form of temporary work organization characterized by
+systems of rules for coordinating the achievement of goals based on the division of labor
+[38]. Projects according to DIN 69,901 represent tasks which are “essentially character-
+ized by the uniqueness of the conditions in their entirety” [54]. Central features of this
+form of work are task orientation, teamwork, a time limit, and transition [38, 55, 56]. All
+aspects of controlling projects are conceptually covered by project management. While
+the project as a phenomenon is at least as old as modernity, the term project management
+only dates back to the 1970s [57]. In general, project management offers a number of
+5.5   3D Reconstruction Project Management                                               95
+
+
+comprehensive classification schemes and standards [35]. Economics, in particular, pro-
+vides an almost unmanageable multitude of recommendations and “success factors” for
+project management [39] as well as countless descriptions of inhibiting factors/ Kerzner
+defines nine possible reasons for project failure [57]: (1) poor morale, (2) poor motiva-
+tion, (3) poor human relations, (4) poor productivity, (5) no employee commitment, (6)
+no functional commitment, (7) delays in problem solving, (8) too many unresolved pol-
+icy issues, and (9) conflicting priorities between executives, line managers, and project
+managers.
+   Aspects of project management essential for theoretical consideration here include
+organization, goals, planning, quality, and quality management, which are discussed in
+the following sections.
+
+
+5.5.2     Project Organization
+
+From an economic perspective, digital 3D reconstruction projects are innovative because
+they are knowledge- and research-intensive, mostly prototypical, and produce new results
+and processes [39]. Historical 3D reconstruction projects are often cooperations between
+academic institutions that are largely independent of one another. Accordingly, such
+projects are usually organized as a “matrix” [39, 58]. A general feature of a matrix is
+that employees involved in the project report to several superiors, both in the sending
+organizational unit and the project coordinator. Such an organizational form has a high
+success rate and generally high efficiency compared to other organizational models [39],
+but requires a high level of coordination effort: the project manager’s great influence over
+the superior of the sending institution is beneficial for project processing, though disci-
+plinary powers, responsibility for task delegation, and control should be assigned to the
+project manager.
+   Academic projects are a particular form of matrix organization, since disciplinary pow-
+ers, at least in the academic field, usually lie exclusively with the sending institution.
+Projects may fail due to the high risk of competing priorities being set by managers of the
+project and independent institutions involved [57]. According to Hausschild and Salomo
+[39], another key factor in the success of innovation projects is the physical proximity
+of participants. Hoegl and Proserpio [59] show that physical proximity not only increases
+community building and the frequency and variety of information transfer between project
+members, but also promotes their self-directed coordination; remarkably, spatial proximity
+does not lead to an improvement in transactional knowledge.
+96                                                                               5 Workflows
+
+
+5.5.3     Goals
+
+As innovation projects, 3D reconstruction projects are often a “process in which it is often
+not at all clear which goal is to be achieved” [38, p. 18]. Such a lack of clarity of pur-
+pose results from the high complexity of the task and the associated lack of clarity about
+the problem structure and unpredictability of problem components [39]. Characteristics
+of a lack of clear goal include “constant trying, approaching, very often connected with
+repetition steps” until a result “is selected as useful” [38, p. 18]. From a conflict theory
+perspective, lacking a clear objective potentially leads to conflicts with regard to the inter-
+pretation of a work procedure [39]. In most cases, projects do not pursue a single goal,
+but a whole series of goals. Such goals can not only have different qualities and priorities,
+but sometimes also compete [39]—for 3D reconstructions e.g. academic quality vs. com-
+pleteness vs. impressing results. Finally, different objectives or priorities are often linked
+to individual or collective perspectives of the persons and institutions involved [39].
+
+
+5.5.4     Planning and Control
+
+An overarching and general model shows that project planning includes a trade-off
+between the influencing variables of time, budget, and goals (Fig. 3.8). Limited resources
+mean that “the ‘ideal’ solution cannot always be sought for scientific projects” [26, p. 33].
+A major problem in the advance planning of innovation processes such as 3D reconstruc-
+tion projects is the lack of knowledge about the quality of the achievable goal and the
+path leading there. Information and knowledge deficits require an approximate approach,
+which is based on a suitable sequencing and prioritization of work tasks.
+   The question of organizational structures and tools for controlling results, which is
+closely related to quality management, is closely linked to planning work steps. Dele-
+gation and monitoring of tasks and staff is part of vertical organization [60]. Closely
+related to this is what Kräkel calls the “dilemma of organizational theory” [60, p. 116]:
+delegation of decision-making authority enables efficient problem solving but requires
+comprehensive control and coordination to achieve a common overall goal (Fig. 5.9).
+
+
+Fig. 5.9 Planning parameters
+of project management [38,
+p. 116]
+5.5     3D Reconstruction Project Management                                               97
+
+
+   There is a broad consensus that, the project manager is of outstanding importance
+to the success of any project. Other factors are budgets that can be managed flexibly;
+intensive, informal, and formalized communication; suitable sequencing and monitoring
+of progress [39]. Hauschildt and Salomo propose a three-step procedure for monitoring
+project processes [39, p. 505]:
+
+• Ongoing determination of deviations
+• Review to determine the cause
+• Evaluation of deviations and, if necessary, corrections.
+
+Who does this monitoring, and at what stages, is discussed next in a theoretical consider-
+ation of quality management. Another issue is how the people involved in such work are
+organized. In 3D reconstruction, this includes the organizational structures and forms of
+cooperation relevant to both the project and the scientific institution or community.
+
+
+5.5.5       Quality
+
+Quality is the “degree to which a set of inherent characteristics fulfill requirements” [35,
+p. 180]. Such requirements include, both the outcomes, i.e., result quality and compliance
+with framework conditions on the way to achieving a goal, i.e., process quality. Another
+important distinction is between quality, which refers to errors and inconsistencies, and
+grade, which indicates the scope or quality level of a result. Theoretical concepts of
+quality are presented here with two aims: to consider quality in the work process, one
+needs to consider approaches to quality management.
+
+
+      Further reading: Recommendations for interdisciplinary 3D reconstruction
+      projects [61]
+
+      Workflow
+      1. run pre-projects to test cooperation, approaches, and support competence devel-
+         opment
+      2. align the project early on with budgets and requirements of funding providers
+      3. consider the time needed for interpretation and corrections
+      4. set deadlines promote efficient work
+      5. make deadlines binding and include incentives or sanctions
+      Sources
+      6. finalize collection and analysis of sources best as possible before starting
+         reconstruction
+98                                                                            5 Workflows
+
+
+
+     7. if source findings are unclear, make a first draft model to support decision-
+        making
+     8. decide iteratively in case of unclear findings
+     9. set editorial deadlines for the inclusion of further sources
+     Modeling
+     10. consider easy editing of the model
+     11. develop, document, and adhere to the model system and structure
+     12. structure the model based on spatial, temporal, functional, and model organiza-
+         tional aspects (→3D Modeling)
+     13. sort and locate existing source information in space and time, e.g., in plans
+     Quality management
+     14. synchronize the quality expectations of all stakeholders at an early stage and
+         recheck frequently
+     15. in case of multiple sources, define a primary modeling source
+     16. present omissions or several alternative hypotheses in the model if the findings
+         are unclear
+     17. develop quality standards, e.g. on detailing, early and maintain them as far as
+         possible
+     18. develop a strategy for the frequency and timing of corrections
+     19. make visual comparisons, e.g., of model views and sources
+     20. to support a visual assessment
+     Project management
+     21. subordinate management and coordination tasks in terms of time and personnel
+     22. allocate tasks and fill positions depending on needed and existing competencies
+     23. promote intrinsic motivation through “healthy” competition, public perception,
+         and group motivation
+     Technology
+     24. allow individual software decisions in case of prior knowledge
+     25. use widely established exchange formats that are accessible to all stakeholders
+     Learning
+     26. in interdisciplinary projects, only teach competencies relevant to the coopera-
+         tion, i.e., interface knowledge
+     Sustainability
+     27. involve participants in opening project processes
+     28. assign minute takers and create minutes of meetings
+     Communication
+     29. communicate too much rather than too little
+5.5     3D Reconstruction Project Management                                               99
+
+
+
+      30. actively communicate and broadly base decisions
+      31. keep stakeholders regularly informed
+      32. describe complex problems in several ways when communicating at a distance
+      33. draw up structured problem lists and communicate them in advance of a
+          meeting
+      34. use simple language and intuitive formats such as pictures
+      35. ensure understanding e.g., by asking/repeating
+      36. use pictures and language as a combined medium of communication
+      37. use sketches and drawings as aids
+      38. draw or write comments directly in model visualizations
+      Presentation of Results
+      39. present sources and procedures appropriately in the presentation medium
+      40. carry out usability testing to determine the suitability for the target group
+
+
+
+
+5.5.6       Quality Management
+
+Quality management within a project includes all activities so that a project satisfies
+the requirements [35]. This includes the aspects of quality planning, its practical appli-
+cation and control. Quality management is thus closely linked to project planning and
+management. Schmidt identifies comparisons with other projects, points in a project, nor-
+mative standards and quality models as essential procedures or “reference models” of
+quality management specifically in academic contexts [62, p. 11ff.]. Especially regarding
+reference models, it is essential to make the individual quality ideas of all relevant stake-
+holders transparent and to develop a common idea in this regard [35]. Likewise, quality
+management includes establishing tools for quality control, which can be done internally
+or externally and periodically or continuously. One merit of continuous internal quality
+assurance is that project teams have a high degree of social control. A monitoring group
+integrated into the project structure but outside the actual project work, or filling the role
+of a quality officer [35], whose tasks include checking compliance with goals or iden-
+tifying defaults. Alternatively, external quality control can be done by people who are
+completely outside the project structure, such as supervisors from the institutions involved
+[39]. In contrast, quality audits are instruments of periodic quality control [62]. In these
+cases, objectives are used to monitor the status of the work and identify the need for
+action. Such audits as work meetings or group reviews, can be carried out both internally
+and by external expert commissions [35, 39]. While primarily aimed at quality assurance
+in the specific work context, quality circles [58] aim to sensitize employees and thus
+create a generic awareness of quality.
+100                                                                           5 Workflows
+
+
+5.6      Phenomena and Strategies for Cooperation
+
+
+  Further reading: Example strategies
+  • Competence development through preliminary projects: The most important
+    characteristics for adequate planning, adjustment, and control are the expertise
+    and experience of the project planner [39]. While only rarely discussed in the
+    literature in this context, it is essential for a subsequent empirical consideration
+    to reduce the complexity of a problem, acquire skills, and test organizational
+    structures through prototypical pilot projects.
+  • Project sequencing: Irrespective of any previous experience, a project plan is
+    usually broken down into organizational units such as work packages and sub-
+    tasks that are limited in terms of time and resource availability. Ideally, these are
+    provided with a defined target level and endpoint, or milestone, enabling devi-
+    ations from planning to be determined comparatively quickly and the project
+    schedule to be adjusted [38, 39]. 3D reconstruction projects also involve a large
+    number of previously unplanned incisions and changes [61], due to their inno-
+    vative character and unpredictability, but also to organizational changes such as
+    personnel reshuffles, which creates the need for permanent project control and
+    the adjustment of plans in relation to these changes.
+  • Priority lists: Because innovation and research projects do not usually have a
+    foreseeable target, an order of priorities essential instrument for planning. An
+    important element here is weighing up decision alternatives, to identify and
+    define the most important subgoals that need to be prioritized [39].
+
+
+   As proven empirically [63], many challenges for 3D reconstruction projects are con-
+nected to a lack of interdisciplinary understanding. Due to the high complexity and
+team-based workflows, aspects, and usage practices for communication, cooperation,
+and quality management are highly relevant within 3D reconstruction projects. Intensive
+support by images during a reconstruction process could foster interdisciplinary commu-
+nication, and could be used as “creoles” [64] to exchange and share mental models. For
+that, it is necessary to synchronize terminologies or to employ common grounds like sym-
+bols, colors, or tags [7]. Especially if people with different disciplinary backgrounds are
+involved, visual media fosters communication and quality negotiations, e.g., by comparing
+source images and renderings of the created virtual reconstruction. Furthermore, several
+projects successfully adopted highly standardized conventions from architectural draw-
+ings for interdisciplinary exchange. Such decisions and tasks should be started at an early
+project stage and should be controlled and adapted throughout the entire process. Ideally,
+such visual coding schemes would be a mental model shared by all members of the project
+team and would be documented and based on either extant coding schemes, e.g., from
+5.6     Phenomena and Strategies for Cooperation                                           101
+
+
+engineering, or would use natural coding like physical analogies or concrete depictions
+[65] to make these issues recognizable and even accessible later. In all cases, images
+would only support communication and, especially for complex tasks and interdisci-
+plinary exchange, personal contact would be more useful than communicating information
+over long distances. Resulting challenges include access to and evaluation of models and
+images to make authorship transparent, as well as references between reconstruction and
+(explainable) fundamental knowledge such as sources. A specific challenge is the division
+of the labor that is usually involved in the project. It is evident from published project
+reports that interpretative 3D reconstruction projects are almost always interdisciplinary
+in nature, with the teams mostly only coming together temporarily, unlike the situation in
+companies or institutions [38]. The tasks are usually divided between historical research
+and creation of the model. Consequently, aspects such as the organization of work, the
+distribution of tasks, cooperation, and communication, are important [61].
+
+
+      Summary
+      3D reconstructions are carried out within interdisciplinary innovation projects,
+      which comprise challenges such as open-ended workflows and the need to syn-
+      chronize different terminology and work processes. With regards to the latter, a big
+      challenge is raised by the different stepping in humanities, computing, and design.
+      Since humanities research refines with the analysis and contextualization of further
+      sources, the technical view of 3D reconstruction seeks a clear problem definition,
+      where fundamental changes at a late stage—common in humanities—cause a huge
+      workload for changing a 3D model.
+      Concepts
+
+      • Interdisciplinarity: 3D reconstructions in the humanities are primarily created
+        within long-term interdisciplinary projects. Intensive support by images during a
+        reconstruction process could foster interdisciplinary communication, and could
+        be used as “creoles” [64] to exchange and share mental models. To do this, it
+        is necessary to synchronize terminologies or to employ common grounds like
+        symbols, colors, or tags [7].
+      • Project management: In academic interdisciplinary cooperation, efficient strate-
+        gies and routines of self-organization often fail to develop. Differing interests
+        and quality expectations as well as weak incentives to finish projects efficiently
+        often cause severe and long-lasting friction, delays, budget overruns, and conflicts
+        between stakeholders. Moreover, team members are mostly matrix organized—
+        in both teams and institutional structures—and multiple tasks are assigned. Even
+        if leaders of academic projects widely influence the setting of general objec-
+        tives, they have few instruments to motivate or penalize employees and to assign
+102                                                                                  5 Workflows
+
+
+
+      individual time capacities. As a paradoxon, academic projects are often infinite,
+      where missed deadlines and exceeded budgets are often compensated by other
+      resources and which prioritize “perfect” quality above fit to resources.
+
+   Key literature
+
+   • Project Management Institute. A Guide to the Project Management Body of
+     Knowledge. PMBOK Guide; PMI: Newtown Square, 2004 [35].
+   • Hauschildt, J.; Salomo, S. Innovationsmanagement; Vahlen: München, 2007 [39].
+
+
+
+
+References
+
+ 1. Huvila I (2014) Archives, libraries and museums in the contemporary society: perspectives of
+    the professionals. In: iConference 2014 Proceedings. Berlin, pp45–64
+ 2. Huvila I (2010) To whom it may concern? The users and uses of digital archaeological infor-
+    mation
+ 3. Huvila I (2006) The ecology of information work – a case study of bridging archaeological work
+    and virtual reality based knowledge organisation
+ 4. ARKDIS - Archaeological information in the digital society. http://www.abm.uu.se/research/
+    Ongoing+Research+Projects/ARKDIS/. Accessed 9 May 2014
+ 5. Warwick C (2012) Studying users in digital humanities. In: Warwick C et al (eds) Digital
+    humanities in practice. Facet Publishing, London, pp 1–21
+ 6. Fisher CR et al (2009) Integrating new technologies into established systems: a case study from
+    Roman Silchester. Computer applications to archaeology 2009 Williamsburg, Virginia, USA,
+    22–26 March 2009
+ 7. Münster S (2013) Workflows and the role of images for a virtual 3D reconstruction of no
+    longer extant historic objects. In: ISPRS annals II-5/W1 (XXIV international CIPA sympo-
+    sium), pp197–202
+ 8. Münster S et al (2017) Von Plan-und Bildquellen zum virtuellen Gebäudemodell. Zur Bedeu-
+    tung der Bildlichkeit für die digitale 3D-Rekonstruktion historischer Architektur. In: Ammon S
+    et al (eds) Bildlichkeit im Zeitalter der Modellierung. Operative Artefakte in Entwurfsprozessen
+    der Architektur und des Ingenieurwesens. eikones. Wilhelm Fink Verlag, München, pp 255–286
+ 9. Bakaoukas AG (2020) Virtual reality reconstruction applications standards for maps, artefacts,
+    archaeological sites and monuments. In: Liarokapis F et al (eds) Visual computing for cultural
+    heritage. Springer International Publishing, Cham, pp 161–176
+10. Amico N et al (2021) Ontological entities for planning and describing cultural heritage 3D
+    models creation. ACM J Comput Cult Herit (JOCCH)
+11. Letellier R et al (2007) Recording, documentation, and information management for the con-
+    servation of heritage places. Guiding principles
+12. Boardman C et al (2018) 3D Laser scanning for heritage. Advice and guidance on the use of
+    laser scanning in archaeology and architecture
+References                                                                                      103
+
+
+13. European Commission (2011) Commission recommendation of 27.10.2011 on the digitisation
+    and online accessibility of cultural material and digital preservation
+14. Gomes L et al (2014) 3D reconstruction methods for digital preservation of cultural heritage: a
+    survey. Pattern Recogn Lett 50:3–14
+15. Remondino F et al (2010) Reality-based 3D documentation of natural and cultural heritage
+    sites—techniques, problems, and examples. Appl Geomat 2(3):85–100
+16. Weber M (1988) Die ‘Objektivität’ sozialwissenschaftlicher und sozialpolitischer Erkenntnis.
+    In: Winckelmann J (ed) Gesammelte Aufsätze zur Wissenschaftslehre. Tübingen
+17. Claisse C et al (2017) Containers of Stories: using co-design and digital augmentation to
+    empower the museum community and create novel experiences of heritage at a house museum.
+    Des J 20(sup1):S2906–S2918
+18. Ioannides M et al (2020) Study on quality in 3D digitisation of tangible cultural heritage: map-
+    ping parameters, formats, standards, benchmarks, methodologies, and guidelines. VIGIE 2020/
+    654 Final Study Report
+19. Medina JJ et al (2020) A rapid and cost-effective pipeline for digitization of museum specimens
+    with 3D photogrammetry. PLoS ONE 15(8):e0236417
+20. Pepe M et al (2020) An efficient pipeline to obtain 3D model for HBIM and structural analysis
+    purposes from 3D point clouds. Appl Sci-Basel 10(4):1235
+21. Pamart A et al (2020) A robust and versatile pipeline for automatic photogrammetric-based
+    registration of multimodal cultural heritage documentation. Remote Sens 12(12):2051
+22. Stathopoulou EK et al (2019) Open-source image-based 3d reconstruction pipelines: review,
+    comparison and evaluation. Int Arch Photogram Remote Sens Spat Inf Sci XLII-2/W17:331–
+    338.
+23. Ramos MM et al (2015) Data fusion in cultural heritage – a review. Int Arch Photogram Remote
+    Sens Spat Inf Sci XL-5/W7:359–363.
+24. Remondino F et al (2017) A critical review of automated photogrammetric processing of large
+    datasets. Int Arch Photogram Remote Sens Spat Inf Sci XLII-2/W5:591–599
+25. Münster S (2020) 3D reconstruction for the web with QGIS and Maxon Cinema 4D (Videotu-
+    torial)
+26. Schophaus M et al (2003) Von Brücken und Einbahnstraßen. Aufgaben für das Kooperations-
+    management interdisziplinärer Forschung (Discussion paper Nr. 08/03)
+27. Schelsky H (1966) Das Zentrum für interdisziplinäre Forschung. In: Mikat P et al (eds)
+    Grundzüge einer neuen Universität. Bertelsmann, Gütersloh, pp 71–87
+28. Gibbons M (1994) The new production of knowledge. The dynamics of science and research in
+    contemporary societies
+29. Münster S et al (2014) Common grounds and representations in cross-disciplinary processes.
+    In: Carlucci D et al (eds) Knowledge and management models for sustainable growth. Institute
+    of Knowledge Asset Management, Basilicata, pp 579–589
+30. Klein JT (2000) A conceptual vocabulary of interdisciplinary science. In: Weingart P et al (eds)
+    Practising interdisciplinarity. University of Toronto Press, Toronto, pp 3–24
+31. OGC (2012) OGC City Geography Markup Language (CityGML) Encoding Standard, Version
+    2.0.0
+32. Defila R et al (1999) Projektbericht. Panorama Sondernummer: Transdisziplinarität evaluieren –
+    aber wie?:5–11
+33. Meredith JR et al (2000) Project management. A managerial approach, fourth edn.
+34. Havila V et al (2013) Project-ending competence in premature project closures. Int J Project
+    Manage 31(1):90–99
+104                                                                                  5 Workflows
+
+
+35. Project Management Institute (2004) A guide to the project management body of knowledge.
+    PMBOK Guide
+36. Vargas-Quesada B et al (2007) Visualizing the structure of science
+37. Loibl MC et al (2001) Fragen zur Steuerung inter- und transdisziplinärer Forschung nach Auf-
+    gabenpaketen und Projektphasen. http://www.ecology.at/projekt/detail/IuT/html/Steuerseiten/
+    quellenmain.htm. Accessed besucht am on 10.1.2014
+38. Nausner P (2006) Projektmanagement. die Entwicklung und Produktion des Neuen in Form von
+    Projekten
+39. Hauschildt J et al (2016) Innovations management. 6th edn. Vahlen, München.
+40. Hou H et al (2007) The structure of scientific collaboration networks in scientometrics. Scien-
+    tometrics 75(2):189–202
+41. Haber RB et al (1990) Visualization idioms. A conceptual model for scientific visualization sys-
+    tems. In: Shriver BD et al (eds) Scientific visualization. IEEE Computer Society, Los Alamitos,
+    pp 149–177
+42. Schumann H et al (2000) Visualisierung. Grundlagen und allgemeine Methoden
+43. Brodlie KW (1992) Scientific visualization. Techniques and applications; with 15 tables
+44. Steinmann F (1997) Modellbildung und computergestütztes Modellieren in frühen Phasen des
+    architektonischen Entwurfs (Dissertation).
+45. Loh Uv (2005) Designprozesse als Kommunikation antizipativer Prozesse
+46. Gedenryd H (1998) How designers work. Making sense of authentic cognitive activity
+47. Jonas W (2004) Designforschung als Argument
+48. Roberts NC (2000) Wicked Problems and Network Approaches to Resolution. Visual Argum –
+    Tools Collab Educ Sense-Mak 1(1):1–19
+49. Castorph M (2008) Bauteilorientierte Entwurfsprozesse, Architekturlehre, BOE, Sammlung
+    2002–2008
+50. Wengenroth U (1998) Was ist Technikgeschichte?
+51. Goering DT (2013) D. Timothy Goering über Gerber, Doris. Analytische Metaphysik der
+    Geschichte. Handlungen, Geschichten und ihre Erklärung. H-Soz-u-Kult 08.01.2013:o. Angabe
+52. Gerber D (2012) Analytische Metaphysik der Geschichte. Handlungen, Geschichten und ihre
+    Erklärung
+53. Goetz H-W (1993) Proseminar Geschichte. Mittelalter, vol 1719
+54. DIN Deutsches Institut für Normung e. V (2009) DIN 69901–5 Projektmanagement – Projekt-
+    managementsysteme – Teil 5. Begriffe
+55. Pilbeam C (2013) Coordinating temporary organizations in international development through
+    social and temporal embeddedness. Int J Project Manage 31(2):190–199
+56. Lundin RA et al (1995) A theory of the temporary organization. Scand J Manag 11(4):437–455
+57. Kerzner H (2003) Project management. A systems approach to planning, scheduling, and con-
+    trolling, 8th edn.
+58. von Rosenstiel L et al (2005) Grundriss der Psychologie. Organisationspsychologie, 9th edn
+59. Hoegl M et al (2004) Team member proximity and teamwork in innovative projects. Acad
+    Manag Proc 1:A1–A6
+60. Kräkel M (2012) Organisation und Management
+61. Münster S (2016) Interdisziplinäre Kooperation bei der Erstellung geschichtswissenschaftlicher
+    3D-Rekonstruktionen
+62. Schmidt U (2010) Wie wird Qualität definiert? In: Winde M (ed) Von der Qualitätsmessung zum
+    Qualitätsmanagement. Praxisbeispiele an Hochschulen. Edition Stifterverband, Essen, pp 10–17
+References                                                                                        105
+
+
+63. Münster S et al (2015) 3D modeling technologies as tools for the reconstruction and visualiza-
+    tion of historic items in humanities. A literature-based survey. In: Traviglia A (ed) Across space
+    and time. papers from the 41st conference on computer applications and quantitative methods in
+    archaeology, Perth, 25–28 March 2013. Amsterdam University Press, Amsterdam, pp 430–441
+64. Styhre A (2010) Disciplining professional vision in architectural work. Learn Organ 17(5):437–
+    454
+65. Tversky B (2002) Spatial schemas in depictions. In: Gattis M (ed) Spatial schemas and abstract
+    thought. MIT Press, Cambridge, pp 79–112
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

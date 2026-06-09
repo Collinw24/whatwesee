@@ -1,0 +1,540 @@
+         Making the Europeana Data Model a Better Fit
+              for Documentation of 3D Objects
+
+     Antoine Isaac1(B) , Kate Fernie2 , Valentina Bachi3 , Eleftheria Tsoupra1 ,
+     Marco Medici4 , Henk Alkemade2 , Sander Münster5 , Valentine Charles1 ,
+                              and Lianne Heslinga2
+                  1 Europeana Foundation, 2595 BE The Hague, The Netherlands
+                             antoine.isaac@europeana.eu
+                                  2 CARARE, Dublin, Ireland
+                 3 Photoconsortium, via della Bonifica 69, 56037 Peccioli, Italy
+                    4 INCEPTION s.r.l., Via Ghiara 36, 44121 Ferrara, Italy
+        5 Friedrich-Schiller-Universität Jena, Am Fürstengraben 1, 07743 Jena, Germany
+
+
+
+
+         Abstract. The current effort in 3D digitisation of heritage items poses new chal-
+         lenges in accommodating more and higher quality information to be associated
+         with the 3D models that are of interest to users and stakeholders. The Euro-
+         peana Data Model (EDM) is a metadata schema that distinguishes between the
+         information related to the cultural heritage object as such (represented by the
+         class edm:ProvidedCHO) and the information related to its digital representation
+         (edm:WebResource), brought together in the class ore:Aggregation. Work done
+         in the context of the new common European data space for cultural heritage col-
+         lected inputs from various experts and initiatives working on 3D data, metadata
+         and paradata, in the light of studying requirements for the extension and adapta-
+         tion of EDM classes to the more complex scenario of representing and sharing 3D
+         digitised cultural heritage collections.
+
+         Keywords: 3D digitisation · 3D models · metadata schema · paradata · cultural
+         heritage collections
+
+
+
+1 Introduction
+
+This paper presents an analysis of the Europeana Data Model (EDM) from the perspective
+of enhancing representation of 3D in Europeana, both in terms of accommodating a larger
+quantity of items and representations, and higher quality of information, considering the
+growing recognition of the importance of paradata in 3D documentation in the light of
+supporting reuse. it is the product of a working group gathering representatives from the
+Europeana Initiative, most of whom are also involved in data space projects1 currently
+ongoing on 3D (5D Culture [2] and EUreka3D [3]).
+
+ 1 The common European data space for cultural heritage [1] is an initiative of the European
+   Union.
+
+© The Author(s) 2025
+M. Ioannides et al. (Eds.): 3D Research Challenges in Cultural Heritage V, LNCS 15190, pp. 63–74, 2025.
+https://doi.org/10.1007/978-3-031-78590-0_6
+64          A. Isaac et al.
+
+    In the process, we have looked at relevant related work - some of which involving
+the members of the group producing this report: EC 3D studies [4], deliverables of
+the 4CH initiative [5], other past Europeana outcomes and work, like the report of the
+EuropeanaTech task force on 3D content in Europeana [6], and concrete examples of
+metadata coming from projects like Share3D [7] and WEAVE [8].
+
+
+2 Basic Modelling Principles for 3D in EDM
+
+2.1 Modelling Distinctions that Matter: Cultural Objects, Digital Representations
+    and the One-to-One Principle
+As shown in Fig. 1, the basis of EDM’s modelling approach is the distinction between
+a Cultural Heritage Object (represented by the class edm:ProvidedCHO2 ), digital
+representations of that object (edm:WebResource) and the “package” that brings
+them together (ore:aggregation). The one-to-one principle [10] is then applied
+with the aim that each resource “carries” information that belongs to it and not to another
+resource. This means, for example, that the date of when a “real-world” object was
+digitised, which resulted in the creation of some media (an image, an audio file…), is
+attached to the WebResource that stands for the resulting media file, while the date
+of creation of the original object is attached to the ProvidedCHO, even though both
+are expressed using a same metadata element (dcterms:created).
+
+
+
+
+Fig. 1. Basic EDM pattern representing an aggregation of a cultural object together with digital
+representations.
+
+
+    There are some known issues with the application of the one-to-one principle in
+EDM. Especially, there is a long-standing issue in that the ProvidedCHO carries the
+edm:type attribute that belongs on the WebResource (cf. Sect. 3).
+    We argue that better applying the one-to-one principle can be the basis for handling
+the case of 3D representations of cultural objects in EDM. Our approach has taken into
+account relevant work such as (1) 4CH’s analysis of 3D data generation and creation
+for Cultural Heritage (cf. [11], Sec. 2) and (2) previous experiments in preparing for
+2 EDM is based on the RDF(S) model [9], where resources are represented as instances of classes
+     and attributes and relationships of resources are represented using properties.
+    Making the Europeana Data Model a Better Fit for Documentation of 3D Objects              65
+
+Europeana objects that have been represented by 3D models, notably in the Share3D
+project. Let us exemplify it with the example of a Japanese Arita Ware porcelain figure
+from the Hunt Museum, whose 3D model has been published on Sketchfab [12]. This
+case corresponds to a “reality-captured” 3D model in the 4CH report, as “the source data
+are directly coming from the original asset”. We propose to represent the “real world”
+porcelain figure as an instance of edm:ProvidedCHO, whose metadata can include a
+title like “Japanese Arita Ware porcelain figure of a puppy” and “17th century” as date of
+creation. The 3D model itself can be represented as an instance of edm:WebResource
+carrying metadata statements like “Models processed using Meshlab and Blender” under
+description with “2022” as date of creation. The different metadata statements for the
+date of creation, especially, exemplify the application of the one-to-one principle, as
+they use the same property dcterms:created but with different values when they
+are used for different resources (Fig. 2).
+
+
+
+
+          Fig. 2. Distribution of some metadata values onto the main EDM classes.
+
+
+    A main motivation for following the one-to-one approach strictly is its consistency
+and wide applicability: the same pattern can be employed for various types of 3D model,
+and is compatible with the approach undertaken in EDM for non-3D representations. As
+a matter of fact it also allows for “mixed” situations where an object is provided with 3D
+representations and non-3D ones3 . It seamlessly enables the representation of objects
+that are provided with different 3D models, or versions of a 3D model (for example with
+different numbers of polygons or points, and different rights).
+    Note that the distribution of (meta)data onto the various resources brought together in
+the EDM Aggregation, and with descriptions of digital representations separate from
+the description of the heritage asset, is very much in line with ontological approaches to
+digital twins4 in Cultural Heritage. See for example [14], which defines a digital twin
+as “the digital representation of the complex of knowledge about [an] heritage asset”
+and proposes to model it as a resource that points both to the asset and includes various
+documents, e.g., 3D models and other visual imagery.
+
+
+3 For example when a building is provided both with a 3D model and “traditional” 2D
+  photographs.
+4 A Digital Twin can be generally defined as “a virtual replica of a physical product, process or
+  system” [13].
+66          A. Isaac et al.
+
+2.2 From Reality-Captured 3D Models to Born-Digital Objects
+The pattern can extend to the process of creating a 3D reconstruction of a heritage asset
+at a moment in time in the past. In the case of 3D, as the 4CH report elaborates, some
+3D models include elements that are not directly extracted from reality but instead come
+from interpretations of cultural objects, for example based on historical documentation
+(see Appendix “Sample metadata for 3D reconstruction” in our technical report [15]).
+In this case we speak of 3D reconstructions or “born-digital-reconstructions”.
+     These models have a more complex workflow in comparison to reality-captured
+models. For example, the workflow may include data capture on the surviving fragments
+of a CHO, followed by data processing and modelling to reconstruct aspects of a building
+based on information from plans or drawings which show how it may have looked like
+in the past. A reconstruction is a representation of the object at a moment in time in the
+past.
+     Take for example a digital reconstruction of Wojsławice town in the 1930s [16]. A
+first EDM interpretation of this case would be to claim that the historical town itself is
+the CHO, and the 3D model is a digital web resource that is directly associated with
+it (i.e., linking an instance of an ore:Aggregation to the 3D model via one of the
+properties edm:isShownBy, edm:isShownAt or edm:hasView). However, the
+nature of the reconstruction (i.e. not purely based on captured reality) would argue for
+not only focusing on the “original” real-world object as the CHO. The reconstruction
+of the original object – as an “information object” created following research and inter-
+pretation – could also be treated as CHO. There would be CHOs for both the town
+and the reconstruction related via the edm:isRepresentationOf property, or the
+more general property dc:subject. The edm:ProvidedCHO resource would carry
+metadata that applies to the representation (information object), i.e. the creator would
+be the creator of the model, not the founder of the town. Note that this still does not
+mean that the ProvidedCHO resource should have metadata that belongs to the level
+of a specific WebResource. In fact the reconstruction may not be entirely born digital:
+there might be analog or digital archives that were employed during the process of cre-
+ating the (3D) representation, which are also contributed as web resources. In this case,
+the “reconstruction CHO” should not have metadata statements that hint that it is only
+a 3D representation. For that to happen, a provider would have to distinguish between
+distinct CHOs for the 3D representation and the analog sketches (Fig. 3).
+     The same approach applies similarly to other important cases where the object itself
+is born digital, as for an abstraction of a design or the work of an artist’s imagination that
+does not represent any pre-existing real world object (this may also include AI-generated
+objects). This can happen, among others, for architectural (and other) design drawings.
+For example, in the case of a competition to design a major public building5 , only one of
+the designs is built. The other designs are proposals which do not represent a real-world
+object but which may be preserved as part of an architect’s archive - ideas that may be
+reused and re-interpreted in future buildings. In the past the designs would have been
+done on paper, as with the analogue room design at [18]. Today more and more are
+born-digital.
+5 E.g., the Re-imagining Cappadocia as an Eco-District Architecture competition mentions 3D
+     visualisations among the media that can be submitted [17].
+    Making the Europeana Data Model a Better Fit for Documentation of 3D Objects              67
+
+
+
+
+Fig. 3. Variants for reconstructions of an object: (top left) with a cultural object representing
+the town, (top right) treating the 3D reconstruction as a cultural object; (bottom) With both 3D
+reconstruction and 2D sketches as cultural objects.
+
+
+    In this case of a born-digital object the CHO is also described at a conceptual
+level and the digital representation is the “materialisation” of it, e.g., as a file. One
+object/concept/intention may have different representations and different media files -
+for example providing different views, offering different types of 3D modelling, different
+quality, different rights.
+
+
+3 Identifying and Addressing Basic Limitations for 3D in EDM
+When we started discussing the approach above, we knew that there are discrepancies
+between the current EDM - and especially, the way it is often applied - and the theoretical
+approach. To further identify limitations, we have applied the above principles to an
+example from the Share3D project (see appendix in our technical report [15]). The
+metadata shown there tries to respect the one-to-one principle and the distinction between
+the original object and the 3D representation. It also represents some data that we believe
+is important, either present in the original example or mentioned in the literature.
+    First, we observed that some important information like description or file format
+are already supported in EDM.
+    Other requirements would be met by relatively straightforward additions to the
+current EDM WebResource class:
+• allowing the representation of types of model by high-level categorisation between
+  “reality captured” models and “3D reconstruction”
+• allowing the representation of types of model by technical aspect of the representation
+  (cf. slide 13 of [19]): point cloud, mesh with higher or lower polygon count, with or
+  without textures, BIM and parametric models, etc. (from a controlled list of types,
+  preferably)
+• (maybe) enabling dc:title and dcterms:provenance
+68          A. Isaac et al.
+
+    For the first two requirements, the example in the appendix at [15] uses dc:type.
+However, we have made this choice merely to illustrate the matter at hand. Both could
+be addressed by using a different property, either reused from an existing namespace or
+newly created in the EDM vocabulary (similarly to edm:type). This will have to be
+discussed in the next steps of our work. In any case, both requirements probably require
+establishing a controlled vocabulary of possible values. Such endeavour relates to a more
+general effort to inspect whether existing EDM properties need to be provided with
+recommendations on using controlled vocabularies that are specific to the 3D context -
+for example on foreseen file formats.
+    We then identified a fundamental issue with the usage of the existing property
+edm:type, which is meant to reflect the general media category of an object, like
+TEXT or IMAGE, for Europeana purposes. This type should not be attached to Pro-
+videdCHO as it is currently. For example, in the case of a statue that has some digital
+images, edm:type is set to IMAGE. But if the same statue in a different context would
+have been provided with a 3D model, edm:type should be set to 3D. It would be
+more appropriate to attach the type of media to the resource that stands for the media
+representation of the cultural object, i.e., the edm:WebResource.
+    As an alternative (or in addition), the property could be attached to the
+ore:Aggregation6 . But we should then probably allow for multiple edm:type
+statements on the ore:Aggregation class, to cater for the cases where an object
+has representations of different types (say, a 3D model and some more classical pho-
+tographs that dictate using IMAGE as value for edm:type). However, even though this
+option meets simple user information needs like “retrieve objects that have at least one
+3D representation”, it would complicate rather than improve the model. If edm:type
+is moved to the level of edm:WebResource, the type of each representation for an
+object is clear. If it is moved to the ore:Aggregation and we allow multiple types,
+the type of each representation is not clear.
+
+
+4 Advanced 3D Requirements for EDM
+The previous section seeks to address common, basic needs of characterization of 3D
+objects. We identified more advanced requirements that can play a crucial role, too.
+    The first category regards the intended usage of representations available on the web
+for 3D objects. When sharing 3D models in a context like that of the data space, it makes
+a big difference whether a representation is meant for a specific (technical) purpose,
+(such as preservation) or for viewing. This distinction could be made explicit in EDM.
+A specific case is that of content accessed via a viewer, for example Sketchfab’s, which
+can be embedded in another page, for example on europeana.eu. Another example is
+when a provider would like to give a link to the raw/full version of a 3D model instead of
+relying on re-users asking for it via another process. From a user perspective it would be
+useful to have access to information about how such - often very large - resources may
+6 This case would be similar to what happens for the edm:rights property, which is used
+     to express controlled rights statements. An edm:rights statement must be attached to the
+     Aggregation in order to apply as a “default” to the WebResources attached to it, in case
+     these do not have their own edm:rights statement.
+    Making the Europeana Data Model a Better Fit for Documentation of 3D Objects                69
+
+be consumed (e.g., the software, media bundles, contexts etc.). We do not know yet from
+the perspective of the data space, how best to support this access. These requirements
+are not specific to 3D but they can play a significant role in the 3D context.
+     The second category of desirable extension of EDM regards context and especially
+the paradata; “auxiliary information [..] that describe the data acquisition process” [4].
+For us, paradata is a kind of metadata that can be crucial to some types of data space users,
+especially those who rely on rich and trusted provenance information on the 3D content
+for professional research or re-use. While the collection and management of paradata
+is highly valued by the scientific community, in cultural heritage it often represents an
+innovation in the institutions’ workflows, which brings added value in terms of enabling
+the digital transformation of the sector.
+     We do not foresee that EDM will be extended to cope with all the possible paradata
+collected at source, which can be very rich and specific. Yet, we recognise that a subset
+of this information can be very useful in the data space for access and re-use scenarios,
+especially to inform about the authenticity of the model, relevant technical aspects of the
+model’s creation process and re-use conditions. For example information on motivation
+(e.g., “research”) and limitations of digitisation projects give hints about the quality and
+trustworthiness of the 3D model. Examples of such provenance aspects could include
+the indication that a model results from a general “research” (project) motivation, that
+it is generated from AI training datasets and has not been curated, or that it was created
+photogrammetrically from user-generated images.
+     A survey of existing metadata schemas for 3D objects has led us to identify the general
+categories of paradata that are most relevant for the data space: identification of creation
+process, methodology followed, people involved, temporal and spatial information, and
+identification of the various digital resources produced as well as their lineage. Based on
+this survey, a “core” set of elements from these paradata categories will be considered for
+inclusion in an EDM extension for 3D for easier consumption. EDM already provides
+a generic mechanism that allows the creators of 3D content to provide a relation to the
+full paradata (e.g. in a document expressing the information in the relevant standards or
+more specific formats) where it can be accessed by data re-users.
+     Note that some “simple” provenance requirements such as capturing the roles of the
+people or organisations involved in the life cycle of 3D models7 may need significant
+extensions of EDM. The issue of representing roles of agents, for instance, has been
+identified for a long time as a general limitation of EDM, and it requires non-lightweight
+solutions such as introducing events [20].
+
+
+5 Supporting Work Needed
+
+This section gathers issues that are not about data modelling proper, but, which should
+be addressed so that providers are encouraged to follow best practices.
+
+
+7 This is especially important to give indication on the authenticity and trustworthiness of the
+  model, e.g., whether it is created by a research team based on data with high geometric accuracy,
+  or by a project with other motivations and more limited resources.
+70          A. Isaac et al.
+
+Review of Documentation and Guidelines. Our experience tells that more guidance
+on specific (mapping) points will be useful. Many issues relate to the one-to-one princi-
+ple. EDM provides the ability to distinguish the cultural asset (ProvidedCHO) from its
+specific digital representations. Statements that apply to the asset or the digital represen-
+tations should be attributed to the specific EDM resources that stand for it. It is crucial
+to decide whether the ProvidedCHO is the original object or a digital representation8 .
+Metadata statements such as the creation date should follow that choice. Note that we do
+not claim that statements of one kind are more important than others. Of course, users
+will often benefit much from knowing the date of creation of the original CH asset. But
+some users will also need to know when the 3D model of that asset was created.
+     Consider an item that represents a real-world object/monument, as hinted by the use
+of “church” in the ProvidedCHO’s dc:title (without any mention of a “3D model”
+in it) and a date like “13th century” as the date of creation. Here are some examples of
+possible other statements for the ProvidedCHO that would raise a discrepancy issue:
+
+• a dc:subject with “3D model”: in this example the church is the subject of
+  the ProvidedCHO, the format of the digital representation is best entered into the
+  WebResource.
+• a dcterms:extent describing the number of polygons in the 3D model: technical
+  data about the model is best entered into the WebResource. A church’s extent would
+  rather consist of its physical dimensions.
+• a dc:rights that mention the creator of the 3D model in some project, not the
+  creators of the church. Here it is best to include rights information about the 3D
+  model in the WebResource.
+
+    These metadata statements should be present on an instance of the WebResource
+class, not the ProvidedCHO, when that ProvidedCHO is meant to stand for an
+(analog) heritage asset9 . These are not specific to the case of 3D, but for 3D their impact
+can be significant - especially as they could happen very often.
+    It is worth noting that the existing EDM guidelines can be confusing. Echoing the
+issue of edm:type mentioned in the previous section, the EDM mapping guidelines
+for dc:format on the edm:ProvidedCHO include the instruction “Use the value
+3D-PDF if appropriate”. This is actually not compatible with following the one-to-one
+principle and should be removed.
+    Separating these elements of information would require creating a new instance of
+the EDM WebResource class when it is not present in the provided metadata. This
+is an extra effort, but it is very much in line with the needs to represent valuable, 3D-
+specific information (type of model, digital provenance) introduced in the earlier parts
+of this report. Guidelines should emphasise this.
+
+
+8 This concern also holds in the case of objects with non-3D representations, where attributes of
+     the digital representation should not be mixed with those of the original cultural object.
+9 The situation of a ProvidedCHO standing for a born-digital object would be different. There,
+     for example, the dc:creator of the ProvidedCHO is likely to be also the creator of the model
+     itself (which should still be also represented on the WebResource).
+    Making the Europeana Data Model a Better Fit for Documentation of 3D Objects        71
+
+Recommendations for the Delivery of 3D. Specific care is needed to articulate rec-
+ommendations on the web resources themselves, which are provided for an object. For
+example, it is sometimes not possible to give access to a “raw” 3D model, due to the
+size of these files. In any case, it is important to provide alternatives to the raw model,
+such as with an edm:isShownBy linking to an embeddable viewer which is supported
+by Europeana, and/or an edm:isShownAt pointing to a view of the objects at the
+data provider’s website. In case the provider wants to point to the raw model (e.g., for
+specific types of professional users, such as architects or conservators), this is possible
+by including a relation in the metadata, for example to an archive published on Zenodo
+or to the provider’s own website.
+Exploitation of Enhanced Metadata on 3D Representations. Several of the issues
+that we have observed for representing 3D objects can be traced back to concerns of
+display in the Europeana website. For example a record can have the dc:format
+and dc:type duplicated across a WebResource and the ProvidedCHO. This is
+certainly not because these attributes cannot be used with WebResources. It is rather
+because they are not displayed on the europeana.eu portal when they are used only on
+the WebResource. Even the dc:creator field is not displayed when it is attached
+to the WebResource. This is a barrier for data providers that seek to convey to users
+information that they feel is important. Adapting display and search (indexing) to better
+surface information about (3D) web resources should be implemented at the same time
+as the data model is deployed and documentation is updated.
+
+
+6 Roadmap for Future Work
+As next steps, we will work on confirming the proposals and progress on their
+implementation. The main elements of work are:
+Identify Requirements for Paradata and Technical Metadata on 3D Models
+in the Data Space. These requirements will include the representation of:
+
+• types of model by high-level categorisation (“reality captured” vs. “3D reconstruc-
+  tion”)
+• types of model by technical aspect of the representation (cf. Slide 13 of [19]): point
+  cloud, mesh with higher or lower polygon count, with or without textures, etc. (from
+  a controlled list of types, preferably)
+• types of model by project/motivation/limitations (esp., provenance info that could
+  give hints about the quality and trustworthiness of the 3D model)
+• intended usage of 3D models, especially, for links to embeddable viewers
+• any other context information (digital provenance) is relevant to capture
+  for basic access and re-use scenarios in Europeana (including and beyond
+  dcterms:provenance). This could focus on elements which are in existing established
+  schema for paradata (e.g., CIDOC-CRM dig, CARARE 2.0 etc.) or which can be
+  detected automatically.
+72         A. Isaac et al.
+
+    We will seek to identify these requirements from studying (re-)user applications10 ,
+earlier reports11 , more record examples12 , existing and coming metadata schema inven-
+tories and mappings. We will check whether additional requirements would arise from
+other efforts in the data space that are not specific to 3D but may have a relation, such
+as work on enrichment, provenance and annotations.
+    Identify which new elements should be included in the EDM model, trying to
+re-use as much as possible existing metadata standards used in the domain. E.g., for con-
+text/provenance, re-using Dublin Core’s dcterms:provenance13 (for more EDM
+classes), the proposed extension for events in EDM and/or specific modelling support
+for software processes, like dcterms:Software. Emphasis should be given on use
+of Linked Open Data data models and vocabularies.
+    Identify first 3D-centred quality criteria for metadata on 3D objects, especially
+identifying mandatory or recommended metadata elements. These could be included
+in the Europeana Publishing Framework14 . For instance we can include information
+about 3D objects such as file format, number of vertices, etc., in the calculation of EPF
+Metadata tiers. The type/motivation for 3D models as discussed in Sec. 4 could also be
+relevant with regards to setting up quality requirements on the provenance metadata.
+For this effort it will be useful to re-use works that seek to define completeness of 3D
+information, such as the 4CH report mentioned above and the VIGIE 2020/654 Study
+on quality in 3D digitisation of tangible cultural heritage [1].
+    Supporting Work. In line with the directions raised in the previous section, we will
+discuss with the designers of the europeana.eu website, how the new metadata and content
+could be accessed and displayed. This includes how to download and display different
+versions of a 3D model, embeddable viewers ([6] includes a list of viewers in Sec. 5.2
+and Appendix 1) as well as provenance information represented via the corresponding
+WebResources. We shall also review documentation and guidelines to properly reflect
+adherence to the one-to-one principle and avoid problematic mappings mentioned in
+Sec. 4. We will also seek feedback from other experts. This would allow more interested
+stakeholders to be involved, for example from the EuropeanaTech community.
+
+
+
+
+10 We could use IDOVIR [21] as case study. The portal presents some structured data on 3D
+   digitization projects and the software they use, but it seems that it also has a free-form description
+   of paradata and a link to a fuller representation.
+11 We could draw an inventory of types of 3D content relevant for Europeana and a first analysis of
+   digital provenance information from the report of the EuropeanaTech task force on 3D content
+   [4] (e.g., Sec. 2.2.1, 5.1, 5.2 and Appendix 1).
+12 It will be interesting to present cases where different versions of a 3D model are available and
+   hierarchical objects where an object is embedded in another object.
+13 Note that the current dcterms:provenance is focused on “ownership and custody” while we
+   need to represent paradata.
+14 Europeana Publishing Framework. https://pro.europeana.eu/post/publishing-framework.
+   Accessed 31 July 2024.
+     Making the Europeana Data Model a Better Fit for Documentation of 3D Objects                   73
+
+7 Conclusion
+
+In this paper we report on an analysis of EDM and its support for 3D in Europeana and the
+common data space for cultural heritage. Such analysis follows the need of maximising
+the impact of heritage digitisation as highlighted in the EC Recommendation 2021/1970
+which, among others, poses the focus on 3D to innovate workflows in digitization, reuse
+and digital preservation of heritage across the EU. Europeana, as the coordinator of
+the data space, leads the digital transformation process that the sector is undergoing by
+adapting the existing tools to the new requirements and needs connected to sharing 3D
+models and fostering their use and reuse. In this light, we have identified several areas in
+which EDM may be adapted or extended in future to offer better support for 3D models,
+Digital Twins and paradata. This analysis is a first step that will support further actions:
+reflecting on existing metadata and paradata practices, identifying strategies to provide
+the datasets published in Europeana with enriched information, and understanding cur-
+rent constraints and desired developments. Supporting work is needed to advance our
+recommendations both by Europeana Foundation and organisations which are creating
+and delivering 3D to the data space. Our roadmap for the future includes specific work
+on EDM, on Europeana’s Publishing Framework and website, but also with the content
+creators and cultural heritage institutions building capacity to help ensure that high qual-
+ity metadata and paradata are produced to support and enable re-use of high quality 3D
+content.
+
+
+References
+ 1. Common European data space for cultural heritage Homepage. https://www.dataspace-cultur
+    alheritage.eu. Accessed 31 July 2024
+ 2. 5D Culture Homepage. https://5dculture.eu. Accessed 31 July 2024
+ 3. EUreka3D Homepage. https://eureka3d.eu. Accessed 31 July 2024
+ 4. Ioannides, M., et al.: Study on quality in 3D digitisation of tangible cultural heritage. Technical
+    report, VIGIE 2020/654 (2022). https://digital-strategy.ec.europa.eu/en/library/study-quality-
+    3d-digitisation-tangible-cultural-heritage. Accessed 31 July 2024
+ 5. 4CH Homepage. https://www.4ch-project.eu. Accessed 31 July 2024
+ 6. Fernie, K.: 3D content in Europeana task force. Technical report, Europeana Net-
+    work Association (2020). https://pro.europeana.eu/post/3d-content-in-europeana-task-force-
+    review. Accessed 31 July 2024
+ 7. Share3D Homepage. https://share3d.eu. Accessed 31 July 2024
+ 8. WEAVE Homepage. https://weave-culture.eu. Accessed 31 July 2024
+ 9. Brickley D., Guha R.V.: RDF Schema 1.1. W3C Recommendation (2022). http://www.w3.
+    org/TR/rdf11-schema/
+10. Dublin Core Metadata Initiative, One-to-One Principle. https://www.dublincore.org/resour
+    ces/glossary/one-to-one_principle/. Accessed 31 July 2024
+11. Medici M., et al.: D3.1 design of the CH cloud and 4CH platform. Technical report, 4CH
+    (2022). https://doi.org/10.5281/zenodo.7701438
+12. Japanese Aritaware porcelain figure of a puppy, The Hunt Museum, Ireland, Public Domain.
+    https://sketchfab.com/models/65cda809d508405f8d42f68801459a62/embed. Accessed 31
+    July 2024
+74        A. Isaac et al.
+
+13. European Location Interoperability Solutions for e-Government (ELISE), Glossary. https://
+    joinup.ec.europa.eu/collection/elise-european-location-interoperability-solutions-e-govern
+    ment/glossary/term/digital-twin. Accessed 31 July 2024
+14. Niccolucci, F., Felicetti, A., Hermon, S.: Populating the data space for cultural heritage with
+    heritage digital twins. Data 7(8), 105 (2022). https://doi.org/10.3390/data7080105
+15. Isaac, A. (ed.): Review of EDM to support 3D. Technical report, Common European data
+    space for cultural heritage (2024). https://pro.europeana.eu/post/review-of-the-europeana-
+    data-model-to-support-3d. Accessed 31 July 2024
+16. The town of Wojsławice in 1930’s - 3D digital reconstruction, Grodzka Gate – NN The-
+    atre, Poland, CC BY. https://www.europeana.eu/en/item/814/https___biblioteka_teatrnn_pl_
+    dlibra_publication_edition_139444_content. Accessed 31 July 2024
+17. Re-imagining Cappadocia as an Eco-District Architecture Competition Project Submission
+    Deadline Extended. https://www.archdaily.com/999941/open-call-re-imagining-cappadocia-
+    as-an-eco-district-architecture-competition. Accessed 31 July 2024
+18. Entwurf für eine Raumgestaltung, MAK – Museum of Applied Arts, Austria, In Copyright.
+    https://www.europeana.eu/en/item/15514/KI_14388_38. Accessed 31 July 2024
+19. Fernie, K.: Sharing with Europeana: depositing and publishing 3D datasets for preservation
+    and future access. Twin it! Webinar 5: Storing, managing and visualising the 3D models
+    (2024).     https://europeana.atlassian.net/wiki/spaces/EF/pages/2407170152/Twin+it+3D+
+    for+Europe+s+culture+webinar+series#Webinar-5:-Storing,-managing-and-visualising-the-
+    3D-models. Accessed 31 July 2024
+20. Tsoupra E., Charles V., Stein R. (eds.): Recommendations for the representation of EDM:
+    Event in Europeana. Technical report, Europeana Network Association (2021). https://pro.
+    europeana.eu/project/data-quality-committee#representing-events-in-edm. Accessed 31 July
+    2024
+21. IDOVIR Homepage. https://idovir.com. Accessed 31 July 2024
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative Commons license and
+indicate if changes were made.
+     The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by
+statutory regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder.
+

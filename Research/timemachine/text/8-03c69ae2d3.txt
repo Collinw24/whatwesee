@@ -1,0 +1,93 @@
+                                  Session
+
+Data and technologies for architectural and urban
+                history (UHDL)
+Chairpersons:
+Sander Muenster (U JENA) - Germany
+
+Descrip.on and Mo.va.on:
+Urban and architectural history are key areas in digital humani?es and digital
+heritage. With respect to these research areas, digital repositories, data and
+research methods play an important role, especially when hos?ng visual media
+like photographs, pain?ngs, or drawings, and last but not least physical and
+virtual models. Due to the wide ﬁeld of possible research, diﬀerent approaches,
+methods and technologies have emerged – and are s?ll emerging.
+This session is part of the 4th issue of the Urban History in the Age of Digital
+Libraries (UHDL) workshop. UHDLs purpose is to provide a full picture with
+regards to epistemics, technology and framework condi?ons. We aim to discuss
+crucial challenges for further research and encourage exchange and debate
+about humani?es research and educa?on, technologies and data and par?cular
+trends as BIM or FAIR and 3D Publica?on/Sharing.
+For the proposed session we would like to invite contribu?ons on theore?cal
+and methodological issues, applica?on scenarios and projects, as well as novel
+approaches and tools in the following areas:
+
+
+
+•     Data handling and data schemes
+•     Machine Learning and Ar?ﬁcial Intelligence
+•     Visualiza?on and Presenta?on
+1. Data handling and data schemes
+The immense eﬀort invested in digi?za?on and rapid changes in technologies
+and formats has greatly increased the importance of data standards. Long-term
+data storage, availability of models and the interoperability of data formats are
+major challenges to exis?ng digital infrastructures. We welcome contribu?ons
+on:
+•     3D databases as a tool to support urban historical research
+•     Metadata and paradata
+•     Linked and seman?c data related to urban historical research
+•     the inﬂuence of knowledge of HCI on the design of historic models
+
+2. Machine Learning and Ar?ﬁcial Intelligence
+During the past few years, various new technological opportuni?es have arisen
+from big data, Seman?c Web technologies, and the exponen?al growth in data
+accessible via digital libraries such as EUROPEANA. Data-driven supervised and
+unsupervised classiﬁca?on approaches have been used to acquire high-level
+seman?c concepts, especially from the interconnec?on of diﬀerent types of
+data. Interdisciplinary collabora?ons between computer science and
+humani?es disciplines are essen?al in developing methods and workﬂows to
+enable cultural heritage research to exploit machine learning approaches. We
+welcome contribu?ons on:
+•      use cases and best prac?ces of applied machine learning in digital
+humani?es research
+•      approaches and technologies, e.g. radiance ﬁelds, image-based synthesis
+
+3. Visualiza?on and Presenta?on
+Historians in cultural heritage research today are enabled to explore new
+research direc?ons due to the availability of mul?tudes of digi?zed historical
+photographs in image repositories. Moreover, novel approaches such as the
+photogrammetric reconstruc?on of historical buildings from image databases
+allow for contextualiza?on and intui?ve access to data. Typical mo?va?ons for
+accessing these archives and repositories are scien?ﬁc research, pedagogical
+applica?ons, and the study of historical sites. These areas require advances in
+methods for visualiza?on and presenta?on of data to support the diﬀerent
+target groups. We welcome contribu?ons on:
+•      Projects and inves?ga?ons from urban history concerned with
+visualiza?ons and presenta?on of spa?al and/or scholarly data
+•      Research scenarios for scholars using visualiza?ons of urban history data
+•      Interdisciplinarity, e.g. intersec?ons between digital cultural heritage and
+(sustainable) tourism studies
+•      Data handling and data schemes
+•      Machine Learning and Ar?ﬁcial Intelligence
+•      Visualiza?on and Presenta?on
+
+Target Audience:
+The target group for this session includes professionals, researchers, and
+prac??oners from cultural heritage ins?tu?on, digital technology, policies, and
+research, with a focus on those interested in the intersec?on of technology and
+heritage. Speciﬁc groups include:
+•      Cultural Heritage Professionals: Conservators, restorers, heritage site
+managers, and curators using digital tools for preserva?on and documenta?on.
+•      Digital Technology Experts: BIM specialists, architects, engineers, and 3D
+modeling professionals working on heritage conserva?on projects.
+•      Academics and Researchers: Scholars and researchers studying heritage
+preserva?on, digital methodologies, and climate adapta?on strategies.
+•      Policymakers and Legal Experts: Professionals addressing the ethical and
+legal dimensions of digi?zing cultural heritage and crea?ng relevant policies.
+
+Keywords:
+UHDL, urban history, technology, AI
+
+
+Click here to make a submission!
+

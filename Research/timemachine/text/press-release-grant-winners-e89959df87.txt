@@ -1,0 +1,102 @@
+Press Release
+
+
+
+
+From Lost Worlds to Open Data: 3DBigDataSpace Enriches
+Europe’s Online 3D Heritage with New Contributions
+The 3DBigDataSpace Data Synergy Call has selected two outstanding projects that will
+enrich the availability of high-quality online 3D cultural heritage datasets. Both projects
+were developed independently and have already achieved remarkable reconstructions of
+lost or fragile heritage. Through the Synergy Programme, they will now receive targeted
+support to prepare their 3D assets and metadata to become part of the Common
+European Data Space for Cultural Heritage — a pan-European initiative designed to make
+digital cultural heritage data more accessible, interoperable, and reusable across research
+institutions, museums, and the public.
+
+
+
+
+Portomarín, Spain – A Submerged Village Brought Back as Data
+The medieval village of Portomarín (Lugo, Spain), once a thriving stop on the Camino de
+Santiago, was submerged in 1963 beneath the Belesar dam. Researchers at the
+Universidade de Santiago de Compostela and the Centro Infográfico Avanzado de Galicia
+(CIAG) have already virtually reconstructed over 300 buildings using archival photographs,
+oral testimonies, and advanced 3D modelling.
+
+With the support of the Synergy Programme, the project’s rich digital assets will now be
+prepared for integration into the Common European Data Space for Cultural Heritage. This
+ensures that modeling Portomarín’s virtual twin — already a valuable cultural and
+emotional resource — becomes a structured and reusable dataset available online for
+education, research, and community storytelling.
+
+The Portomarín Virtual project was developed with the support of the College of William &
+Mary (USA) and the Galiverso experience (Cidade da Cultura, Xunta de Galicia). Carried out
+between September 2022 and June 2023, it was directed by Professors Julio Vázquez Castro
+and Jesús Ángel Sánchez García, both from the Department of Art History at the University
+of Santiago de Compostela. The project also benefited from the collaboration of graphic
+designers Carlos Paz de Lorenzo, Anxo Miján Maroño, Alexandre González, Manuel García,
+Alejandro Soriano, and Andrés Armesto, all members of the CIAG. The participation of
+Portomarín’s residents, who still preserve memories of their lost town, proved essential in
+ensuring the historical accuracy of the reconstruction. Their contributions were led by
+photographer José López, who generously shared thousands of images from his personal
+archive.
+Turin, Italy – Reviving a World’s Fair in Digital Form
+The 1911 International Exposition in Turin once dazzled millions of visitors with its innovative
+architecture and cultural displays, most of which vanished once the fair ended. The
+Politecnico di Torino (Italy) and the University of California, San Diego (USA) have already
+reconstructed many of these structures — from the UNESCO-listed Valentino Castle to the
+Pavilion of Siam — through laser scanning, drone photogrammetry, H-BIM, and AI-assisted
+reconstruction.
+
+With support through the Synergy Programme, these assets will now also be prepared for
+inclusion in the Common European Data Space for Cultural Heritage, ensuring that they are
+available in open formats with full metadata and paradata. This step transforms them from
+standalone reconstructions into part of a wider, interoperable data infrastructure,
+accessible for conservation, education, and creative reuse.
+
+The interdisciplinary collaboration between the two universities – initiated in 2018 – marks a
+step forward for the Turin 1911 project (https://italyworldsfairs.org/), led by Cristina Della
+Coletta and Dominique Rissolo from UC San Diego, together with Alessandra Spreafico and
+Filiberto Chiabrando from Politecnico di Torino, and supported by a large team,
+including Mohammadreza Mehdizadeh, Erica Casareto, and Mahtab Khoddami - from
+Politecnico di Torino - for the 3D digital reconstructions.
+
+The scientific 3D digital models – based on digital surveys and archival materials – bring to
+life a past world that is today mostly lost. By digitally restoring the vanished fairgrounds, the
+Turin 1911 project serves as a forerunner for reconstructing other World’s Fairs, whether from
+the distant or the recent past.
+
+Building a Shared 3D Heritage Infrastructure
+The Synergy Programme supports projects like Portomarín and Turin 1911 in making their
+digital assets not only visible, but also usable within a European framework. By preparing
+their reconstructions in open, web-friendly formats such as GLTF/GLB and enriching them
+with metadata and paradata, the projects ensure their long-term accessibility and
+integration into the Common European Data Space for Cultural Heritage.
+
+“We very pleased to have received 40 high-quality applications from 19 countries in
+response to the first Data Synergy Call. This demonstrates the high-interest from the
+community in the Common Data Space for Cultural Heritage and in making the results of
+their 3D digitsation and reconstruction more accessible.” (Alexandru Stan, Technical
+Coordinator)
+About 3DBigDataSpace
+Launched in February 2025 and funded by the Digital Europe Programme, 3DBigDataSpace
+aggregates over 50,000 high-quality 3D cultural heritage models into the Common
+European Data Space for Cultural Heritage. By combining interoperable storage with AI-
+powered enrichment, the project improves discoverability, metadata, and usability of 3D
+content, enabling immersive VR, AR, and 4D experiences. Pilot applications in museums,
+heritage sites, and educational programmes showcase its real-world impact, while training
+initiatives equip stakeholders across Europe to engage with and expand access to digital
+cultural heritage.
+
+Website: https://3dbigdataspace.eu/
+Contact:
+
+   •   Kerstin Muff (Communication): kerstin.muff@timemachine.eu
+   •   Sander Münster (Project Coordinator): sander.muenster@uni-jena.de
+
+For more information on the projects:
+
+   •   Portomarín Virtual: https://ciagalicia.com/proxectos/portomarin-vello/
+   •   Turin 1911 Project: https://italyworldsfairs.org/
+

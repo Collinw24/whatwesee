@@ -1,0 +1,10 @@
+# Local machine config and generated artifacts.
+.DS_Store
+configs/pipeline.local.toml
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Large data should live in ~/whatwesee_photogrammetry_data or Hetzner.
+data/
+datasets/

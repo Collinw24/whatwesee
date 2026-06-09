@@ -1,0 +1,632 @@
+Scholarly Community
+                                                                                             4
+
+
+
+   Abstract
+
+   This chapter provides an overview of the scholarly communities in which the digital
+   3D reconstruction is used as a method. (Visual) digital humanities—besides digital
+   heritage and humanities disciplines such as digital art history or digital archaeology—
+   marks the disciplinary space in which 3D reconstruction in the humanities is discussed
+   and methodologically anchored. The chapter describes whether the method of digital
+   3D reconstruction can be considered an individual scholarly field and how it would be
+   determined.
+
+
+
+
+   Guiding questions
+   • How can scholarship be structured?
+   • What are visual approaches in the humanities?
+   • Is there an ideal structure for the 3D reconstruction process?
+   • Where can digital 3D reconstruction be located within disciplines?
+
+
+   Basic terms
+   • Visual humanities
+   • Scholarly culture
+   • Communities
+   • Disciplines
+
+
+© The Author(s) 2024                                                                   65
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_4
+66                                                                    4 Scholarly Community
+
+
+4.1        Introduction
+
+     Further reading: Research on Scientific Communities
+     Various social empirical methods have been used during the last decades to evalu-
+     ate, quantify, and qualify the usage of digital 3D modeling for particular fields of
+     humanities. Most of these approaches focus on qualitative analysis, e.g., by expert
+     boards or surveys. The EPOCH network of excellence (2004–2008) employed focus
+     group discussions and perspectives on digital 3D techniques in cultural heritage
+     studies [1]. While qualitative approaches are appropriate to identify and explain [2]
+     phenomena in terms of evolutions, current states, and perspectives, they show only
+     limited usefulness for quantifying uncovered phenomena or investigating scientific
+     structures. The VIA project organized a series of workshops and questionnaire-
+     based surveys to investigate visualization in archaeology in the UK [3]. From 2012,
+     the Enumerate project has performed bi-annual monitoring of digitization activities
+     of cultural heritage institutions within the EU—primarily museums and archives [4,
+     5]. The DARIAH DIMPO workgroup is periodically monitoring the digital human-
+     ities community [6]. Recently, several monitoring actions were conducted by the
+     European Commission [7, 8], e.g., to investigate digital competency in cultural
+     institutions [9]. Several associations surveyed the consequences of the COVID-19
+     pandemic for cultural institutions and their digital transition [10].1
+         Research regarding scholarly behavior often relies on analyzing the publica-
+     tion record. With regards to a scholarly area of visual digital humanities and
+     its adjacent fields like digital heritage, Hicks et al. [11] stated that publication
+     and research habits are widely spread between single disciplines in the (digital)
+     humanities. Similarly, Leydesdorff et al. [12] examined the disciplinary canon in
+     humanities and digital humanities employing bibliometric methods. With regards
+     to a scholarly community within the digital humanities, Terras [13] reported that
+     until 2006, US, Canada, and UK-based researchers contributed most to academic
+     discourse. Similarly, Grandjean performed a social network analysis of Twitter to
+     map the digital humanities community [14]. Specifically for digital heritage, Scollar
+     [15] investigated the Conference on Computer Application in Archaeologies from
+     1973 until 1996. Secondly, information habits of visual digital humanities scholars
+     are the focus of various studies. Since older investigations found large differences
+     in information behavior between scholars in different disciplines [16], nowadays,
+     many scholars in art history and architecture rely heavily on digital information and
+     perform visual search strategies [17, 18].
+
+
+
+
+1 An overview: https://pro.europeana.eu/page/organisational-approaches, accessed 01.01.2022
+4.2   Disciplines Which Benefit from the Method                                             67
+
+
+Scientific structures can be classified according to various criteria. One common approach
+is to distinguish different disciplines as branches of science. Another approach is to identify
+scientific communities as groups of scholars “[...] who have agreed to accept a paradigm” [19]
+by analysing their research outcomes. Thus, an important object of study is the author cohorts
+of publications, and the classification of topics of interest.
+
+
+4.2       Disciplines Which Benefit from the Method
+
+Disciplines are characterized by common methods and theories. Furthermore, they usu-
+ally share comparable “reference systems, disciplinary ways of thinking, quality criteria,
+publication habits and bodies” [20, p. 6] and a similar institutionalization. Similarly,
+Knorr-Cetina thought that each discipline has its own “epistemic culture” in the sense
+of different “architectures of empirical approaches, specific constructions of the referent,
+particular ontologies of instruments, and different social machines” [21, p. 3]. Disci-
+plines and their boundaries are social constructions [22] and a number of phenotypic
+fields can be identified [23]. One basic classification scheme is the distinction between
+humanities and sciences. In a more elaborate classification the Organization for Economic
+Co-operation and Development lists six scientific fields containing around 40 disciplines
+[24, 25]; library classification delivers highly sophisticated categorization schemes [26].
+
+
+4.2.1     Visual Approaches in the Humanities
+
+Digital 3D models are used in several humanities disciplines with highly differing settings.
+In comparison to text-related disciplines, the employment of digital methods related to
+image or object analysis recently became a major trend. Possible reasons may be the
+diverse nature of the methods used in disciplines focusing on these types of artifacts [27],
+but also the heterogeneous level of establishment of digital research methods in those
+disciplines [11]. Although all disciplines in the humanities are dealing with vision and
+visualization, some disciplines are particularly engaged here:
+
+• Digital humanities, despite various attempts [28–32], is still defined in a blurred and
+  heterogeneous way [31, 33]. From a historical perspective, the digital humanities have
+  evolved since the mid-2000s through the development of an independent epistemic
+  culture from historical computer science and “humanities computing” [34–38]. There
+  is a broad consensus that digital humanities deal with “the application of technology
+  to humanities work” [33].The data foci of digital humanities are texts, audio-visual
+  content, images, and objects. While the use of digital methods in the text-oriented
+  disciplines is currently widely established and standardized [39, p. 10], the scope of
+68                                                                      4 Scholarly Community
+
+
+     digital methods related to images and other visual objects based on vision rather than
+     close reading remains—despite various attempts [1, 40–43]—essentially uncharted.
+•    Art and architectural history studies investigate mainly works of art and architecture
+     from the late Antiquity to the modern age [44] to provide insights into their origin and
+     meaning [45], their spatial, social, and political preconditions and effects [46]. Methods
+     for investigating genetic and morphologic connections are covered by analyzing style
+     [47] and structure [48]. Another important range of methods is concerned with the
+     meaning of the works of art (iconography) and systems of meaning (iconology) [47].
+•    Museology focuses on the presenting and collecting of cultural heritage, and ways to
+     educate the public [49]. Digital technologies are used to enhance museum visits, e.g.,
+     visitor information systems and didactically enhanced applications. Other scenarios are
+     virtually accessible collections and virtual museums, which have no counterpart in the
+     real world [50].
+•    Archaeology investigates tangible remains and evidence of human culture [51, p. 11]
+     to generate a representation of what exists now and closely approximates what may
+     have once been [52]. Often, it is not possible to physically preserve the archaeological
+     site, making thorough documentation and data collection highly relevant. Surveying
+     techniques [53–57] and traditional photos and plans are used to document excavations.
+•    Architecture deals with the design and construction of built environments. Architec-
+     ture is usually part of engineering or design sciences and deeply linked to the processes
+     of design and of understanding, learning, and teaching spatial imagination. Although
+     digital 3D models are frequently used, especially the creation of haptic architectural
+     models has not yet fully shifted into the virtual world [58].
+•    Heritage studies comprise a variety of approaches to human culture and behavior
+     related to heritage [59, 60]. Relevant strands are derived from humanities, social
+     sciences, design and engineering, most frequently anthropology, history, and
+     architecture [61].
+
+
+
+     Citizen Science and 3D Models A large amount of 3D heritage content is user-
+     generated. Sketchfab, currently the largest repository for 3D content, hosted 100,000
+     3D cultural heritage models in 2019, representing 30% of all 3D models on this
+     platform [62]. User creation is strongly supported by the availability of ready-to-use
+     photogrammetric applications and open-source 3D modeling tools. In terms of level
+     of participation (Fig. 4.1), most citizen science projects use crowdsourcing as the
+     involvement of “non-scientists to help to analyze or collect data as part of a researcher-
+     led project” [63] p. 259]. Examples include collecting and processing images as a
+     prerequisite for 3D photogrammetry [64], or crowd-based creation of 3D models [65,
+     66]. Co-design “involves citizens into the research process from its beginnings, or the
+     stimulus for the research project originates from the citizens” [67 p. 4]. Although more
+4.2     Disciplines Which Benefit from the Method                                                69
+
+
+
+      prominent in humanities research [68], co-design is frequently used for 3D content
+      and experience design for museums [69, 70] or (serious) history games [71]. Besides
+      the challenges of participatory processes such as user activation and management,
+      task definition or quality control [72], citizen science in the humanities has to handle
+      complex, non-standardized, and knowledge-intensive tasks, which are challenging to
+      operationalize and to assess for scientific quality of processes and outcomes [73, 74].
+      Other activities involving citizens in open science processes related to 3D modeling
+      include metadata enrichment and annotation of 3D models [75].
+
+
+
+
+      Fig. 4.1 The CSCCE Community Participation Model distinguishes between several types of
+      citizen engagement [76]
+
+
+
+
+4.2.2       Visual Digital Humanities
+
+Digital humanities disciplines dealing with the visual share a grounding in visual literacy,
+that is “the abilities to understand (read), and use (write) images (and spatial objects), as
+well as to think and learn in terms of images (and spatial objects)” [77, p. 26]. Against
+this background, the term “visual digital humanities” [78] was coined to cover research
+approaches in the digital humanities dependent on both consuming and producing picto-
+rial and spatial, rather than textual, information to answer research questions [79]. Visual
+70                                                                   4 Scholarly Community
+
+
+digital humanities encompass computational-supported research on complex visual infor-
+mation to treat research questions and interests from the humanities (e.g., a composition
+of complex figurative paintings), concerning aspects of data collection; data retrieval;
+reconstructing, simulating, and producing objects (e.g., 3D models); administering and
+organizing people and objects [80, 81]. Tasks include the collection, semantic enrichment,
+and analysis of complex visual information, and the creation of imagery:
+
+•    Image analysis (e.g., pattern analysis of large-scale image collections)
+•    Perception-based techniques (e.g., visuospatial analysis of architectural objects)
+•    Spatial modeling (e.g., 3D reconstruction of historical architecture)
+•    Visualization (e.g., sketching for visuospatial reasoning)
+
+Objects are cultural heritage artifacts and images, and scholars in visual digital humanities
+use technologies to “understand (read), and use (write) images [and spatial objects], as
+well as to think and learn in terms of images [and spatial objects]” [82].
+   The digital 3D reconstruction of past, altered, or never-realized buildings is a research
+method that can supposedly be assigned to the history of architecture. This kind of cate-
+gorization within academic disciplinary boundaries is part of a much broader debate [83,
+84], which in our case can be divided into several exemplary problems.
+   First, the overarching, general method of reconstruction finds its application in numer-
+ous disciplines of the humanities (of course subjects outside of the humanities also use
+reconstruction to arrive at or communicate research results, e.g., experimental setup in the
+natural sciences). Since a reconstruction inevitably leads to a model, the process of creat-
+ing the model can be cited as part of the method, especially in technical subjects [85]. As
+a research discipline, architecture has always worked with reconstructions, models, and
+design- as well as construction processes [86, pp. 73–74]. Criticism and experiences of
+reconstruction methods are, therefore, to be expected and evaluated in an interdisciplinary
+way.
+   Secondly, despite limiting our case to historical architecture, no sharp disciplinary
+boundary can be drawn. The thematic intersection of the archaeological subjects, archi-
+tectural history from the perspective of art history, building research from the perspective
+of the architectural faculties at technical universities as well as the sciences of monument
+preservation and museum didactics, is simply too large. Differences can at best be found
+in the academic tradition rather than in the subject matter. Since the epistemological dif-
+ferences mostly relate to the questions posed before or during the reconstruction process,
+the motives for the differences are not clear. The motives for creating digital 3D models
+are directly dependent on the creator’s professional tradition.
+4.3   Scholars and Topic Areas                                                            71
+
+
+    Thirdly, in digital 3D reconstruction, team members of different academic backgrounds
+and specialist traditions usually work together. Clients have certain expectations and prior
+knowledge about the object to be reconstructed and thus set the necessary framework
+conditions. 3D modelers possess both the technical skill and craft to create the recon-
+struction. Again, the professional tradition of the 3D modeler can have a considerable
+influence on the process and outcome (i.e., the 3D model), not least on the choice of
+modeling software. As a user, not a developer, the 3D modeler has no influence on the
+3D modeling software. Therefore, computer graphics is an aspect of digital 3D recon-
+struction that sometimes receives too little attention but has a decisive influence on its
+result. The mediator between the client and the 3D modeler is often a technical expert
+who structures the knowledge about the reconstruction object in terms of their own spe-
+cific field. All these roles may be taken by people in the same professional tradition or
+even the same person. Nevertheless, the resulting 3D reconstruction is highly dependent
+on the experience gained from the individual steps.
+    In an ideal scenario, the client controls the entire reconstruction process according
+to their requirements, the 3D modeler has the technical and professional prerequisites,
+and a computer scientist guarantees individual computer graphic requirements. The latter
+applies to the virtual environment (i.e., modeling software) in which the 3D model is
+created and the communication of the results (→Workflows). The technical expert also
+accompanies the entire process, from the research on which to base the reconstruction to
+evaluating and documenting the results.
+    In view of these idealized, highly specialized steps, disciplinary boundaries are
+obstacles that must be overcome in the collective work process. Therefore, digital 3D
+reconstruction should possibly even be treated as an interdisciplinary research field of
+its own. As is evident from the history of models (→Basics and Definitions), digital 3D
+reconstruction developed from a long-established specialist tradition. It remains to be clar-
+ified whether an independent culture of knowledge is developing across that will reach its
+full potential beyond existing academic disciplinary boundaries.
+
+
+4.3       Scholars and Topic Areas
+
+Another approach to study scientific communities starts from the assumption that pub-
+lications such as conference papers and journals are main podia for knowledge sharing
+in academia [87]. What is the background of people who are actively publishing in the
+field of cultural heritage? Despite various attempts to attract researchers from other parts
+of the world, e.g. at conference locations in non-European countries, the community is
+primarily European.
+72                                                                       4 Scholarly Community
+
+
+   Within Europe the majority of researchers in the field of digital heritage are Italian,
+followed by Germans and Greek (Fig. 4.2). What are disciplinary backgrounds of authors?
+Concerning findings shown in Fig. 4.3, a majority of participants assorted themselves to
+humanities. Most frequently named within this discipline was archaeology [88].
+   Concerning the individual topic areas (Fig. 4.4), data management was most frequently
+named, ranging from GIS and BIM to metadata schemes and data architecture. These
+were followed by data acquisition, photogrammetry, laser scanning, and other surveying
+technologies. Many responses to the survey on topic areas did not fit into the predefined
+categories and were subsumed in “Others”—in most cases, specific methods, or objects
+
+
+
+
+Fig. 4.2 Nationality of scholars in the field of digital heritage (Online Survey, conducted in 2016,
+Top 10 out of n = 693) [87]
+
+
+
+
+Fig. 4.3 Disciplinary background of conference participants (Online survey, conducted in 2016, n
+= 752) [87]
+4.4   Scholarly Culture                                                                      73
+
+
+
+
+Fig. 4.4 Topic areas in 3D modeling in the humanities (Online survey, n = 825 conducted in 2016)
+[90]
+
+
+of research. A discourse in conference publications is primarily driven by technologies,
+and the most common keywords refer to the technologies used. Most research is around
+data concerned with acquisition and management, visualization, or analysis. Moreover,
+the observed scientific discourse closely refers to practical projects relating to specific
+cultural objects, technologies, or practices [87]. Both indications lead to the assumption
+that the observed scientific community is foremost a community of practice [89].
+
+
+4.4       Scholarly Culture
+
+Does an independent epistemic culture exist apart from historiography and historical cul-
+ture? That is, is digital 3D reconstruction an independent discipline? A comparison of the
+characteristics of scholarly fields by Armin Krishnan [84] shows that digital 3D construc-
+tion has these characteristics. Counterexamples assign these characteristics to existing
+research fields (Table 4.1).
+   Due to the persistence of established disciplinary traditions, no clear demarcation
+or independent research field can be clearly derived for the digital 3D reconstruc-
+tion, much less for the digital 3D reconstruction of historical architecture. It remains
+equally questionable whether it makes sense to subdivide academic disciplines, as inter-
+disciplinary or within an existing discipline, makes sense, or creates new obstacles.
+The most serious obstacle that limits the development of 3D digital reconstruction is
+interdisciplinary (→Workflows).
+   The challenge is to bridge historical research tradition and information technological
+developments in application. This is about a discrepancy regarding the use of the 3D
+reconstruction. Is it a means to answer a research question, which is written down or
+visualized, published, and in this traditional way integrated into academic discourse? In
+this case, the digital 3D reconstruction would be a sub-discipline of historical sciences
+and its academic traditions. Or can the 3D model itself represent knowledge, in that as
+74                                                                        4 Scholarly Community
+
+
+Table. 4.1 Characteristics of scholarly fields [84] and assessment for digital 3D reconstruction in
+the German-speaking area
+Criteria for an        Assessment
+independent
+scholarly field:
+Is there a particular ● The digital 3D model and not the facts represented by it can be seen as
+topic of research?    the overarching object of research.
+                      ● The digital 3D model can just as well be seen as an extended digital
+                      form of a haptic architectural model, which is part of architectural history
+                      as a research object and source.
+Can one observe an     ● The high degree of specialization of the individual actors in the creation
+accumulation of        process highlights the accumulation of specific knowledge and experience
+specialized            in digital 3D reconstruction.
+knowledge?             ● Much of this specialized knowledge and experience is developed from
+                       the interaction of sub-disciplines of existing disciplines such as
+                       architecture, computer graphics, archaeology, architectural history, building
+                       research, monument preservation, and museum didactics.
+Have specific          ● Although many theories and concepts are not yet fully established,
+theories and           examples can be named: representational concepts of historical
+concepts been          uncertainties; immersion in 3D space; unifying 3D models for comparative
+developed?             reasoning; semantic modeling of cultural heritage, etc.
+                       ● The theories and concepts listed are already being discussed in some
+                       cases in the respective disciplines.
+Does an                ● This is borrowed from existing subject traditions, but often culminates in
+independent            an independent terminology due to technical intermingling.
+terminology exist?
+Has a specific         ● Due to the creation process of the 3D models in virtual space, this is a
+research method        given, but it cannot yet be grasped as an established method. Best practice
+been established?      does not yet exist, which leads to a variety of approaches.
+                       ● The research method could be seen as a technical advancement of
+                       established forms of haptic modeling or 2D reconstruction.
+Can                    ● Departments of visual architecture exist but are subordinate to traditional
+institutionalization   fields of research.
+be observed?
+
+
+an information carrier it makes accessible an incalculable number of research questions
+and findings in a fundamentally different way than the narrative text, thereby changing
+the research process as a whole?
+   In addition to its function as a medium of communication, either internally within a
+project or to the specialist community, the 3D model is above all a dataset that can both
+be interpreted by humans in a very intuitive and location-independent way and calculated
+by computers. The areas of application cannot yet be fully specified, but a possible future
+can already be postulated.
+References                                                                                           75
+
+
+    Regarding an epistemic culture, a wide variety of research and application topics are
+related to 3D reconstruction, each with specific conferences, journals, and frequently con-
+tributing researchers and institutions [87]. With Nowotny et al. and De Solla Price, one
+could see 3D reconstruction as a mode 2 research [91–93] that is interdisciplinary, uses
+machines, and has joint intellectual property. Consequently, 3D reconstruction shares its
+disciplinary culture with both, engineering and the humanities [78].
+
+
+   Summary This chapter gives the reader a basic understanding of the scholarly com-
+   munities that deal in the broadest sense with 3D reconstructions, the opportunities and
+   challenges involved in interdisciplinary research within these communities. It also
+   introduces the prerequisites for working on a 3D reconstruction, explored in detail in
+   the following chapter.
+   Key literature
+
+   • Becher, T., Academic Disciplines, in Academic Tribes and Territories: Intellec-
+     tual Enquiry and the Cultures of Disciplines, T. Becher, Editor. 1989, OPEN
+     UNIVERSITY PRESS: Milton Keynes. p. 19–35 [83].
+   • Krishnan, A., What are academic disciplines. Some observations on the Dis-
+     ciplinarity vs. Interdisciplinarity debate. 2009, Southampton: University of
+     Southampton. National Centre for Research Methods [84].
+   • Münster, S., Digital Cultural Heritage as Scholarly Field—Topics, Researchers
+     and Perspectives from a bibliometric point of view. Journal of Computing and
+     Cultural Heritage, 2019. 12(3): pp. 22–49 [87].
+
+
+
+
+References
+
+ 1. Arnold D et al (2008) EPOCH research agenda – final report
+ 2. Dilthey W (1970) Der Aufbau der geschichtlichen Welt in den Geisteswissenschaften
+ 3. Gibbons G (2012) Visualisation in archaeology project. Final report
+ 4. Stroeker N et al (2012) Survey report on digitisation in European Cultural Heritage Institutions
+    2012
+ 5. Stroeker N et al (2014) Survey report on digitisation in European Cultural Heritage Institutions
+    2014
+ 6. DARIAH-EU European Research Infrastructure Consortium Digital Methods and Practices
+    Observatory Working Group. https://www.dariah.eu/activities/working-groups/wg-digital-met
+    hods-and-practices-observatory-dimpo/. Accessed 9 June 2014
+ 7. Münster S et al (2021) Digital topics on cultural heritage quantified. Built Heritage
+ 8. Ulutas Aydogan S et al A (2021) framework to support digital humanities and cultural her-
+    itage studies research. In: Research and education in urban history in the age of digital libraries.
+    Springer International Publishing, Cham, pp 237–267
+76                                                                           4 Scholarly Community
+
+
+ 9. Roche N et al (2019) Fostering cooperation in the European Union on skills, training and
+    knowledge transfer in cultural heritage professions. Report of the OMC (Open Method of
+    Coordination) working group of member states’ experts
+10. NeMo (2021) Follow-up survey on the impact of the COVID-19 pandemic on museums in
+    Europe. Final report
+11. Hicks D (2006) The four literatures of social science. In: Moed HF et al (eds) Handbook of
+    quantitative science and technology research: the use of publication and patent statistics in
+    studies of S&T systems. Springer Science & Business Media, Heidelberg, pp 473–496
+12. Leydesdorff L et al (2011) The structure of the arts & humanities citation index: a mapping
+    on the basis of aggregated citations among 1,157 journals. J Am Soc Inform Sci Technol
+    62(12):2414–2426
+13. Terras MM (2006) Image to interpretation. An intelligent system to aid historians in reading the
+    Vindolanda texts
+14. Grandjean M et al (2016) A social network analysis of Twitter: Mapping the digital humanities
+    community. Cogent Arts & Humanit 3(1):1171458
+15. Scollar I (1997) 25 years of computer applications in archaeology. CAA 1997
+16. Tenopir C et al (2008) Electronic journals and changes in scholarly article seeking and reading
+    patterns. D-Lib Mag 14(11/12):1–13
+17. Beaudoin JE et al (2011) Finding visual information: a study of image resources used by
+    archaeologists, architects, art historians, and artists. Art Doc 30(2):24–36
+18. Münster S et al (2018) Image libraries and their scholarly use in the field of art and architectural
+    history. Int J Digit Libr 19(4):367–383
+19. Jacobs S (2006) Models of scientific community: Charles Sanders Peirce to Thomas Kuhn.
+    Interdisc Sci Rev 31(2):163–173
+20. Schophaus M et al (2003) Von Brücken und Einbahnstraßen. Aufgaben für das Kooperations-
+    management interdisziplinärer Forschung. Discussion paper Nr. 08/03
+21. Knorr-Cetina K (1999) Epistemic cultures. How the sciences make knowledge
+22. Weingart P (1987) Interdisziplinarität als List der Institutionen. In: Kocka J (ed) Interdisziplinar-
+    ität. Praxis - Herausforderung - Ideologie. Suhrkamp, Frankfurt a. M., pp 159–166
+23. Knorr-Cetina K (2002) Die Fabrikation von Erkenntnis
+24. Organisation for Economic Co-operation and Development (2002) Frascati manual. Proposed
+    standard practice for surveys on research and experimental development
+25. Organisation for Economic Co-operation and Development (2007) Revised field of science and
+    technology (FOS) classification in the Frascati manual
+26. Semenova E et al (2007) Eine Ontologie der Wissenschaftsdisziplinen. Entwicklung eines
+    Instrumentariums für die Wissenskommunikation. In: Ball R (ed) Wissenschaftskommunikation
+    der Zukunft, 4. Konferenz der Zentralbibliothek im Forschungszentrum Jülich, 6–8 November
+    2007, vol Band 18. Reihe Bibliothek/Library edn. Schriften des Forschungszentrums Jülich,
+    Jülich, pp 61–69
+27. Long MP et al (2014) Supporting the changing research practices of art historians
+28. Terras M et al (2013) Defining digital humanities. A reader
+29. Carter BW (2013) Digital humanities: current perspective, practices, and research
+30. Gold MK (2012) Debates in the digital humanities
+31. Alvarado R (2011) The digital humanities situation. The transducer May 11th, 2011
+32. Kirschenbaum MG (2010) What is digital humanities and what’s it doing in English depart-
+    ments? ADE Bull 150:55–61
+33. Gibbs FW (2011) Digital humanities definitions by type. In: Terras M et al (eds) Defining digital
+    humanities. A reader, vol 19. Taylor & Francis, Milton Park
+34. Svensson P (2009) Humanities computing as digital humanities. Digit Humanit Q 3(3)
+References                                                                                         77
+
+
+35. Davidson CN et al (2008) Humanities 2.0: promise, perils, predictions. PMLA-Publ Mod Lang
+    Assoc Am 123(3):707–717
+36. Hockey S (2004) The history of humanities computing. In: Schreibman S et al (eds) A compan-
+    ion to digital humanities. Blackwell, Oxford
+37. Svensson P (2010) The landscape of digital humanities. Digit Humanit Q 4(1)
+38. Nyhan J et al (2016) Computation and the humanities. Towards an oral history of digital human-
+    ities
+39. Bundesministerium für Bildung und Forschung (2014) Rahmenprogramm Geistes-, Kultur- und
+    Sozialwissenschaften
+40. Bodenhamer DJ et al (2010) The spatial humanities. GIS and the future of humanities scholar-
+    ship
+41. Bentkowska-Kafel A et al (2006) Digital visual culture. Theory and practice. Computers and
+    the history of art, yearbook
+42. Frischer B et al (2008) Beyond illustration. 2D and 3D digital technologies as tools for discovery
+    in archaeology. BAR international series 1805
+43. Ch’ng E et al (2013) Visual heritage in the digital age. arthistoricum.net, Heidelberg
+44. Dilly H (1979) Kunstgeschichte als Institution. Studien zur Geschichte einer Disziplin
+45. Locher H (2010) Kunstbegriff und Kunstgeschichte – Schlosser, Gombrich, Warburg. In: Bałus
+    W (ed) Die Etablierung des Faches Kunstgeschichte in Deutschland, Polen und Mitteleuropa.
+    Warszawa, pp 391–410
+46. Held J et al (2007) Grundzüge der Kunstwissenschaft. Gegenstandsbereiche, Institutionen,
+    Problemfelder
+47. Seippel R-P (1989) Architektur und Interpretation. Methoden und Ansätze der Kunstgeschichte
+    in ihrer Bedeutung für die Architekturinterpretation
+48. Suckale R (2001) Stilgeschichte. Kunsthistorische Arbeitsblätter 11:17–26
+49. Carrozzino M et al (2010) Beyond virtual museums: Experiencing immersive virtual reality in
+    real museums. J Cult Herit 11(4):452–458
+50. Schweibenz W (2004) The development of virtual museums. ICOM News 3:3
+51. Renfrew C et al (2005) Archaeology. The key concepts
+52. Rua H et al (2011) Living the past: 3D models, virtual reality and game engines as tools for
+    supporting archaeology and the reconstruction of cultural heritage - the case-study of the Roman
+    villa of Casal de Freiria. J Archaeol Sci 38(12):3296–3308
+53. Christofori E et al (2013) Recording cultural heritage using terrestrial laserscanning – dealing
+    with the system, the huge datasets they create and ways to extract the necessary deliverables you
+    can work with. Int Arch Photogram Remote Sens Spat Inf Sci XL5-W2:183–188
+54. Clini P et al (2013) All-in-one laser scanning methods for surveying, representing and sharing
+    information on archaeology. Via Flaminia and the Furlo tunnel complex. Int Arch Photogram
+    Remote Sens Spat Inf Sci XL-5/W2:201–206
+55. Lasaponara R et al (2011) Flights into the past: full-waveform airborne laser scanning data for
+    archaeological investigation. J Archaeol Sci 38(9):2061–2070
+56. Brutto ML et al (2012) Computer vision tools for 3d modelling in archaeology. In: Ioannides M
+    (ed) Progress in cultural heritage preservation – EUROMED 2012, pp 1–6
+57. Martin-Beaumont N et al (2013) Photographer-friendly work-flows for image-based modelling
+    of heritage artefacts. Int Arch Photogram Remote Sens Spat Inf Sci XL-5/W2; XXIV interna-
+    tional CIPA symposium, 2–6 September 2013, Strasbourg, pp 421–424
+58. Morris M (2006) Models: architecture and the miniature (architecture in practice). Southern
+    Gate, Chichester
+59. Silverman H (2014) Heritage theory. In: Smith C (ed) Encyclopedia of global archaeology.
+    Springer, New York, New York, NY, pp 3332–3337
+78                                                                         4 Scholarly Community
+
+
+60. Harrison R (2013) Heritage: critical approaches
+61. Wells J (2017) What is critical heritage studies and how does it incorporate the discipline of
+    history?
+62. Flynn T (2019) Over 100,000 cultural heritage models on Sketchfab
+63. Gura T (2013) Citizen science: amateur experts. Nature 496(7444):259–261
+64. Bonacchi C et al (2014) Crowd-sourced archaeological research: the micropasts project.
+    Archaeol Int 17:61–68
+65. Vincent ML et al (2015) Crowd-sourcing the 3D digital reconstructions of lost cultural heritage.
+    In: 2015 digital heritage. IEEE, pp 171–172
+66. Gerth B et al (2005) 3D modeling for non-expert users with the castle construction kit v0.5. In:
+    Mudge M et al (eds) 6th international symposium on virtual reality, archaeology and cultural
+    heritage (VAST 2005). Eurographics Association, Pisa, pp 49–57
+67. Umweltbundesamt (2017) Konzept zur Anwendbarkeit von Citizen Science in der Ressort-
+    forschung des Umweltbundesamtes
+68. Popple S et al (2016) Tools you can trust? Co-design in community heritage work. In:
+    Borowiecki KJ et al (eds) Cultural heritage in a changing world. Springer International Pub-
+    lishing, Cham, pp 197–214
+69. Claisse C et al (2017) Containers of stories: using co-design and digital augmentation to
+    empower the museum community and create novel experiences of heritage at a house museum.
+    Des J 20(sup1):S2906–S2918
+70. Avram G et al (2016) Co-designing encounters with digital cultural heritage. In: Paper presented
+    at the proceedings of the 2016 ACM conference companion publication on designing interactive
+    systems, Brisbane, QLD, Australia
+71. Cyberpiper 1867 Historical role play. https://www.roblox.com/games/3030166262/1867-Histor
+    ical-Role-Play. Accessed 29 Jan 2022
+72. Münster S et al (2017) How to involve inhabitants in urban design planning by using digital
+    tools? An overview on a state of the art, key challenges and promising approaches. Procedia
+    Comput Sci 112:2391–2405
+73. Elliott KC et al (2019) Philosophical foundations for citizen science. Citiz Sci: Theory Pract
+    4(1)
+74. Prats López M et al (2020) A knowledge perspective on quality in complex citizen science. Citiz
+    Sci: Theory Pract 5(1):15
+75. Lozana Rossenova ZS, Vock R, Sohmen L, Günther L, Duchesne P, Blümel I (2022) Collabo-
+    rative annotation and semantic en-richment of 3D media: a FOSS toolchain. In: Proceedings of
+    the 22nd ACM/IEEE joint conference on digital libraries (JCDL ‘22). Association for Comput-
+    ing Machinery, New York, NY, USA, Article 40, pp 1–5. https://doi.org/10.1145/3529372.353
+    3289
+76. Woodley L, Pratt K (2020).’ The CSCCE community participation model – a framework to
+    describe member engagement and information flow in STEM communities’. Zenodo. https://
+    doi.org/10.5281/zenodo.3997802
+77. Avgerinou M (2001) Towards A visual literacy index. In: Griffin RE et al (eds) Exploring the
+    visual future: art design, science & technology. IVLA, Loretto, PA, pp 17–26
+78. Münster S et al (2020) The visual side of digital humanities: a survey on topics, researchers, and
+    epistemic cultures. Digit Scholarsh Humanit 35(2):366–389
+79. Sattler M (2014) The visual humanities and the future of communication. Review of graphesis:
+    visual forms of knowledge production by Johanna Drucker. Harvard University Press. ZETEO
+    (10.21.2014)
+80. Heusinger L (1989) Applications of computers in the history of art. In: Hamber A et al (eds)
+    Computers and the history of art. Mansell Publications, London and New York, pp 1–22
+References                                                                                       79
+
+
+81. Bentkowska-Kafel A (2013) Mapping digital art history
+82. Horton J (1983) Visualliteracy and visual thinking. In: Burbank L et al (eds) Contributions to
+    the study of visual literacy. International Visual Literacy Association, Bloomington, pp 92–106
+83. Becher T (1989) Academic disciplines. In: Becher T (ed) Academic tribes and territories: intel-
+    lectual enquiry and the cultures of disciplines. OPEN UNIVERSITY PRESS, Milton Keynes,
+    pp 19–35
+84. Krishnan A (2009) What are academic disciplines. Some observations on the Disciplinarity vs.
+    Interdisciplinarity debate
+85. Sachse P (2002) Idea materialis. Entwurfsdenken und Darstellungshandeln. über die allmäh-
+    liche Verfertigung der Gedanken beim Skizzieren und Modellieren.
+86. Messemer H (2020) Digitale 3D-Modelle historischer Architektur. Entwicklung, Potentiale und
+    Analyse eines neuen Bildmediums aus kunsthistorischer Perspektive. Computing in Art and
+    Architecture edn.
+87. Münster S (2019) Digital cultural heritage as scholarly field – topics, researchers and perspec-
+    tives from a bibliometric point of view. J Comput Cult Herit 12(3):22–49. https://doi.org/10.
+    1145/3310012
+88. Münster S (2017) A Survey on topics, researchers and cultures in the field of digital heritage.
+    ISPRS annals of the photogrammetry. Remote Sens Spat Inf Sci IV-2/W2:157–162. https://doi.
+    org/10.5194/isprs-annals-IV-2-W2-157-2017
+89. Lave J et al (1991) Situated learning: legitimate peripheral participation
+90. Eiteljorg H (2003) CAD: a guide to good practice (Ahds guides to good practice)
+91. Nowotny H, Scott P, Gibbons M (2003) Introduction. Minerva 41:179–194
+92. Hessels LK, Lente HV (2007) Re-thinking new knowledge production: A literature review and
+    a research agenda. Utrecht, Utrecht University
+93. De Solla Price D (1963) Little science - big science
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

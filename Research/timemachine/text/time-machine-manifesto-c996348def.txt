@@ -1,0 +1,753 @@
+                                                               Time
+
+
+
+
+Time Machine Manifesto
+Big Data of the Past for the Future of Europe   |   May 2019
+  TIME MACHINE                         LONG STORY SHORT
+                                       Time Machine aims to develop the Big Data of the Past, creating a huge distributed digital     Goals of the                                     Key areas of action –                             Towards a
+                                       information system mapping the European social, cultural and geographical evolution            Time Machine initiative                          the research and innovation pillars               Time Machine Ecosystem
+                                       across times. This large-scale digitisation and computing infrastructure will enable Europe
+                                                                                                                                      • Introduce a series of fundamental break-       • Addressing the scientific and technological     A vibrant Time Machine community has
+                                       to turn its long history, as well as its multilingualism and multiculturalism, into a living
+                                                                                                                                        throughs in Artificial Intelligence (AI) and     challenges in AI, Robotics and ICT for          been created in the last years and is current-
+                                       social and economic resource.
+                                                                                                                                        ICT, making Europe the leader in the             social interaction, for developing the Big      ly expanding to form a dense Time Machine
+“This manifesto is a call to          By pushing the frontiers of scientific
+                                       research in Information and Communication
+                                                                                        the feeling of European identity, as well
+                                                                                        as to boosting scientific and technological
+                                                                                                                                        extraction and analysis of enormous sets
+                                                                                                                                        of noisy, heterogeneous and complex
+                                                                                                                                                                                         Data of the Past, while further advancing
+                                                                                                                                                                                         these key enabling technologies (Pillar 1).
+                                                                                                                                                                                                                                         ecosystem of leading scientists, innovators
+                                                                                                                                                                                                                                         and other key players of civil society.
+  launch an ambitious European         Technologies (ICT) and in the Social Sciences    competitiveness, entrepreneurship and           data referring to our past and present
+                                                                                                                                                                                       • Designing and building the Time Ma-             As of May 2019, this community counts
+  large-scale research initiative to   and Humanities (SSH), Time Machine will
+                                       strongly impact key sectors of European
+                                                                                        employment in knowledge-intensive and
+                                                                                        creative sectors across the European Union.
+                                                                                                                                        activities and achievements.
+                                                                                                                                                                                         chine operation, by putting in place the        300 partners from 34 countries, comprising
+                                                                                                                                      • Enable Social Sciences and Humanities            constituent parts of the Time Machine           a large number of academic and research
+  create the ‘Big Data of the Past’    economy: ICT software, especially Aug-
+                                                                                        This Manifesto calls upon Member States         to address bigger issues, allowing new           infrastructure and the management prin-         partners, leading industries and innovative
+                                       mented/Virtual Reality (AR/VR) appli-
+  that will transform our culture,     cations; the creative industries; and tourism.
+                                                                                        and European Institutions to support the        interpretative models that can smoothly          ciples and processes for sustainable Time       small and medium-sized enterprises, key
+                                                                                        launch of Time Machine within the Horizon       transition between the micro-analysis            Machine communities across Europe and           European museums, national libraries, state
+  traditions and achievements          Moreover, it will offer new perspectives
+                                                                                        Europe research and innovation framework        of single artefacts and the large-scale          other parts of the world (Pillar 2).            archives, as well as government bodies and
+                                       in urban planning, land management and
+  into a vital resource for shaping    developing smart cities.
+                                                                                        programme and other European, National
+                                                                                        and Regional funding programmes, by
+                                                                                                                                        complex networks of European history
+                                                                                                                                        and culture.
+                                                                                                                                                                                       • Creating innovation platforms in prom-
+                                                                                                                                                                                                                                         policy makers.
+
+  our future, while safeguarding       Time Machine will have strong positive           providing the means and resources needed
+                                                                                                                                      • Be a driver of open science, as well as
+                                                                                                                                                                                         ising application areas, by bringing
+                                                                                                                                                                                         together developers and users for the
+                                                                                                                                                                                                                                         The target is to exceed the number of 2000
+                                                                                                                                                                                                                                         supporting organisations from Europe and
+  our cohesion and identity.”          long-term effects on European cohesion,
+                                       economy and society, with concrete contri-
+                                                                                        for the proposed long-term effort to reach
+                                                                                        its ambitious objectives.
+                                                                                                                                        open (public) access to public resources.        exploitation of scientific and technological    worldwide in the beginning of 2020.
+                                                                                                                                                                                         achievements, and therefore leveraging
+                                       butions to promoting critical thinking at all                                                  • Provide a constant flux of knowledge that
+                                                                                                                                                                                         the cultural, societal and economic impact
+                                       levels of decision making, to strengthening                                                      will have a profound effect on education,
+                                                                                                                                                                                         of Time Machine (Pillar 3).
+                                                                                                                                        encouraging reflection on long trends and
+                                                                                                                                        sharpening critical thinking.                  • Developing favourable framework condi-
+                                                                                                                                                                                         tions for the outreach to all critical target
+                                                                                                                                      • Act as an economic motor for new pro-
+                                                                                                                                                                                         groups, and for guiding and facilitating
+                                                                                                                                        fessions, services and products, impact-
+                                                                                                                                                                                         the uptake of research results produced
+                                                                                                                                        ing key sectors of European economy.
+                                                                                                                                                                                         in the course of the initiative (Pillar 4).
+     TABLE OF CONTENTS
+     1.	WHY EUROPE NEEDS TO ACT NOW                                                                                   06   4.	CONCRETE AND MOMENTOUS OUTCOMES AND IMPACT                                    16
+       Globalisation, changing demographics and unresolved conflicts threaten the European sense of belonging          06    A thorough dialogue with our past                                                16
+       Democratic dialogue is endangered by the dominion of private digital platforms                                  06    A transformational impact on Social Sciences and Humanities                      16
+       An urgent need for Europe to strengthen its engagement with its past                                            07    Making education more accessible, interactive and diversified                    17
+       An opportunity to go far beyond preservation of the European cultural heritage and envisage ‘time travelling’   07    A strong boost in European competitiveness in Big Data, AI and other ICT areas   17
+                                                                                                                             Enhancing key sectors of the European economy                                    19
+                                                                                                                             A strong ally to counteract gender bias                                          23
+     2.	THE VISION AND THE HOLISTIC APPROACH                                                                          10    The strong international perspective for European excellence                     23
+       A clear vision, based on the Big Data of the Past                                                               10
+       An integrated programme to ensure the required progress in different fronts                                     11
+                                                                                                                            5.	THE TIME MACHINE ECOSYSTEM                                                    24
+                                                                                                                             The Coordination and Support Action implementation                               24
+     3.	ADVANCING THE STATE OF THE ART                                                                                14    How interested parties can be involved                                           24
+                                                                                                                             The broader Time Machine partnership                                             24
+                                                                                                                             The Time Machine Organisation                                                    26
+
+
+
+
+04                                                                                                                                                                                                                 05
+     1.	WHY EUROPE NEEDS TO ACT NOW
+      Not only is the integrity of European cultural identity imperilled by the resurgence of unresolved conflicts                                    An urgent need for Europe to                                                  such as values and ideas, are the essential
+      deep-seated in European history, but democratic dialogue is endangered by the dominion of private                                               strengthen its engagement with                                                building blocks of local, national, and trans-
+                                                                                                                                                                                                                                                                                                                               Ministerial declaration of cooperation on advancing
+
+
+                                                                                                                                                                                                                                                                                                                     BOX 1
+                                                                                                                                                                                                                                    national identities, and are indispensable for
+      platforms over historical and cultural data. Time Machine addresses these crucial European phenomena.                                           its past                                                                      preparing individuals and societies to face
+                                                                                                                                                                                                                                                                                                                               digitisation of cultural heritage
+                                                                                                                                                      These unprecedented transformations                                           the challenges of an uncertain future.                                                     This historic declaration2 formally recognises that “nat-
+                                                                                                                                                      create a vital need for Europe to restore and                                                                                                                            ural disasters, pollution, mass tourism, deterioration
+      Globalisation, changing demo-                 To-date, however, increased globalisation,       Today, the dialogue between different actors
+                                                                                                                                                      intensify its engagement with its past as a
+                                                                                                                                                                                                                                    To the same extent that today’s genetics
+                                                                                                                                                                                                                                                                                                                               over time, terrorism and vandalism, create urgent need
+                                                    changing demographics and their threat           and the historical visions they embody is                                                                                      may work to the benefit of physical health,
+      graphics and unresolved conflicts                                                                                                               means of facilitating an evidence-based dia-                                                                                                                             to make the most of digital technologies to record,
+                                                    against the idea of a shared past, as well       complicated by the rise of private digital                                                                                     understanding the interactions between
+      threaten the European sense                   as the resurgence of unresolved conflicts        platforms that have created a new space of
+                                                                                                                                                      logue between diverse historical memories,
+                                                                                                                                                                                                                                    cultural heritage and identities contributes
+                                                                                                                                                                                                                                                                                                                               document and preserve Europe’s cultural heritage and
+                                                                                                                                                      their values and mutual interdependencies                                                                                                                                foster their accessibility to European citizens.”
+      of belonging                                  deep-seated in European memory, are              opinion-leadership, as well as new forms of
+                                                                                                                                                      and building a common path for existing
+                                                                                                                                                                                                                                    substantially to the quality, character and
+                                                    key drivers of a ‘localisation backlash’ that    political expression and participation.                                                                                        resilience of the individual and of society.                                               The Notre Dame de Paris tragedy that followed only a
+      Over the centuries, the national, regional                                                                                                      and future generations.
+                                                    places local and personal interests above                                                                                                                                                                                                                                  few days later sadly underlines that we cannot act fast
+      and local identities of Europe have evolved                                                    Managed by proprietary algorithms, such
+      in relation to one another, through large
+                                                    any other. These growing trends present a
+                                                                                                     platforms may prioritise popularity and per-
+                                                                                                                                                      Time Machine responds to this need by                                         An opportunity to go far beyond                                                            enough in this area.
+                                                    clear threat to the cohesiveness of European                                                      building the required infrastructure, and an
+      swathes of transnational mobility and
+                                                    cultural identity and sense of belonging.
+                                                                                                     sonal agendas over historical and cultural
+                                                                                                                                                      operational environment for developing the
+                                                                                                                                                                                                                                    preservation of the European                                                               To face such threats, Member States have decided
+      through dense commercial and cultural                                                          data, opening the way to fake news. In                                                                                         cultural heritage and envisage                                                             to join forces in developing key technologies for
+                                                                                                                                                      Big Data of the Past that will streamline his-
+      exchanges that have shaped European                                                            the resulting crisis of authority that affects                                                                                                                                                                            transforming the processing of and the access to
+      languages, traditions, arts and many other    Democratic dialogue is endan-                    journalism, academia and politics, many
+                                                                                                                                                      tory and culture across Europe, opening the                                   ‘time travelling’                                                                          cultural heritage.
+                                                                                                                                                      way for scientific and technological progress
+      aspects of human activity.                    gered by the dominion of private                 people do not trust anymore the information
+                                                                                                                                                      to become a powerful ally to safeguarding
+                                                                                                                                                                                                                                    In April 2019, 24 countries1 signed a land-
+                                                    digital platforms                                received from these institutions.                                                                                              mark declaration of cooperation for advancing
+      These processes have largely contributed                                                                                                        European identity and democratic values.
+                                                                                                                                                                                                                                    digitisation of cultural heritage (Box 1).                                     in Time Machine, together with another
+      to the creation of a European culture char-
+                                                    Pluralistic and democratic dialogue in Europe                                                     The importance of Time Machine can be                                                                                                                        critical element referring to fostering the
+      acterised by diverse historical memories,                                                                                                                                                                                     The focus of joint efforts is on Big Data, arti-
+                                                    has traditionally been facilitated by impor-                                                      most clearly seen in relation to the role of                                                                                                                 development of common open interoperable
+      which have laid the foundations to values                                                                                                                                                                                     ficial intelligence, augmented reality and 3D
+                                                    tant intermediaries, such as cultural media                                                       cultural heritage in processes that shape a                                                                                                                  standards for the processing and storing of
+      and ideas harmonised by pluralistic and                                                                                                                                                                                       and the development of European platforms
+                                                    and institutions acting as cornerstones of our                                                    European identity. Heritage is our cultural                                                                                                                  cultural heritage assets.
+      democratic dialogue.                                                                                                                                                                                                          in line with European values. These tech-
+                                                    shared values, principles and memories.                                                           DNA. Material objects, such as artworks and
+                                                                                                                                                                                                                                    nological advances have been incorporated
+                                                                                                                                                      monuments, as well as intangible heritage,
+
+
+                                                                                                                                                                                                       “Our focus is on the joint efforts on Big Data, artificial intelligence,
+                                                                                                                                                                                                         augmented reality, 3D and the development of European platforms
+                                                                                                                                                                                                         in line with European values.”
+                                                                                                                                                      1 Austria, Belgium, Cyprus, Czech Republic, Estonia, Finland, France, Greece, Italy, Ireland, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom
+06                                                                                                                                                    2 Scanned and signed declaration “Cooperation on advancing digitisation of cultural heritage”: ec.europa.eu/digital-single-market/en/news/eu-member-states-sign-cooperate-digitising-cultural-heritage                                      07
+                                                                                                                  Local Time Machines
+
+
+                                                                                                          BOX 2
+                                                                                                                  Even though the Time Machine infrastructure is built
+                                                                                                                  to enable cooperation across Europe, it simultane-
+                                                                                                                  ously creates vertical synergies between clusters
+     But it should be stressed that for Time            Deploying itself both horizontally – across               of actors operating in the same area. For example,
+     Machine partners, digitisation is only the         Europe – and vertically – in time, first for              some cities can become Local Time Machines.
+     first step of a long series extraction process-    specific geographic locations through the
+                                                                                                                  This occurs when a number of Time Machine part-
+     es including document segmentation and             Local Time Machines (Box 2) and then
+                                                                                                                  ners operating in close geographical proximity to
+     understanding, alignment of named entities         progressively in the entire territory, Time
+                                                                                                                  one another decide to join forces in creating a full
+     and simulation of hypothetical spatiotemporal      Machine offers a sustainable approach not
+                                                                                                                  spatiotemporal representation of the area. These
+     4D reconstructions. Time Machine offers a          only to safeguard European cultural heritage
+                                                                                                                  efforts, currently ongoing in 14 European cities, will
+     realistic scenario to progressively move from      but also to transform it into a living resource
+                                                                                                                  also become formalised in the coming months. as a
+     dense information networks to actual 4D            for Europe’s future.
+                                                                                                                  new pan-European alliance, Time Machine Organi-
+     worlds. To go back in time in cities such as
+                                                                                                                  sation, comes online.
+     Venice, Paris, Amsterdam, Antwerp or Jeru-
+     salem, one would need to jump from using                                                                     Local Time Machines evolve through successive
+     a dense network of information, the result                                                                   steps in their maturity, from formal declaration of
+     of transparent interpretation processes from                                                                 interest, to official partnership, and on to higher
+     reliable sources, to a continuous simulation                                                                 density of cross-linked information, population and
+     representing the multi-scale evolution of the                                                                urban reconstruction.
+     city and its population.
+     The hypothesis pursued by Time Machine is
+                                                                                                                  Examples of Local Time Machines:
+     that such computational models with an
+     extended temporal horizon are key resources                                                                  • Amsterdam: amsterdamtimemachine.nl
+     for developing new approaches to policy mak-
+                                                                                                                  • Budapest: hungaricana.hu/en/budapest-idogep
+     ing and services for the citizens and consumers.
+                                                                                                                  • Utrecht: utrechttimemachine.com
+                                                                                                                  • Venice: vtm.epfl.ch
+
+                                                                                                                  A list of all Local Time Machines in the making
+                                                                                                                  is available on the Time Machine website:
+                                                                                                                  timemachine.eu/time-machines
+     “With Time Machine, we will offer a realistic
+       scenario to progressively move from dense
+       information networks to actual 4D worlds.”
+08                                                                                                                                                                    09
+                                                                                                                                                                                                                                                                           “We will develop tools, forms of analysis and modelling proce-
+     2.	THE VISION                                                                                                                                                                                                                                                          dures that combine Big Data from multiple sources to explain
+                                                                                                                                                                                                                                                                             phenomena that extend over large periods of time, and/or affect
+
+         AND THE HOLISTIC APPROACH                                                                                                                                                                                                                                           extended regions of populations.”
+
+
+      Time Machine will use space and time as shared references across domains, disciplines and cultures, to                                                                              An integrated programme to                                                The game changer nature is associated with          cially Augmented/Virtual Reality (AR/VR)
+      understand and give value to constructions, artefacts, observations and data produced over centuries.                                                                               ensure the required progress in                                           the ‘longue durée’, a term previously used to       applications; the creative industries; and
+                                                                                                                                                                                                                                                                    describe the temporal horizon for SSH re-           tourism – while offering new perspectives
+                                                                                                                                                                                          different fronts                                                          search, that has acquired a new meaning as          for urban planning and the development of
+      A clear vision, based on the                     This enlarged dataset will be the basis for                                   in Figure 1C); this enormous volume of data          To obtain the necessary data for such a                                   a result of the Big Data presently available for    smart cities.
+                                                       simulating possible pasts in order to reach                                   will also boost modelling capacity, enabling         reconstruction of European history and cul-                               digital analysis from historic, cultural, govern-
+      Big Data of the Past                             an unprecedented density of information:                                      us to make evidence-based predictions for            ture, Time Machine aims at developing new                                 mental, economic and ecological sources.4
+                                                                                                                                                                                                                                                                                                                        Taking into account these considerations,
+                                                                                                                                                                                                                                                                                                                        the Time Machine framework is built around
+      The scientific vision behind Time Machine is     the Big Data of the Past (light purple area                                   the future (light turquoise area in Figure 1C).      technologies allowing for the rapid digitisation
+                                                                                                                                                                                                                                                                    This new approach will also be enhanced by          the following specific objectives:
+      structured around Big Data of the Past.                                                                                                                                             of massive amounts of fragile documents,
+                                                                                                                                                                                                                                                                    radical changes in education: Time Machine
+      The concept is illustrated in Figure 1, where                                                                                                                                       objects, architecture and patrimonial sites                                                                                   • addressing the grand scientific and tech-
+                                                                                                                                                                                                                                                                    will promote a stronger focus on automated
+      the amount of digital information available      Future                                                                                                                             from European heritage.                                                                                                         nological challenges at hand,
+                                                                                                                                                                                                                                                                    adaptive and exploratory learning, more in-
+      today for each historical period (horizontal
+                                                                                                 Digital                                                          Simulation              Meanwhile, high-performance computing                                     teractive processes binding generations and         • developing and operating the large-scale
+      axis) is plotted against time (vertical axis).                                          Information             Digitisation                                Hypothesis
+                                                                                                                                                                                          clusters3 will be used to process this mass                               cultures, and a greater breadth of knowl-             shared Time Machine infrastructure,
+      Information about the most recent years is                                                                                                                                          of documents using increasingly smart                                     edge across disciplines.
+                                                                                                                                                                                                                                                                                                                        • converting the research results into inno-
+      abundant, forming the large plateau - the                                                                                                                                           machine reading algorithms, segmenting,
+                                                                                                                                                                                                                                                                    Fundamental breakthroughs in Artificial               vation platforms in promising application
+      Big Data of the Present – at the top of the                            Present                                                                                                      indexing and transcribing their content,
+                                                                         20th century                                                                                                                                                                               Intelligence, Robotics and ICT are envisioned,        areas and
+      curve that shrinks rapidly as one moves                                                                                                                                             and ultimately making them representable,
+                                                                 Industrial Revolution                                                                                                                                                                              requiring intensive collaborations amongst
+      down the graph and back in time (Figure 1A).                                                                                                                                        analysable and searchable, like any other                                                                                     • maximising outreach to all critical target
+                                                                                                                                                                                                                                                                    the leading EU actors of these fast-evolv-
+                                                                                                                                                                                          record/artefact searched for on the web.                                                                                        groups and supporting the uptake of
+      Time Machine aims at enlarging the stem                          Enlightenment                                                                                                                                                                                ing disciplines that drive the Fourth Indus-
+                                                                                                                                                                                                                                                                                                                          research results.
+      of this funnel, by developing the technology                       Renaissance                                                                                                                                                                                trial Revolution. These breakthroughs will
+      and infrastructure for conducting massive                                                                                                                                                                                                                     strongly impact key sectors of European
+      digitisation and processing of cultural herit-                     Middle Ages
+                                                                                                                                                                                                                                                                    economy – including ICT software, espe-
+      age sources (Figure 1B).
+                                                                             Antiquity
+
+
+
+                                                         Past                                      A                                             B                                    C
+
+
+                                                       FIGURE 1: Creating the Big Data of the Past:
+                                                       (A) Current situation. (B) Extension based on digitisation and processing of new sources. (C) Extension based on simulation.
+
+
+
+                                                                                                                                                                                          3 such as the ones to be developed through the European High-Performance Computing Joint Undertaking – eurohpc-ju.europa.eu
+10                                                                                                                                                                                        4 Guldi, J. and Armitage, D. 2014. The History Manifesto. Cambridge: Cambridge University Press.                                                                             11
+     Accordingly, Time Machine is structured in        The integrated programme that is pro-
+                                                                                                                                      PILLAR 1                                                        PILLAR 2                                          PILLAR 3
+     four pillars, each serving one of the above       posed can be a strong basis for creating the
+     objectives. The Time Machine pillars are          required large-scale research coordination           Science and Technology
+     shown in Figure 2, together with their the-       in all relevant fields, bringing together key                                                                             Time Machine Operation                            Exploitation Avenues
+                                                                                                            for the Big Data of the Past
+     matic areas.                                      stakeholders from academia, archives,
+                                                       museums, and the business sector, and creat-
+     The required extensive, long-term and sus-                                                                          Data                                    P.1.1                       Infrastrucutre             P.2.1                  Scholarship                           P.3.1
+                                                       ing partnerships within and between Member
+     tained effort in these directions exceeds by
+                                                       States and European bodies involved with
+     far what can be achieved in typical national
+                                                       culture, cultural heritage, creative industries
+     or European research and innovation pro-
+                                                       and territorial management.                                       Computing                               P.1.2                       Community Management       P.2.2                  Education                             P.3.2
+     jects. Moreover, as digital preservation of
+     cultural heritage is a priority in almost every
+     Member State of the European Union, it is
+     crucial to align national research agendas                                                                         Theory                                   P.1.3                       Local Time Machines        P.2.3
+                                                                                                                                                                                                                                               Platforms for Specific                P.3.3
+                                                                                                                                                                                                                                               Exploitation Areas and Uses:
+     and manage multiple projects and networks
+     in different European countries and cities.                                                                                                                                                                                               • Galleries, Libraries, Archives,
+     A large-scale research initiative is needed to                                                                                                                                                                                              Museums – GLAM
+     drive simultaneous progress on all fronts,                                                                                                                                                                                                • Creative Media and
+                                                                                                                                                                                                                                                  Entertainment Industries
+     creating synergies and multiplying the
+     effects from different sources of funding                      "A large-scale research                                                                                                                                                   • Smart Tourism
+                                                                                                                                                                                                                                               • Smart Cities and Urban Planning
+     (Horizon Europe, Digital Europe, ESIF,
+     Private investments), structuring national
+                                                                      initiative is needed to                                                                                                                                                  • Land Use and Territoral Policies
+
+     research agendas around commonly agreed                          drive simultaneous
+     topics and managing multiple projects and
+     networks in different European countries                         progress on all fronts,                                                                                                         PILLAR 4
+     and cities.                                                      creating synergies and                Outreach and Innovation
+
+                                                                      multiplying the effects               Dissemination                              P.4.1       Legal Issues and Ethics           P.4.2    Knowledge Transfer       P.4.3
+                                                                                                                                                                                                                                                 Exploitation                         P.4.4
+
+                                                                      from different sources                                                                                                                                                     Support Structures
+
+
+                                                                      of funding.”
+                                                                                                         FIGURE 2: The Time Machine Pillars and Thematic Areas
+
+
+
+
+12                                                                                                                                                                                                                                                                                            13
+         3.	ADVANCING THE STATE OF THE ART
+                   Thematic Area                                           State of the Art                                                          With Time Machine
+     PILLAR
+              1    Data                                   Fragmented datasets only sparsely covering European
+                                                          Cultural Heritage.
+                                                                                                                     Large sets of aligned and standardised Cultural Heritage data.
+
+
+                   Computing                              Disorganised sets of academic tools most of the time       Development of a unique computing infrastructure dedicated to the massive extraction of
+                                                          developed for specific projects based on state-of-         knowledge in Cultural Heritage sources, probably the most advanced artificial intelligence
+                                                          the-art technology. Very few systems considering the       system ever built.
+                                                          temporal dimension.
+
+                   Theory                                 Digital Humanities analysis of current practices           Largest effort ever undertaken to build a critical theory and sound epistemological
+                                                          on the role of computing for the Humanities and            concept on digital Cultural Heritage and multi-level historical simulation.
+                                                          Social Sciences.
+     PILLAR
+              2    Infrastructure                         A number of European coordination initiatives of
+                                                          Cultural Heritage with consortia, infrastructures and
+                                                                                                                     Reinforcement and extension of these initiatives with shared computing infrastructure
+                                                                                                                     for processing and transforming digital Cultural Heritage at unprecedented scale. Coope-
+                                                          networks like EUROPEANA, Europa Nostra,                    ration with initiatives for optimising computing infrastructure, e.g. EuroHPC JU.
+                                                          DARIAH-ERIC, CLARIN-ERIC, CERL and ICARUS.
+
+                   Community Management                   Many communities dedicated to specific topics –            A large community of communities, sharing a standardised platform,
+                                                          limited exchange due to lack of shared data or concepts.   with more empowering tools.
+
+                   Local Time Machines                    Uncoordinated efforts to recreate the past of several      A franchise-based system enabling each initiative to benefit from the highest level of
+                                                          cities in Europe.                                          technology and rapidly develop sustainable models of development.
+
+     PILLAR
+              3    Scholarship platform                   Global commercial search engines are the mediators of
+                                                          our access to knowledge and culture.
+                                                                                                                     Time Machine’s open and transparent interfaces, not only analysing the pulsations of the
+                                                                                                                     present, but embracing wider geographical and temporal horizons, transforming the way
+                                                                                                                     we study, visualise and narrate the past and the future.
+
+                   Education platform                     Books and video about history and culture. Some on-        Massive Open Online Courses, immersive and interactive experiences, engaging material
+                                                          line lectures.                                             for students and continuous life-long learning. Development of a dynamic new industry
+                                                                                                                     for the production of educative digital material, based on aligned massive datasets.
+
+                   Specific Exploitation                  Cultural Heritage seen as a cost more than a source        Fast development of market-driven platforms of Time Machine to develop relevant
+                   and Uses platforms                     of innovation, with remaining silos and difficulties to    services for GLAM5, the creative industries, smart tourism, smart cities, and land use
+                                                          manage solutions truly valorising all available data and   and territorial policies.
+                                                          across time.                                               Users regard Time Machine as a means to interact with authorities and contribute to
+                                                          Citizens regard policies as a European burden.             policy making.
+
+
+
+
+14                5 GLAM: Galleries, Libraries, Archives, Museums                                                                                                                                                 15
+                                                                                                                                                                                                                  “We want to innovate access to cultural heritage by creating par-
+     4.	CONCRETE AND MOMENTOUS                                                                                                                                                                                     ticipatory platforms, allowing for a ‘polyvocal history’, that also
+                                                                                                                                                                                                                    includes citizens’ perspectives on the places and information that
+
+         OUTCOMES AND IMPACT                                                                                                                                                                                        are relevant for them and their lives.”
+
+
+      Time Machine will create new disruptive business models in key economic sectors and will have trans­                                                A crucial leap forward is Time Machine’s           oping strategic answers to major challenges,     will be a stronger focus on exploratory
+      formational impact on Social Sciences and Humanities. Additionally, Time Machine will make education                                                promise of delivering unified access to Eu-        such as sustainable growth, social welfare,      learning, encouraging reflection on long
+                                                                                                                                                          rope’s past as linked open data. This will rev-    migration and integration of migrants, and       trends that have shaped our present.
+      more accessible, interactive and diversified and boost EU competitiveness in AI and ICT significantly.                                              olutionise the individual researcher’s search      safeguarding European democracy.
+                                                                                                                                                                                                                                                              New interdisciplinary methods will also be
+                                                                                                                                                          capabilities, ranging from yielding
+                                                                                                                                                                                                                                                              developed across the traditional scientific
+      A thorough dialogue                              in person, citizens are, for the most part,       full-time equivalent positions. The SSH
+                                                                                                                                                          immensely rich results for simple term queries,    Making education more accessible,                domains, making use of the advances in
+                                                                                                                                                          to the option of exhaustively tracking individ-
+      with our past                                    excluded from accessing, navigating, and          research spending, however, is substantial-
+                                                                                                                                                          ual cultural artefacts through time and space,
+                                                                                                                                                                                                             interactive and diversified                      AI, the new modelling capabilities in SSH,
+                                                       benefitting from this Big Data of the Past.       ly lower than 30 % of the overall research                                                                                                           and new simulation capabilities in most of
+                                                                                                                                                          including texts, paintings, ideas or places.       Time Machine will develop new ways of
+      The digitisation of European cultural heritage   This data is every citizen’s shared heritage;     spending, and is often lower than 20 % in                                                                                                            the scientific and educational domains, and
+                                                                                                                                                                                                             delivering education, moving away from
+      represents a formidable challenge, both          it should not be ‘exclusive’.                     many countries.                                  Moreover, Big Data of the Past will enhance                                                         offering more depth to educational curricula,
+                                                                                                                                                                                                             the traditional approaches of classroom
+      in terms of cost and in its implementation.                                                                                                         our ability to deal with historical information,                                                    sharpening the critical thinking of learners,
+                                                       Time Machine now changes the game                 The main reason seems to be that research                                                           lectures, textbooks and printed materials,
+      Moreover, only a small number of artefacts                                                                                                          and in this way, it will drive SSH towards                                                          and contributing to informed decision-mak-
+                                                       radically: for the first time in history, every   projects in SSH are traditionally more limited                                                      and making use of localised and customised
+      in collecting institutions is actually made                                                                                                         larger problems of world events and insti-                                                          ing at all levels.
+                                                       citizen will be able to access historical data    in scale and scope compared to the exact                                                            sample data at different – and extremely
+      publicly available, while billions of digital                                                                                                       tutional development over longer periods of
+                                                       and actively engage with it by contributing       sciences. This limitation stems primarily                                                           enhanced – levels of detail, enabling learn-
+      records still need to be indexed, so that they
+                                                       their own stories and interpretations. This       from the lack of easily accessible digital
+                                                                                                                                                          time. The abundance of new data about the
+                                                                                                                                                                                                             ing to be accompanied with new levels of         A strong boost in European
+      can be searched and analysed.                                                                                                                       past and the development of a new gen-
+                                                       is also important because everything in our       datasets that cover multiple modalities
+                                                                                                                                                          eration of AI will allow new interpretative
+                                                                                                                                                                                                             analysis. The interactive environments that      competitiveness in Big Data, AI
+      Time Machine will offer new technologies,        lives today builds upon a narrative that Time     (text, sound, image) indexed using uniform                                                          will be developed will not only offer unprec-    and other ICT areas
+                                                                                                                                                          models to be built on a superior scale.
+      methods and protocols to address these           Machine will allow to be documented.              metadata systems. Efficiently exploiting the                                                        edented access to the records of our shared
+      challenges through mass digitisation cam-                                                          available datasets as linked open data in SSH    Identifying larger patterns, correlations and      past, it will also promote active engagement     Time Machine will develop new smart algo-
+      paigns across the whole of Europe, covering      A transformational impact on                      still requires a considerable degree of expert   connections will contribute to important           with that heritage, which will make learning     rithms that can meaningfully extract information
+      also landscapes, cityscapes and architec-                                                          domain knowledge, for example in ancient         advances in scientific approaches and meth-        an on-going and inclusive process that will      and create knowledge from noisy, heteroge-
+      ture, enabling the EU Member States to
+                                                       Social Sciences and Humanities                    languages, which prevents scholars from          odologies that open new frontiers in our           bind generations and cultures.                   neous and complex data at a massive scale,
+      reach their ambitious objectives for Cultural    Social Sciences and Humanities (SSH)              answering large-scale research questions.        capacities for in-depth analysis and informed                                                       from medieval manuscripts, collections of
+                                                                                                                                                                                                             In this way, European history will become
+      Heritage preservation and access.                accounts for well above 40 % of students in                                                        decision making.                                                                                    objects and cultural artefacts, to the recent
+                                                                                                                                                                                                             much more accessible to citizens of all ages
+                                                       European Higher Education. SSH is also the                                                                                                                                                             smartphone and satellite images, and the multi-
+      Due to barriers such as being able to read                                                                                                          Time Machine will, therefore, drastically          and backgrounds, raising awareness of
+                                                       largest European research community, with                                                                                                                                                              modal content from websites and platforms.
+      old writings, to understand other languages,                                                                                                        raise the scale and scope of SSH research,         European culture, and consolidating our shared
+                                                       more than 30 % of EU researchers in Higher
+      or to visit the relevant archives or libraries                                                                                                      enabling it to effectively contribute to devel-    European identities. At the same time, there
+                                                       Education, corresponding to about 500.000
+
+
+
+16                                                                                                                                                                                                                                                                                                               17
+"We will develop novel scanning technologies to digitise massive amounts of fragile
+  documents and artefacts, through new types of sensors, robots and automated
+ processes. These will provide rapid scanning solutions in science, industrial archives,
+ public administration, and potentially in services for consumers."
+
+
+           Due to this data’s inherent complexity, an AI   and deployment already during and after           in digital form, offering a clear opportunity   Enhancing key sectors of the                      to produce immersive, multi-sensorial expe-
+           trained on Big Data of the Past will offer a    the end of the proposed initiative.               for European start-ups to compete in the        European economy                                  riences of historic sites from different peri-
+           strong competitive advantage for Europeans                                                        growing Document Process Outsourcing                                                              ods, and customise them according to their
+                                                           The simulation capabilities substantially
+           in the global AI race.                                                                            market, currently dominated by American         Creative Industries                               needs. Four-dimensional cinema and virtual
+                                                           enhanced by Time Machine will have a major
+                                                                                                             and Asian players (Box 3).                      The European creative industries contribute       reality experiences on large (amusement
+           The new processing and simulation technol-      impact on all areas of research in science
+                                                                                                                                                             6.8 % of gross domestic product (GDP)             park) and small (AR/VR headsets) scales
+           ogies of Time Machine, combined with its        and engineering that use HPC to process
+                                                                                                                                                             and 6.5 % of employment in the EU, at the         will represent a new market for photorealistic
+           global curation and exploitation platforms,     large volumes of data, including life and
+                                                                                                                                                             same time offering a strong potential for         3D models and digitised audio-visual assets.
+           will enable Europe to increase its share of     environmental sciences, as well as SSH. These
+                                                                                                                                                             stimulating innovation in other sectors with
+           gains from the announced AI revolution.         technological breakthroughs will also have a               Possible applications for massive                                                        ##DESIGN
+
+
+                                                                                                              BOX 3
+                                                                                                                                                             a competitive edge, such as tourism, educa-
+           Time Machine will also introduce disruptive     strong impact on the European software and                 digitisation may include:                                                                Time Machine will harness the potential of
+                                                                                                                                                             tion and advertising.
+           technologies in deep reading, linguistic and    software-based services industry, one of                                                                                                            European heritage as a resource for creative
+                                                                                                                      • Administrative registries to
+           knowledge systems, multimodal (4D) simu-        the top drivers of Europe’s industrial perfor-                                                    Time Machine introduces disruptive techno-        reuse. Tools developed to analyse complex
+                                                                                                                        be used for studying policies,
+           lation, high performance computing (HPC)        mance, and a key contributor to EU growth.                                                        logical solutions which will transform cultural   multimodal digital objects will enable design-
+                                                                                                                        legislation or social norms in
+           and long-term data storage.                                                                                                                       heritage into rich creative assets.               ers to extract individual aesthetic features
+                                                           Time Machine will develop novel scanning                     different societies and points
+                                                                                                                                                                                                               and concepts and re-appropriate them for
+           Many of the advances developed by Time          technologies to digitise massive amounts                     in time;
+                                                                                                                                                                                                               new creations, from fashion to architecture.
+           Machine would require advanced software,        of fragile documents and artefacts, through                                                       Specifically, the following creative
+                                                                                                                      • Health archives and records                                                            Advanced 3D modelling technologies com-
+           an area in which many European companies        new types of sensors, robots and automated                                                        industries sectors will benefit from
+                                                                                                                        in Europe and beyond: turning                                                          bined with decentralised storage solutions
+           have world-leading roles. Time Machine will     processes. These will provide rapid scanning                                                      Time Machine:
+                                                                                                                        these to digital records would                                                         will present new opportunities for real-time
+           further enhance their leadership, through       solutions in science, industrial archives, pub-
+                                                                                                                        enable scientists to perform         ##GAMING AND FILM INDUSTRIES                      visualisations of objects and enable trans-
+           scientific and technological achievements       lic administration, and potentially in services
+                                                                                                                        joint analyses of patient re-        Due to the inaccessibility and costs of film-     national, remote collaborative design
+           in rapidly growing segments of the global       for consumers.
+                                                                                                                        ports, and other vital parameters    ing in historic locations, the use of detailed    processes. These enhanced engagement
+           ICT industry. All the core components of the
+                                                           Massive increases in demand for scanning                     crucial for developing health        3D reconstruction will become increasingly        possibilities will translate into new avenues
+           Time Machine infrastructure will be devel-
+                                                           services would lead to economies of scale                    policies and health manage-          relevant for film and game makers. Mass-          for creators to exploit cultural heritage
+           oped as open source software, ensuring that
+                                                           and falling costs, and falling costs would                   ment practices.                      scale digitisation will remove spatial and        sources as digital capital.
+           the large-scale research initiative creates a
+                                                           further boost demand. As a result, vast                                                           temporal barriers to cultural heritage: using
+           legacy of code that can be corrected, reused
+                                                           amounts of materials and data from practi-                                                        complex 3D models constructed from rich
+           and adapted for continuous development
+                                                           cally unvisited archives would be accessible                                                      heterogeneous sources, creators will be able
+
+
+
+18                                                                                                                                                                                                                                                              19
+     ##MEDIA                                            of their audiences. Time Machine will fulfil              Time Machine will contribute to
+
+
+                                                                                                          BOX 4
+     With online video content expected to              this need via deep reading tools that can                 the emerging need to strengthen
+     constitute 82 % of all internet traffic in         effectively analyse and assess the quality of             GLAM by offering these institu-
+     2019, media professionals will continue to         digital objects. To remain competitive in the             tions and their collections new
+     develop competitive business models and            changing landscape, media agencies will                   ways of exploitation, based on:
+     services that focus on providing seamless          utilise the distributed processing and simu-
+                                                                                                                  • Promotion of innovative ser-
+     user experiences across devices and media          lation infrastructure introduced by the Time
+                                                                                                                    vices through research, educa-
+     types and increasing the reach of their con-       Machine to synthesise disparate datasets
+                                                                                                                    tional and creative activities;
+     tent. Time Machine will introduce disruptive       into facts and narratives that offer new, more
+     high-performance computing and storage             transparent and engaging perspectives.                    • New opportunities in fundraising
+     technologies for the curation, enrichment                                                                      and brand licensing combined
+                                                        ##GALLERIES, LIBRARIES, ARCHIVES,
+     and distribution of audio-visual content.                                                                      with cost savings associated
+                                                        MUSEUMS – GLAM
+     Building on these technological innovations                                                                    with rights and reproduction
+                                                        The largest part of European cultural her-
+     and the availability of much richer datasets,                                                                  management overhead;
+                                                        itage can be found in the many galleries,
+     media industries will develop smart services
+                                                        libraries, archives and museums spread                    • Employment of staff with
+     of a new level of quality that will close the
+                                                        across the EU. Digitisation and open ac-                    more mission-critical activities,
+     gap between media content and audiences
+                                                        cess dramatically change the way these                      resulting in more efficient and
+     by offering personalised experiences.
+                                                        institutions operate, putting in question                   less costly digitisation functions.
+     ##JOURNALISM                                       current business models and funding
+     The lowered barriers for content creation          mechanisms (Box 4).
+     and distribution via digital platforms has
+                                                        ##SMART TOURISM
+     given rise to an unprecedented abundance
+                                                        Europe is the most visited tourism region in     in smart tourism, i.e. in smart, innovative
+     of data that currently lacks effective verifica-
+                                                        the world, and in the EU, tourism contributes    and inclusive approaches to touristic de-
+     tion and curation methods. Moving forward,
+                                                        10 % to EU GDP and creates jobs for 26           velopment, paying particular attention to
+     the industry will rely even more on citizen
+                                                        million people, through its direct, indirect     cultural heritage and creativity. As a resource,
+     journalism as well as computational journal-
+                                                        and induced effects in the economy. To           Time Machine is uniquely placed to revo-
+     ism, both of which require knowledge-
+                                                        compete with strong competition from other       lutionise smart tourism, through the rich,
+     validation mechanisms to maintain the trust
+                                                        world regions, Europe intensively invests        multi-faceted and comprehensive cultural
+
+
+
+20                                                                                                                                                          21
+                                                                                                                                                                                    “We will create a sharp increase in the demand for digital and traditional humanists
+                                                                                                                                                                                      and social scientists at a time where these disciplines and corresponding university
+                                                                                                                                                                                      degrees do not guarantee jobs in these fields. Also, we will promote and create
+                                                                                                                                                                                      jobs for the new profession of Digital Humanities expert.
+
+
+     and historical data and innovative tools that     ##SMART CITIES                                     agement of buildings, and can also improve       ranging from carbon dioxide emissions to           to simulate the effects of transposing Euro-       The strong international perspec-
+     will allow for the creation of endless ave-       A Smart City is a place where traditional          the efficiency of emergency operations or        soil sealing, landscape fragmentation and          pean legislation into national and local levels.
+                                                                                                                                                                                                                                                                 tive for European excellence
+     nues of experience and exploration, in situ       networks and services are made more effi-          the detection of technical malfunctions. For     urban heat island effects.
+     or remotely. This will contribute to shaping      cient with the use of digital and telecommu-       example, the large-scale provision of archi-
+                                                                                                                                                           Time Machine offers a long-term perspec-           A strong ally to                                   Europe has a leading role in the digitisation
+     tourists’ behaviour, by attracting them to        nication technologies, for the benefit of its      tectural layouts and infrastructural aspects                                                                                                           of culture. Time Machine will strengthen this
+     new locations or repositioning the interest       inhabitants and businesses. Smart Cities are       facilitates the mapping of infrastructual
+                                                                                                                                                           tive for a transition to sustainable land          counteract gender bias                             role at a time where this field gains momen-
+                                                                                                                                                           management, based on our common history
+     for well-known and mature destinations            at present mainly based on the networking          needs. The inclusion of historical data makes                                                       The enlargement of available historical data       tum in Asia and the USA.
+                                                                                                                                                           and with the perspective of the next gener-
+     through virtual pre-visits of cultural heritage   of current data from interconnected sensory        it possible to track urban, land and infra-                                                         via the systematic digitisation campaigns
+                                                                                                                                                           ation. By increasing the possibilities of in-                                                         Time Machine will increase the scientific
+     sites, for example. It will furthermore help to   devices. The exchange of information will be       structure developments such as electricity                                                          under the Time Machine initiative will result
+                                                                                                                                                           depth analysis of highly heterogeneous data                                                           reputation of EU institutions in Digital Human-
+     regulate the tourist flow to “overwhelmed”        fundamentally intensified by Time Machine          networks, gas conduits, and drainage systems.                                                       in much more knowledge on women in
+                                                                                                                                                           (aerial and spatial images, land database,                                                            ities and SSH, opening the way to launch or
+     destinations, through immersive educational       by, on the one hand, enriching it with so far      The analysis of architectural, urban planning,                                                      societies of the past. New knowledge will
+                                                                                                                                                           soil quality database), Time Machine will                                                             reinforce international collaboration.
+     and cultural experiences at home.                 unconsidered data, and, on the other hand,         land use, economic and social data collected                                                        also be available about many repressed
+                                                                                                                                                           develop methods and indicators to objec-
+                                                       through data collections with historical depth.    over long periods can make it possible to                                                           groups and minorities in the pre-modern past.      Time Machine comes at a time where cul-
+     Time Machine will also help to diversify                                                                                                              tively monitor the consumption of natural,
+                                                                                                          predict the future development of specific                                                                                                             ture occupies a central role in the UN 2030
+     cultural tourism by creating tailor-made data     Object recognition and tracking over time                                                           agricultural or forest areas at all territorial    Time Machine-driven technological im-
+                                                                                                          areas, and thereby allow for more sustainable                                                                                                          Agenda for Sustainable Development. For
+     platforms for each type of tourism: cultural,     will play a vital role for future city planning.                                                    scales. The increased potential of Time            provements in areas such as stylometry, or
+                                                                                                          and efficient decision-making.                                                                                                                         the first time, the international development
+     slow, rural, cruise-based, ethical, sport         Based on the advanced modelling methods                                                             Machine in digitising and indexing old data        intellectual authorship recognition, will pro-
+                                                                                                                                                                                                                                                                 agenda refers to culture within the framework
+     event-driven, wellness, medical, business,        of Time Machine, urban planning will enter         ##LAND USE AND TERRITORIAL POLICIES              (silver prints, maps, tables, legal texts), will   vide us with a much more accurate picture
+                                                                                                                                                                                                                                                                 of Sustainable Development Goals related to
+     or adventure. By offering a full package (on-     a new stage, as it will be possible to find        Europe has the highest proportion in the         also make it possible to retroactively calcu-      of the female contribution to human civili-
+                                                                                                                                                                                                                                                                 education, sustainable cities and peaceful and
+     line preparation at home, experience-based        examples of cities that are similar to a city’s    world (80 %) of land used for settlement,        late these indicators, which offers a unique       sation, which, because of Time Machine’s
+                                                                                                                                                                                                                                                                 inclusive societies.
+     visit, post-visit experience with materials       present state. In doing so, it will be possible    production and infrastructure. Population        opportunity to analyse the impact of policies      scale, will fundamentally alter historical
+     gathered on site), the visit will become both     to compare different strategic measures            growth and the increase of commercial            on land use over time.                             gender studies.                                    A strong opportunity exists to develop
+     educational and experience-driven, enhancing      that were undertaken in these other cities to      activities for food, bioenergy and industrial                                                                                                          synergies with UNESCO’s Culture Conven-
+                                                                                                                                                           The Time Machine platform for land use will
+     tourist retention of local history and iden-      substantiate communal decisions.                   crops contribute to an even higher demand                                                                                                              tions on the safeguarding and promotion of
+                                                                                                                                                           enable a shared framework to compare ter-
+     tity, and thus strengthening the sense and                                                           for land and more intense competition                                                                                                                  cultural and natural heritage, and the cul-
+                                                       The integration of urban information will                                                           ritorial configurations across space and time,
+     understanding of European belonging.                                                                 between municipal and industrial uses. This                                                                                                            tural and creative industries, as well as joint
+                                                       further enhance risk mitigation in smart                                                            promoting the exchange of knowledge and
+                                                                                                          excessive pressure negatively affects biodi-                                                                                                           programmes with other UN Agencies for
+                                                       cities. Architectural data is essential for                                                         experience between similar territories. It will
+                                                                                                          versity, degrades habitats and raises issues                                                                                                           the implementation of the 2030 Agenda for
+                                                       preservation, renovation and everyday man-                                                          also strengthen the science-policy interface,
+                                                                                                                                                                                                                                                                 Sustainable Development.
+                                                                                                                                                           enabling land-use stakeholders in particular
+
+
+
+22                                                                                                                                                                                                                                                                                                                 23
+                   5.	THE TIME MACHINE ECOSYSTEM
+                            The Coordination and Support                  and economic value from the Big Data of           Other organisations that have an interest
+                                                                                                                                                                           As of May 2019, the Time Machine partner-       Through its continuous interaction with
+                            Action implementation                         the Past is a feasible endeavour.                 in the Time Machine scope and objectives
+                                                                                                                                                                           ship comprises 300 organisations from 34        potential stakeholders, the CSA will enable
+                                                                                                                            and who can bring added value to the
+                                                                          For this reason, a growing community of                                                          countries together with the 33 CSA partners.    the Consortium to create a dense Time
+                            In recent years, the convergence between                                                        road-mapping analysis and development
+                                                                          academic researchers, businesses, and                                                                                                            Machine ecosystem of scientists, innova-
+                            ICT, AI and SSH in the context of cultural                                                      will be kept informed of work progress and     These include:
+                                                                          professional associations working in these                                                                                                       tors, decision makers and communities of
+                            heritage has reached a solid degree of                                                          will be invited to participate in:             • An impressive list of reputable academic
+                                                                          fields has started shaping ideas for research                                                                                                    citizens that cooperate around the Big Data
+                            maturity, where creating and drawing social                                                                                                      institutions and research centres
+                                                                          topics around Time Machine in the context         • Consultations organised to assess the                                                        of the Past. The impact of the CSA will be
+                                                                          of the Future and Emerging Technologies             acceptance of proposed ideas                 • Leading European enterprises and inno-        measured by a substantial (tenfold) increase
+                                                                          part of Horizon 2020 (Box 5).                                                                      vative small and medium-sized enterpris-      in the current number of Time Machine sup-
+        Key dates in the development of Time Machine                                                                        • Workshops aiming to validate strategic
+
+
+BOX 5
+                                                                                                                                                                             es (SMEs) in the fields of ICT, culture and   porters (from 200 to 2000).
+                                                                          The whole idea led into the award of a              directions and proposed action plans
+        2019 Europe invests in Time Machine                                                                                                                                  creative industries
+                                                                          12-month Coordination and Support Action
+        The European Commission chose Time Machine as one                                                                   • Other dissemination actions, organised
+                                                                          (CSA) aiming to develop concrete Research                                                        • key European museums:
+        of the six proposals retained for preparing large-scale                                                               to secure commitment to the Time Ma-
+                                                                          and Innovation agendas. This CSA runs in the                                                       Louvre, Rijksmuseum, Belvedere
+        research initiatives.                                                                                                 chine objectives.
+                                                                          period from March 2109 to February 2020.
+                                                                                                                                                                           • 7 national libraries:
+        2018 Time Machine develops algorithms that outper-
+        form humans in transcription of Venetian handwriting              How interested parties can                        The broader                                      Austria, Belgium, France, Israel, Nether-
+                                                                                                                                                                             lands, Spain, Switzerland
+        AI methods open new way to search in ancient documents.
+                                                                          be involved                                       Time Machine partnership
+                                                                                                                                                                           • 19 state archives:
+        2016 Manifesto “L’Europe doit construire la première                                                                Time Machine has brought together a very
+                                                                          During the CSA, the consortium will design                                                         Belgium, Bulgaria, Croatia, Czech Republic,
+        Time Machine“, published in ‘Le Temps’, then translated                                                             broad Time Machine partnership of leading
+                                                                          a detailed strategy and implementation                                                             Denmark, Estonia, Finland, Germany,
+        in 9 languages                                                                                                      European academic and research organ-
+                                                                          roadmap for the Time Machine initiative,                                                           Hungary, Lithuania, Malta, Norway,
+        A call for action to invite Europe to invest in an infrastruc-                                                      isations, cultural heritage institutions and
+                                                                          through internal workshops, own expert                                                             Poland, Romania, Slovenia, Spain, Slovakia,
+        ture for mining ‘Big Data of the Past’.                                                                             private enterprises. The members of this
+                                                                          judgements, consultations with external experts                                                    Sweden and Switzerland
+                                                                                                                            unique alliance are fully aware of the huge
+        2014 Increasing interest                                          as required, and document/data analysis.
+                                                                                                                            potential of digitisation and the very prom-   • 18 governmental bodies
+        Frédéric Kaplan’s TED Talk “How to build a Time Ma-
+                                                                                                                            ising new paths for science, technology and
+        chine” reaches more than 1 Million views.
+                                                                                                                            innovation that can be opened through the
+        2013 Venice Time Machine starts                                                                                     information system that will be developed,
+        EPFL and University Ca’Foscari launch a project that                                                                based on the Big Data of the Past.
+        aims at building a multidimensional model of Venice and
+        its evolution covering a period of more than 1000 years.
+
+
+
+
+         24                                                                                                                                                                                                                                                               25
+     Members of the Time Machine community         The Time Machine Organisation
+     have already established strong links
+                                                   The continued cooperation beyond the dura-
+     through extensive joint research in EU and
+                                                   tion of the CSA will be streamlined through
+     national projects. Furthermore, many of
+                                                   the Time Machine Organisation which will be
+     these partners have launched together local
+                                                   the institutional framework ensuring economic
+     Time Machine initiatives in the following
+                                                   independence as well as cross-sectoral
+     cities – in parentheses are the historical
+                                                   communication and partnerships.
+     periods covered (Box 6).
+                                                   The Time Machine Organisation is an asso-
+                                                   ciation under Austrian law, headquartered
+                                                   in Vienna.                                      "With the Time Machine
+             Local Time Machines:
+                                                                                                     Organisation we provide
+     BOX 6
+                                                   Participation is open to all members of the
+             Antwerp (1500 –2000)
+             Amsterdam (1550 –2000)
+                                                   Time Machine ecosystem, who, thus, have
+                                                   the means to participate in:
+                                                                                                     the institutional frame-
+             Budapest (1680 –1990)                 • The governance of the Time
+                                                                                                     work ensuring economic
+             Dresden (1200 –2000)
+                                                     Machine initiative                              independence as well as
+             Ghent-Bruges (800 –2000)
+                                                   • The definition of research and                  cross-sectoral communi-
+                                                     innovation actions
+             Jerusalem (2000 BCE–2000)                                                               cation and partnerships.”
+                                                   • The implementation of these actions
+             Limburg (1775 –2000)
+                                                   • The development of new initiatives in
+             Lower Austria (800 –2000)               relation to common interests
+             Naples (800 –2000)
+             Nuremberg (1000 –2000)
+             Paris (1000 –2000)
+             Regensburg (1200 –2000)
+             Utrecht (40 –2000)
+             Venice (1000 –2000)
+
+
+
+26                                                                                                                               27
+                                       Time
+
+
+
+
+This project has received funding from the European
+Union’s Horizon 2020 research and innovation
+                                                                       timemachine.eu
+programme under the grant agreement No 820323.        @TimeMachineEU    @TimeMachineEU   timemachine.eu/trailer
+

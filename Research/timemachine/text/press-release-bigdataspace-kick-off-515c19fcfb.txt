@@ -1,0 +1,111 @@
+Advancing 3D Digital Heritage: 3DBigDataSpace Takes
+Key Steps Forward
+[12 March 2025, Vienna] – The 3DBigDataSpace project, a groundbreaking European initiative
+focused on advancing 3D digital heritage, deﬁned key milestones and upcoming activities during
+its kick-off meeting in Trento, Italy, hosted by project partner FBK (Fondazione Bruno Kessler).
+The project, which aims to enhance the accessibility, preservation, and utilization of 3D cultural
+heritage assets, is making signiﬁcant progress across its various work packages.
+
+
+
+
+                  The consortium partners lining up, eager to kick off the project.
+
+
+Enhancing Data Processing and Validation
+One of the project’s major achievements will be the successful aggregation of over 50,000 3D
+models and to ensure metadata accuracy and smooth integration into the common European
+data space for cultural heritage.
+
+Strong interconnections between work packages shall ensure robust data processing pipelines,
+with a focus on metadata quality and validation methods. The team is actively working on
+deﬁning automated and manual validation approaches, ensuring high-quality and reliable 3D
+data outputs.
+
+Creating Engaging 3D Experiences
+Work is also commencing on developing immersive 3D experiences using the collected models.
+The project partners intend to align different demo cases with available toolsets, ensuring that
+technological and content-related dependencies are well-managed.
+ Training, Events, and Future Prospects
+ To maximize impact, the 3DBigDataSpace project is planning a series of workshops and training
+ events, to enhance knowledge-sharing within the digital heritage community. The ﬁrst event is
+ coming up in May, in Austria:
+
+     •   CIPA Summer School 2025 ”Digitisation of Built Heritage at Risk” from 20-25 May 2025,
+         under the lead of the Department for the History of Architecture and Building
+         Archaeology of the University of Technology Vienna, and in close cooperation with
+         ICOMOS, ISPRS, CHNT ICOMOS Austria, and supported by Time Machine Organisation
+         (TMO). The 14th instalment of the “CIPA Summer School” invites young scholars,
+         emerging professionals, and heritage enthusiasts to explore cutting-edge methods in
+         heritage documentation and risk assessment at the historic, baroque castle of
+         Heiligenkreuz-Gutenbrunn in Lower Austria – a remarkable site currently facing a variety
+         of challenges due to its lack of a dedicated function.
+         Registration and further information can be found here:
+         https://www.timemachine.eu/cipa-summer-school-2025/
+
+ Looking Ahead
+ The next steps for the project include the deﬁnition of testing methodologies for validation and
+ continuing the development of immersive 3D applications. The 3DBigDataSpace team remains
+ committed to pushing the boundaries of 3D digital heritage, ensuring that cultural institutions,
+ researchers, and the public can beneﬁt from these advancements.
+
+
+
+ For more information about the 3DBigDataSpace project, upcoming events, or collaboration
+ opportunities, please contact the coordinator: Jun. Prof. Dr. Sander Münster
+ (sander.muenster@timemachine.eu)
+
+
+
+
+Project partners presenting their activities and work package involvement during the kick-off meeting.
+
+
+
+                                                                         Photos by Richard Joos (CC-BY-SA)
+About 3DBigDataSpace
+3DBigDataSpace is a collaborative European project designed to enhance and expand the digital
+cultural heritage landscape through the aggregation, storage, and enhancement of high-quality
+3D content. Funded by the Digital Europe Programme, the project brings together a consortium
+of leading cultural heritage organizations, research institutions, and tech companies to advance
+the use of 3D data in XR applications and beyond.
+
+3DBigDataSpace consortium
+   •   Coordinator: Time Machine Organisation (TMO)
+   •   Friedrich-Schiller-Universität Jena (Uni Jena)
+   •   IN2 Digital Innovations GmbH (IN2)
+   •   Stichting Europeana (EF)
+   •   Inception SRL (Inception)
+   •   Fondazione Bruno Kessler (FBK)
+   •   Rooom AG (rooom AG)
+   •   The HUNT Museum (HUNT)
+   •   Poznan Supercomputing and Networking Centre (PSNC)
+   •   University of Vigo (U.Vigo)
+
+Project starting date: 1 February 2025
+Project end date: 31 July 2026
+Granting authority: European Health and Digital Executive Agency
+
+
+
+
+Press Contact:
+
+Mag. Kerstin Muff
+Chief Communications Officer
+Time Machine Organisation
+
+kerstin.muff@timemachine.eu
+
+
+
+
+                             This project is co-funded by the European Union. Views and opinions
+                             expressed are however those of the author(s) only and do not necessarily
+                             reflect those of the European Union or the granting authority [Digital Europe
+                             Programme (DIGITAL)]. Neither the European Union nor the granting
+                             authority can be held responsible for them.
+
+                             This project additionally receives funding from the Austrian Research
+                             Promotion Agency (FFG).
+

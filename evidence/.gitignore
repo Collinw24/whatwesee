@@ -1,0 +1,10 @@
+# Local machine config and generated artifacts.
+.DS_Store
+configs/evidence.local.toml
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Large evidence packages should live in ~/whatwesee_evidence_data.
+data/
+packages/

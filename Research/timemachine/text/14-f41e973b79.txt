@@ -1,0 +1,79 @@
+                                   Session
+
+          Humani,es research and educa,on on
+          architectural and urban history (UHDL)
+Chairpersons:
+Sander Münster (U. Jena) - Germany
+Fabrizio Apollonio (U. Bologna) - Italy
+
+Descrip.on and Mo.va.on:
+Urban and architectural history are key areas in digital humaniDes and digital
+heritage. With respect to these research areas, digital repositories, data and
+research methods play an important role, especially when hosDng visual media
+like photographs, painDngs, or drawings, and last but not least physical and
+virtual models. Due to the wide ﬁeld of possible research, diﬀerent approaches,
+methods and technologies have emerged – and are sDll emerging.
+This session is part of the 4th issue of the Urban History in the Age of Digital
+Libraries (UHDL) workshop. UHDLs purpose is to provide a full picture with
+regards to epistemics, technology and framework condiDons. We aim to discuss
+crucial challenges for further research and encourage exchange and debate
+about humaniDes research and educaDon, technologies and data and parDcular
+trends as BIM or FAIR and 3D PublicaDon/Sharing.
+For the proposed session we would like to invite contribuDons on theoreDcal
+and methodological issues, applicaDon scenarios and projects, as well as novel
+approaches and tools in the following areas:
+•      Digital urban and architectural history and heritage research applicaDons,
+theories, and methods.
+•      EducaDon in urban history.
+1. Digital urban and architectural history and heritage research applicaDons,
+theories, and methods
+Digital humaniDes research as an inherently interdisciplinary ﬁeld has created a
+high demand for criDcally reﬂected methods, techniques, valid strategies,
+classiﬁcaDons, and quality standards. But do compuDng methods also lead to
+new and ground-breaking research quesDons, approaches, or insights into
+architectural and urban cultural heritage research? In most cases, the use of
+compuDng simply extends nondigital possibiliDes, without much change to the
+pre-digital approaches and research quesDons. Nevertheless, digitalizaDon has
+dramaDcally altered research qualiDes, quanDDes, and workﬂows. We welcome
+contribuDons on:
+•      relevant data for architectural and urban history in digital archives and
+image repositories
+•      the eﬀects of the use of digital archives and image repositories on
+scholarly work
+•      concepts and projects for networking and cooperaDon
+•      possible research quesDons regarding objects, spaces, content or
+historical events
+
+2. EducaDon in urban history
+EducaDon and support by digital libraries sDll only plays a minor role in
+scholarly discourses on cultural heritage and in parDcular urban history. There is
+sDll no broad consensus on speciﬁc educaDon paradigms or a canon of didacDc
+seangs in digitally supported teaching on urban history, and as yet no larger
+studies have been conducted in this area. We welcome contribuDons on:
+•      educaDonal scenarios for teaching urban history supported by digital
+methods
+•      approaches to employing large scale repositories for educaDonal
+purposes in cultural history
+•      the design of virtual experiences as e.g. city tours
+
+Target Audience:
+The target group for this session includes professionals, researchers, and
+pracDDoners from cultural heritage insDtuDon, digital technology, policies, and
+research, with a focus on those interested in the intersecDon of technology and
+heritage. Speciﬁc groups include:
+•      Cultural Heritage Professionals: Conservators, restorers, heritage site
+managers, and curators using digital tools for preservaDon and documentaDon.
+•      Digital Technology Experts: BIM specialists, architects, engineers, and 3D
+modeling professionals working on heritage conservaDon projects.
+•      Academics and Researchers: Scholars and researchers studying heritage
+preservaDon, digital methodologies, and climate adaptaDon strategies.
+•      Policymakers and Legal Experts: Professionals addressing the ethical and
+legal dimensions of digiDzing cultural heritage and creaDng relevant policies.
+
+Keywords:
+humaniDes research, educaDon, digital urban and architectural history, UHDL
+workshop
+
+
+Click here to make a submission!
+

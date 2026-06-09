@@ -1,0 +1,113 @@
+Introducing 3DBigDataSpace: Transforming the Future of
+3D Digital Cultural Heritage
+[20 September 2024, Vienna] — The availability of high-quality 3D content has been a limiting
+factor for the growth of Extended Reality (XR) and 3D applications, particularly within cultural
+heritage sectors. Addressing this challenge, the new “3D Big Data to enrich the European Data
+Space for Cultural Heritage” (short: 3DBigDataSpace) project is set to revolutionize the
+accessibility and usability of 3D data for cultural heritage, education, and tourism sectors across
+Europe.
+
+3DBigDataSpace in a Nutshell
+Kicking off on 1 February 2025 and with a duration time of 18 months, 3DBigDataSpace aims to
+signiﬁcantly enhance the amount of high-quality 3D content available in the European Data
+Space for Cultural Heritage. This will be achieved by aggregating datasets from various
+providers, establishing a stable and long-term Europe-wide storage solution for 3D models, and
+enhancing the data quality through advanced AI enrichment technologies. The project is also
+focused on developing new tools and methods to enable the use of this vast collection of 3D
+models in Virtual Reality (VR), Augmented Reality (AR), and 4D world applications.
+
+Key Objectives of 3DBigDataSpace:
+   •   Increase High-Quality 3D Content: Aggregating over 50,000 3D models into the
+       common European data space for cultural heritage, with more than 1,000 models
+       available via Europeana.eu.
+   •   Establish Europe-Wide 3D Data Storage: Testing a public 3D data storage
+       infrastructure based on European data repositories, ensuring the availability and
+       accessibility of 3D datasets.
+   •   AI-Driven Data Enrichment: Testing and deploying AI data enrichment pipelines to
+       improve content classiﬁcation, location retrieval, and metadata quality, enhancing
+       ﬁndability and reusability.
+   •   Develop Innovative Tools for 3D and 4D Applications: Creating a suite of Europe-wide
+       usable tools, including 3D viewers, AR viewers, and 4D world views to foster new
+       experiences in digital cultural heritage.
+   •   Demonstration and Validation: Conducting demo cases in museums, heritage routes,
+       and local networks to showcase the capabilities of 3D re-use and enhance user
+       engagement through educational and outreach activities.
+   •   Capacity Building and Training: Implementing a multi-layer training and capacity-
+       building program involving over 200 students, with the goal of reaching more than 4,000
+       scholars and professionals and engaging 20,000 individuals through demo cases.
+Challenges and Opportunities in 3D Cultural Heritage
+The project addresses the challenges associated with the utilization of the vast amount of 3D
+content available today. With large-scale datasets hosting millions of 3D models, the focus has
+shifted from mere availability to optimizing the use of this data. Key challenges include ensuring
+long-term availability, increasing ﬁndability and reusability, and meeting diverse user
+requirements across various sectors. Sander Münster (Time Machine Organisation) states:
+
+“With the 3DBigDataSpace project, we are addressing some of the major challenges in the data
+space by signiﬁcantly increasing the amount of 3D data, opening up and testing pan-European
+storage options, and enabling metadata enrichment and viewer tools that can be used at scale.“
+
+Strategic Goals and Consortium Contributions
+3DBigDataSpace will deliver a comprehensive, end-to-end workﬂow for 3D content aggregation,
+storage, and enhancement. The project will develop robust pipelines for data aggregation,
+utilizing and testing storage solutions like Zenodo, and advanced AI tools for data enrichment.
+Moreover, the initiative will foster the creation of a dynamic ecosystem of front-end tools for VR,
+AR, and 4D applications, enabling new and broad ways to experience cultural heritage.
+
+The consortium and partner network behind 3DBigDataSpace includes a diverse group of
+partners covering the entire cultural 3D data supply chain:
+
+   •   Cultural Heritage Associations and Networks: Such as the Time Machine Organisation
+       (TMO), the International Council on Monuments and Sites (ICOMOS), and the 4CH
+       Competence Centre for the Conservation of Cultural Heritage, which provide a broad
+       network for requirements gathering, solution validation, and dissemination.
+   •   Cultural Heritage and Tourism Partners: Including organizations like the Hunt Museum in
+       Ireland and the University of Vido in Galicia, experienced in applying digital technologies
+       for educational and tourism purposes.
+   •   Europeana Aggregators and Research Organisations: Such as the Poznan
+       Supercomputing and Networking Centre (PSNC), CARARE, and the Friedrich-Schiller-
+       Universität Jena (FSU), who bring expertise in state-of-the-art AI technologies and
+       methodologies for 3D data enhancement.
+   •   Hi-Tech SMEs and Digital Infrastructure Providers: Including IN2, rooom, and the
+       Europeana Foundation, which deliver cutting-edge solutions for 3D data acquisition,
+       management, and sharing.
+
+Looking Ahead: The Future of Digital Cultural Heritage
+3DBigDataSpace is poised to play a pivotal role in the digital transformation of the cultural
+heritage sector. By signiﬁcantly increasing the availability and quality of 3D content and
+providing innovative tools and methods for its re-use, the project aims to support the European
+Commission’s goal of digitizing all monuments and cultural heritage sites at risk by 2030. This
+ambitious initiative will not only preserve Europe’s rich cultural heritage but also make it more
+accessible and engaging for future generations.
+About 3DBigDataSpace
+3DBigDataSpace is a collaborative European project designed to enhance and expand the digital
+cultural heritage landscape through the aggregation, storage, and enhancement of high-quality
+3D content. Funded by the Digital Europe Programme, the project brings together a consortium
+of leading cultural heritage organizations, research institutions, and tech companies to advance
+the use of 3D data in XR applications and beyond.
+
+3DBigDataSpace consortium
+   •   Coordinator: Time Machine Organisation (TMO)
+   •   Friedrich-Schiller-Universität Jena (Uni Jena)
+   •    IN2 Digital Innovations GmbH (IN2)
+   •   Stichting Europeana (EF
+   •   Inception SRL (Inception)
+   •   Fondazione Bruno Kessler (FBK)
+   •    Rooom AG (rooom AG)
+   •   The HUNT Museum (HUNT)
+   •   Poznan Supercomputing and Networking Centre (PSNC)
+   •   University of Vigo (U.Vigo)
+
+Project starting date: 1 February 2025
+Project end date: 31 July 2026
+Granting authority: European Health and Digital Executive Agency
+
+
+
+Press Contact:
+
+Mag. Kerstin Muff
+Chief Communications Officer
+Time Machine Organisation
+
+kerstin.muff@timemachine.eu
+

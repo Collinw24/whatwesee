@@ -1,0 +1,68 @@
+                                 Session
+
+  Preserving Cultural Heritage in the Digital Age:
+ HBIM and the Challenges of Climate Change and
+                   Innova<on
+Chairpersons:
+Piotr Kuroczyński (Hochschule Mainz – University of Applied Sciences) -
+Germany
+Yusuf Arayici (Northumbria University) - United Kingdom of Great Britain and
+Northern Ireland
+Constanze Fuhrmann (German Federal Environmental FoundaLon) - Germany
+
+Descrip.on and Mo.va.on:
+The Charter of Venice presents a pivotal opportunity to criLcally assess the
+preservaLon and documentaLon of cultural heritage in the digital era. With
+historical assets increasingly vulnerable to climate change, extreme weather
+events, environmental degradaLon, conﬂict, and other global challenges,
+innovaLve tools like Building InformaLon Modelling (BIM) under the ISO 19650
+standard oﬀer promising soluLons.
+This session at the internaLonal conference "New Technologies and Cultural
+Heritage" (h]ps://chnt.at/) delves into the transformaLve potenLal of BIM in
+safeguarding built cultural heritage through digitalizaLon. Focusing on the
+standardizaLon and interoperability of 3D data sets, the session invites
+contribuLons exploring BIM's role in historic preservaLon, documentaLon, and
+conservaLon.
+Topics of interest include:
+
+•      Case studies of BIM applicaLons in cultural heritage projects, preferably
+those addressing climate change impacts or resilience.
+•      Environmental monitoring and simulaLon using BIM for heritage
+preservaLon.
+•      Climate change risk assessment and adaptaLon strategies through BIM.
+•      Advanced methodologies for data acquisiLon and 3D modeling of
+historical structures.
+•      IntegraLon of BIM with technologies such as laser scanning,
+photogrammetry, and AI for enhanced visualizaLon and interpretaLon.
+•      Development of heritage-speciﬁc BIM databases for detailed analysis and
+planning and monitoring.
+•      Ethical and legal dimensions of digiLzing cultural heritage
+
+ParLcipants will also explore the use of BIM for addressing the environmental
+impacts of climate change on heritage sites (such as informaLon on rising sea
+levels, changing precipitaLon pa]erns, or extreme weather events). Special
+a]enLon will be given to supporLng maintenance and repair strategies, and
+fostering stakeholder collaboraLon through digital twins and ontologies.
+
+Target Audience:
+The target group for this session includes professionals, researchers, and
+pracLLoners from the ﬁelds of cultural heritage preservaLon, digital
+technology, and environmental science, with a focus on those interested in the
+intersecLon of technology and heritage. Speciﬁc groups include:
+– Cultural Heritage Professionals: Conservators, restorers, heritage site
+managers, and curators using digital tools for preservaLon and documentaLon.
+– Digital Technology Experts: BIM specialists, architects, engineers, and 3D
+modeling professionals working on heritage conservaLon projects.
+– Academics and Researchers: Scholars and researchers studying heritage
+preservaLon, digital methodologies, and climate adaptaLon strategies.
+– Environmental ScienLsts: Experts in climate change risk assessment,
+adaptaLon strategies, and environmental monitoring for heritage sites.
+– Policymakers and Legal Experts: Professionals addressing the ethical and legal
+dimensions of digiLzing cultural heritage and creaLng relevant policies.
+Keywords:
+HBIM, preservaLon, documentaLon, monitoring, climate change
+
+
+
+Click here to make a submission!
+

@@ -1,0 +1,207 @@
+Zane Putnina | PhD programme in Heritage Studies
+Supervisor: Prof. Dr. Christer Petersen
+Revised and updated Research Proposal
+January 2022
+
+
+
+         Digital Cultural Heritage and The Local Time Machine Project Network.
+
+                                  A Conceptual Framework.
+
+Digital Cultural Heritage is a new and rising subfield within the larger field of Digital
+Humanities. The definitions of Digital Humanities are many (for examples see - Schreibman,
+Siemens, and Unsworth 2004; Klein and Gold, 2016; Schreibman, Siemens, and Unsworth
+2016.) but at-large can be summed up to “[..] work [..] done at the intersection of
+computational methods and humanities materials” (Drucker 2021, p1). The Time Machine
+Organization (TMO) can be said to be the largest collaborative endeavour within the field of
+Digital Cultural Heritage up to date, holding the long-term vision of using historical sources to
+speculatively recreate past periods of time in a 4D Mirror World (Time Machine Manifesto
+2019, Kaplan and Di Lenardo 2020). This research project will a) provide a conceptual history
+of digital Cultural Heritage, its contemporary characteristics and introduce the landscape of
+its’ key players, explaining why this research projects’ main focus will lay on the TMO; b)
+structurally analyse the building blocks of TMO, the Local Time Machine (LTM) projects, as
+they perform the move of analogue heritage memory sources into digital environments and
+b) investigate the implications thereof for the neighbouring knowledge fields of History,
+Memory and Media, as well as Heritage Studies.
+
+
+Western human societies are currently undergoing a massive revolution in terms of
+knowledge production. Within the humanities, literary critic and media theorist Katherine
+Hayles has noted the ongoing “momentous shift from print to digital media” (Hayles 2012, 7)
+and further explored how digital media influences the reading and writing of texts. Within the
+field of digital Cultural Heritage, recent literature on the shift from heritage to digital Cultural
+Heritage include collections of theoretical writings on topics related to the concept (Cameron
+and Kenderdine 2007; Parry 2007; Kalay et al. 2008; Lewi et al. 2019), the field investigated as
+to its practitioners and its relationship to Digital Humanities (Münster 2017; Münster et al.
+2019), applications, problems and solutions discussed by practitioners (for example, in the
+Journal on Computing and Cultural Heritage), as well as a recent broad reflection on digital
+
+
+                                                 1
+heritage in the age of more-than-human world (Cameron 2021). To the best of my
+knowledge, there is yet a comprehensive account of the history and contemporary uses,
+characteristics, and key-players of the concept of digital Cultural Heritage yet to be
+conducted. It is also crucially important to map and document exactly how this slow
+revolution from analogue to a world of digital Cultural Heritage is happening to be conscious
+about what is being gained as well as lost in the digital making and experiencing of heritage
+and the implications thereof.
+
+
+Firstly, it is needed to understand the conceptual thinking thus far as to what has been and is
+digital Cultural Heritage, what is the TMO and LTM projects´ role within. Secondly, to develop
+an understanding of how the move from analogue to digital heritage worlds is happening and
+how digital Cultural Heritage differs from previous heritage memory environments. Thirdly, to
+investigate how the coming digital Cultural Heritage 4D Mirror World will change the
+neighbouring knowledge fields of History, Memory and Media, as well as Heritage Studies.
+
+
+The ensuing guiding Research Questions are as follows -
+
+    1. What is the history of the digital Cultural Heritage concept? What are the fields
+        current key characteristics and players? What is the role of TMO within the
+        landscape?
+    2. In the context of digital Cultural Heritage and LTM projects – who is doing the
+        creating, with what kinds of tools and access practices, filled with what kind of
+        content? How do all these aspects differ from previous media modes of heritage
+        memory construction – their (mainly) analogue sources?
+    3. What are the implications thereof from the perspective of the neighbouring
+        knowledge fields of History, Memory and Media, as well as Heritage Studies?
+
+
+This project will use theoretical and methodological triangulation to gain most holistic
+understanding of this interdisciplinary research problem – conceptual history, content
+analysis, structurally analytical concept of “Travelling Memories”, survey questionnaire, semi-
+structured interviews and, lastly, the Broad Model for interdisciplinary research.
+
+
+A conceptual history of digital Cultural Heritage will be conducted in order to understand the
+development and current definitions, characteristics and key contemporary players of the
+field. Content analysis will be conducted on the available TMO and LTM related documents to
+map the origins of the endeavour and the LTM projects’ development and role within. In
+
+
+                                               2
+order to map, structurally analyze and understand the move and the implications of the move
+from analogue to digital media in heritage memory environments, the concept of “Travelling
+Memory” (Erll 2011) will be used to investigate how the a) carriers, b) media, c) content
+stories, d) practices of access and lastly c) symbols used within LTM projects have altered
+from their analogue sources. A survey questionnaire will be used to gain first-hand
+information about these travels of the LTM projects. To deepen the analysis, semi-structured
+interviews will be conducted with selected LTM project case examples. Lastly, the research
+results and their implications will be inspected from the perspectives of History, Memory and
+Media, as well as Heritage Studies using the Broad Model for interdisciplinary research
+(Repko, Szostak and Buchberger 2017).
+
+
+This project will provide new knowledge-based insights and result in a comprehensive study
+on digital Cultural Heritage and the largest contemporary collaborative endeavour within the
+field. Analytical insights will be provided in the form of a map that records the move of
+analogue heritage memory sources into digital environments and analysis of the implications
+thereof. It will directly contribute to the TMO action Pillar One – the building of critical theory
+for digital Cultural Heritage.
+
+
+
+
+                                                3
+Tentative Bibliography
+
+
+   1. Cameron, Fiona R., and Sarah Kenderdine, eds. 2007. Theorizing Digital Cultural
+      Heritage: A Critical Discourse. Media in Transition. Cambridge, Mass: MIT Press.
+   2. Cameron, Fiona R. 2021. The Future of Digital Data, Heritage and Curation: In a More-
+      than-Human World. London and New York: Routledge.
+   3. Drucker, Johanna. 2021. The Digital Humanities Coursebook: An Introduction to
+      Digital Methods for Research and Scholarship. London and New York: Routledge.
+   4. Erll, Astrid. 2011. “Travelling Memory.” Parallax 17 (4): 4–18.
+   5. Kalay, Yehuda, Thomas Kvan, Janice Affleck. 2008. New Heritage. New Media and
+      Cultural Heritage. London and New York: Routledge.
+   6. Kaplan, Frederic, and Isabella Di Lenardo. 2020. “The Advent of the 4D Mirror World.”
+      Urban Planning 5 (2): 307–10.
+   7. Klein, Lauren F. and Gold, Matthew K. 2016. Introduction: Digital Humanities: The
+      Expanded Field. In Debates in the Digital Humanities 2016, edited by Gold Matthew K.
+      and Klein Lauren F., Ix-Xvi. Minneapolis; London: University of Minnesota Press
+
+   8. Lewi, Hannah, Wally Smith, Dirk vom Lehn, and Steven Cooke. 2019. The Routledge
+      International Handbook of New Digital Practices in Galleries, Libraries, Archives,
+      Museums and Heritage Sites. London and New York: Routledge.
+   9. Münster, S. 2017. “A SURVEY ON TOPICS, RESEARCHERS AND CULTURES IN THE FIELD
+      OF DIGITAL HERITAGE.” ISPRS Annals of Photogrammetry, Remote Sensing and
+      Spatial Information Sciences IV-2/W2 (August): 157–62.
+   10. Münster, S., F. I. Apollonio, P. Bell, P. Kuroczynski, I. Di Lenardo, F. Rinaudo, and R.
+       Tamborrino. 2019. “DIGITAL CULTURAL HERITAGE MEETS DIGITAL HUMANITIES.”
+       ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial
+       Information Sciences XLII-2/W15 (August): 813–20.
+   11. Parry, Ross. 2007. Recoding the Museum: Digital Heritage and the Technologies of
+       Change. London and New York: Routledge.
+   12. Repko, Allen F., Rick Szostak and Michelle P. Buchberger. 2017. Introduction to
+       interdisciplinary studies. 2nd ed. Thousand Oaks: SAGE
+
+   13. Schreibman, Susan, Raymond George Siemens, and John Unsworth, eds. 2016. A New
+       Companion to Digital Humanities. Hoboken: Wiley Blackwell.
+   14. Schreibman, Susan, Raymond George Siemens, and John Unsworth, eds. 2004. A
+       Companion to Digital Humanities. Hoboken: Wiley Blackwell.
+   15. Time Machine. 2019. “Time Machine Manifesto. Big Data of the Past for the Future of
+       Europe.” Vienna: Time Machine
+
+
+
+
+                                                4
+Tentative working plan
+
+
+
+2022
+
+January – April
+
+    -   Conceptual history of DCH and its key characteristics
+    -   Hand-in for revision
+
+May – June
+
+    -   History of TMO and LTM projects´ role within
+    -   Hand-in for revision
+
+July – August
+
+    -   “Travelling Memory” concept structural analysis of LTM projects
+
+September
+
+    -   Semi-structured interviews with representative LTM case examples
+    -   In-depth case analysis of representative LTM case examples
+    -   Hand-in for revision
+
+October – December
+
+    -   Interdisciplinary analysis of implications for the fields of History, Memory, Media and
+        Heritage Studies
+    -   Hand-in for revision
+
+
+
+2023
+
+January – March
+
+    -   Editing of the main text body
+
+April – June
+
+    -   Conclusions and discussion
+    -   Introduction
+    -   Formatting and proofreading
+    -   Handing in for revision
+
+August – September
+
+    -   Last editing
+
+
+
+
+                                               5
+

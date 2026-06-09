@@ -1,0 +1,13 @@
+# Auto-detect text files for diffs and linguist stats.
+* text=auto
+
+# Python.
+*.py text diff=python
+*.sh text eol=lf
+
+# Binary / model files should use LFS if they grow large later.
+*.bin binary
+*.ply binary
+*.db binary
+*.pth binary
+*.ckpt binary

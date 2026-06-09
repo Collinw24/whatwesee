@@ -1,0 +1,1261 @@
+Visualization
+                                                                                             7
+
+
+
+   Abstract
+
+   3D computer-based visualization refers to all those methodologies adopted to produce,
+   represent, describe, transmit, and present graphically/visually digital 3D models in a
+   way that is perceivable by the human eye. Visualization is one of the core aspects of
+   3D reconstruction because it is the most effective medium to synthesize complex data
+   in a visual way and makes the results more accessible and comprehensible not only to
+   professionals but also to laypersons.
+
+
+
+
+   Guiding questions
+   • What is digital visualization?
+   • What are the media methods and techniques?
+   • How can it be used as a scientific tool?
+   • How can it be used to communicate information?
+   • What are the potentials/challenges of digital and physical visualization?
+   • What technologies present and interact with digital 3D reconstructions?
+
+
+   Basic terms
+   • Texturing
+   • Photo-realistic and abstract shading
+   • False colors
+
+
+© The Author(s) 2024                                                                   129
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_7
+130                                                                         7 Visualization
+
+
+   •   Perspective and axonometric projection
+   •   Interactive, linear, and static visualization
+   •   Rapid prototyping
+   •   Extended reality.
+
+
+
+
+7.1       From Digits to Visuals
+
+Anything in modern computers is stored as sequences of ones and zeroes, however, binary
+code is not practical to be read by humans, so any data of such type needs to be converted
+in some other language and displayed on an interface that is easier for humans to read.
+Digital 3D models are no exception: to be able to interact with, experience, and present
+them, their binary description needs to be processed and output visually, e.g., as RGB
+(red, green, blue) values on a display. The visualization is such an important aspect of the
+3D model that someone might say that 3D modeling, and 3D visualization are entangled
+concepts and one has no reason to exist without the other. In 3D reconstruction of cultural
+heritage, it would probably not even be possible to generate the 3D model in the first place
+without constant visual feedback on a display. The most popular interfaces used to view
+digital 3D models are 2D displays (computer, smartphone, TV screen, projector, etc.).
+But in the past few decades, many other technologies are beginning to be considered
+valid alternatives: VR, AR, 3D displays, holograms, and so on.
+   The use of different interfaces and our needs can radically change the way we perceive,
+present, experience, and interact with 3D model. Three main ways to present the 3D
+models virtually are listed below:
+
+• Static presentation (single image/static rendering).
+• Linear presentation (scripted video/precomputed animation).
+• Interactive presentation (real-time exploration/computer games).
+
+   In static presentation, the 3D model is projected in a 2D medium and captured as
+in a photograph. These types of pictures are fast to make through modern rendering
+engines, but they are limited in terms of interaction/navigation freedom within the 3D
+space, because the points of view from which the viewer can experience the 3D model
+are predetermined.
+7.2     Digital 2D-3D Visualization                                                       131
+
+
+    In linear presentation, the 3D model is experienced through a pre-arranged tour in
+the form of an animated video. Interaction/navigation within the 3D space is limited also
+in this case because the observer cannot move freely. However, the level of engagement/
+comprehension of the 3D shapes can be higher than in static presentation since the depth
+perception is enhanced through motion.
+    In interactive presentation, the model can be explored in a self-guided way through a
+specifically designed digital 3D environment such as a gaming platform or a web app. This
+type of presentation is for sure the most versatile one because the models can be perceived
+from every possible point of view. Users need a basic understanding of how to move in the
+digital space, usually with gamepads, touch screens, or mice and keyboards. Visualizing
+high-resolution models interactively is a much more hardware-demanding task than static
+and linear presentations, which can run on any device with a display. 360° panoramas can
+be considered a hybrid type because they are made with a static 360° image projected
+onto a sphere (or a cube), but they can be experienced through VR headsets or navigated
+with mice and keyboards. The limit of the navigation in this kind of panorama is that the
+point of view is always in the center of the sphere.
+    Visualization can also be useful as an analysis tool to highlight certain formal or super-
+ficial aspects. According to Ware, visualization can support research and understanding
+in five ways [1, cited from 2, p. V]:
+
+•     It may facilitate the cognition of large amounts of data.
+•     It can promote the perception of unanticipated emergent properties.
+•     It sometimes highlights problems in data quality.
+•     It clarifies the relationships between large- and small-scale features.
+•     It helps in the formulation of hypotheses.
+
+
+
+
+7.2         Digital 2D-3D Visualization
+
+Digital 2D-3D visualization is the process of creating graphics and renderings by com-
+bining 2D and 3D modeling and rendering software. It is used in many industries and
+applications ranging from architecture, film and games industries, engineering and man-
+ufacturing, to advertising and fashion. Until the advent and subsequent widespread use
+of digital 3D modeling and visualization systems, knowledge relating to the 3D world
+was studied, transmitted, and analyzed in physical forms through the projection of the 3D
+objects onto 2D media (paper, wooden tables, cloth, etc.) or through the creation of 3D
+physical mock-ups (in wood, cardboard, clay, or other materials), usually made by hand
+by artists, architects, or engineers.
+132                                                                              7 Visualization
+
+
+Table 7.1 Pros and cons of digital 2D-3D visualization
+Pros                                             Cons
+• Versatility of use and implementation          • 3D visualizations are always
+• Static and dynamic visualizations of the         approximations of the real object
+  same model from multiple points of view are • Lacking the tactile feel typical of physical
+  fast to produce and update                       maquettes
+• Automatic check of interferences and           • Long-term preservation is harder to
+  inconsistencies                                  guarantee than for their physical counterparts
+• Easy automatic extraction of analytical        • Adequate software and hardware are
+  data (surface, volume, etc.)                     needed to experience virtual content which
+• Immersive explorations at different scales       makes it sometimes less democratic
+• Models can be decontextualized                 • Data loss can occur during file conversion or
+• Photo-realistic simulations of nonexisting       exporting
+  objects/environments                           • Digital files can corrupt because of software
+• Virtual accessibility to locations otherwise     errors, hardware failing, and much rarer
+  dangerous, impractical, or impossible to visit   events such as bit flips
+• Overlapped models/variants on the same         • Digital 3D models are influenced by the
+  virtual location                                 software tolerance, which could produce
+• Models can be infinitely duplicated,             numerical errors if not properly handled
+  decreasing the risk of short-term data loss    • Photorealistic renderings can be hardly
+• Joint and remote work on the same virtual        distinguishable from reality; this can cause
+  model                                            misconceptions
+• Appending and visualizing external data to • Digital models can be unusable because of
+  specific parts of the model                      geometrical errors
+• Visualization of the final appearance before
+  the object is physically built
+• Faster modifications and iterations
+• Faster and easier to share and remote
+  access
+
+
+   The creation of 3D physical maquettes (→ Basics and Definitions) was time-
+consuming work that usually required a precise and long phase of planning, and each
+minimal change to the design required non-trivial effort to update the model. The most
+popular way to study, analyze, and present any design was through 2D projections, usu-
+ally made by and for specialists who knew the representation codes (format/type of lines,
+color, standard direction of view, etc.) and were able to mentally process that information,
+and mentally compose the 3D object. Digital 2D-3D visualization has overcome some of
+the limitations that have characterized analog physical representation. Nevertheless, there
+are positive and negative aspects of this new technology. In Table 7.1, we compare the
+pros and cons.
+7.3     Aspects of Digital 3D Visualization                                                   133
+
+
+7.3         Aspects of Digital 3D Visualization
+
+Four aspects contribute to the visualization of 3D models:
+
+•     Formal/geometrical aspects (e.g., digital 3D object, segmentation).
+•     Shading aspects (e.g., materials, light, rendering algorithms).
+•     Representation aspects and methods (e.g., point of view, camera, projection methods).
+•     Media and interfaces (e.g., display, monitor, image, 3D prototype).
+
+   Formal/geometrical aspects concern how the 3D model/scene is made (→ 3D mod-
+eling): the spatial relations between the parts; the level of detail; the mathematical
+description of surfaces; the scale; the segmentation.
+   Shading aspects include the surface appearance (textures, material properties, photo-
+realistic vs. abstract shading); the use of light/shadows (position and intensity of lights);
+the rendering algorithm (biased or unbiased).
+   Representation aspects and methods concern the ways of projecting 3D objects into
+a 2D plane (e.g., perspective, axonometric, and double orthogonal projection, etc.), this
+includes camera settings, points of view, anamorphisms, and solid perspective.
+   Media and interfaces are the technological devices used to visualize 3D models:
+2D displays (pixel monitors, projectors, etc.); 3D displays (holographic displays, holo-
+grams, 3D stereo displays, etc.); VR/AR headsets; physical 2D drawings, prints, 3D rapid
+prototyping (3D printing, laser cutting, CNC milling, etc.).
+
+
+      Further reading: Degrees of freedom in 3D visualization What are the visual
+      properties of 3D/4D visualizations?
+
+
+
+
+         The level of detail (LoD) needs to be appropriate to the purpose [3]. While detailed
+      visualizations of historical reconstructions are advantageous for imaginability [4], they
+      may distract scholars from their research questions [5] or lead to cognitive overload
+      [6].
+134                                                                        7 Visualization
+
+
+
+
+     Visual style is often discussed in terms of fit to scholarly recommendations and
+  distraction of viewers [7]. Since early 3D/4D reconstructions strived for more immer-
+  sive and realistic visualization [8], a current scope comprises a large variety of
+  photorealistic and non-photorealistic styles [9–11].
+
+
+
+
+     Different degrees of certainty [12–14] have led to a multitude of visual strategies
+  for heritage content [15]. Current approaches can be roughly categorized into enrich-
+  ment of representations by explanatory elements [16] and adaptation of representation
+  quality, e.g., LoD or visual styling [14, 3, 17–21].
+
+
+
+
+     Scaling has been frequently assessed as an important parameter for perceiving
+  architecture [3, 22].
+7.3     Aspects of Digital 3D Visualization                                                  135
+
+
+
+
+          Visual acuity is the ability to distinguish details: in contrast to scale, the main
+      influencing factor is the distance to a virtual or physical object [23–26].
+
+
+
+
+         Perspective depiction and perception of architecture include the viewer effect of
+      different fields of view [27, 28, 26]; e.g., the top-down view is the predominant mode
+      for investigating cityscapes [29].
+
+
+
+
+         Lighting is relevant to imagine historical architecture [30]. Specific workflows
+      and approaches (based on visual comparisons) are proposed for virtual visualization
+      [31–36].
+
+
+
+
+         Color is highly relevant for the perception of historical objects and ranges from
+      realistic coloring to scales coding parameters or supporting visual distinction of model
+      parts [37, 38]. Accurate reproduction of colors is challenging in both modeling [39,
+      40] and reproduction by digital devices [41].
+
+
+   In a research context visualization methods and technologies have a crucial role
+because they graphically synthesize aspects of the research, from critical reasoning via
+generating and sharing ideas to dissemination. Visualization choices might enhance the
+136                                                                        7 Visualization
+
+
+communication of the study or strongly mislead or distort the interpretation of the
+results.
+    For example, it was long known that Greek temples were brightly colored, however,
+the public misconception is still that these temples were made with raw white marble.
+This misconception is mainly because the ruins that survived the centuries lost their col-
+ors and even when these structures were graphically reconstructed through operations of
+digital anastylosis, they were often represented with a white color in catalogs, magazines,
+pictures, and museum exhibitions.
+    The same risk looms over the visualization of any digital 3D reconstruction, thus those
+professionals aiming to produce scientifically accurate reconstructions have the responsi-
+bility not only to produce an accurate model, while documenting every step of the process,
+but also to communicate it clearly, limiting as much as possible any misconception.
+Shading and representation play the most important role in this regard.
+
+
+7.4      Formal/Geometrical Aspects
+
+Quite obviously, among all the elements necessary to produce any rendering of a 3D
+scene, the 3D geometrical model is the unavoidable starting point from which each other
+aspect derives. Without a 3D shape, there would be no medium to apply materials and
+textures into, target to point the camera toward, or obstacle with which the rendering
+algorithm could calculate the light bounces. All the aspects related to the generation of
+3D geometry are extensively described in this chapter (→ 3D Modelling).
+
+
+7.5      Shading Aspects
+
+In painting and drawing, the word “shading” is usually used to define the process of
+darkening or coloring an illustration. It is fundamental to give an accurate perception
+of volume, sense of perspective, and material credibility to the objects. Painters who
+master the shading technique have deep knowledge of how our physical world works.
+For example, they know where a sphere is darker or lighter according to the direction of
+light, that the part of the sphere not exposed directly to the light source can be slightly
+lighted thanks to the light bouncing away from a near object, that the reflection of the
+light pointed on the sphere is sharp if the sphere is made with glossy material and smooth
+if the sphere has a rough material. Shading depends on the shape, the light, and the
+materials.
+    To be able to produce the same sphere properly shaded digitally, all this knowledge
+is not crucial anymore, because the proper calculation of the behavior of light bouncing
+on the surfaces is all delegated to the render engine through its sophisticated algorithm.
+A nonexpert, who does not know the laws of descriptive geometry well, may not notice
+errors in the model or in the automatic calculation of light. The two main types of render
+engines on the market nowadays are biased (approximated) and unbiased, (accurate).
+The most popular render engines in architecture and gaming have a certain level of bias
+7.5   Shading Aspects                                                                       137
+
+
+because they produce images faster than unbiased engines, as even with a small amount of
+approximation/bias, they can be still very close to producing physically plausible results.
+A good render artist can compensate for the biases by artistically manipulating the shading
+of the scene (adding hidden lights or manually changing the color channel of the surfaces
+of the objects to simulate penumbrae color bleeding, bouncing light, etc.), so it is still
+possible to get very close to physically plausible results even with biased engines.
+   Both biased and unbiased render engines support the applications of synthetically
+generated procedural textures and reality-based textures. Since synthetically generated
+procedural textures are computer-calculated images as e.g. fractal patterns; reality-based
+textures are based on images of material surfaces. This, paired with the ability of the
+render engines to produce images with a physically plausible light distribution are the
+ingredients of the recipe for photorealistic rendering. Render engines can also produce
+non-photorealistic (NPR) images, by applying rules which are not physically based on
+the distribution of light and the definition of the properties of the materials.
+
+
+7.5.1     Photorealistic Shading
+
+A completely textured scene with photorealistic textures (Figs. 7.1 and 7.2) and a
+physically plausible distribution of light is the aspiration of most reconstructions in enter-
+tainment and exhibition contexts [44, 45]. However, photorealism is sometimes mistrusted
+in the academic and scientific context of 3D historical reconstructions [11], not only
+because the radiosity of the scene can be approximated by itself due to biases of the ren-
+der engines, but most importantly because it is very hard to retrieve enough information
+about materials for every object in the scene by direct inference from historical sources.
+When information is lacking, subjective interpretations has to compensate, which is one
+of the main causes of misinterpretations.
+
+
+
+
+Fig. 7.1 Reconstruction of the water jets of Neptune fountain in Bologna. Photogrammetry + laser
+scanning + liquid simulations [42] (Image: Foschi)
+138                                                                               7 Visualization
+
+
+
+
+Fig. 7.2 Reconstruction of the market in Piazza delle Erbe in Verona during the Middle Age. Project
+presented at Expo 2015 [43] (Image: Foschi)
+
+
+    Photorealism (physical plausibility) and theatricalization, are often priorities for enter-
+tainment applications (documentaries, games, movies, museums, etc.). To achieve that, it
+is necessary to precisely define the properties of every material applied to all the sur-
+faces so the light can properly bounce on them. This requires a level of knowledge that
+is usually very hard (if not impossible) to retrieve by direct sources and thus it is usually
+heavily subject to personal interpretations, which is not desirable if the aim is to produce
+a scientific reconstruction with minimal subjective additions. Nevertheless, photorealistic
+visualizations can drive academic research forward as they can provide insights otherwise
+hardly deducible from an abstract visualization.
+    Thus, can photorealistic texturing ever be scientifically accurate in the context of digi-
+tal 3D historical reconstruction? The reproduced result does not necessarily need to match
+the original artifact 100%, as despite the efforts and the abundance of sources, the repro-
+duction will always be an approximation of the original. Scientific reproducibility in this
+context means that the process is documented so that any other researcher who follows
+the same process based on the same sources would end up with the same result. Given
+this definition, we can certainly assert that, yes, photorealistic texturing can be scientif-
+ically acceptable as far as uncertainties and subjective conjectures are clearly identified
+and documented.
+    Even if all the conjectures are perfectly documented, and the process complies with the
+requirements of the scientific method, the risk of misinterpretation by a casual viewer
+facing a photorealistic rendering, heavily based on conjectures, is still high. If there are
+no visual clues that some part of the scene or texture might have been completely con-
+jectured, this might lead the viewer to think that the scene was exactly like it is pictured.
+To avoid ambiguities and misconceptions, in academic context photorealistic texturing
+7.5       Shading Aspects                                                                                139
+
+
+should be used with caution and only when there is a robust documental basis. The
+surface appearance uncertainties could be communicated visually, by pairing the photo-
+realistic view with another false color view indicating which areas have which level of
+uncertainty (→ Documentation).
+
+
+      Further reading: Scale of uncertainty The scale of uncertainty is a common tool
+      often proposed in the context of 3D reconstruction of unbuilt or lost architecture (some
+      authors use the terms reliability, plausibility, etc. [19]). These scales help to make each
+      hypothetical reconstruction transparent and easier to understand and evaluate. A color
+      is assigned to each level of the scale, and each level has a description usually related
+      to the type and quality of the sources. The colors are then applied to each element of
+      the 3D reconstructed model. This abstract shading gives information about the level
+      of uncertainty of each element and the overall model at a single glance.
+          Several scales of uncertainties were developed over the years [19]. The scale pre-
+      sented in Tables 7.2 and 7.3 was developed to minimize ambiguities and overlapping
+      between the different levels: it is based on the presence/absence of preserved/damaged
+      sources and their authors [37].
+
+      Table 7.2 Level of uncertainty scale [37]
+           Description
+      1    Reliable assumption derived from reality-based data (i.e., the full real object or parts of
+           it, well-preserved archaeological founds, direct surveys, laser scans)
+      2    Reliable conjecture based on clear and accurate direct/primary sources* when the real
+           object or parts of it are not available
+      3    Conjecture based on stylistic/structural references by the SAME AUTHORS when
+           direct/primary sources are available, but unclear/damaged/inconsistent/inaccurate. Or
+           logic deduction/selection of a variant derived from inconsistent direct sources
+      4    Conjecture based on stylistic/structural references by DIFFERENT AUTHORS when
+           direct/primary sources are available, but unclear/damaged/inconsistent/inaccurate
+      5    Conjecture based on stylistic/structural references by the SAME AUTHORS when
+           direct/primary sources are not available
+      6    Conjecture based on stylistic/structural references by DIFFERENT AUTHORS when
+           direct/primary sources are not available
+      7    Conjecture based on personal knowledge due to missing or unreferenced sources
+      \    Not relevant/not considered/left unsolved/missing data and missing conjecture (it does
+           not count for the calculation of the average uncertainty)
+      * Direct/primary sources: all the sources where the object is directly represented, reported,
+      or recorded with any level of accuracy (e.g., drawings, sketches, surveys, pictures, paintings,
+      texts, books, coins, medals, reliefs, physical models, sculptures)
+140                                                                             7 Visualization
+
+
+
+  Table 7.3 Level of uncertainty scale, reliability [37]
+          Real       Direct/primary sources         Other sources             Reliability
+          object     Clear/         Damaged/        Same         Other
+                     consistent     unclear         author/s     author/s
+      1   ✓          \              \               \            \            Reality
+      2   ✗          ✓              \               \            \            Reliable
+                                                                              conjecture
+      3   ✗          ✗              ✓               ✓            \            Conjecture
+      4   ✗          ✗              ✓               ✗            ✓            Conjecture
+      5   ✗          ✗              ✗               ✓            \            Conjecture
+      6   ✗          ✗              ✗               ✗            ✓            Conjecture
+      7   ✗          ✗              ✗               ✗            ✗            Conjecture
+      \   \          \              \               \            \            Abstention
+  Legend: ✓ = yes, \ = not relevant, ✗ = no
+
+     This particular scale not only gives clues about the type of sources and their author
+  (primary sources by the same author, secondary sources by different authors, etc.),
+  but also about their quality (damaged/undamaged, readable/unreadable, consistent/
+  inconsistent, etc.), and about the level of reliability of the results of the reconstruction
+  based on these sources (reliable/unreliable, conjecture/abstention). Each level of the
+  scale was assigned to a recognizable/nominable color and number. These numbers are
+  a possible alternative to colors in monochrome and visually accessible publications,
+  and can be used to calculate the average global uncertainty of the reconstruction
+  (Fig. 7.3). This specific scale was designed with 7 steps (+ one step for abstention)
+  that can be reduced to 5 and 3 steps without losing comparability (Fig. 7.4).
+7.5     Shading Aspects                                                                              141
+
+
+
+
+      Fig. 7.3 Left: false-color scale to show uncertainties; Right: calculation of the average uncer-
+      tainty, Andrea Palladio, Villa Pisani, Bagnolo [37]
+
+
+
+
+      Fig. 7.4 Granularity of the scale of uncertainty [37] (Image: Foschi)
+
+
+
+
+   Can photorealistic texturing ever be free of subjective interpretations? Theoreti-
+cally yes, if it is based on strong evidence. In modern render engines, diffuse color
+(albedo) of the surface is not the only property that is required to define a proper material;
+other properties are needed, such as roughness, glossiness, bump, IOR, and so on. Even
+if we find sources where the materials are precisely described textually and graphically
+with colored drawings, it is still formally impossible to retrieve only from textual and
+graphical sources all the properties that modern 3D render engines require. Not to men-
+tion that the color of the drawings is influenced by the intrinsic color of the paper and
+142                                                                         7 Visualization
+
+
+they suffer discoloration or color shifting over time, so even colored documental sources
+are not 100% reliable.
+   The only plausible way to be able to identify with maximum objectivity the texture
+and material properties would be by having a physical sample of the original material. In
+architectural hypothetical reconstruction, it is very rare to have such a clear and complete
+source.
+   It is true that in photorealistic renderings the level of uncertainty is usually higher
+compared to abstract rendering, but it is also important to not demonize it. Sometimes,
+e.g. to enable visual assessment, definition of photorealistic surface appearance becomes
+a crucial aspect of the scope of the reconstruction. In these cases, it becomes even more
+important to document clearly the process of texturing as much as it is for the modeling.
+
+
+7.6      Abstract Shading
+
+When the sources about surface appearance are lacking, the most popular alternative to
+photorealistic shading is the application of a neutral mono-material, usually grey or
+white, because it is a fast solution and is considered more objective. However, this choice
+might cause misconceptions similar to those described above for Greek temples and
+does not add any useful information. The white mono-material is part of the more general
+method of abstract shading, also called non-photorealistic (NPR) shading, the counter-
+part of photorealistic (PR) shading. Abstract shading conveys additional information
+through colors and textures.
+   One of the most popular ways to convey additional information through abstract shad-
+ing is to apply false colors to the elements of the model, organized in scales where each
+step is described through textual legends (Fig. 7.5). False colors can be used to express
+many different concepts: restorers use red and yellow to indicate which part of the build-
+ing was reconstructed or demolished; archaeologists use colors to define the different
+palimpsests and ages; lighting designers use scales of color to identify which parts of the
+model receive more light radiation; fluid or gas speed in 3D simulations can be described
+with a false color scale. In digital reconstruction, one of the most popular uses of false
+color scales is to visually communicate eventual variants, the level of uncertainty or the
+type of sources used [37] (→ Documentation).
+   Another possible alternative abstract texturing technique is the projection of the graph-
+ical sources on the 3D model (Figs. 7.6, 7.7 and 7.8) [37]. This method is aimed to enrich
+the sources by adding the third dimension, or vice versa to enrich the model through the
+projection of its 2D graphical sources onto the 3D surfaces of the model, and it does
+not need any legend to be explicit. A similar shading technique which tries to mimic the
+graphic style of the sources, but without projecting the sources directly onto the model as
+7.6   Abstract Shading                                                                    143
+
+
+
+
+Fig. 7.5 Andrea Palladio, Villa Saraceno. False color scale to show uncertainties [46] (Image:
+Apollonio)
+
+
+textures, is described by Daniela Sirbu [47]: the textures and lights are redesigned entirely
+by hand trying to reproduce the same lighting, surface appearance, and atmosphere of the
+reference source. This technique might be preferable to projection when the reference
+sources are particularly damaged or lacking, or low resolution.
+   Borderline techniques lie between photorealistic and abstract. For example, the black
+and white view can be close to the photorealistic rendition because it can use textures
+from photos and the distribution of light can still be physically plausible, but undeniably
+not realistic in a strict sense because the information about the colors was removed. This
+solution decreases the level of uncertainty when color information is lacking. Rather than
+converting the renderings from colored to black and white as the last step, it is also
+possible to convert each texture to black and white before rendering; with this solution,
+however, the surfaces would eventually inherit a bit of color from colored light sources.
+144                                                                            7 Visualization
+
+
+
+
+Fig. 7.6 Projection of the original drawing on the 3D model by Mauro Guidi, Sepolcro antico di
+figura quadrata con portico di due gradini, Cesena Nuova, Atlante 41, Carta 48. Top: 3D CDM;
+Bottom: original drawing [37] (Image: Foschi)
+
+
+
+
+Fig. 7.7 Projection of the original source on the 3D model. Claude Nicolas Ledoux, Atelier des
+gardes de la forêt, Cité idéale de Chaux, Tome 1, Pl. 102. Top: 3D CMD; Bottom: original drawing
+[37] (Image: Foschi)
+7.6     Abstract Shading                                                                    145
+
+
+
+
+Fig. 7.8 Projection of the original sources on the 3D model, Art gallery castle Schwerin (Image:
+Architectura Virtualis, Darmstadt 2018)
+
+      Other abstract shading techniques (Fig. 7.9) used for various scopes are listed below:
+
+•     Wireframe
+•     Ghosted
+•     X-ray
+•     Cartoon/Comix
+•     Silhouette
+•     Hand drawn
+•     Flat colors
+•     Technical drawing
+•     Ambient occlusion
+•     Water colored
+•     Inverted colors
+•     Black and white.
+
+   All these techniques, and many others not listed here, are very different from each
+other, but share the fact that they do not try to mimic reality. Some of them have only
+ornamental and aesthetic uses, while others can be useful for enhancing the readability
+of the images, bringing attention to particular details, or showing hidden details. For
+example, through wireframe/ghosted/X-ray shading it is possible to look inside the models
+without disassembling them, or through flat color shading, it is possible to see the albedo
+of the surfaces without the effect of lights and shadows.
+   Abstract shading is sometimes used only to characterize some elements in the scene,
+while others are photo-realistic textures. This solution can be useful to highlight explicit
+elements with known surface appearance (Figs. 7.10, 7.11 and 7.12). Sometimes abstract
+shading can also be used as an additional shading style, that accompanies photorealistic
+views, to highlight elements in the scene (Fig. 7.13).
+146                                                                             7 Visualization
+
+
+
+
+Fig. 7.9 Some abstract shading techniques (Image: Foschi)
+
+
+
+
+Fig. 7.10 Cartoon style + photorealistic textures to indicate different surface appearance uncer-
+tainty, Carolingian Church Saint Gall (Image: Architectura Virtualis Darmstadt, 2019)
+7.6   Abstract Shading                                                                         147
+
+
+
+
+Fig. 7.11 Reconstruction in ghosted style to show the photo-realistically textured plan underneath,
+Plan of Saint Gall (Image: Architectura Virtualis Darmstadt 2019)
+
+
+
+
+Fig. 7.12 Photorealistic texturing + gray monomaterials to indicate surface appearance uncertainty.
+Reconstruction of the exhibition organized by Antonio Canova around 1818, Church of Santo Spir-
+ito, Bologna [48]
+148                                                                                 7 Visualization
+
+
+
+
+Fig. 7.13 Left: bird’s eye view of a cartoon-style shaded reconstruction; Right: the same reconstruc-
+tion framed at human height with photorealistic shading, the medieval Jewish quarter in Cologne
+(Images: Stadt Köln, Dezernat Kunst und Kultur, VII/3—Archäologische Zone/Jüdisches Museum,
+MiQua. LVR-Jüdisches Museum im Archäologischen Quartier Köln and Technischen Universität
+Darmstadt, Fachgebiet Digitales Gestalten, 2019)
+
+
+7.7       Representation Aspects and Methods
+
+Nowadays the traditional methods of representation are used mostly to visualize 3D
+models. The visualization of 3D models uses various projections. Most relevant are:
+
+•   Double orthogonal projections (Fig. 7.14)
+•   Axonometric projection (Fig. 7.15)
+•   Perspective projection (Fig. 7.16)
+•   Topographic terrain projection (Fig. 7.17).
+
+These methods start from the classical projection from a center and section (with the
+picture plane). We can identify two general cases: conical projection generating perspec-
+tives, and parallel projections (where the projection center is a direction) that generate
+axonometric projections and double projections. If the projection direction is perpendicu-
+lar to the picture plane, we can obtain an orthogonal axonometric projection or a double
+orthogonal projection (plan and elevation, or section). If the projection direction is angled
+relative to the picture plane, we will obtain an oblique axonometric projection.
+   Double orthogonal projections are still used as a starting point to draw the 2D
+blueprints used as references for 3D models: plans, sections, and elevations. After building
+the 3D model, it is possible to extract an orthogonal view, an axonometry, or a perspec-
+tive automatically. These methods of representation/visualization can be differentiated
+according to their use/scope. Double projections are used to geometrically and metri-
+cally describe the project; for example, the plan is used to control the positioning and
+size of spaces, walls, and furniture. Sections and elevations in general are used to design
+and communicate height. The axonometric view is used to study the relations between
+volumes and spaces. Lastly, the perspective view is used to formally control the percep-
+tion of space: if used correctly it is the only method capable of representing the space
+viewed from the inside, from the point of view of an imaginary human visitor (placed in
+7.7   Representation Aspects and Methods                                                      149
+
+
+
+
+Fig. 7.14 Double orthogonal projection: Villa Pisani Riba by Palladio (Image: Foschi and Fallavol-
+lita 2024)
+
+
+
+
+Fig. 7.15 Oblique axonometric projection: Villa Pisani Riba by Palladio (Image: Foschi 2024)
+150                                                                             7 Visualization
+
+
+
+
+Fig. 7.16 Perspective projection: Villa Pisani Riba by Palladio (Image: Foschi 2024)
+
+
+
+
+Fig. 7.17 Terrain topographic projection: Contour lines (Image: Foschi 2024)
+
+
+a measurable point in the digital space). In contrast, double projections and axonometric
+projections always have a point of view outside the designed space (since their point of
+view is infinitely far).
+    There are three types of orthogonal axonometry: trimetric, dimetric, and isometric.
+This distinction addresses the three ways to view the three orthogonal Cartesian axes X,
+Y, and Z when viewed with a certain angle. The three orthogonal axes shrinking ratio and
+orientation are the main focuses of axonometric projection; even its etymology encapsu-
+lates these concepts. In digital representation, generating an orthogonal axonometric view
+is automated by the software, in fact, almost every 3D modeler or visualization software
+integrates the axonometric view as one of the standard visualization modes. Tradition-
+ally, the distinction of these three main types of axonometric projections was important to
+differentiate which construction to use (usually performed with a ruler and compass), but
+in computer programs, it is not important anymore because the visualization is automatic
+from any angle and generally, we can choose the best axonometric view based on other
+criteria, such as the best angle of view.
+7.7   Representation Aspects and Methods                                                151
+
+
+   In some rendering applications, axonometric views are created upon the activation of
+the specific viewport option or through virtual cameras placed inside the scene. However,
+some cameras, such as physical cameras, might not have any option to make orthogonal
+views, because to be able to generate parallel projections they should be placed infinitely
+far from the target, and this would not be acceptable for a simulation of a physical camera.
+A workaround that would return a good approximation of an axonometric projection
+would be adopting a very narrow field of view or long focal length (500/1000mm or more)
+and moving the camera very far away in the direction of the axis of view [49]. With this
+expedient, the final projected view would be very similar to an axonometric projection
+because the perspective foreshortening would be minimized. Even a professional with a
+keen eye would not be able to notice the difference without measuring some distances
+with highly accurate tools. This method is also useful to obtain approximations of obliquus
+axonometric projections (such as the military axonometry where the plan is in true form)
+which are much rarer than standard visualization modes in 3D computer applications.
+   For perspective views, it is important to know some principles of descriptive geometry
+that help to frame the scene. The first issue is the definition of the viewpoint. As men-
+tioned, perspective is the only method capable of framing the space from the inside.
+This important quality can be exploited to see the space at human height. Even if the vir-
+tual cameras have many options that can be set, the perspective projection only depends
+on the viewpoint location. The focal length and the field of view of the virtual cameras
+depend on each other and only determine the amount of scene that is captured inside the
+frame. Shorter focal lengths and wider field of view capture more space (and vice versa)
+but changing these values will not change the perspective projection as far as the point
+of view is not moved. Given that, there are a few good practices that one can follow to
+capture good architectural views:
+
+• Place the viewpoint at realistic heights (e.g., for views at a human height the average
+  height would be 1.5/1.7 m).
+• Keep the projections of the vertical lines of the 3D object parallel to the sides of the
+  frame (to do so, it is sufficient to keep the camera projection plane perfectly vertical,
+  or the camera and its target at the same height). This is not valid for bird’s eye views
+  or shots that try to emphasize the height of a building.
+• Choose the appropriate picture ratio and field of view of the virtual camera according
+  to what we want to include in the shot and according to the formal aspects of the
+  content of the shot.
+
+   Virtual cameras are often similar to real cameras; thus, we refer to 35mm cameras.
+Focal lengths of 70/100mm are comparable to telephoto lenses, 35/50 mm are considered
+standard focal lengths, 18/28 mm are considered wide-angle lenses, and 18mm or less
+are considered fisheye lenses. There is no univocal rule to choose the best focal length
+in every situation because every architecture is different and can be appreciated with
+152                                                                         7 Visualization
+
+
+different lenses. However, it is preferable to avoid very short focal lengths for framing
+historical architecture because apparent deformations (more visible along the perimeter
+of the picture) would not allow the viewers to appreciate the spaces properly and would
+distort the perception of proportions and shapes [27]. Contemporary architecture might
+benefit from the use of wide-angle lenses because the extreme and unconventional spaces
+and shapes would be emphasized by these apparent perspective deformations.
+   Apparent deformations in the field of visualization can be exploited to make anamor-
+phic illusions. An iconic case in the field of architecture is the Church of Sant’Ignazio di
+Loyola in Campo Marzio, Rome. This church is well known for the paintings by Andrea
+Pozzo (1685) where, if standing from a specific point, the visitors can perceive the illu-
+sion of an additional architectural order that breaks through the vault. All the paintings
+performed with the technique known as trompe-l’œil are anamorphic illusions.
+   Other perspective illusions in the field of architecture can be obtained through the
+theory of solid perspective. In the solid perspective, the perspective space is not confined
+anymore in the picture plane, as in the previous examples, but it is expanded into another
+3D space [49]. Some architects in the past used this technique to produce impressive
+perspective illusions, such as Andrea Palladio in the Teatro Olimpico, Vicenza (1580) or
+Francesco Borromini in the Galleria Spada, Rome (1652).
+   Another practical use of solid perspective in digital reconstruction can be seen in the
+study of the error committed by Leonardo da Vinci in his preparatory drawing of the
+Adoration of the Magi now housed at the Louvre, Paris [50]. Thanks to digital tools it is
+now possible to study the transformation of a shape from the real space to the perspective
+space, and vice versa, dynamically [51].
+
+
+7.8      Media and Interfaces
+
+The most popular media and interfaces to view any digital content comprise any type
+of 2D display such as the ones mounted on smartphones, TVs, laptops, desktop PCs,
+and so on. Old technologies that are still available but have rapidly fallen into disuse,
+such as cathode-based displays, have given way to the newer LCD and LED displays.
+These are mostly 2D but can also be 3D, namely, they can reproduce two images at the
+same time that can be synchronized to give the illusion of depth through the stereoscopic
+view. 3D standard displays usually need secondary optical devices as e.g. polarizing filter
+glasses, Other techniques as parallax displays give the perception of depth without the
+need for secondary optical devices. Approaches like head tracking or eye tracking try
+to improve the visualization depending on the viewer’s position of depth perception or
+the level of interactivity at the cost of limiting the number of viewers that can use the
+display at the same time. Beside those fixed screen devices there are several technologies
+using head mounted displays, which require user devices such as headsets or holographic
+glasses. Other recent strands using fixed screens are holographic visualizations, including
+7.8   Media and Interfaces                                                               153
+
+
+volumetric displays of heritage objects [52]. Deviceless approaches include rapid pro-
+totyping of manufactured models or printed images, which can be observed by viewers
+without specific devices.
+
+
+7.8.1     Images and Films
+
+Visual media and perception are the main sources of information, communication, and
+research on cultural heritage [53–55] and images are still the most frequent output of 3D
+modeling projects [56, 57]. Images are used in films and animations [58] or as still images.
+Formats and purposes differ greatly between the main target groups: the general public
+and domain experts [59]. Visualizations equally serve to represent relations, processes,
+and a constructive structure [60]. All these types of outputs are usually presented through
+2D, or 3D displays shared digitally (online or offline) or printed on a physical support
+(e.g., paper, cardboard, wood).
+
+
+7.8.2     Extended Reality
+
+In contrast to asynchronous media like images and films, extended realities (XR) pro-
+vide a real-time, high level of engagement visualization, which is not constrained to a
+single point of view and allows variable levels of interaction between the users and the
+virtual content [61]. A wide scope of interactive technologies [62] lies on the continuum
+between real and virtual [63] (Fig. 7.18). This ranges from real environments, augmented
+realities (AR), and augmented virtuality (AV)—together called mixed reality (MR)—
+to virtual reality (VR), or fully computer-generated visual representations. According to
+Russo [64], MR can be additive by adding information that does not exist, or subtrac-
+tive by hiding or deleting parts of the real world. Layouts for user interaction are highly
+dynamic, perspective-dependent, and require a high degree of temporal coherence [65,
+66]. So far, the representation of time-independent data has been investigated most and
+developed into interaction patterns [67, 68]. Overviews about XR applications in cultural
+heritage have been presented in various publications with regard to museums [69, 70] and
+virtual tourism [71].
+
+
+7.8.3     Rapid Prototyping
+
+Rapid prototyping can be a useful visualization medium because it allows direct inter-
+action with the model without needing prior knowledge of digital tools, so it is a more
+democratic way of presenting 3D objects. Furthermore, compared to a model visualized
+on a 3D screen, it helps to better understand the relation between 3D volumes and how
+light interacts with them. Lastly, it is less susceptible to digital deprecation, which might
+154                                                                                       7 Visualization
+
+
+
+
+        Glass-based virtual reality   Screencast of an augmented reality   Glass less holographic projection
+
+
+Fig. 7.18 Qualities of extended reality visualizations (Images: Left: Sauer 2019, Middle: Niebling
+2019, Right: Münster 2019)
+
+
+make older digital 3D models to not be accessible in future. However, 3D physical maque-
+ttes are susceptible to wearing and can break; are longer to produce, refine, and modify;
+and they are not suitable for joint remote working or inspection at different scales.
+    A wide range of rapid prototyping techniques is used to create physical representa-
+tions of tangible heritage [72] (→ Fig. 7.19). This comprises additive manufacturing
+techniques that add layers of material to a 3D structure and subtractive techniques shap-
+ing a 3D structure by removing material [73–75, 76]. The used technology highly depends
+on the material—e.g., thermic processes such as FDM require materials with a low melt-
+ing point, while sintering or milling approaches require specific physical properties of the
+material [77]. Another major influencing factor is the scale of reproduction, ranging from
+1:1 reproduction at various scales to miniaturizations (e.g., city models) or maximizations
+of very small objects. There are three highly relevant technologies for additive manufac-
+turing. (1) stereolithography, which builds objects in layers by tracing a laser beam on
+the surface of a vat of liquid photopolymer and hardening by UV or thermal process-
+ing. (2) laser sintering is based on powders (e.g., metals, polymers, composite materials)
+applied in layers and selectively fused or melted at the surface by laser bonding to the
+layer below; after removing unprocessed powder, a 3D structure remains. (3) Fused fil-
+ament fabrication is application of thermoplastic material in layers, which are heated
+and deposited layer by layer [78]. Subtractive approaches comprise computer-controlled
+milling tools (CNC machinery), which mill 3D structures out of solid blocks of mate-
+rial [79] or laser engraving, which uses a cross laser beam to selectively overheat spots
+within solid glass and cause micro-cracks with differing refraction properties [80].
+7.8   Media and Interfaces                                                                                      155
+
+
+
+
+      3D printing via fused filament         3D printing via digital light   Manufacturing model of the Pirna
+      fabrication: exhibition model of the   processing: The Foundation of   steamship as diecast
+      Dresden palace precinct (1678)         Medieval Cities exhibit
+
+
+Fig. 7.19 Rapid prototyping (Images: Left/Middle: Architectura Virtualis GmbH 2016, Right:
+Münster 2009)
+
+
+7.8.4        Interaction and Motivational Design
+
+The visual appearance, user presentation, and interaction with 3D content are marked by
+the level of interactivity and pose various design variables. Specifically for educational
+settings, motivational design is of relevance for engaging with users and enabling learning.
+    For interaction design, the interaction is classified by the engagement taxonomy devel-
+oped by Grissom et al., which differentiates between six degrees of interactivity for visual
+output [80]. According to Tullis and Albert, user experience “refers to all aspects of
+someone’s interaction with a product, application, or system” [81, p. 15].
+    For digital interface design, many interaction parameters are technically determined—
+e.g., by the capabilities of VR glasses. Especially, XR applications go well beyond passive
+information presentation and enable multiple freedom degrees for interaction design, as
+well as user requirements such as avoiding motion-sickness due to continuous move-
+ment [82, 83]. With regards to acceptance, the perceived usefulness of applications plays
+a major role, which in turn depends on optimal stimuli of representation and interac-
+tion [84]. Layouts for user interaction are highly dynamic and perspective-dependent and
+require a high degree of temporal coherence [65, 66]. Currently, mainly the representation
+of time-independent data has been investigated and developed into interaction patterns [67,
+68], since validated strategies for time-dependent 4D data presentation are still missing.
+    Especially in cultural institutions and at sites, digital 3D applications are embedded
+in physical spaces. There are various recommendations for the design of linked virtual
+and physical spaces, e.g., in museums [85, 86] or at heritage sites via location-based 3D
+applications [87, 88]. Some recent evolvements comprised multi-user story-based virtual
+experiences in physical museums, enriching museum visits with augmented experiences
+[89].
+    Motivational design involves gamified and playful approaches. According to
+Deterding et al., gamification implicates the use of “elements of games that do not give
+rise to entire games” [90, p. 2]. Playful design—in contrast to gamification—contains
+156                                                                        7 Visualization
+
+
+no rules or specific goals, and serious games are defined as full-fledged games for non-
+entertainment purposes [90]. All three types are intensively used with 3D contexts in
+heritage, particularly in educational settings. Examples are:
+
+• Playful design: Examples are Minecraft-like creation games [91] or massive open
+  online environments (MUVEs) as 3D social interaction spaces [92].
+• Gamification: Applications using gamified elements and strategies to enhance inter-
+  action with heritage content [93].
+• Serious games: Games either developed for didactic purposes or derived from
+  entertainment games [94, 95].
+
+    Storytelling stands for the use of narratives and fictional or non-fictional stories to
+present a subject [96]. Psychological [97–99] and educational studies [100] have demon-
+strated that narratives can have both a positive motivational effect by making a subject
+more alive and engaging to the audience, and a positive learning effect by reducing cog-
+nitive load. Storytelling is widely used to digitally present heritage content [101], and
+particularly for digital 3D models in humanities in various educational settings [102–106].
+Among the multitude of freedom degrees for design (e.g., by fictionality, media, story-
+telling modes, or poly-vocationality) [101], general types of scenarios from an educational
+perspective are:
+
+• Expositional: Story elements are used in a pre-scripted way to explain specific 3D
+  objects. Examples include the presentation of underwater archaeology through stories
+  told by an avatar [102].
+• Explorative: Open-world games or open-ended platforms encourage dialogic encoun-
+  ters where the user has various choices to interact with a dynamic supply of narrative
+  contents. Examples include the discovery mode in the game Assassins Creed [107] or
+  dynamically scripted heritage experiences [108].
+• Constructive or connective approaches: Users can co-create stories and contribute
+  story content and share with others. An example is the Jena4D project where users
+  contribute location-based personal stories and photographs in a 4D environment [109].
+
+
+
+  Summary This chapter deals with the topic of visualizing architectures that have
+  never been built or have been lost, including formal, geometrical, shading, and repre-
+  sentation aspects, media and interfaces, interaction and motivational design. All the
+  concepts are treated in terms of the digital reconstruction of cultural heritage.
+7.8     Media and Interfaces                                                              157
+
+
+
+      Standards and guidelines
+
+      • Beacham, R.; Denard, H.; Niccolucci, F. An Introduction to the London Charter.
+        In Papers from the Joint Event CIPA/VAST/EG/EuroMed Event, Ioannides, M.,
+        Arnold, D., Niccolucci, F., Mania, K., Eds.; 2006; pp. 263–269.
+      • Denard, H. (2009) The London Charter. For the Computer-Based Visualization
+        of Cultural Heritage, Version 2.1. (https://www.londoncharter.org, accessed on
+        1.2.2023).
+      • Principles of Seville. International Principles of Virtual Archaeology. Ratified by
+        the 19th ICOMOS General Assembly in New Delhi, December 2017 (http://sevill
+        eprinciples.com, accessed on 1.2.2023).
+
+      Projects
+
+      • The Computer-based Visualization of Architectural Cultural Heritage (CoV-
+        Her) project is a European project focused on fixing shared standards at the
+        European level for the field of digital 3D reconstruction for heritage, and on the
+        dissemination at the high education level for students and scholars.
+      • Time Machine is aiming to join Europe’s rich past with up-to-date digital technolo-
+        gies and infrastructures, creating a collective digital information system mapping
+        the European economic, social, cultural, and geographical evolution across times.
+      • The Inception European project realizes innovation in 3D modeling of cultural
+        heritage through an inclusive approach for time-dynamic 3D reconstruction of
+        artifacts, built and social environments. It enriches the European identity through
+        an understanding of how European cultural heritage continuously evolves over long
+        periods of time.
+
+      Key literature
+
+      • Migliari R, Fasolo, M. (2022) Prospettiva Teoria. Applicazioni Grafiche e Digitali.
+        Hoepli Editore, ISBN 9788836008841 [49].
+      • Akenine-Moller, T., Haines, E., Hoffman, N., Pesce, A., Iwanicki, M. and Hillaire,
+        S. (2018) Real-Time Rendering, 4th Edition. ISBN-13: 978–1138627000, ISBN-
+        10: 1138627003 [110].
+      • Pharr, M., Jakob, W. and Humphreys, G. (2016) Physically Based Rendering: From
+        Theory to Implementation, 3rd Edition. ISBN: 9780128006450 [111].
+158                                                                                 7 Visualization
+
+
+References
+
+ 1. Ware C (2004) Information visualization: perception for design. The Morgan Kaufmann series
+    in interactive technologies, vol 22
+ 2. Frischer B et al (2008) Beyond illustration. 2D and 3D digital technologies as tools for discov-
+    ery in archaeology. BAR international series 1805
+ 3. Glaser M et al (2017) Designing computer-based learning contents: influence of digital zoom
+    on attention. Etr&D-Educ Technol Res Dev 65(5):1135–1151
+ 4. Tversky B (2005) Visuospatial reasoning. In: Holyoak K et al (eds) Handbook of reasoning.
+    Cambridge University Press, Cambridge, pp 209–249
+ 5. Strothotte T et al (1999) Visualizing knowledge about virtual reconstructions of ancient archi-
+    tecture
+ 6. de Boer A et al (2009) Towards a 3D visualization interface for cultural landscapes and heritage
+    information. In: Making history interactive, pp 1–10
+ 7. Favro D (2006) In the eyes of the beholder. Virtual reality re-creations and academia. In:
+    Haselberger L et al (eds) Imaging ancient Rome: documentation, visualization, imagination:
+    proceedings of the 3rd Williams symposium on classical architecture, Rome, 20–23 May 2004.
+    J Roman Archaeol Portsmouth 321–334
+ 8. Grau O (1999) Die Sehnsucht, im Bild zu sein. Zur Kunstgeschichte der virtuellen Realität
+ 9. Heeb N et al (2019) Strategien zur Vermittlung von Fakt, Hypothese und Fiktion in der dig-
+    italen Architektur-Rekonstruktion. In: Kuroczyński P et al (eds) Der Modelle Tugend 2.0:
+    Digitale 3D-Rekonstruktion als virtueller Raum der architekturhistorischen Forschung, Hei-
+    delberg
+10. Sayeed R et al (2006) State of the art non-photorealistic rendering (NPR) techniques. In:
+    McDerby M et al (eds) EG UK theory and practice of computer graphics, pp 1–10
+11. Roussou M et al (2003) Photorealism and non-photorealism in virtual heritage representation.
+    In: Arnold D et al (eds) VAST2003 4th international symposium on virtual reality, archaeology,
+    and intelligent cultural heritage. Eurographics Publications, Aire-La-Ville, pp 51–60
+12. Spiegelhalter D et al (2011) Visualizing uncertainty about the future. Science 333(6048):1393–
+    1400
+13. Pang AT et al (1997) Approaches to uncertainty visualization. Vis Comput 13(8):370–390
+14. Wood J et al (2012) Sketchy rendering for information visualization. IEEE Trans Vis Comput
+    Graph 18(12):2749–2758
+15. Mütterlein J et al (2017) Immersion, presence, interactivity: towards a joint understanding of
+    factors influencing virtual reality acceptance and use
+16. Dudek I et al (2015) How was this done? An attempt at formalising and memorising a digital
+    asset’s making-of. Digit Herit 2:343–346
+17. Münster S (2018) Cultural heritage at a glance. Four case studies about the perception of digi-
+    tal architectural 3D models. In: Alonso F (ed) 2018 3rd digital heritage international congress
+    (DigitalHERITAGE) held jointly with 2018 24th international conference on virtual systems &
+    multimedia (VSMM 2018). IEEE, San Francisco
+18. Apollonio FI et al (2013) 3D modeling and data enrichment in digital reconstruction of archi-
+    tectural heritage. Int Arch Photogram Remote Sens Spat Inf Sci XL-5/W2; XXIV international
+    CIPA symposium, 2–6 September 2013, Strasbourg, pp 43–48
+19. Apollonio FI (2016) Classification schemes for visualization of uncertainty in digital hypothet-
+    ical reconstruction. In: Münster S et al (eds) 3D research challenges in cultural heritage II: how
+    to manage data and knowledge related to interpretative digital 3D reconstructions of cultural
+    heritage. Springer International Publishing, Cham, pp 173–197
+References                                                                                         159
+
+
+ 20. Lengyel D et al (2011) Darstellung von unscharfem Wissen in der Rekonstruktion historischer
+     Bauten. In: Heine K et al (eds) Von Handaufmaß bis High Tech III. 3D in der historischen
+     Bauforschung. Verlag Philipp von Zabern, Darmstadt, pp 182–186
+ 21. Fornaro P (2016) Farbmanagement im 3D Raum. In: Der Modelle Tugend 2.0
+ 22. Yaneva A (2005) Scaling up and down: extraction trials in architectural design. Soc Stud Sci
+     35(6):867–894
+ 23. Bernardini W et al (2013) Quantifying visual prominence in social landscapes. J Archaeol Sci
+     40(11):3946–3954
+ 24. Polig M et al (2021) Assessing visual perception in heritage sites with visual acuity: case study
+     of the Cathedral of St. John the Theologian in Nicosia, Cyprus. ACM J Comput Cult Herit
+     14(1)
+ 25. Ogburn DE (2006) Assessing the level of visibility of cultural objects in past landscapes. J
+     Archaeol Sci 33(3):405–413
+ 26. Paliou E (2018) Visual perception in past built environments: theoretical and procedural issues
+     in the archaeological application of three-dimensional visibility analysis. In: Siart C et al (eds)
+     Digital geoarchaeology. Natural science in archaeology. Springer International Publishing,
+     Cham, pp 65–80
+ 27. Karelin D et al (2019) Methods of reconstructions’ presentation and the peculiarities of human
+     perception → 3D reconstruction, angle of view, architecture, methodology, perspective, plane
+     of projection, presentation, Rauschenbach, viewpoint, visualisation. In: Kuroczyński P et al
+     (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architek-
+     turhistorischen Forschung. Heidelberg, pp 186–201
+ 28. Rauschenbach B (2002) Geometry of picture and visual perception
+ 29. Johnson MH (2012) Phenomenological approaches in landscape archaeology. Annu Rev
+     Anthropol 41(1):269–284
+ 30. Mondini D et al (eds) (2014) Manipulating light in pre-modern times. Architectural, artistic
+     and philosophical aspects. Mendrisio
+ 31. Happa J et al (2012) Cultural heritage predictive rendering. Comput Graph Forum 31:1823–
+     1836
+ 32. Noback A (2019) Lichtsimulation in der digitalen Rekonstruktion historischer Architek-
+     tur. Baugeschichte, Computervisualisierung, Lichtsimulation, Predictive Rendering. In:
+     Kuroczyński P et al (eds) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als virtueller
+     Raum der architekturhistorischen Forschung. Heidelberg, pp 162–185
+ 33. Noback A et al (2014) Complex material models in radiance. In: Paper presented at the 13th
+     radiance workshop, London
+ 34. Papadopoulos C et al (2014) Formal three-dimensional computational analyses of archaeo-
+     logical spaces. In: Paliou E et al (eds) Spatial analysis and social spaces. De Gruyter, pp
+     135–166
+ 35. Happa J et al (2010) Illuminating the past: state of the art. Virtual Real 14(3):155–182
+ 36. Happa J et al (2020) Studying illumination and cultural heritage. In: Liarokapis F et al (eds)
+     Visual computing for cultural heritage. Springer series on cultural computing. Springer Inter-
+     national Publishing, Cham, pp 23–42
+ 37. Apollonio FI et al (2021) the critical digital model for the study of unbuilt architecture. In:
+     Niebling F et al (eds) Research and education in urban history in the age of digital libraries.
+     Springer International Publishing, Cham, pp 3–24
+ 38. Healey CG (1996) Choosing effective colours for data visualization. In: Proceedings of seventh
+     annual IEEE visualization’96. IEEE, pp 263–270
+ 39. Boochs F (2012) COSCH − colour and space in cultural heritage, A new COST action starts.
+     In: Paper presented at the EuroMed, Lemesos, Cyprus
+160                                                                                  7 Visualization
+
+
+40. Martos A et al (2015) Acquisition and reproduction of surface appearance in architectural
+    orthoimages. Int Arch Photogram Remote Sens Spat Inf Sci XL-5/W4:139–146
+41. Dhanda A et al (2019) Recreating cultural heritage environments for VR using photogramme-
+    try. Int Arch Photogram Remote Sens Spat Inf Sci XLII-2/W9:305–310
+42. Apollonio FI, Foschi R, Gaiani M (2016) Una nuova acqua per la Fontana del Nettuno
+    di Bologna: la simulazione di progetto del sistema degli zampilli/New water for the Nep-
+    tune Fountain in Bologna: simulation of the design of the multi-jet system. In: Disegnare
+    idee Immagini, Gangemi Editore, 53, pp 68–79. https://www.torrossa.com/en/resources/an/
+    4570868
+43. Apollonio FI et al (2017) A Journey in the Fourteenth Century. A Digital Reconstruction of
+    Piazza delle Erbe in Verona. In: Disegno, 1, pp 35–44
+44. Andrew Webster BABPIASCU (2019). https://www.theverge.com/2014/10/31/7132587/ass
+    assins-creed-unity-paris
+45. Bekerman R (2017) The TimeRide VR experience
+46. Apollonio FI et al (2013) Characterization of Uncertainty and Approximation in Digital
+    Reconstruction of CH Artifacts. In: Gambardella C (ed) Heritage Architecture Land design.
+    Focus on Conservation Regeneration Innovation. Le vie dei Mercanti XI Forum Internazionale
+    di Studi. Napoli. La scuola di Pitagora Editrice, pp 860–869. ISBN: 978886542290
+47. Sîrbu D (2003) Digital exploration of unbuilt architecture: a non-photorealistic approach. In:
+    Proceedings of the 23th Annual Conference of the Association for Computer-Aided Design in
+    Architecture (ACADIA)
+48. Apollonio FI et al (2021) La ricostruzione digitale della mostra allo Spirito Santo. In: Costarelli
+    A (ed) Antonio Canova e Bologna. Alle origini della Pinacoteca. Milano, Electa, pp 104–113
+49. Migliari R, Fasolo M (2022) Prospettiva. Teoria e applicazioni. Hoepli Milano
+50. Apollonio FI et al (2021) Three points of view for the drawing adoration of the magi by
+    Leonardo da Vinci. Heritage 4(3):2183–2204. https://doi.org/10.3390/heritage4030123
+51. Baglioni L, Fallavollita F (2021) Generative models for relief perspective architectures. Nexus
+    Netw J 23:879–898. https://doi.org/10.1007/s00004-021-00565-w
+52. Pedersen I et al (2017) More than meets the eye: the benefits of augmented reality and holo-
+    graphic displays for digital cultural heritage. ACM J Comput Cult Herit 10(2):Article 11
+53. Wheatley D (2014) Connecting landscapes with built environments: visibility analysis, scale
+    and the senses. In: Paliou E et al (eds) Spatial analysis and social spaces. De Gruyter, pp 115–
+    134
+54. Llobera M (2007) Reconstructing visual landscapes. World Archaeol 39(1):51–69
+55. Frieman C et al (2007) Seeing is perceiving? World Archaeol 39(1):4–16
+56. Pfarr-Harfst M (2013) Virtual scientific models. In: Ng K et al (eds) Electronic visualisation
+    and the arts. London, pp 157–163
+57. Günther H (2001) Kritische Computer-Visualisierung in der kunsthistorischen Lehre. In:
+    Frings M (ed) Der Modelle Tugend. CAD und die neuen Räume der Kunstgeschichte. Weimar,
+    pp 111–122
+58. Münster S (2011) Militärgeschichte aus der digitalen Retorte - Computergenerierte 3D-
+    Visualisierung als Filmtechnik. In: Kästner A et al (eds) Mehr als Krieg und Leidenschaft.
+    Die filmische Darstellung von Militär und Gesellschaft der Frühen Neuzeit (Militär und
+    Gesellschaft in der frühen Neuzeit, 2011/2). Potsdam, pp 457–486
+59. Berndt E et al (2000) Cultural heritage in the mature era of computer graphics. IEEE Comput
+    Graph Appl 20(1):36–37
+60. Glotzbach U (2010) Zur heuristischen Funktion der technischen Handzeichnung. acatech
+    DISKUTIERT 0:105–119
+References                                                                                         161
+
+
+ 61. Azuma R et al (2001) Recent advances in augmented reality. IEEE Comput Graph Appl
+     21(6):34–47
+ 62. Wikimedia (2020) https://en.wikipedia.org/wiki/Extended_reality
+ 63. Milgram P et al (1994) Augmented reality: a class of displays on the reality-virtuality contin-
+     uum. SPIE 2351
+ 64. Russo M (2021) AR in the architecture domain: state of the art. Appl Sci-Basel 11(15):6800
+ 65. Tatzgern M et al (2013) Dynamic compact visualizations for augmented reality. In: 2013 IEEE
+     virtual reality (VR). IEEE, pp 3–6
+ 66. Tatzgern M et al (2016) Adaptive information density for augmented reality displays. In: IEEE
+     Virtual reality (VR). IEEE, pp 83–92
+ 67. Büschel W et al (2016) Improving 3D visualizations. In: Paper presented at the proceedings of
+     the 2016 ACM companion on interactive surfaces and spaces, Niagara Falls, Ontario, Canada
+ 68. Burmester M et al (2018) Lost in Space? 3D-Interaction-Patterns für einfache und positive
+     Nutzung von 3D Interfaces. In: Hess S et al (eds) Mensch und computer 2018 – usability
+     professionals (electronic book). Gesellschaft für Informatik e.V. und German UPA e.V., Bonn
+ 69. ViMM WG 2.2 (2017) Meaningful content connected to the real world (report)
+ 70. Bekele MK et al (2018) A survey of augmented, virtual, and mixed reality for cultural heritage.
+     ACM J Comput Cult Herit 11(2):Article 7
+ 71. Luna U et al (2019) Augmented reality in heritage apps: current trends in Europe. Appl Sci-
+     Basel 9(13):2756
+ 72. Balletti C et al (2017) 3D printing: state of the art and future perspectives. J Cult Herit 26:172–
+     182
+ 73. Grellert M (2016) Rapid prototyping in the context of cultural heritage and museum dis-
+     plays. buildings, cities, landscapes, illuminated models. In: Münster S et al (eds) 3D research
+     challenges in cultural heritage II. Springer LNCS, Cham
+ 74. Codarin S (2018) The conservation of cultural heritage in conditions of risk, with 3D print-
+     ing on the architectural scale. In: Ioannides M (ed) Digital cultural heritage. Lecture notes in
+     computer science. Springer International Publishing, Cham, pp 239–256
+ 75. Scopigno R et al (2017) Digital fabrication techniques for cultural heritage: a survey. Comput
+     Graph Forum 36(1):6–21
+ 76. Neumüller M et al (2014) 3D printing for cultural heritage: preservation, accessibility, research
+     and education. In: 3D research challenges in cultural heritage. Springer, pp 119–134
+ 77. Bourell D et al (2017) Materials for additive manufacturing. CIRP Ann 66(2):659–681
+ 78. Rase W-D (2007) Herstellung von 3D-Modellen mit Rapid-Prototyping-Verfahren
+ 79. Scopigno R et al (2014) Digital fabrication technologies for cultural heritage (STAR). EURO-
+     GRAPHICS workshops on graphics and cultural heritage (Klein R, Santos P (eds))
+ 80. Grissom S et al (2003) Algorithm visualization in CS education: Comparing levels of student
+     engagement. In: Paper presented at the ACM symposium on software visualization, San Diego
+ 81. Tullis T et al (2008) Measuring the user experience
+ 82. Dörner R et al (2013) Wahrnehmungsaspekte von VR. In: Dörner R (ed) Virtual und aug-
+     mented reality (VR/AR). Springer, Heidelberg, pp 33–63
+ 83. Kim YM et al (2021) A comparative study of navigation interfaces in virtual reality environ-
+     ments: a mixed-method approach. Appl Ergon 96:103482
+ 84. Sagnier C et al (2020) User acceptance of virtual reality: an extended technology acceptance
+     model. Int J Hum-Comput Interact 36(11):993–1007
+ 85. Ress S et al (2018) Mapping history: orienting museum visitors across time and space. ACM
+     J Comput Cult Herit 11(3):Article 16
+ 86. Hornecker E et al (2019) Human-computer interactions in museums. Synth Lect Hum-Center
+     Inf 12(2):i–153
+162                                                                                  7 Visualization
+
+
+ 87. Panou C et al (2018) An architecture for mobile outdoors augmented reality for cultural her-
+     itage. ISPRS Int J Geo Inf 7(12):463
+ 88. Haahr M (2017) Creating location-based augmented-reality games for cultural heritage. Joint
+     international conference on serious games. Springer, pp 313–318
+ 89. Maguid Y (2020) Ubisoft creates VR experience at Smithsonian’s age-old cities exhibition
+ 90. Deterding S et al (2011) From game design elements to gamefulness: defining” gamification”.
+     In: Proceedings of the 15th international academic MindTrek conference: envisioning future
+     media environments, pp 9–15
+ 91. Garcia-Fernandez J et al (2019) Cultural heritage and communication through simulation
+     videogames-a validation of minecraft. Heritage 2(3):2262–2274
+ 92. Urban RJ (2007) A second life for your museum: 3D multi-user virtual environments and
+     museums
+ 93. Kotsopoulos KI et al (2019) An authoring platform for developing smart apps which elevate
+     cultural heritage experiences: a system dynamics approach in gamification. J Ambient Intell
+     Hum Comput 1–17
+ 94. Doukianou S et al (2020) Beyond virtual museums: adopting serious games and extended real-
+     ity (XR) for user-centred cultural experiences. In: Liarokapis F et al (eds) Visual computing
+     for cultural heritage. Springer series on cultural computing. Springer International Publishing,
+     Cham, pp 283–299
+ 95. Liarokapis F et al (2017) Multimodal serious games technologies for cultural heritage. In:
+     Ioannides M et al (eds) Mixed reality and gamification for cultural heritage. Springer Inter-
+     national Publishing, Cham, pp 371–392
+ 96. Miller C (2014) Digital storytelling: a creator’s guide to interactive entertainment, vol. 3
+ 97. László J (2008) The science of stories: An introduction to narrative psychology
+ 98. Kahneman D (2011) Thinking, fast and slow
+ 99. Herman D (2007) Storytelling and the sciences of mind: cognitive narratology, discursive
+     psychology, and narratives in face-to-face interaction. Narrative 15(3):306–334
+100. Constantine LL et al (2002) Usage-centered engineering for Web applications. IEEE Softw
+     19(2):42
+101. Sylaiou S et al (2020) Storytelling in virtual museums: engaging a multitude of voices. In:
+     Liarokapis F et al (eds) Visual computing for cultural heritage. Springer series on cultural
+     computing. Springer International Publishing, Cham, pp 369–388
+102. Rizvic S et al (2020) Digital storytelling. In: Liarokapis F et al (eds) Visual computing for cul-
+     tural heritage. Springer series on cultural computing. Springer International Publishing, Cham,
+     pp 347–367
+103. Katifori A et al (2020) Exploring the potential of visually-rich animated digital storytelling for
+     cultural heritage. In: Liarokapis F et al (eds) Visual computing for cultural heritage. Springer
+     series on cultural computing. Springer International Publishing, Cham, pp 325–345
+104. Partarakis N et al (2020) Transforming heritage crafts to engaging digital experiences. In:
+     Liarokapis F et al (eds) Visual computing for cultural heritage. Springer International Publish-
+     ing, Cham, Springer Series on Cultural Computing, pp 245–262
+105. Liuzzo P et al (2017) Storytelling and digital epigraphy-based narratives in linked open data.
+     In: Ioannides M et al (eds) Mixed reality and gamification for cultural heritage. Springer
+     International Publishing, Cham, pp 507–523
+106. Storytelling in cultural heritage: tourism and community engagement (2022), pp 22–37
+107. McMillan M et al (2019) Assassin’s creed, an analysis. In: Lee N (ed) Encyclopedia of com-
+     puter graphics and games. Springer International Publishing, Cham, pp 1–11
+References                                                                                     163
+
+
+108. Casillo M et al (2016) An ontological approach to digital storytelling. In: Proceedings of the
+     the 3rd multidisciplinary international social networks conference on social informatics 2016,
+     data science, pp 1–8
+109. Münster S, Maiwald F, Bruschke J, Kröber C, Sun Y, Dworak D, Komorowicz D, Munir I,
+     Beck C, Münster DL (2024) A digital 4D information system on the world scale: research
+     challenges, approaches, and preliminary results. Applied Sciences 14:1992
+110. Akenine-Moller T, Haines E, Hoffman N, Pesce A, Iwanicki M, Hillaire S (2018) Real-time
+     rendering, 4th edn. ISBN-13: 978–1138627000, ISBN-10: 1138627003
+111. Pharr M, Jakob W, Humphreys G (2016) Physically based rendering: from theory to imple-
+     mentation, 3rd edn. ISBN: 9780128006450
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

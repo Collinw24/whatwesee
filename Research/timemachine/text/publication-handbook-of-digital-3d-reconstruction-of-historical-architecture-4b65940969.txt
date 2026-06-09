@@ -1,0 +1,409 @@
+Introduction
+                                                                                               1
+
+
+
+   Abstract
+
+   This chapter provides a brief overview of the history of digital 3D reconstruction.
+   It shows in which contexts the first research projects were undertaken and how the
+   resulting 3D models were presented to the public. It sheds light on the institutionaliza-
+   tion of 3D reconstruction in research at universities, presentations at conferences, and
+   specialization of architectural companies.
+
+
+
+
+   Guiding questions
+   • When were digital 3D reconstructions first created?
+   • What was the purpose of the earliest digital 3D reconstructions?
+   • Where was one of the earliest research contexts for digital 3D reconstructions?
+   • How did 3D reconstructions gain importance over time?
+
+
+   Basic terms
+   • History
+   • Presentation media
+   • Professionalization
+
+
+
+
+© The Author(s) 2024                                                                      1
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_1
+2                                                                           1 Introduction
+
+
+1.1      A Brief History of 3D Reconstruction
+
+3D modeling involves established methods that were used in history studies long before
+the advent of computer-aided visualization techniques [1]. As early as the Renaissance,
+scholars studied the appearance of the architecture of the past, analyzing it by means of
+images, and using it in their creative processes as a model for constructing their own
+contemporary buildings [2]. As architectural history became established as an academic
+discipline, reconstruction gained new importance, especially with regard to architecture
+that had been lost; studies were made of the appearance of the Late Antique Basilica
+of St. Peter in Rome, which had been demolished in 1514 [3–5], the early construction
+phases of the Cathedral of Santiago de Compostela [6, 7] or, as a prominent present-
+day example, the former Berlin Royal Palace [8, 9]. Such traditional reconstructions are
+prompted by questions as to their original appearance, often posed as issues in buildings
+archaeology, which cannot be verified through in-situ observation. They may serve—as in
+the case of the Berlin Royal Palace—as the basis for an actual architectural reconstruction.
+The advent of visualization techniques for 3D modeling was initiated primarily by 3D
+reconstruction in the early 1980s [10, 11], while 3D modeling via the digitization of
+heritage objects became mainstream in the early 2000s [12].
+   Digital 3D reconstructions of historical architecture are increasingly present in media
+contexts such as museums, documentaries, computer games, Internet platforms, and many
+more. The first digital 3D reconstructions of historical architecture, based on scientific
+principles and in the form of textured volume models, date back to the early 1980s
+[10, pp. 65–89]. In Great Britain, several projects were created in archaeology during
+this period [13, pp. 45–46]: For example, the ancient structures of the Roman temple
+precinct at Bath were digitally reconstructed in 1983/84 and the legionary bathhouses at
+Caerleon in 1985 [14]. Both projects were created by John Woodwark, who was teaching
+mechanical engineering at Bath University at the time, using the software DORA (Divided
+Object-Space Ray-Casting Algorithm). He used plans, elevations, and dimensions of indi-
+vidual buildings. Between 1984 and 1986, archaeologists Birthe Kjølbe-Biddle and Martin
+Biddle worked with the IBM UK Scientific Centre to create digital 3D reconstructions
+of the 7th-century Old Minster Cathedral in Winchester [15, pp. 152–154, 16]. This was
+based on their extensive research and excavations of the church complex, which no longer
+exists. The goal of all these projects was to give the public a glimpse of architecture that
+no longer exists today. This was done by producing images of the 3D model for a tele-
+vision report (Bath), a video in the information center of the historic site (Caerleon),
+postcards with images of the 3D models (Bath and Caerleon), and a film with exterior
+and interior views of the 3D reconstructed building for presentation in an exhibition of the
+British Museum (Old Minster in Winchester). Here, the 3D models acted as presentation
+media.
+1.1   A Brief History of 3D Reconstruction                                                 3
+
+
+    From about 1986 3D reconstructions began to serve as a research tool. For example,
+from 1986 to 1987, the mural “The School of Athens” by Raphael in the Vatican (1509–
+1511) was digitally reconstructed to investigate the representation of perspective [17,
+pp. xiii, 18]. The interdisciplinary project was carried out at the Technische Hochschule
+Darmstadt (today: Technische Universität Darmstadt) in computer science, mathematics,
+and architecture under the advice of the art historian Oskar Bätschmann.
+    All this work in the 1980s was made possible primarily not only by the enormous
+development in computer technology since the 1960s, but also by developments in video
+art, architecture, and film [10, pp. 53–61]. In the 1990s, numerous centers were founded
+at universities specializing in the 3D reconstruction of historical architecture such as CAD
+in der Architektur, TU Darmstadt; Visualization Team, University of Warwick; Cultural
+Virtual Reality Laboratory, University of California, Los Angeles [10, pp. 165–169]. Con-
+ferences to serve the exchange of experts in the field were held for the first time and
+some continue today [10, pp. 297–298]. These include the conference series on Computer
+Applications in Archaeology (today: Computer Applications & Quantitative Methods in
+Archaeology, also held outside Great Britain since 1992), Electronic Information, the
+Visual Arts and Beyond since 1994, and International Society on Virtual Systems and
+Multimedia since 1995. This professionalization of 3D reconstruction continued around
+2000 with specialized companies such as Archimedix founded by Philipp Möckl, Marc
+Möller (†), and Reinhard Munzel, Architectura Virtualis founded by Marc Grellert and
+Manfred Koob (†)1 or Faber Courtial,2 founded by Jörg and Maria Courtial.3
+    At the same time, departments of different universities specialized in digital 3D
+reconstructions and are still working in this field today. These include the Universität
+Cottbus—Senftenberg, Lehrstuhl Architektur und Visualisierung, directed by Dominik
+Lengyel; Technische Universität Darmstadt, FG Digitales Gestalten—Forschungsbereich
+Digitale Rekonstruktionen, directed by Marc Grellert; the Mainz University of Applied
+Sciences, Applied Computer Science and Visualization in Architecture, directed by Piotr
+Kuroczyński; Friedrich-Schiller-Universität Jena, Digital Humanities (Images/Objects),
+directed by Sander Münster; Hochschule für Technik und Wirtschaft Dresden, Comput-
+ergraphik—DREMATRIX, directed by Markus Wacker; Università di Bologna, Diparti-
+mento di Architettura, Fabrizio I. Apollonio. To this day, universities and conferences are
+not only essential places for the creation of digital 3D reconstructions of historical archi-
+tecture, but also for discussion, interdisciplinary collaboration, and knowledge transfer
+[11, p. 42].
+
+
+
+
+1 http://www.architectura-virtualis.de, accessed on 1.2.2023.
+2 https://www.archimedix.com, accessed on 1.2.2023.
+3 https://faber-courtial.de/, accessed on 1.2.2023.
+4                                                                        1 Introduction
+
+
+1.2       Examples of 3D Reconstruction Projects
+
+
+    Playing Angkor
+    3D models and a game engine used by Tom Chandler in his Ph.D. thesis to research
+    and teach the daily life and practices in historic Angkor Wat [19].4
+
+
+
+
+    Modellathon 2020/2021
+    Student competition in the German-speaking countries to digitally 3D reconstruct
+    the historic business premises of Carl Zeiss AG in Jena, Germany, dating from the
+    late 19th to early 20th centuries, which only partially exist today [20].5
+
+
+
+
+    3D Reconstruction of Synagogues (1994 to 2030) destroyed by the Nazis and recon-
+    structed under the direction of Marc Grellert is an example of a content-driven
+    ongoing project that develops the whole range of interfaces and media used from
+
+
+
+
+4 www.virtualangkor.com, accessed on 1.2.2023.
+5 Image credits: Christine Käfer and Lilia Gaivan.
+1.2     Examples of 3D Reconstruction Projects                                               5
+
+
+
+      renderings and films to virtual and augmented reality to rapid prototyping. The con-
+      tent of remembrance of the Shoah, showing the lost Jewish culture and challenging
+      antisemitism, is still relevant [21].
+
+
+
+
+      Digital reconstruction of Piazza delle Erbe in Verona, 14th century: 3D recon-
+      struction of the medieval market of Piazza delle Erbe in Verona. The project was
+      curated by the University of Bologna and IULM University of Milan. It culminated
+      in a docufilm presented at Expo 2015 titled “Piazze, palazzi del potere e mercati
+      del cibo nell’Italia di Dante.” [22].6
+
+
+
+
+      Jena4D: This research group develops and tests workflows for the automated recon-
+      struction of cityscapes via building geometries reconstructed in the client browser
+      from historical cadaster plans. Those roofed building shapes are mapped with
+
+
+
+
+6 http://www.centrofasoli.unibo.it/centro_italiano/Expo2015_01.html, accessed on 1.2.2023.
+6                                                                          1 Introduction
+
+
+
+    automatically located and oriented photographs. This 4D model is world-scale and
+    enriched by links to texts and information, e.g., Wikipedia articles, and accessible
+    as a 4D website via smartphone browsers [23].7
+
+
+
+
+    Three Points of View for the Drawing Adoration of the Magi by Leonardo da
+    Vinci: In this project, Apollonio et al. 3D reconstructed the architectural models
+    drawn by Leonardo da Vinci in his famous “The Adoration of the Magi” (and
+    preparatory drawings). This reconstruction helped to visualize and prove that the
+    artist did not follow the canonical perspective construction of the time, so the
+    resultant 3D reconstructed models look deformed [24].
+
+
+
+
+    Digital reconstruction of the exposition at the Spirito Santo Church in Bologna:
+    In this project, a multi-disciplinary team, directed by the Pinacoteca Nazionale and
+
+
+
+
+7 https://4dcity.org, accessed on 1.2.2023.
+1.2     Examples of 3D Reconstruction Projects                                                        7
+
+
+
+      the University of Bologna, realized the 3D reconstruction of the exposition wanted
+      by Canova and held in the church of the Spirito Santo in Bologna in 1817.8
+
+
+
+
+      Hypothetical Reconstruction of the Roman Theatre of Urbs Salvia: The modern
+      city of Urbisaglia, Roman Urbs Salvia, features many traces of its ancient origins.
+      One of the most noteworthy is the theatre, dated around 23 BCE. The article
+      presents a new, hypothetical virtual reconstruction of the structure, based on recent
+      research on the geometric framework used by Roman architects. The article aims
+      to demonstrate a methodology for a monument characterized by the poor state of
+      preservation [25].
+
+
+
+
+      Generative Models for Relief Perspective Architectures: The potential of genera-
+      tive representation is applied to the study of relief perspective architectures realized
+      in Italy between the 16th and 17th centuries. In architecture, relief perspective is a
+      3D structure able to create the illusion of great depth in small spaces. The method
+      used in the case study of the Avila Chapel in Santa Maria in Trastevere in Rome
+      (Antonio Gherardi 1678) is based on the use of a relief perspective camera, which
+
+
+
+8 https://da.unibo.it/it/eventi/il-da-E-antonio-canova-E-bologna-una-mostra-sulle-origini-della-pin
+acoteca, accessed on 1.2.2023.
+8                                                                              1 Introduction
+
+
+
+    can create both a linear perspective and a relief perspective. The authors experi-
+    mented mechanically and automatically with perspective transformations from the
+    affine space to the illusory space and vice versa to see the case study in a different
+    light [26].
+
+
+
+
+    Back to the Future—Visualizing the Planning and Building of the Dresden
+    Zwinger: This court-like building is the most famous Baroque one in the city with
+    a diverse history and of architectural importance. It started in 1709 as an orangery
+    laid out at the rear of the Residential Castle and was extended due to the need for
+    representation facilities until the first half of the 19th century. An extensive project
+    grew out of this: 14 construction and planning phases of the Dresden Zwinger were
+    reconstructed or simulated in detail [27].9
+
+
+
+
+9 Image credits: Staatliche Burgen, Schlösser und Gärten Sachsen gGmbH and Hochschule für
+Technik und Wirtschaft (HTW), Dresden.
+1.2     Examples of 3D Reconstruction Projects                                                  9
+
+
+
+      Summary
+      This chapter provides a brief overview of the history of digital 3D reconstruction.
+      It shows in which contexts the first research projects were undertaken and how the
+      resulting 3D models were presented to the public. It sheds light on the institutional-
+      ization of 3D reconstruction in research at universities, presentations at conferences,
+      and specialization of architectural companies.
+      Projects
+
+      • 1984–1986: 3D reconstruction of the Old Minster (erected seventh century,
+        demolished twelfth century) in Winchester, in two videos presented in television
+        programs, created under the direction of the software developer Andy Walter and
+        four students in close cooperation with the archaeologists Birthe Kjølbe-Biddle
+        and Martin Biddle [15, 16].
+      • 1986 to 1987: 3D reconstruction of the mural “The School of Athens” by
+        Raphael in the Vatican (1509–1511) to investigate perspective representation,
+        at the Technische Hochschule Darmstadt (today: Technische Universität Darm-
+        stadt) in computer science, mathematics, and architecture under the advice of the
+        art historian Oskar Bätschmann [17, 18].
+      • 1989: 3D reconstruction of the Romanesque church Cluny III in Burgundy,
+        France, by the architectural company asb baudat in Bensheim, Germany, under
+        the direction of the architect Manfred Koob, presented as part of a TV
+        documentary [28].
+
+      Key literature
+
+      • Messemer, H. (2020). Digitale 3D-Modelle historischer Architektur. Entwick-
+        lung, Potentiale und Analyse eines neuen Bildmediums aus kunsthistorischer
+        Perspektive. Heidelberg, arthistoricum.net [10].
+      • Messemer, H. (2016). The Beginnings of Digital Visualization of Historical
+        Architecture in the Academic Field. In: Virtual Palaces, Part II. Lost Palaces and
+        their Afterlife. Virtual Reconstruction between Science and the Media, Hoppe,
+        S., Breitling, S. (Eds.); pp. 21–54 [11].
+      • Grellert, M. (2007). Immaterielle Zeugnisse—Synagogen in Deutschland. Poten-
+        tiale digitaler Technologien für das Erinnern zerstörter Architektur. Bielefeld
+        [21].
+      • Kuroczyński, P.; Pfarr-Harfst, M.; Münster, S., (Eds.) Der Modelle Tugend
+        2.0: Digitale 3D-Rekonstruktion als virtueller Raum der architekturhistorischen
+        Forschung. Heidelberg University Press: Heidelberg, 2019 [29].
+      • Münster, S. (2022) Digital 3D Technologies for Humanities Research and
+        Education: An Overview. Applied Sciences, 12:2426 [30].
+10                                                                                  1 Introduction
+
+
+     • Münster, S. (2011). Entstehungs- und Verwendungskontexte von 3D-
+       CAD-Modellen in den Geschichtswissenschaften. In: Virtual Enterprises,
+       Communities & Social Networks, Meissner, K., Engelien, M. (Eds.); Dresden,
+       TUDpress; pp. 99–108 [31].
+
+
+
+
+References
+
+ 1. Chadarevian Sd et al (2004) Models - the third dimension of science
+ 2. Carpo M (2001) Architecture in the age of printing. orality, writing, typography, and printed
+    images in the history of architectural theory
+ 3. Krautheimer R (1937–1977) Corpus basilicarum christianarum Romae, 5 vols
+ 4. Arbeiter A (1988) Alt-St.-Peter in Geschichte und Wissenschaft: Abfolge der Bauten, Rekon-
+    struktion, Architekturprogramm
+ 5. Andaloro M (ed) (2006) La pittura medievale a Roma. Corpus, Bd. 1: L’ orizzonte tardoantico
+    e le nuove immagini. Milano
+ 6. Horst R (2012) Die Sakraltopographie der romanischen Jakobus-Kathedrale. Studien zur Kun-
+    stgeschichte des Mittelalters und der Frühen Neuzeit
+ 7. Conant KJ (1926) The early architectural history of the Cathedral of Santiago de Compostela
+ 8. Rettig M (2011) Rekonstruktion am Beispiel Berliner Schloss aus kunsthistorischer Sicht
+ 9. Hinterkeuser G (2003) Das Berliner Schloss. Der Umbau durch Andreas Schlüter
+10. Messemer H (2020) Digitale 3D-Modelle historischer Architektur. Entwicklung, Potentiale und
+    Analyse eines neuen Bildmediums aus kunsthistorischer Perspektive. Computing in Art and
+    Architecture. arthistoricum.net, Heidelberg
+11. Messemer H (2016) The beginnings of digital visualization of historical architecture in the aca-
+    demic field. In: Hoppe S et al. (eds) Virtual palaces, part II. Lost palaces and their afterlife.
+    Virtual reconstruction between science and the media, pp 21–54
+12. De Luca L (2011) Methods, formalisms and tools for the semantic-based surveying and repre-
+    sentation of architectural heritage. Appl Geomat 6(2):115–139
+13. Reilly P (1996) Access to insights: stimulating archaeological visualisation in the 1990s. In:
+    Márton E (ed) The future of our past ‘93–’95. International conference of informatics. Budapest,
+    pp 38–51
+14. Woodwark J (1991) Reconstructing history with computer graphics. IEEE Comput Graphics
+    Appl 11:18–20
+15. Reilly P (1992) Three-dimensional modelling and primary archaeological data. In: Reilly P et al
+    (eds) Archaeology and the information age. A global perspective. Routledge, London, pp 147–
+    173
+16. Reilly P et al (2016) Rediscovering and modernising the digital old minster of Winchester. Digit
+    Appl Archaeol Cult Herit 3:33–41
+17. Mazzola G et al. (eds) (1987) Rasterbild — Bildraster. Anwendung der Graphischen Daten-
+    verarbeitung zur geometrischen Analyse eines Meisterwerks der Renaissance: Raffaels »Schule
+    von Athen«. Ausstellung auf der Mathildenhöhe. Springer, Berlin/Heidelberg/New York
+18. Krömker D et al (1987) Rekonstruktion und Modellierung. In: Mazzola G et al (eds) Rasterbild
+    — Bildraster. Anwendung der Graphischen Datenverarbeitung zur geometrischen Analyse eines
+    Meisterwerks der Renaissance: Raffaels »Schule von Athen«. Ausstellung auf der Mathilden-
+    höhe. Springer, Berlin/Heidelberg/New York, pp 35–64
+References                                                                                       11
+
+
+19. Chandler T (2013) Playing Angkor: exploring the archaeological themes of the Khmer empire
+    through game engine technologies. In: 41st computer applications and quantitative methods in
+    archaeology conference 2013 Perth
+20. Smolarski R et al (2023) Modellathon—Eine digitale Lehr- und Lernmethode. Zur 3D-
+    Rekonstruktion der historischen Fabrikanlage von Carl Zeiss Jena. In: Britsche F et al (eds)
+    Visual History and Geschichtsdidaktik. (Interdisziplinäre) Impulse und Anregungen für Praxis
+    und Wissenschaft. Wochenschau Verlag, Frankfurt/M., pp 224–237
+21. Grellert M (2007) Immaterielle Zeugnisse – Synagogen in Deutschland: Potentiale digitaler
+    Technologien für das Erinnern zerstörter Architektur. TU Darmstadt, Darmstadt
+22. Apollonio FI et al (2016) Digital reconstruction of Piazza delle Erbe in Verona at XIVth century
+23. Münster S et al (2021) Toward an automated pipeline for a browser-based, city-scale mobile 4D
+    VR application based on historical images. In: Research and education in urban history in the
+    age of digital libraries. Springer International Publishing, Cham, pp 106–128
+24. Apollonio FI et al (2021) Three points of view for the drawing adoration of the magi by
+    Leonardo da Vinci. Heritage 4(3):2183–2204
+25. Bassoli I et al (2022) Hypothesis of reconstruction of the Roman theater of Urbs Salvia.
+    SCIRES-IT- SCIentific RESearch and Information Technology 12(1):151–164
+26. Baglioni L et al (2021) Generative models for relief perspective architectures. Nexus Netw J
+    23(4):879–898
+27. Jahn PH, Wacker M, Welich D (2016) Virtual palaces, part II: lost palaces and their after-
+    life – virtual reconstruction between science and media (Hoppe S, Breitling S (eds)), vol 3.
+    PALATIUM e-Publications, Palatium, München, pp 267–301. http://www.courtresidences.eu/
+    uploads/publications/virtual-palaces-II.pdf] , Accessed 1.2.2023
+28. Koob M (1993) Die dreidimensionale Rekonstruktion und Simulation von Cluny III. In: Horst
+    C et al (eds) Cluny. Architektur als Vision. Heidelberg
+29. Kuroczyński P et al (eds) (2019) Der Modelle Tugend 2.0: Digitale 3D-Rekonstruktion als
+    virtueller Raum der architekturhistorischen Forschung. Heidelberg University Press, Heidelberg
+30. Münster S (2022) Digital 3D technologies for humanities research and education: an overview.
+    Appl Sci 12(5):2426
+31. Münster S (2011) Entstehungs- und Verwendungskontexte von 3D-CAD-Modellen in den
+    Geschichtswissenschaften. In: Meissner K et al (eds) Virtual enterprises, communities & social
+    networks. TUDpress, Dresden, pp 99–108
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

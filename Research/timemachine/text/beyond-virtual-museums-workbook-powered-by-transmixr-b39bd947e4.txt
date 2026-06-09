@@ -1,0 +1,1391 @@
+WORKBOOK
+
+
+
+BEYOND
+VIRTUAL
+MUSEUMS
+Exploring Immersive Experience Opportunities
+in the Cultural Heritage Sector
+
+
+
+
+              This project has received funding from the Horizon Europe   www.transmixr.eu
+              programme under the Grant Agreement 101070109.                       @transmixr
+Credits
+Authors
+Gabrielle Aguilar van Gend, Training & Development Specialist
+Rasa Bočytė, Senior Advisor for Research Collaborations
+Alina Goldman, User Experience Designer & Researcher
+
+
+
+
+Design
+Steffie van der Horst, Communications Specialist
+
+
+
+
+Acknowledgements
+This resource was developed through the ongoing work of TRANSMIXR, a
+Horizon Europe innovation project bringing together researchers,
+practitioners, and industry experts to explore meaningful applications of
+
+immersive media across diverse application areas including; news,
+broadcasting, performing arts, and cultural heritage.
+
+
+
+                          Sound & Vision is one of the largest media archives in the world. We are your expert and
+                          meeting place in media, online and offline. We help you to better understand and (re)use
+                          media. In this way, we contribute to a colorful, media-savvy society.
+
+
+                          TRANSMIXR has received funding from the Horizon Europe programme under the Grant
+                          Agreement 101070109. Views and opinions expressed are however those of the author(s)
+                          only and do not necessarily reflect those of the European Union or European Commission.
+
+                          Neither the European Union nor the European Commission can be held responsible for them.
+
+
+                          This report is published under the terms of the Creative Commons Attribution License.
+                          September, 2025.
+Table of Contents
+
+Introduction                                                  4
+
+How to use this workbook
+An overview of each step from conceptualization to            6
+experimentation and beyond.
+
+
+Is this workbook for you?
+Who can benefit from using this workbook.
+                                                              8
+
+Opportunities & Challenges for XR in Cultural Heritage
+A primer on immersive technologies and sector possibilities   9
+with XR.
+
+
+
+Imagining new exhibition and interaction formats with
+cultural heritage
+Explore and develop an idea for an immersive experience
+                                                              11
+over a five-part sequence.
+
+
+
+Next Steps
+An invitation for action beyond this workbook.
+                                                              29
+
+Appendix
+Supporting materials to deepen understanding and aid          30
+further exploration.
+Introduction
+How can the cultural heritage sector truly
+harness the potential of immersive
+technologies?
+
+Well established immersive formats like       Still, we cannot overlook the scalability
+‘virtual museums’ and ‘digital twins’ help    and accessibility barriers that prevent
+to make cultural heritage accessible by       cultural heritage organizations of different
+allowing users to walk through virtual        sizes and capacities from incorporating
+exhibition spaces and to examine 3D-          immersive experiences into their long-term
+rendered artifacts. However, these            audience engagement strategies in the first
+represent just one way of working with        place. Addressing these challenges is
+eXtended Reality (XR). As XR technologies     crucial to ensuring that immersive
+mature, we have an opportunity to             technologies serve the sector as a whole,
+consider how engagement with heritage         rather than just a select few.
+collections in immersive environments can
+embrace enhanced interactivity,
+multisensory experiences, and
+participatory storytelling.
+
+
+In immersive environments, we are no
+longer constrained by the physical
+limitations of exhibition rooms that
+determine what can and cannot be shown.
+We can forgo the rules of gravity or
+measures that regulate what can and
+cannot be touched. Why be bound by the
+constraints of traditional exhibitions when
+stories can unfold across unexpected
+places, through innovative formats, and in
+collaboration with unlikely collaborators?
+
+
+
+
+                                                                                 Page 4
+                                                         Image: Beyond Virtual Museums workshop,
+                                               Netherlands Institute for Sound & Vision (March 2025)
+
+
+
+
+The Beyond Virtual Museums workbook is        Contents of this workbook draw from
+an invitation to explore such possibilities   insights shared by cultural heritage and XR
+across diverse institutional contexts.        professionals, researchers, students, and
+                                              experience designers, as well as
+Its overall objective is to help              experiments from the workshop Beyond
+
+you conceptualize, experiment                 Virtual Museums: Exploring Immersive
+                                              Experience Opportunities in the Cultural
+with, and shape compelling
+                                              Heritage Sector, held at Immersive Tech
+ideas for immersive                           Week 2024 in Rotterdam, and with
+experiences that go beyond                    immersive design students from HU
+traditional virtual museum                    University of Applied Sciences in Utrecht.
+                                              With unique scenarios, a practical
+models.
+                                              template, and several inspiring examples,
+                                              you’ll be supported throughout your
+The ideas that you will develop as you go
+                                              exploration process.
+through this workbook will serve as a
+strong foundation for future development,
+refinement, or prototyping in collaboration
+with others.
+                                                              Tip!
+                                                              Want to clarify your goals
+                                                              before you dive in?
+                                                              Start with this optional
+                                                              reflection activity:
+
+
+                                                                Personal Intention-Setting
+How to use this
+workbook
+This workbook is designed to be flexible, supporting both individual exploration and
+collaborative use in team settings.
+
+
+
+It begins with a concise but essential
+overview of XR, outlining both the
+                                               1. Selecting a
+possibilities and challenges that XR           Scenario
+presents for the cultural heritage sector,
+especially in the context of long-term         In part 1 ‘Selecting a Scenario,’ you will
+audience engagement.                           begin by exploring five distinct scenarios in
+                                               the realm of XR and cultural heritage.
+What follows is a five-part activity           After reflecting on the context, goals, and
+sequence, with each part building              barriers outlined in each scenario, you will
+from the last.                                 select one which aligns most closely with
+                                               your interests, values, and creative
+                                               strengths; or, where applicable, your own
+                                               cultural heritage organization.
+
+
+
+                                               2. Affordances of
+                                               Immersive Technologies
+                                               In part 2 ‘Affordances of Immersive
+                                               Technologies,’ you will then consider the
+                                               concept of affordances in the context of
+                                               Augmented Reality (AR), Virtual Reality
+                                               (VR), and Mixed Reality (MR).
+
+
+
+
+                                                                                   Page 6
+                                                        Image: Beyond Virtual Museums workshop,
+                                                           Immersive Tech Week (December 2024)
+
+
+
+3. Sketching Your                             5. Practicing Your
+Concept                                       Pitch
+With your scenario in mind, and an            Finally, in part 5 ‘Practicing Your Pitch,’
+understanding of affordances, you will        you’ll package and pitch your concept for
+begin a visual brainstorming activity in      potential collaborators, with an emphasis
+part 3 ‘Sketching Your Concept’ to            on clear communication, feasibility, and
+quickly explore and express your ideas in     future development.
+an open-ended way.
+                                              This five step approach was originally
+                                              workshopped in a two-hour format,
+                                              offering a fast-paced yet effective way to
+4. Ideation Template                          explore and pitch early-stage ideas. While
+                                              the full activity can be completed in a few
+Part 4 ‘Ideation Template’ then invites you
+                                              focused hours, we recommend allowing
+to deepen your concept using a structured
+                                              yourself enough time to engage
+template. The template prompts
+                                              meaningfully with each part. Many
+consideration of why, what, and how you
+                                              individuals or teams may choose to revisit
+want to design within the context of your
+                                              and refine their ideas as they move
+scenario; guiding you through the purpose,
+                                              through the process. Whether you move
+features, and practical considerations of
+                                              quickly or take your time, the goal is to
+your immersive experience.
+                                              support deep engagement, meaningful
+                                              experimentation, and the development of
+                                              ideas that are both imaginative and
+                                              grounded in real-world potential.
+
+
+
+
+                                                                                    Page 7
+Is this workbook for
+you?
+Cultural Heritage                               XR Professionals,
+Professionals                                   UX Designers, and
+This workbook encourages you to explore
+innovative ways of engaging with
+                                                Design Companies
+audiences, breaking traditional barriers,       This workbook will inspire you to think
+and preserving stories using immersive          creatively about crafting immersive
+technologies. Whether you're a curator,         experiences for cultural heritage,
+archivist, or museum educator, we hope to       expanding your portfolios and pushing the
+spark new ideas and practical solutions for     boundaries of audience engagement
+your work.                                      through collaboration with cultural
+                                                heritage institutions (CHIs).
+
+Students and
+Researchers                                     Anyone interested in
+This workbook will help expand your             immersive
+understanding of immersive technologies,
+inspiring academic inquiry, sparking
+                                                experiences!
+innovative projects, and providing a            Are you not one of the audiences identified
+foundation to evaluate and reimagine            above, but nonetheless interested in
+existing engagement models.                     learning more about reimagining and
+                                                exploring the opportunities of XR? Then, of
+                                                course this workbook is also for you!
+XR sceptics
+Do you have reservations about the value
+of XR? Then this workbook can equally
+help you to develop ideas that illustrate the
+limitations of immersive technologies – use         You may also find further inspiration in
+it to advocate for more equitable                   our 2025 guidebook, Creating
+development and adoption of XR.                     Meaningful Interactions with Cultural
+                                                    Heritage in Immersive Environments.
+
+
+
+                                                                Read the guide
+Opportunities
+for XR in Cultural Heritage
+
+eXtended Reality (XR) is a broad term that
+encompasses a range of immersive
+                                               Break down physical
+technologies designed to blend the             barriers
+physical and digital worlds. It includes
+                                               Overcome accessibility challenges —
+Virtual Reality (VR), Augmented Reality
+                                               whether they’re physical, sensory, or
+(AR), Mixed Reality (MR), and other
+                                               spatial — to make heritage available to
+immersive experiences that transform how
+                                               more people.
+we interact with and experience content.
+XR technologies use hardware such as
+headsets or mobile devices to create
+interactive environments where users can       Visit the inaccessible
+engage with digital elements in the context    Step into spaces that are off-limits, long
+of their real-world surroundings or in         lost, or purely imaginary, giving audiences
+entirely virtual spaces.                       deeper, more interactive ways to connect
+                                               with history.
+We believe that XR can bring something
+new and impactful to the cultural heritage
+                                               Engage multiple
+sector, allowing us to;
+                                               senses
+                                               Create immersive, multi-sensory
+Engage with                                    experiences that combine visuals, sounds,
+untouchable objects                            and even haptics to deepen audience
+                                               connection and understanding.
+Artifacts behind ‘do not touch’ signs or too
+delicate to be displayed can become
+accessible in entirely new ways.
+
+
+
+
+                                                                                  Page 9
+Challenges
+for XR in Cultural Heritage
+
+Despite the exciting promises of XR, however, the cultural heritage sector faces several
+challenges preventing its wide-scale adoption;
+
+
+
+Complex production                             Identifying
+processes                                      meaningful
+Collaboration between heritage                 application areas
+organisations and design companies during
+                                               Before creating an XR experience, it is
+the production of immersive experiences
+                                               crucial to ensure that the XR experience
+can be hindered by a limited understanding
+                                               provides valuable impact and engagement
+of the affordances of immersive
+                                               opportunities which go beyond what non-
+technologies.
+                                               XR methods can achieve.
+
+
+
+Access to high-quality                         High short-term
+3D assets                                      investments and
+Digital 3D assets of heritage objects are      long-term costs
+seen as essential for XR experiences, but
+                                               Producing XR experiences requires
+most organisations do not have such assets
+                                               significant financial resources, including
+readily available because creating these
+                                               the purchase of hardware, maintenance,
+assets is both time-consuming and costly.
+                                               and the cost of developing content.
+
+
+                                               While the potential of XR in cultural
+                                               heritage is undeniable, overcoming these
+                                               challenges is crucial to ensuring that the
+                                               technologies are accessible, effective, and
+                                               sustainable.
+
+
+
+
+                                                                                 Page 10
+Imagining new exhibition
+and interaction formats
+with cultural heritage
+
+Imagining new exhibition and interaction        In this section of the workbook, you will
+formats with cultural heritage requires us to   explore what XR can meaningfully offer by
+step beyond traditional methods and think       working through a five-part activity
+creatively about how immersive                  sequence designed to help you
+technologies can enhance our experiences.       conceptualize, experiment with, and refine
+Building on the opportunities and challenges    innovative ideas that go beyond
+outlined in the previous section, this is a     conventional virtual museum models. By the
+chance to translate those insights into         end of this process, you’ll have a clear,
+concepts.                                       pitch-ready concept for an immersive
+                                                experience that can be further developed or
+                                                prototyped in collaboration with others.
+Image: Beyond Virtual Museums workshop,
+Immersive Tech Week (December 2024)
+
+
+
+
+                                                                                 Page 11
+Activity Timetable
+The following timetable is based on a two-hour workshop format offering a fast-paced yet
+effective way to explore and pitch early-stage ideas.
+
+
+
+
+                 Objective                                                 Duration *
+
+
+     Part 1      Selecting a Scenario                                      20 minutes
+
+
+    Part 2       Affordances of Immersive Technologies                     15 minutes
+
+
+    Part 3       Sketching Your Concept                                    10 minutes
+
+
+    Part 4       Ideation Template                                         1 hour
+
+
+    Part 5       Practicing Your Pitch                                     15 minutes
+
+
+                                                             * based on a two-hour workshop format
+
+
+
+Although the full activity can be completed
+within a focused session, we encourage you
+to take the time you need to fully engage
+with each step. Some individuals or teams
+may prefer to pause, reflect, or return to
+earlier stages as their ideas evolve, while
+others might dive into additional research to
+enrich their concept. Whether you work
+through it in one go or spread it out, the
+process is designed to foster thoughtful
+exploration, creative risk-taking, and the
+development of ideas that are imaginative,
+solution-oriented, and practically grounded.                    Tip!
+                                                                Working with a team?
+                                                                Explore helpful tools in the
+                                                                appendix like:
+
+                                                                       Building a Team
+
+
+                                                                                     Page 12
+                                                                    Team Skills Mapping
+Materials Needed
+To get the most out of this activity sequence, we recommend having the following materials on
+hand:
+
+
+        Workbook printout or digital copy
+        to follow along and complete activities
+
+
+        Pens, pencils, and markers
+        for sketching and notes
+
+
+        Sticky notes or index cards
+        for quick ideation and rearranging ideas
+
+
+        A3 or large sheets of paper
+        for visualizing concepts and mapping ideas
+
+
+        Access to the internet
+        for inspiration, looking up examples, or accessing our
+        ideation template in an online format via Miro
+
+        Timer or clock
+        to help keep track of the suggested durations
+
+
+Feel free to adapt based on your own context, these are simply suggested tools to help support
+a creative and productive session.
+
+
+
+
+Ready to begin?
+Then let’s dive in!
+
+
+                                                                                     Page 13
+Part 1
+Selecting a Scenario
+
+We have crafted five distinct scenarios       If you are going through this workbook as
+designed specifically to help you come up     a team, you might consider taking turns
+with new ideas that challenge existing XR     reading each aloud. After reflecting on the
+storytelling formats. Each scenario           scenarios, you will select one scenario
+includes its own cultural heritage context,   which aligns most closely with your
+goals, and barriers. Take a moment to         interests, values, and creative strengths;
+read through each of these scenarios.         or, where applicable, your own cultural
+                                              heritage organization.
+
+                                              Your selection will serve as the foundation
+                                              for the creative process ahead.
+
+
+                                              Once you’ve selected a scenario, we’ll
+                                              explore the unique affordances of XR and
+                                              how they can be used to bring your chosen
+                                              scenario to life in compelling and
+Image: Beyond Virtual Museums workshop,       meaningful ways.
+Immersive Tech Week (December 2024)
+                                                                                      Scenario 1
+
+Creating immersion
+without 3D reconstructions
+Context:
+You represent a museum with a rich historical collection consisting of old photographs,
+illustrations, and paintings.
+
+Your museum’s collection documents the relationship between Italy and water (e.g. the role
+of canals, techniques for flood control, and reckoning with sea-level rise).
+
+
+
+
+Goals:                                           Barriers to consider:
+   Use immersive technologies to create              Can you make water — a dynamic and
+   an experience that demonstrates how               multisensory element — feel present
+   water has shaped the urban Italian                and alive using only static historical
+   landscape throughout history.                     documents?
+   Build an experience around the                    Can you design an experience that’s
+   historical documents in the museum’s              both technologically modest and
+   archive without relying on 3D                     emotionally engaging?
+   reconstructions of different historical
+   periods.
+
+                                                                         Images source: public.work
+                                                                                        Scenario 2
+
+Bridging digital literacy
+gaps through immersion
+Context:
+You represent a museum dedicated to digital culture. Your collection includes video games,
+early internet art, digital memorabilia, oral histories and other artefacts showing the
+development of web culture and communities around it.
+
+Your museum is located in a small city in Slovakia. The local community has limited
+exposure to new digital technologies and therefore are sceptical about them.
+
+
+
+
+Goals:                                           Barriers to consider:
+   Act as a bridge between local                     Can you create an immersive
+   population and new digital                        experience that engages audiences
+   technologies, and support digital                 with a variety of digital literacy levels?
+   literacy development.                             Can you create and market an
+   Create an immersive experience that               immersive experience in a way that
+   exposes the local community to new                does not drive away people who are
+   technological possibilities and allows            sceptical about digital technologies?
+   citizens to engage with immersive
+   technologies critically.
+
+
+
+
+                                                                        Image source: iDB – 1984 Apple
+                                                                        Macintosh hardware gets
+                                                                        emulated in a browser
+                                                                                             Scenario 3
+
+Bringing online collections
+into real-world spaces
+Context:
+You represent a grassroot community museum with no physical presence – you only operate
+an online platform for digital curation and public engagement activities (including online
+exhibitions and crowdsourcing campaigns). Your heritage collection comprises
+contemporary digital assets related to queer communities around Europe: photographs from
+protest and community events, digitised memorabilia, oral histories, etc.
+
+Several municipalities have expressed interest in collaborating with you and creating space
+for your collection to have a physical presence in their cities.
+
+
+
+
+Goals:                                           Barriers to consider:
+    Use an immersive experience to give              Can you use immersion to bring the
+    the museum a presence in physical                collection to local communities
+    spaces (for instance, maybe bring it to          without relying on traditional
+    local libraries? Or create an AR-based           institutional contexts like formal
+    guerrilla marketing campaign in bus              museum exhibitions?
+    stops?).                                         Can you create an temporary
+    Incorporate crowdsourcing elements               experience that is easily scalable and
+    into the immersive experience - invite           repeatable so we could repeat it in
+    audience members to contribute their             multiple cities?
+    take on the collection and enrich it
+    with their perspectives, experiences
+    and stories.
+                                                     Image source: Bishopsgate Institute’s
+                                                     Special Collections and Archives
+                                                                                        Scenario 4
+
+Engaging diverse voices
+with immersive heritage
+Context:
+You represent a city archive situated in a historic neighborhood in Rotterdam, the
+Netherlands, with a rich architectural and social history but facing rapid gentrification.
+You’ve been tasked by the municipality to engage citizens in thinking about the future of the
+neighbourhood.
+
+Your rich collection documents the changing landscape, architecture and people in the
+neighbourhood over the last 100 years to the present day.
+
+There is a growing number of immigrants and refugees in the neighbourhood who encounter
+language barriers when trying to integrate into the community.
+
+
+
+Goals:                                            Barriers to consider:
+    Create an immersive experience with               Can your immersive experience help
+    and for the local communities, showing            communities overcome language
+    the past, present and a possible future           barriers while engaging with cultural
+    of the neighbourhood.                             heritage?
+    Engage people who are currently not               Can you use immersive affordance to
+    included in the conversation around               bridge the gap between the past,
+    the future of the neighbourhood —                 present and future?
+    including young people and immigrants
+    who face language barriers.
+    Bring public programming outside of
+    the archive building to public spaces as
+    a way to connect with new audiences.                                Image source (left): Mark Ramsay
+                                                                               Image source (right): NOS
+                                                                                         Scenario 5
+
+Creating shared immersive
+heritage experiences
+Context:
+You represent a small museum in the Balkans focusing on shared intangible heritage, such
+as traditional music, crafts, and cuisine.
+
+You are well connected to other heritage organisations in the region with similar collections
+as well as local companies and makers creating this heritage (e.g. people working in crafts,
+music venues, etc.)
+
+
+
+Goals:                                            Barriers to consider:
+    Strengthen collaboration with other               Can you use immersive affordances to
+    heritage organisations and local                  combine collections from different
+    companies in the region through                   heritage organisations into one
+    collaboration                                     experience?
+    Create a joint immersive installation             Can you combine digital and analogue
+    that could be displayed across multiple           methods to create a multi-sensorial
+    locations in the region at the same               experience that brings the collection to
+    time                                              life (think of sense of touch, smell,
+    Highlight commonalities and                       taste, etc.)?
+    differences across the collections                Can you engage local companies and
+                                                      their physical premises or venues to
+                                                      display the experience (perhaps an
+                                                      immersive installation at a local bakery
+                                                      or at a crafts market?)
+                                                                             Image source (left): Unesco
+                                                                          Image source (right): Britannica
+    Part 2
+    Affordances of Immersive Technologies
+
+    When we ask ourselves, ‘how can the           In design, an ‘affordance’ refers to the
+    cultural heritage sector truly harness the    properties of an object or environment
+    potential of immersive technologies?’ it is   that suggest how it can be used or
+    essential to first consider the concept of    interacted with. For example, a button
+    affordances. Keep your scenario in mind       affords pressing, a door handle affords
+    as you go through this next part of the       pulling, and a chair affords sitting.
+    workbook.
+                                                  Just as physical objects invite certain
+                                                  interactions, immersive technologies
+                                                  create new possibilities for engagement.
+                                                  The affordances of each technology shape
+                                                  how users experience, interact with, and
+                                                  make-meaning with content.
+
+                                                  Let’s take a closer look at this in the
+                                                  context of Augmented Reality (AR), Virtual
+                                                  Reality (VR), and Mixed Reality (MR). As
+                                                  you consider each medium, think about
+                                                  how its pros and cons relate to your
+                                                  chosen scenario. Note down keywords and
+                                                  phrases that seem the most relevant to
+                                                  you.
+Image source: Netherlands Institute for
+Sound & Vision, Jorrit Lousberg
+                                                                            Images source: the Kinfolk app
+
+ Augmented Reality (AR)
+ In AR users interact with digital content that is anchored to the physical world around them.
+ By leveraging locational and spatial information, AR allows users to engage with digital
+ elements overlaid on real-world environments without the need for specialized controllers or
+ headsets. This makes AR highly accessible, portable, and cost-effective, as it often runs on
+ everyday devices like smartphones or tablets. Further, because AR content interacts
+ naturally with the user’s surroundings, it provides an immersive yet grounded experience,
+ making it an ideal tool for engaging diverse audiences across various cultural heritage
+ settings.
+
+
+                Pros                                      Cons
+
+
+                   Accessible via smartphones/tablets
+                   — no special equipment needed             Limited immersion compared to
+                   Enhances real-world environments          VR/MR
+                   with contextual overlays                  Dependent on device screens
+Augmented
+                   Cost-effective and scalable for wide      Prone to technical issues in poor
+Reality (AR)
+                   distribution                              lighting
+                   Ideal for on-site storytelling and        Balancing real and digital attention
+                   education                                 can be challenging
+                   Non-intrusive and easy to adopt
+
+
+
+
+   Example: Kinfolk Tech
+
+   Kinfolk’s mission is to harness emerging
+   technologies to empower stories of Black,
+   Brown, and Queer communities in public
+   spaces through imagination and play.
+   Through their flagship AR app, anyone can
+   bring newly imagined monuments to life
+   that feature underrepresented Black and
+   Brown historical figures.                                                          Page 21
+                                                                             Images source: MediaScape XR
+
+
+ Virtual Reality (VR)
+ Unlike AR, which enhances the real world, VR offers full sensory immersion, transporting
+ users into 360-degree environments where they can explore freely from a variety of angles.
+ VR also removes the constraints of the physical world, allowing users to move and interact in
+ ways unrestricted by real-world limitations, such as gravity and space. While VR could
+ simulate existing galleries, libraries, archives, or museums, it also enables users to
+ experience entirely new, imagined spaces that do not exist in physical reality, making it a
+ powerful tool for storytelling and deeply engaging with cultural heritage.
+
+
+
+                Pros                                       Cons
+
+
+                    Fully immersive, engaging                Requires headsets and possibly
+                    experience                               controllers—higher cost
+                    Frees users from real-world              Learning curve for new users
+Virtual             physical constraints                     Isolates users from the physical
+Reality (VR)        Enables rich, narrative-driven           world
+                    storytelling                             Not inclusive for all users (e.g.
+                    Safe access to delicate, distant, or     motion sickness; visual, physical
+                    reconstructed environments               and auditory accessibility issues)
+
+
+
+
+   Example: MediaScape XR
+
+   MediaScape XR allows individuals to relive
+   the history of select pieces from the The
+   Netherlands Institute for Sound & Vision
+   collection through the medium of Social
+   VR. It illustrates how the traditional model
+   of a museum experience as a passive
+   observation is decisively shifting to active,
+   interpretive, and shared engagement.                                               Page 22
+                                                                            Images source: Visions of Nature
+
+
+ Mixed Reality (MR)
+ MR sits at the intersection of the physical and virtual, blending both AR and VR into a single
+ interactive environment. In MR, physical and digital objects can interact and coexist in real
+ time, allowing users to manipulate both virtual and real-world elements simultaneously. This
+ enables rich, flexible, and complex interactions where users can touch, move, and modify
+ objects in ways that feel intuitive to them. With MR, users don’t just experience digital
+ content, they can actively shape and interact with their surroundings, providing an incredibly
+ dynamic and participatory form of engagement.
+
+
+
+                Pros                                      Cons
+
+
+                                                              Requires advanced and costly
+                    Combines physical and digital             hardware
+                    interaction seamlessly                    Complex to design and develop
+                    Encourages deep, intuitive                Still emerging—limited user access
+Mixed               engagement                                and familiarity
+Reality (MR)        Enables hands-on exploration of           Performance can be impacted by
+                    virtual objects in real space             physical space limitations
+                    Supports collaborative and                Not inclusive for all users (e.g.
+                    educational experiences                   motion sickness; visual, physical
+                                                              and auditory accessibility issues)
+
+
+
+
+   Example: Visions of Nature
+
+   Visions of Nature is an exhibition at The
+   Natural History Museum that features
+   interactive holographic animations
+   encouraging visitors to reflect on their
+   impact on the environment and feel
+   empowered to take action.                                                           Page 23
+Part 3
+Sketching Your Concept
+
+Now that you’ve explored the distinct           We recommend beginning this phase
+affordances of AR, VR, and MR and               individually. This gives you space to tap
+considered how each shapes user                 into your personal perspective, values, and
+interaction, storytelling, and meaning-         creative instincts before coming together
+making, begin thinking about how these          to share and reflect with a team.
+technologies could enhance your chosen
+scenario. Which affordances feel most           Whether you prefer using markers and
+relevant? Which technology best supports        pencils, or digital tools, take some time to
+the kind of engagement you want to foster,      explore your initial ideas through quick,
+or addresses the barriers you're working        visual exploration.
+with?
+                                                There is also no right or wrong way to do
+With everything in mind, it's time to bring     this part of the activity! Your sketches
+your ideas to life through sketching. This is   might be messy, abstract, or even
+an open-ended opportunity to visually           symbolic. What matters is allowing your
+express yourself, test possibilities, and       ideas to flow freely and take shape in a
+think creatively through design.                way that feels natural to you.
+
+
+
+
+Image: Beyond Virtual Museums workshop,
+Immersive Tech Week (December 2024)
+                                                       Image: Beyond Virtual Museums workshop,
+                                             Netherlands Institute for Sound & Vision (March 2025)
+
+
+
+
+To help guide your thinking, consider
+these questions as you sketch:
+
+   What does the space or environment     When you are done, take a look at some
+   look like where the experience takes   inspiring examples developed by
+   place?                                 participants of the Beyond Virtual
+   What does the user see, hear, or do    Museums workshop held at Immersive
+   during the experience?                 Tech Week 2024 in Rotterdam, NL, on the
+   How does the user move through or      next page.
+   navigate the experience?
+   Who is the experience designed for,    If you feel inclined, you might reflect on
+   and how might they engage with it?     how these example concepts relate to your
+   Consider demographics such as age,     own work or spark new ideas. Don't
+   and background factors, such as        hesitate to revisit and adjust your sketches
+   previous knowledge                     as your ideas evolve.
+   How long does the experience last?
+   How many people is the experience      If you are going through this workbook as
+   designed for?                          a team, we encourage you to share your
+                                          thoughts and sketches with each other.
+Let your imagination lead the way.        You will need to select one concept to be
+                                          further explored before proceeding to the
+                                          next part of the activity.
+
+
+
+
+                                                                                    Page 25
+Examples
+
+
+Digital only museum                            Retell local folklore
+An AR-based guerrilla marketing campaign       An MR exhibition in a small Slovak town
+that brings the collection of a digital-only   that blends old and new technologies to
+museum to bus stops, allowing the local        retell local folklore. Using nostalgic tools
+community to explore contemporary queer        like old computers and games, it offers
+heritage (photographs, oral histories, and     immersive, interactive experiences
+memorabilia from European protests and         designed to engage audiences of all digital
+events) in physical spaces.                    literacy levels.
+
+
+Historical environment                         Architectural history
+An MR experience where participants            An AR experience inviting residents of a
+collaborate to build and maintain a            historic, rapidly gentrifying Rotterdam
+protective dike in the Netherlands,            neighbourhood to reconnect with 100
+navigating historical environmental            years of its social and architectural history
+challenges through interactive play and        while sharing their unique cultural
+teamwork while learning about the              perspectives and languages tied to these
+country’s rich history of flood control and    stories.
+land reclamation techniques.
+
+
+Intangible heritage
+An AR experience hosted across multiple
+restaurants in the Balkans, bringing
+participants together around the region’s
+shared intangible heritage (traditional
+music, crafts, and cuisine). It offers a
+multi-sensory experience where
+participants can see, touch, listen, and
+taste.
+
+
+
+
+                                                                                    Page X
+Part 4
+Ideation Template
+
+Now that you’ve visualized your ideas, it’s   As you make your way through the
+time to develop one further using our         template in your desired format, you may
+ideation template. This template is           find yourself revising your original sketch.
+designed to guide you from concept to         This is okay. Iteration is a key part of the
+prototype, helping you refine your            process and is highly encouraged!
+immersive experience. Structured around a
+'why, what, how' framework, it will lead      By the time you complete the ideation
+you through key elements such as the          template, you’ll have a more detailed and
+purpose of your experience, its core          grounded vision of your immersive
+features, and the steps needed to bring it    experience. In the final part of this activity,
+to life. You’ll also explore important        you’ll shape that concept into a compelling
+factors like resources, accessibility,        pitch that highlights both its creative
+audience interaction, and collaboration,      potential and cultural impact.
+giving you a clearer, actionable plan for
+your concept.                                 Please note: If you have multiple ideas
+                                              you wish to build out, you must complete
+                                              one template for each.
+Image: Beyond Virtual Museums workshop,
+Immersive Tech Week (December 2024)
+
+
+
+
+                                                             Tip!
+                                                             Ready to generate ideas?
+                                                             Use the ideation template
+                                                             to get started:
+
+                                                              Download Blank Template
+
+
+                                                                    View Example
+                                                              Image: Beyond Virtual Museums workshop,
+                                                                 Immersive Tech Week (December 2024)
+
+Part 5
+Practicing Your Pitch
+
+It’s time to package your concept into a         If you have gone through this workbook
+short pitch. This is your opportunity to         on your own, try explaining your idea to a
+communicate your concept clearly and             friend or colleague in one minute or less.
+compellingly, highlighting what it is, why it    Does it make sense to them? Revise your
+matters, and how immersive technology            pitch with their feedback accordingly.
+helps bring it to life. Focus on clarity,
+creativity, and what makes your concept          If you are working as a team, take turns
+unique.                                          giving your individual pitch to each other
+                                                 first. As you listen to each other’s pitches,
+A good pitch usually answers:                    offer constructive feedback on what stood
+    What is it?                                  out, what was clear, and where more
+    Describe the immersive experience.           detail could help. Then you can work
+    Who is it for?                               together to craft a shared version that
+    Identify the intended audience.              combines the strengths and perspectives.
+    How does it work?
+    Touch on key features or how/why the
+    immersive technology is used.
+    Why does it matter?
+    Its innovation, cultural relevance, impact
+    or emotional draw.
+
+
+
+
+                                                                                      Page 28
+Next Steps
+Throughout this workbook, you’ve               What comes next is up to you. Whether
+explored the possibilities of immersive        it’s submitting your idea to a student
+technologies in cultural heritage and          design competition, pitching your concept
+developed a concept that challenges            to colleagues or cultural heritage
+traditional exhibition models. Whether         organizations, seeking out partnerships, or
+working individually or collaboratively,       prototyping your idea, we hope this
+you’ve laid the groundwork for new ways        workbook has provided you with the tools
+to experience and share cultural heritage.     and inspiration to move forward and
+While this process may not provide a           continue shaping the future of immersive
+definitive solution to all of the challenges   experience opportunities in the cultural
+the cultural heritage sector faces in          heritage sector.
+integrating immersive technology, it is a
+meaningful step toward reimagining its role
+in your own context.
+                                                         Image: Beyond Virtual Museums workshop,
+                                                            Immersive Tech Week (December 2024)
+
+
+
+
+                                                             Tip!
+                                                             Taking things further?
+                                                             See the appendix to help
+                                                             you plan what’s next:
+
+                                                                  Project Milestones
+
+
+                                                                  Scaling Your Project
+Appendix
+
+Appendix 1: Personal Intention-Setting          31
+
+
+Appendix 2: Building a Team                     32
+
+
+Appendix 3: Team Skills Mapping                 34
+
+
+Appendix 4: Brainstorming Tips                  35
+
+
+Appendix 5: Ideation Template                   36
+
+
+Appendix 6: Example - ‘Move with Us’ Campaign   37
+
+
+Appendix 7: Project Milestones                  38
+
+
+Appendix 8: Scaling Your Project                39
+                                                                                     Appendix 1
+
+Personal
+Intention-Setting
+Use this optional reflection activity to clarify what you want to get out of using this
+workbook. It can be helpful whether you're working on your own or as part of a team.
+
+
+
+1. What do I hope to learn or explore through this work-
+book?
+
+
+
+
+2. What skills or approaches do I want to practice?
+
+
+
+
+3. What would make this process meaningful or satisfying
+for me?
+
+
+
+
+                                                                                   Page 31
+                                                                                  Appendix 2
+
+Building a Team
+When working in teams, it’s important to      Timekeeper
+define roles clearly. This helps distribute
+                                              Purpose: Help the team stay on schedule
+responsibilities, ensures accountability,
+                                              and manage time effectively.
+and empowers everyone to contribute
+meaningfully. These roles can be flexible.
+                                              Key Responsibilities:
+People may take on more than one, or
+                                                Sets or tracks time limits for
+rotate them depending on the project
+                                                discussions or tasks.
+needs.
+                                                Reminds the team when it’s time to
+                                                  move forward.
+Here are some team roles to consider:
+                                                  Works with the Facilitator to adjust
+                                                  pacing if needed.
+Facilitator / Moderator
+Purpose: Guides the team’s process,           Note: This role could be combined with
+supports collaboration, and ensures           the Facilitator, but can be assigned
+everyone is heard.                            separately in fast-paced or time critical
+                                              environments.
+Key Responsibilities:
+  Keeps the team on track and focused
+    on goals.                                 Documentation / Reporting
+    Ensures everyone has a chance to          Purpose: Capture what the team does,
+    contribute.                               decides, and plans.
+    Facilitates decision-making processes
+    (e.g., consensus, voting).                Key Responsibilities:
+    Helps manage group dynamics and             Takes notes during meetings or work
+    resolve conflicts.                            sessions.
+    Supports inclusive, respectful                Summarizes key decisions and action
+    communication.                                items.
+                                                  Maintains clear records of next steps
+                                                  and deadlines.
+                                                  Prepares summaries or reports to
+                                                  share with others (e.g. instructors,
+                                                  stakeholders).
+
+
+
+
+                                                                                 Page 32
+                                                                                    Appendix 2
+
+
+
+
+Research / Exploration                           Technical Development /
+Purpose: Gather background information           Design
+to inform the team’s work.
+                                                 Purpose: Oversees the creation or
+                                                 implementation of the project’s technical
+Key Responsibilities:
+                                                 or visual aspects.
+  Investigates relevant topics, case
+  studies, or tools.
+                                                 Key Responsibilities:
+  Summarizes findings for the team.
+                                                   Leads the design or development
+   Brings new insights, examples, or
+                                                   process (e.g. prototypes,
+   alternatives to the table.
+                                                   presentations, systems).
+                                                     Shares tools or frameworks to use.
+                                                     Coordinates with other members to
+                                                     integrate ideas.
+
+
+
+
+Choose roles intentionally and revisit them as your team evolves. Shifting roles based on
+interests and strengths supports equity and collaboration; especially under pressure. These
+roles are a starting point. Feel free to adapt or invent roles that fit your team’s unique
+context.
+
+
+
+
+                                                                                  Page 33
+                                                                                    Appendix 3
+
+Team Skills Mapping
+After reviewing possible team roles, use this activity to map out the skills, tools, and
+learning goals each person brings. This can help you assign roles more intentionally and
+collaborate more effectively.
+
+
+
+                                                  Tools / Tech            Something I Want
+                  Skills or Knowledge
+                                                   Familiarity                to Learn
+
+                                              e.g. Adobe Creative
+                  e.g. Organizing, visual
+                                               Suite, Miro, Figma,
+  Name              design, facilitation,
+                                              Unity, Unreal Engine,
+                   writing, coding, etc.
+                                                Google Docs, etc.
+
+
+
+
+                                                                                  Page 34
+                                                                                     Appendix 4
+
+Brainstorming
+Tips
+Use these quick tips to help your team generate and organize ideas. This will be especially
+useful when working across disciplines, stories, and technologies.
+
+
+
+1. Go for Quantity First                         3. Make It Visual
+Generate lots of ideas without judging or        Use sticky notes, whiteboards, or digital
+editing. Encourage wild, simple, or              tools (like Miro, FigJam). Keep ideas
+unexpected ideas. There are no wrong             visible so everyone can build on them.
+answers at this stage.
+
+
+2. Cluster Ideas                                 4. Revisit and Refine
+Group ideas by:                                  Come back later to reorganize or reflect.
+   Theme (e.g. voice, identity, memory)          Good ideas often evolve through time,
+   Audience (e.g. youth, visitors, local         conversation, and iteration.
+    community)
+    Medium (e.g. AR, VR, MR)
+    Feasibility (quick wins vs. long-term
+    ideas)
+Clustering helps reveal patterns and
+priorities.
+
+
+
+
+                                                                                   Page 35
+                                                                                                                  Appendix 5
+
+Ideation Template
+How might we create an immersive experience that…
+
+Our Idea:
+
+
+
+
+                    WHY                                       WHAT                                           HOW
+
+
+IMMERSION                                    STORY                                        RESOURCES
+What is the added benefit of using           What would you like to communicate with      e.g. digital and physical infrastructure,
+immersive technologies in this scenario?     this experience?                             people, money, time, volunteers, etc.
+And what are the counter arguments
+against it?
+
+
+
+
+AFFORDANCES                                  INTERACTION                                  SKILLS
+How can we make use of the affordances       Who are the audiences and how they will      What skills will you need to create the
+of immersive technologies?                   interact with the experience?                concept, build it, test it, implement it and
+                                                                                          sustain it? Who has those skills?
+
+
+
+
+ACCESSIBILITY                                LOCATION                                     COLLABORATORS
+What accessibility barriers will it solve?   Where will the experience take place?        Whose expertise and resources can you
+What accessibility barriers will it          (Push yourself to think of unusual,          make use of? (e.g. design companies,
+introduce?                                   unexpected places.)                          universities, local businesses, students,
+                                                                                          activists, etc.)
+
+
+
+
+                                                                                       Ready to generate ideas?
+                                                                                       Download the Ideation
+                                                                                       Template below.
+
+                                                                                                               Page 36
+                                                                                                                       Appendix 6
+
+‘Move with Us’ Campaign
+How might we create an immersive experience that… brings our digital-only collection into physical spaces? Can we create an experience
+that is easily scalable and repeatable?
+
+Our Idea: An AR-based guerrilla marketing campaign that brings the collection of a digital-only museum to bus stops, allowing the local
+community to explore contemporary queer heritage (photographs, oral histories, and memorabilia from European protests and events) in
+physical spaces.
+
+
+                    WHY                                           WHAT                                             HOW
+
+
+IMMERSION                                       STORY                                          RESOURCES
+What is the added benefit of using              What would you like to communicate with        e.g. digital and physical infrastructure,
+immersive technologies in this scenario?        this experience?                               people, money, time, volunteers, etc.
+And what are the counter arguments
+against it?                                     That queer history is present, ongoing, and    Digital: AR platform, content management
+                                                part of our shared public memory. The          system, mobile-optimized website/app.
+Immersive technologies can make digital         experience aims to honor overlooked            Physical: Posters or markers at bus stops,
+content tangible and place-based,               stories and bring them into daily life         QR codes, permissions from transit
+enhancing engagement and emotional              through unexpected encounters.                 authorities. People: Historians/Curators,
+connection by situating queer heritage in                                                      AR developers, designers.
+everyday public spaces. AR is limited in
+terms of ‘immersion’ as compared to VR or
+MR.
+
+
+AFFORDANCES                                     INTERACTION                                    SKILLS
+How can we make use of the affordances          Who are the audiences and how they will        What skills will you need to create the
+of immersive technologies?                      interact with the experience?                  concept, build it, test it, implement it and
+                                                                                               sustain it? Who has those skills?
+By bringing our collection to local bus         Primary audiences include commuters,
+stops, AR allows us to enhance the real-        youth, and local communities —especially       Concept + Curation: Museum
+world environment with our collection and       LGBTQIA+ individuals and allies. They’ll       professionals, queer historians.
+is easily scalable. AR is easier to reach       scan AR markers or posters to explore
+people ‘on the go’ because they can use         layered digital content on their phones,       Build + Test: AR developers, UX designers.
+their own personal smartphones or tablets.      engaging at their own pace.
+Perhaps our audience might be limited in                                                       Implementation: Project managers, local
+their engagement, however, because they                                                        organizations.
+are trying to travel somewhere.
+
+
+ACCESSIBILITY                                   LOCATION                                       COLLABORATORS
+What accessibility barriers will it solve?      Where will the experience take place?          Whose expertise and resources can you
+What accessibility barriers will it             (Push yourself to think of unusual,            make use of? (e.g. design companies,
+introduce?                                      unexpected places.)                            universities, local businesses, students,
+                                                                                               activists, etc.)
+Increases visibility for underserved            At bus stops and transit hubs across urban
+narratives in an everyday and accessible        areas with high foot traffic –everyday         Design and tech agencies for AR
+location. Relies on mobile devices, stable      spaces that allow for casual discovery and     development, other queer archives and
+internet, and some level of digital literacy.   repeat interaction.                            activists for creating campaign visibility, the
+It may not be usable by visually impaired or                                                   local municipalities for funding, access to
+low-tech users.                                                                                public infrastructure (bus stops), help with
+                                                                                               permits and promotion.
+
+
+
+
+                                                                                                                     Page 37
+                                                                                  Appendix 7
+
+Project
+Milestones
+Milestones mark key moments in a project. They help teams stay aligned, track progress,
+and pause to reflect. Below are common milestones:
+
+
+
+1. Research & Discovery                        5. Feedback & Iteration
+Gather context, community insights, and        Share your prototype with peers,
+reference materials. Explore technologies      community members, or collaborators.
+and cultural content relevant to your goals.   Gather input and revise based on what you
+                                               learn.
+
+2. Idea Generation /
+Brainstorming                                  6. Final Build / Presentation
+                                               Complete your XR experience, exhibit, or
+Generate many possibilities. Use prompts,
+                                               demo. Document your process and
+sticky notes, or mapping tools. Stay open
+                                               prepare to share or publish.
+and inclusive at this stage.
+
+
+3. Concept Choice                              7. Reflection & Next Steps
+                                               Look back on what you learned. What
+Decide on a core direction. What idea will
+                                               worked well? What would you do
+you move forward with? Clarify goals,
+                                               differently? What are possible future
+audience, and scope.
+                                               directions?
+
+4. Prototyping
+Build a rough version of your experience
+(e.g. storyboard, paper prototype, simple
+interactive). Focus on testing core ideas,
+not polish.
+
+
+
+
+                                                                                Page 38
+                                                                                       Appendix 8
+
+Scaling Your
+Project
+Exploring different scales of your idea can help you clarify what’s most important and
+what’s possible. Use the prompts below to imagine your project at various levels from the
+most ambitious vision to the simplest version that still conveys your core concept.
+
+
+
+The Ideal                                       The Minimum Viable
+Experience:                                     Experience:
+No Limits                                       Core Elements Only
+
+What would this look like if you had all the    What’s the simplest version of this idea
+time, funding, and technology you wanted?       that still communicates the core concept?
+    What makes this experience                      What is the one thing participants
+    unforgettable or powerful?                      should feel, learn, or do?
+    What kinds of interaction, immersion,           What could you make with tools you
+    or storytelling are included?                   already have?
+    Who gets to experience it, and how?             What’s possible to share or test with
+    What formats or platforms would you             minimal resources?
+    use (VR headset, installation, web,             What’s the lowest-tech version (e.g. a
+    etc.)?                                          storyboard, mock-up, or script)?
+
+
+
+
+In-Between Options
+
+Not everything is all-or-nothing. What are a few intermediate versions?
+    What could you do with limited access to XR tech?
+    What version could be shared in a classroom or workshop?
+    What could you co-create with a community partner?
+Think of scaling as a creative tool; not a compromise. Honoring your core idea while
+adapting to real constraints is a skill worth practicing.
+
+
+
+
+                                                                                  Page 39
+  Want to stay updated?
+
+        TRANSMIXR.EU
+
+
+
+
+                                                                             @transmixr
+
+
+Our Consortium
+
+
+
+
+                 This project has received funding from the Horizon Europe
+                 programme under the Grant Agreement 101070109.
+

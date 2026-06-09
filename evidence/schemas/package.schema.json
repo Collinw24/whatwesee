@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "What We See Evidence Package",
+  "type": "object",
+  "required": ["schema_version", "name", "target", "state_id", "created_at", "modalities", "policy"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "name": {"type": "string"},
+    "target": {"type": "string"},
+    "state_id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "data_root": {"type": "string"},
+    "modalities": {"type": "object"},
+    "policy": {"type": "object"},
+    "status": {"type": "object"}
+  },
+  "additionalProperties": true
+}

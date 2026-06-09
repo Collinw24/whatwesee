@@ -1,0 +1,236 @@
+Legislation
+                                                                                           10
+
+
+
+   Abstract
+
+   This chapter is proposed to provide an overview of the different types of legal rights
+   and legislation relating to 3D reconstruction. Since reconstructions originate from var-
+   ious sources and comprise intellectual work by multiple persons, they affect different
+   levels of legal and property rights, although the specific legal situation greatly depends
+   on national laws.
+
+
+
+
+   Guiding questions
+   • What generic legal frameworks are there for 3D reconstruction?
+   • What types of licenses are there?
+
+
+   Basic terms
+   • Copyright
+   • Open licenses
+   • Closed licenses
+   • Public domain
+
+
+
+
+© The Author(s) 2024                                                                     199
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_10
+200                                                                            10 Legislation
+
+
+10.1      Intellectual Property
+
+Intellectual Property rights (IP) comprise a wide range of legal rights related to intellectual
+works. The most relevant concepts are:
+
+• Copyright is the “exclusive right to produce copies and to control an original literary,
+  musical, or artistic work, granted by law for a specified number of years” (Collins
+  Dictionary 2022). Some other types of intellectual output such as computer code are
+  borderline cases and protected in some nations. When an individual creates and intel-
+  lectual work, that author is granted a copyright. A main distinction is whether copyright
+  is transferable (as in the US) or is not transferable and belongs to the author (as in
+  most European states).
+• Usage rights can be granted by copyright holders to users of a specific work and
+  define types and modalities of this usage. These rights can be granted on an individual
+  basis or via standard licenses, offering predefined conditions to users. Licenses may be
+  closed, or open to allow unpaid use under certain conditions, e.g., naming the author.
+• Potentially, 3D modeling can affect rights, e.g., personality rights (in cases of digi-
+  tizing or modeling humans) or security (in cases of military objects or 3D printable
+  weapons).
+
+
+
+
+10.2      Legal Aspects
+
+With regard to media, there are several legal aspects to 3D modeling. The most relevant
+are copyright and design laws [1, 2]:
+
+• While older cultural heritage objects are now in the public domain [3], younger
+  objects may be subject to copyright. Especially for museum objects, other legisla-
+  tion on property rights may effectively prevent 3D digitization without an exhibitor’s
+  permission [4].
+• Reproduction media such as photographs potentially become an original object and
+  add intellectual property for both copyright and design laws. The legal situation is
+  uneven, not least with regard to the level of originality necessary (especially in the
+  digitization of analog heritage objects, e.g., plans) to gain intellectual property rights
+  for media depicting or digitizing a cultural heritage object [5, 6].
+• A 3D model may be subject to copyright [7]. It is currently being debated whether
+  3D digitization fulfills the requirements for being original or is simply copying and
+  therefore creates nonoriginal works [8]. Although the situation for 3D reconstructions
+  seems more clear, as substantial originality is inherent, not all national legislation sees
+  reconstructions as original work [9].
+10.3   Licenses: Open, Closed, or Public?                                              201
+
+
+• 3D printing is subject to specific legislation. Specific overviews about copyright in the
+  EU for 3D printing date from 2010 [10], 2014 [11], and 2019 [12].
+
+Since legislation is implemented very much depending on the national situation, there
+are various national laws, e.g., for Germany maintained by NFDI4Culture for imagery
+[13] or web usage [14]. Another main distinction concerns the use of restricted media for
+commercial purposes or in research and education. In most national legislation there are
+exceptions for the latter cases and less restricted legislation applies.
+
+
+10.3      Licenses: Open, Closed, or Public?
+
+Recent developments at the EU level [15]—the Open Data Directive [16] and the Digital
+Single Market Directive [17]—provide political and legal framework conditions for dig-
+ital humanities and digital heritage research. Despite this EU-wide attempt, the current
+situation on a member state level is very uneven [15].
+
+
+  Further reading: The FAIR Principles and open science
+  Co-production and user-generated content enable cultural innovation. Many institu-
+  tions and members of scientific communities therefore do not limit themselves to the
+  digital and open provision of cultural objects and data. Fundamental principles for
+  this are that the data are findable, accessible, interoperable, and reusable (FAIR).
+  These require rich and interoperable metadata, high quality and resolution, open
+  interfaces and open (data exchange) formats. 3D objects and data should be made
+  available following the FAIR principles, both technically and legally [18]. The aim
+  of this paradigm is to support the use of research data or works by others without
+  restriction: specific guidelines to ensure FAIR research [19].
+
+
+   Another main distinction is between open and closed licenses. Creative content under
+closed licenses cannot be used without a specifically granted permission and in most cases
+payment to the license holder. Open licenses refer to creative content (media, software
+etc.) which the general public can access and use under certain conditions without having
+to explicitly ask for permission. Various open-source licensing models predefine condi-
+tions under which creative content can be used. Creative Commons (CC), a major open
+license, predefines modalities which enable everyone to use content under the same condi-
+tions and free of charge (Fig. 10.1). In contrast to closed and open source, public domain
+means creative works to which no intellectual property rights or copyright exist. Usually,
+public domain is coupled to periods—in most cases works enter the public domain 70
+years after the death of the author. Public domain goods can be used by anyone for any
+purpose without a license or obligation to pay.
+202                                                                            10 Legislation
+
+
+  Abbrev.     Symbol       Sharing,     Naming       Commercial      Editing      Sharing
+                           remix,       of author    use allowed                  only un-
+                           amending                                               der same
+                           allowed                                                license
+
+
+
+
+Fig. 10.1 Types of creative commons licenses [20]
+
+
+   A specific facet of open versus closed content is open versus closed source—the legal
+and technical availability and reusability of software code or files. Closed source code
+(e.g., programs or 3D model files) is not publicly available or readable (e.g., proprietary
+software). In contrast, open-source files are publicly available and can be used under an
+open license.
+
+
+   Summary
+   3D reconstructions are linked to different legal rights, mostly concerning intellectual
+   property. Creative works by other authors use as sources are subject to copyright,
+   which can also be potentially obtained by the author(s) of a 3D reconstruction.
+   Licenses can be closed or open—the first are paid, the second can be used for free.
+   Open licensing modes—esp. Creative Commons—are well established now.
+   Concepts
+
+   • Copyright is the “exclusive right to produce copies and to control an original
+     literary, musical, or artistic work, granted by law for a specified number of years”
+     [21].
+   • Creative Commons (CC) are different mixable standard license agreements,
+     through which license holders can define the legal conditions for distributing
+     and sharing their creative content free of charge.
+References                                                                                        203
+
+
+
+   Key literature
+
+   • Hoeren, T. (2021). Internetrecht: De Gruyter [14].
+   • Fischer, V. and G. Petri, Bildrechte in der kunsthistorischen Praxis—ein
+     Leitfaden.—Zweite, überarbeitete und erweiterte Auflage. 2022, Heidelberg:
+     arthistoricum [13].
+   • Ulutas Aydogan, S., Münster, S., Girardi, D., Palmirani, M., & Vitali, F. (2021).
+     A Framework to Support Digital Humanities and Cultural Heritage Studies
+     Research, Cham [15].
+
+
+
+
+References
+
+ 1. Borissova V (2018) Cultural heritage digitization and related intellectual property issues. J Cult
+    Herit 34:145–150
+ 2. Cieslik E (2020) 3D Digitization in cultural heritage institutions guidebook
+ 3. Wallace A et al (2020) Revisiting access to cultural heritage in the public domain: EU and
+    international developments. IIC-Int Rev Intellect Prop Compet Law 51(7):823–855
+ 4. Euler E et al (2017) Bereit zu teilen?
+ 5. Truyen F et al (2016) Copyright, cultural heritage and photography: a gordian knot? Cultural
+    heritage in a changing world. Springer, Cham, pp 77–96
+ 6. Margoni T (2014) The digitisation of cultural heritage: originality, derivative works and (non)
+    original photographs. Derivative Works and (Non) Original Photographs, 3 December 2014
+ 7. Elias C (2019) Whose digital heritage? Contemporary art, 3D printing and the limits of cultural
+    property. Third Text 33(6):687–707
+ 8. Oruc P (2020) 3D Digitisation of cultural heritage copyright implications of the methods, pur-
+    poses and collaboration. 11 J INTELL PROP INFO TECH & ELEC COM L (149)
+ 9. Probst S (2019) 3D-Druck trifft auf Urheber-und Patentrecht
+10. Bradshaw S et al (2010) The intellectual property implications of low-cost 3D printing. ScriptEd
+    7:5
+11. European Commission (2014) Overview of 3D printing & intellectual property law. Under the
+    contract with the Directorate General Internal Market, Industry, Entrepreneurship and SMEs
+    (MARKT2014/083/D)
+12. Osborn LS (2019) 3D printing and intellectual property
+13. Fischer V et al (2022) Bildrechte in der kunsthistorischen Praxis – ein Leitfaden. - Zweite,
+    überarbeitete und erweiterte Auflage
+14. Hoeren T (2021) Internetrecht
+15. Ulutas Aydogan S et al (2021) A framework to support digital humanities and cultural heritage
+    studies research. In: Cham, 2021. Research and education in urban history in the age of digital
+    libraries. Springer International Publishing, pp 237–267
+16. The European Parliament and The Council of the European Union (2019) DIRECTIVE (EU)
+    2019/1024 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 20 June 2019
+    on open data and the re-use of public sector information (recast)
+204                                                                               10 Legislation
+
+
+17. The European Parliament and The Council of the European Union (2019) DIRECTIVE (EU)
+    2019/790 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 17 April 2019
+    on copyright and related rights in the Digital Single Market and amending Directives 96/9/EC
+    and 2001/29/EC (Text with EEA relevance)
+18. Forschungsdaten.org (2022) FAIR data principles. https://www.forschungsdaten.org/index.php/
+    FAIR_data_principles
+19. Wilkinson MD et al (2016) The FAIR guiding principles for scientific data management and
+    stewardship. Sci Data 3:160018
+20. Burgert (2022) Symbole von Creative Commons Schweiz CC BY 4.0
+21. Collins Dictionary (2022). https://www.collinsdictionarycom/de/worterbuch/englisch/copyright
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

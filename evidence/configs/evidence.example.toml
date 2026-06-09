@@ -1,0 +1,16 @@
+[local]
+evidence_root = "~/whatwesee_evidence_data"
+photogrammetry_root = "~/whatwesee_photogrammetry_data"
+
+[hetzner]
+ssh_host = ""
+remote_root = "/srv/staging/evidence"
+photogrammetry_remote_root = "/srv/staging/photogrammetry"
+rsync_extra_args = []
+
+[bench]
+default_models = ["vggt", "colmap", "glomap", "splatfacto"]
+
+[policy]
+lidar_role = "reference_control_geometry"
+raw_data_in_repo = false

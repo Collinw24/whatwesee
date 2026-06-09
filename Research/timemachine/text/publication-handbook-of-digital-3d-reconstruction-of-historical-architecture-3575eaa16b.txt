@@ -1,0 +1,402 @@
+Infrastructure
+                                                                                                 9
+
+
+
+   Abstract
+
+   Currently, a large variety of infrastructures are targeting 3D models. Recently, sev-
+   eral overview reports on extant platforms and repositories [1–5] and 3D visualization
+   frameworks and formats [6] were compiled. Infrastructures differ from services by
+   including tools or services and facilities for operation. Particularly for 3D models, there
+   is a main difference between such as repositories and aggregators for storing, collect-
+   ing, and preserving 3D data as well as 3D viewers or virtual research environments
+   that allow access to 3D models and research activities with them.
+
+
+
+
+   Guiding questions
+   • What are the types of infrastructures?
+   • What are current challenges and developments?
+
+
+   Basic terms
+   • Linked open data
+   • Virtual research environments
+   • 3D information systems
+
+
+
+
+© The Author(s) 2024                                                                      189
+S. Münster et al., Handbook of Digital 3D Reconstruction of Historical Architecture,
+Synthesis Lectures on Engineers, Technology, & Society 28,
+https://doi.org/10.1007/978-3-031-43363-4_9
+190                                                                         9 Infrastructure
+
+
+9.1       Digital Research Tools and Services
+
+Infrastructures differ from services and tools.
+
+• Digital tools are specialized software programs to treat a specific problem [7], e.g., the
+  creation of a 3D model or conversion of metadata.
+• A digital service is a managed tool operated and offered to others.
+• A digital infrastructure comprises one or several services and/or facilities necessary
+  for operation.
+
+Concerning tools, basically not several research tools exist yet in the context of 3D recon-
+struction of historical architecture. Only examples can be mentioned here, as a possible
+list of desirable tools could be extended almost indefinitely. An overview of generic types
+of infrastructures is in Fig. 7.5. Examples of tool types are:
+
+• Plan analysis merges the partial 2D designs of a building (plan sets) in a 3D model to
+  uncover correlations, congruencies, and divergences.
+• 3D verification of 2D building designs with regard to construction and planning log-
+  ics, impact intentions, constructability, functionality; ultimately consistent thinking and
+  analysis in 3D.
+• Data validation software checks the consistency of 3D datasets e.g., in the context of
+  (H)BIM or polygonal models.
+• Analysis/spatialization of 3D generated images.
+
+Access to 3D models is needed to evaluate and assess the quality of 3D data. In 3D
+reconstructions, this includes highlighting the knowledge and sources on which the mod-
+eling process is based. In addition to a number of technical requirements described in
+the following section, this implies a need to document processes and their results and to
+increase the capacity for making a model logic transparent [8, 9] (→ Documentation). A
+recent overview of 3D information systems and user demands revealed an especially high
+demand for open and accessible 3D content [5, 10].
+
+
+   Types of Infrastructures for 3D Models
+   Data repositories are collections of 3D models, which are stored and provided for sec-
+   ondary use. Sketchfab is the most widely used 3D repository worldwide; its heritage
+   and history section contained around 74,000 3D models as of early 2019 [11].1
+
+
+
+
+1 https://sketchfab.com, accessed on 1.2.2023.
+9.1     Digital Research Tools and Services                                                      191
+
+
+
+      Data aggregators do not store 3D models but compile databases with the intent to
+      prepare combined datasets for data processing. As an example, Europeana is a data
+      aggregator compiling its collection from data in national and regional libraries.2
+      3D data viewers use computer graphics to visualize and view 3D models dynami-
+      cally and enable user interactions, e.g., rotation or zooming. Current viewers, e.g.,
+      Kompakkt, are browser based [12].3
+      Virtual research environments (VREs) are web-based information systems that
+      provide a working environment for researchers, by including various tools for anal-
+      ysis, comparison etc. [13]. An example is Patrimonium VRE to analyze buildings
+      arrangements of Prussian manor houses (Fig. 9.1).4
+
+
+
+
+      Fig. 9.1 Examples of infrastructures for 3D models
+
+
+
+
+2 https://www.europeana.eu, accessed on 1.2.2023.
+3 https://kompakkt.de/, accessed on 1.2.2023.
+4 https://www.herder-institut.de/projekte/digitale-3d-rekonstruktionen/, accessed on 1.2.2023.
+192                                                                         9 Infrastructure
+
+
+9.2       Virtual Research Environments
+
+Specifically for cultural heritage research, a large number of VREs are available—often
+for specific communities like archeology [14] or architectural history [15]. Depending
+on the group of users, there are several partially contradictory requirements: e.g., his-
+tory research requires the comparability and contextualization of sources [16–19]. For
+architectural studies, the transparent relationship between source and representation is
+essential [20, 21]. For style analysis, visualization should ideally allow the identifica-
+tion of abstract characteristics such as ideas and systems, breaks, or deviations [22, 23].
+Concerning the use and development of information, two essential modes are discernible:
+browsing as a self-directed search of historical sources and information [24], and location-
+or context-related information shared in the course of heritage presentation [25]. Finally,
+both research and communication approaches are usually individually adapted to a spe-
+cific context. Digital tools are either tailored to individual scholarly communities or focus
+on laypersons and do not meet the requirements of researchers [26].
+
+
+9.3       3D Information Systems
+
+In extension to classically 2D information systems, 3D user interfaces allow users to
+interact with computer-generated 3D environments [27]. Especially in German-speaking
+countries, such systems usually focus on 2D spatial and time mapping of historical
+artefacts with related relation and aggregation information.
+
+
+
+   Further reading: Infrastructure Programs for 3D data
+   • The European digital library Europeana is a meta-data aggregator and a col-
+     laboration of thousands of European archives, libraries, and museums, Europeana
+     Collections provides access to more than 50 million objects in digitized form. As
+     part of the EU Digital Europe Program, Europeana will be empowered to contain
+     a large number of 3D assets.
+   • The German Research Data Infrastructure NFDI is a national framework of
+     consortia to provide domain-specific research infrastructures. Currently, three
+     NFDI consortia provide infrastructures related to 3D data for humanities:
+     NFDI4Culture serves the communities in art and architectural history and
+     musicology; NFDI4Objects, archaeology; and NFDI4Memory, history.5
+
+
+This is reflected not only in a large number of projects [28]. Perspective representations of
+3D data open up a number of possibilities, especially for linking and illustrating complex
+
+5 https://www.nfdi.de, accessed on 1.2.2023.
+9.5   Linked and Authority Data                                                           193
+
+
+historical information; virtual city and landscape models can be enriched with a variety of
+other site-related information [29, 30]. The linking of historical sources of different gen-
+res, their digitized data, digital research artifacts, research results, and associated meta-,
+para-, and context data has long been the focus of a large number of projects [31]. Specifi-
+cally for history content, purposes range from humanities research and information issues
+to education and tourist applications [32].
+
+
+9.4       Design Challenges in 3D Information Systems
+
+The mainly technology-driven interaction forms and industry standards that have become
+established for 2D user interfaces [33–35] are not yet available for 3D. Research results on
+interaction solutions have so far gained little acceptance in the design practice of 3D appli-
+cations for cultural heritage [27]. Various projects focus on gaining grounded implications
+for the design of 3D interfaces [36]; these design principles need to be adapted specifically
+for researchers in architectural history. Simple approaches based on 2D maps (e.g., Google
+Maps [37] or OpenStreetMap [38]) are available, also for historical images (e.g., Histo-
+rypin [39]). In this spatial context, information like the distribution of images becomes
+visible. Deeper information becomes available in a 3D perspective: the orientation of the
+image and the situation of the photographer within the context of the surrounding build-
+ings becomes clearer [40]. The user can take up the position and orientation of the camera
+and blend between the image and the 3D model. Combined with various historic states of
+a 3D model into a 4D city model, this allows comparisons between buildings.
+
+
+9.5       Linked and Authority Data
+
+Since metadata for digital objects is well established, 3D content segmentation and index-
+ing are still unsolved these days, although this is the biggest community demand for
+standardization [41]. As mentioned in the previous chapter (→ Documentation), meta-
+data provides a widely established concept for documenting processes and their results
+and has the capacity of making a model logic transparent [9, 42]. An important pre-
+requisite in this respect is to identify and link elements across media [43]. Against this
+background, authority data is important to avoid data silos and to link enclosed projects
+across different media [44]. An overarching challenge is to classify 3D content informa-
+tion. Simple structures [45], but also complex objects such as buildings [46, 47], can be
+automatically segmented and assigned from datasets created by imaging processes [48,
+49]. Inferences can also be made as to which parts of the image reference which parts of
+the 3D object geometries [50, 51]. Machine learning is playing an increasingly important
+194                                                                        9 Infrastructure
+
+
+role in image segmentation, object recognition [52, 53], and classification of unstruc-
+tured 3D data [54–58]. A current extension is to investigate multimodal 3D retrieval and
+cross-validation comprising 3D data, images, and texts [59].
+
+
+  Summary
+  Infrastructures fulfill an important function in storing, sharing, and providing access
+  to 3D models, which enables users to research and contextualize 3D data. Reposi-
+  tories and aggregators store data and build collections of models, while 3D viewers
+  and VREs enable user interaction with 3D models and support specific search tasks.
+  Projects
+
+  • Baureka online: Until now, a subject-specific research data infrastructure for
+    historical building research has been lacking. Baureka will close this gap. It
+    is conceived as a central online research data platform for thematically inter-
+    national historical building research in the German-speaking area. The expert
+    community includes architects, architectural and art historians, and monument
+    conservators from public authorities, research institutes, foundations for building
+    culture, and architectural and engineering offices. This heterogeneity makes inter-
+    nal communication and exchange across the boundaries of science and practice
+    difficult. Baureka will promote this exchange of research data and information
+    and significantly facilitate networked work. In the future, the platform will pub-
+    lish research results in an open-access format. For historical building research,
+    this is an important step into the digital age. https://baureka.de/, accessed on
+    1.2.2023.
+  • Monarch: This information system specializes in the spatial digital documen-
+    tation of buildings and geographical areas. It also enables the assignment of
+    semantic information to the building structures. Thus, all information belonging
+    to a structural object can be represented in a model-like way [60].
+References                                                                                     195
+
+
+
+   Key literature
+
+   • Champion, E., and H. Rahaman, Survey of 3D Digital Heritage Repositories and
+     Platforms. Virtual Archaeology Review, 2020, 11(23):1–15 [61].
+   • Münster, S. Advancements in 3D Heritage Data Aggregation and Enrichment
+     in Europe: Implications for Designing the Jena Experimental Repository for the
+     DFG 3D Viewer. Applied Sciences, 2023, 13:9781 [62].
+   • Storeide, M., George, S., Sole, A., Hardeberg, J.Y. Standardization of digi-
+     tized heritage: a review of implementations of 3D in cultural heritage. Heritage
+     Science, 2023, p. 11. https://doi.org/10.1186/s40494-023-01079-z [63].
+
+
+
+
+References
+
+ 1. Cieslik E (2020) 3D digitization in cultural heritage institutions guidebook
+ 2. Champion E et al (2020) Survey of 3d digital heritage repositories and platforms. Virtual
+    Archaeol Rev 11(23):1–15
+ 3. Benardou A et al (2018) Cultural heritage infrastructures in digital humanities
+ 4. Nishanbaev I (2020) A web repository for geo-located 3D digital cultural heritage models. Digit
+    Appl Archaeol Cult Herit 16:e00139
+ 5. Münster S (2023) Advancements in 3D heritage data aggregation and enrichment in Europe:
+    implications for designing the Jena Experimental Repository for the DFG 3D viewer. Applied
+    Sciences 13, 9781. https://doi.org/10.3390/app13179781
+ 6. Fernie K et al (2020) 3D content in Europeana task force
+ 7. Hildebrand K (1990) Was sind software tools? In: Hildebrand K (ed) Software tools: Automa-
+    tisierung im software engineering: Eine umfassende Darstellung der Einsatzmöglichkeiten von
+    Software-Entwicklungswerkzeugen. Springer, Berlin, pp 11–38
+ 8. Keul H-K (1999) Der Wert der Wertfreiheit. Zu M. Webers theoretischem Postulat und seiner
+    universal-pragmatischen Transformation. In: Znepolski I (ed) Max Weber - Relectures l Ouest,
+    relectures l st. Actes du colloque de Sofia
+ 9. Günther H (2001) Kritische Computer-Visualisierung in der kunsthistorischen Lehre. In: Frings
+    M (ed) Der Modelle Tugend. CAD und die neuen Räume der Kunstgeschichte. Weimar, pp 111–
+    122
+10. Derudas P (2021) Archaeological publication systems: Which route to take? A compass for
+    addressing future development
+11. Flynn T (2019) What happens when you share 3D models online (In 3D)? In: Grayburn J et al
+    (eds) 3D/VR in the academic library: emerging practices and trends
+12. ‘Comparison of Features Available on Aton SV, 3DHOP, Kompakkt and Virtual Interiors’. In
+    Fung N, Schoueri K, Scheibler C (2021) Pure 3D: technical report, Maastricht University et al.
+13. Candela L et al (2013) Virtual research environments: an overview and a research agenda. Data
+    Sci J:GRDI-013
+14. Meyer E et al (2007) A web information system for the management and the dissemination of
+    cultural heritage data. J Cult Herit 8(4):396–411
+196                                                                                  9 Infrastructure
+
+
+15. Kuroczynski P (2017) Virtual research environment for digital 3D reconstructions – standards,
+    thresholds and prospects. Stud Digit Herit 1(2):456–476
+16. Friedrichs K et al (2018) Creating suitable tools for art and architectural research with digital
+    libraries. In: Münster S et al (eds) Digital research and education in architectural heritage. 5th
+    conference, DECH 2017, and first workshop, UHDL 2017, Dresden, Germany, 30–31 March
+    2017, Revised Selected Papers. Springer, pp 117–138
+17. Münster S et al (2017) Von Plan- und Bildquellen zum virtuellen Gebäudemodell. Zur Bedeu-
+    tung der Bildlichkeit für die digitale 3D-Rekonstruktion historischer Architektur. In: Ammon S
+    et al (eds) Bildlichkeit im Zeitalter der Modellierung. Operative Artefakte in Entwurfsprozessen
+    der Architektur und des Ingenieurwesens. eikones. Wilhelm Fink Verlag, München, pp 255–286
+18. Brandt Av (2012) Werkzeug des Historikers. Urban-Taschenbücher, Bd. 33, 18. Auflage [1958]
+    edn
+19. Wohlfeil R (1986) Das Bild als Geschichtsquelle. Hist Z 243:91–100
+20. Favro D (2006) In the eyes of the beholder. Virtual reality re-creations and academia. In: Hasel-
+    berger L et al (eds) Imaging ancient Rome: documentation, visualization, imagination: proceed-
+    ings of the 3rd Williams symposium on classical architecture, Rome, 20–23 May 2004. J Roman
+    Archaeol Portsmouth 321–334
+21. Niccolucci F et al (2006) A fuzzy logic approach to reliability in archaeological virtual recon-
+    struction. In: Niccolucci F et al (eds) Beyond the artifact. Digital interpretation of the past.
+    Budapest
+22. Bürger S (2011) Unregelmässigkeit als Anreiz zur Ordnung oder Impuls zum Chaos. Die virtu-
+    ose Steinmetzkunst der Pirnaer Marienkirche. Z Kunstgeschichte 74(1):123–132
+23. Andersen K (2007) The geometry of an art. The history of the mathematical theory of perspec-
+    tive from Alberti to Monge. Sources and studies in the history of mathematics and physical
+    sciences
+24. Münster S et al (2018) Image libraries and their scholarly use in the field of art and architectural
+    history. Int J Digit Libr 19(4):367–383
+25. Münster S (2018) The big data time machine. In: CEBIT, Hannover
+26. Fokus GmbH metigo MAP. http://www.fokus-gmbh-leipzig.de/metigo_map-Kartierung.php.
+    Accessed 9 May 2014
+27. LaViola JJ et al (2017) 3D user interfaces: theory and practice
+28. Münster S et al (2018) Digital 3D reconstruction projects and activities in the German-speaking
+    countries. In: Digital heritage. Progress in cultural heritage: documentation, preservation, and
+    protection. Springer International Publishing, Cham, pp 599–606
+29. Prechtel N et al (2013) Presenting cultural heritage landscapes - from GIS via 3D models to
+    interactive presentation frameworks. ISPRS Ann Photogram Remote Sens Spat Inf Sci XL-5/
+    W2 (XXIV International CIPA Symposium):253–258
+30. 231. Dell’Unto N et al (2022) Archaeological 3D GIS.
+31. Bentkowska-Kafel A et al (2012) Paradata and transparency in virtual heritage
+32. Münster S (2011) Entstehungs- und Verwendungskontexte von 3D-CAD-Modellen in den
+    Geschichtswissenschaften. In: Meissner K et al (eds) Virtual enterprises, communities & social
+    networks. TUDpress, Dresden, pp 99–108
+33. Tidwell J (2010) Designing interfaces: patterns for effective interaction design
+34. Welie M et al (2003) Pattern languages in interaction design: structure and organization
+35. Duyne DKV et al (2007) The design of sites - patterns for creating winning web sites
+36. Burmester M et al (2018) Lost in space? 3D-interaction-patterns für einfache und positive
+    Nutzung von 3D interfaces. In: Hess S et al (eds) Mensch und Computer 2018 – usability
+    professionals (electronic book). Gesellschaft für Informatik e.V. und German UPA e.V., Bonn
+37. Google Google Maps. https://www.google.com/maps. Accessed 9 Feb 2022
+References                                                                                         197
+
+
+38. Open Street Map Open Street Map https://www.openstreetmap.de/. Accessed 9 Feb 2022
+39. Historypin (2022) Historypin. www.historypin.org. Accessed 2 Feb 202
+40. Schindler G et al (2012) 4D cities: analyzing, visualizing, and interacting with historical urban
+    photo collections. J Multimed 7(2):124–131
+41. Ulutas Aydogan S et al (2021) A framework to support digital humanities and cultural her-
+    itage studies research. In: Research and education in urban history in the age of digital libraries.
+    Springer International Publishing, Cham, pp 237–267
+42. Hoppe S (2001) Die Fußnoten des Modells. In: Frings M (ed) Der Modelle Tugend. CAD und
+    die neuen Räume der Kunstgeschichte. Weimar, pp 87–102
+43. Davis E et al (2021) Linked data and cultural heritage: a systematic review of participation,
+    collaboration, and motivation. J Comput Cult Herit 14(2):Article 21
+44. Auer S et al (2014) Linked Open data - creating knowledge out of the interlinked data
+45. Vosselman G et al (2004) Recognising structure in laser scanner point clouds. ISPRS Arch
+    46(8):33–38
+46. Agarwal S et al (2011) Building Rome in a day. Commun ACM 54(10):105–112
+47. Li ML et al (2016) Reconstructing building mass models from UAV images. Comput & Graph-
+    UK 54:84–93
+48. Martinovic A et al (2015) 3d all the way: semantic segmentation of urban scenes from start to
+    end in 3d. IEEE Comput Vis & Pattern Recognit 4456–4465
+49. Hackel T et al (2016) Fast semantic segmentation of 3D point clouds with strongly varying
+    density. ISPRS Ann 3(3):177–184
+50. Vosselman G (2009) Advanced point cloud processing. In: Photogrammetric week’09, pp
+    137–146
+51. Xie J et al (2016) Semantic instance annotation of street scenes by 3d to 2d label transfer. IEEE
+    Comput Vis & Pattern Recognit 3688–3697
+52. Minaee S et al (2021) Image segmentation using deep learning: a survey. IEEE Trans Pattern
+    Anal Mach Intell PP:1–1
+53. Jiao LC et al (2019) A survey of deep learning-based object detection. IEEE Access 7:128837–
+    128868
+54. Guo Y et al (2021) Deep learning for 3D point clouds: a survey. IEEE Trans Pattern Anal Mach
+    Intell 43(12):4338–4364
+55. Grilli E et al. (2017) A Review of Point clouds segmentation and classification algorithms. Int
+    Arch Photogram Remote Sens Spat Inf Sci XLII-2/W3:339–344
+56. Matrone F et al (2020) Comparing machine and deep learning methods for large 3D heritage
+    semantic segmentation. ISPRS Int J Geo Inf 9(9):535
+57. Ponciano JJ et al. (2021) From Acquisition to Presentation-The Potential of Semantics to Sup-
+    port the Safeguard of Cultural Heritage. Remote Sensing 13 (11).
+58. Morbidoni C et al (2020) Learning from synthetic point cloud data for historical buildings
+    semantic segmentation. J Comput Cult Herit 13(4):Article 34
+59. Münster S et al (2022) Multimodale KI zur Unterstützung geschichtswissenschaftlicher Quel-
+    lenkritik – ein Forschungsaufriss. In: Geierhos M et al (eds) Kulturen des digitalen Gedächt-
+    nisses. Konferenzabstracts (First Edition) [Computer software]. Kulturen des digitalen Gedächt-
+    nisses (DHd2022). Zenodo, Potsdam, Germany
+60. Freitag B et al (2017) MonArch – a digital archive for cultural heritage. In: Vinken G et al
+    (eds) Das Digitale und die Denkmalpflege: Bestandserfassung - Denkmalvermittlung - Datenar-
+    chivierung - Rekonstruktion verlorener Objekte
+61. Champion E, Rahaman H (2020) Survey of 3D digital heritage repositories and platforms.
+    Virtual Archaeol Rev 11:1–15. https://doi.org/10.4995/var.2020.13226
+198                                                                              9 Infrastructure
+
+
+62. Münster S (2023) Advancements in 3D heritage data aggregation and enrichment in Europe:
+    implications for designing the jena experimental repository for the DFG 3D viewer. Applied
+    Sciences 13:9781
+63. Storeide M, George S, Sole A, Hardeberg JY (2023) Standardization of digitized heritage: a
+    review of implementations of 3D in cultural heritage. Herit Sci 11. https://doi.org/10.1186/s40
+    494-023-01079-z
+
+
+
+
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give appropri-
+ate credit to the original author(s) and the source, provide a link to the Creative Commons license
+and indicate if changes were made.
+    The images or other third party material in this chapter are included in the chapter’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material is not
+included in the chapter’s Creative Commons license and your intended use is not permitted by statu-
+tory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+

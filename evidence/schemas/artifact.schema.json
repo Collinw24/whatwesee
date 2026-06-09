@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "What We See Evidence Artifact",
+  "type": "object",
+  "required": ["path", "class", "role", "created_at"],
+  "properties": {
+    "path": {"type": "string"},
+    "class": {"type": "string", "enum": ["evidence", "inference", "visualization"]},
+    "role": {"type": "string"},
+    "modality": {"type": "string"},
+    "source": {"type": "string"},
+    "created_at": {"type": "string"},
+    "description": {"type": "string"}
+  },
+  "additionalProperties": true
+}

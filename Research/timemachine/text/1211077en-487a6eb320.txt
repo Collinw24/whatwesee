@@ -1,0 +1,491 @@
+     European Parliament
+     2019-2024
+
+
+
+                               Committee on Culture and Education
+
+
+
+
+                                                                                   2020/2017(INI)
+
+     30.7.2020
+
+
+
+
+                 DRAFT REPORT
+                 on artificial intelligence in education, culture and the audiovisual sector
+                 (2020/2017(INI))
+
+
+                 Committee on Culture and Education
+
+
+                 Rapporteur: Sabine Verheyen
+
+
+
+
+                 Rapporteur for the opinion (*):
+                 Ondřej Kovařík, Committee on Civil Liberties, Justice and Home Affairs
+
+
+                 (*)     Associated committee – Rule 57 of the Rules of Procedure
+
+
+
+
+     PR\1211077EN.docx                                                             PE655.862v01-00
+
+
+EN                                       United in diversity                                         EN
+     PR_INI
+
+                                                     CONTENTS
+
+                                                                                                              Page
+
+     MOTION FOR A EUROPEAN PARLIAMENT RESOLUTION ...........................................3
+
+     EXPLANATORY STATEMENT...........................................................................................7
+
+
+
+
+     PE655.862v01-00                                       2/10                               PR\1211077EN.docx
+
+
+EN
+              MOTION FOR A EUROPEAN PARLIAMENT RESOLUTION
+
+
+on artificial intelligence in education, culture and the audiovisual sector
+(2020/2017(INI))
+
+
+The European Parliament,
+
+–     having regard to Article 167 of the Treaty on the Functioning of the European Union,
+
+–     having regard to the Commission report of 19 February 2020 to the European
+      Parliament, the Council and the European Economic and Social Committee on the
+      safety and liability implications of Artificial Intelligence, the Internet of Things and
+      robotics (COM(2020)0064),
+
+–     having regard to the Commission White Paper of 19 February 2020 entitled ‘Artificial
+      Intelligence - A European approach to excellence and trust’ (COM(2020)0065),
+
+–     having regard to the Commission communication of 19 February 2020 to the European
+      Parliament, the Council, the European Economic and Social Committee and the
+      Committee of the Regions entitled ‘A European strategy for data’ (COM(2020)0066),
+
+–     having regard to the Commission communication of 25 April 2018 entitled ‘Artificial
+      Intelligence for Europe’ (COM(2018)0237),
+
+–     having regard to the Commission communication of 17 January 2018 to the European
+      Parliament, the Council, the European Economic and Social Committee and the
+      Committee of the Regions on the Digital Education Action Plan (COM(2018)0022),
+
+–     having regard to its resolution of 12 February 2019 on a comprehensive European
+      industrial policy on artificial intelligence and robotics1,
+
+–     having regard to its resolution of 16 February 2017 with recommendations to the
+      Commission on Civil Law Rules on Robotics2,
+
+–     having regard to its resolution of 1 June 2017 on digitising European industry3,
+
+–     having regard to its resolution of 11 September 2018 on language equality in the digital
+      age4,
+
+–     having regard to Rule 54 of its Rules of Procedure,
+
+–     having regard to the opinions of the Committee on Civil Liberties, Justice and Home
+      Affairs, the Committee on the Internal Market and Consumer Protection, the Committee
+      on Legal Affairs and the Committee on Women’s Rights and Gender Equality,
+
+
+1
+  Texts adopted, P8_TA(2019)0081.
+2
+  OJ C 252, 18.7.2018, p. 239.
+3
+  OJ C 307, 30.8.2018, p. 163.
+4
+  OJ C 433, 23.12.2019, p. 42.
+
+PR\1211077EN.docx                              3/10                              PE655.862v01-00
+
+
+                                                                                                   EN
+     –    having regard to the report of the Committee on Culture and Education (A9-0000/2020),
+
+     A.   whereas artificial intelligence (AI) technologies are being developed at a fast pace, and
+          are increasingly being used in education, culture and the audiovisual sector;
+
+     B.   whereas the availability of high-quality and meaningful data is essential for the
+          development of AI;
+
+     C.   whereas the use of AI raises many concerns regarding the ethics and transparency of
+          data collection, use and dissemination; whereas the benefits and risks of AI in these
+          sectors must be carefully assessed;
+
+     D.   whereas high-quality, fast and secure pervasive connectivity, high-capacity networks,
+          IT expertise and digital equipment and infrastructure are preconditions for the broad
+          deployment of AI in the Union;
+
+     E.   whereas it is essential to ensure that people in the Union acquire the necessary skills to
+          prepare themselves for the increasing presence of AI in all aspects of human activity;
+
+     F.   whereas AI can be used to improve learning and teaching methods, notably by helping
+          education systems to use data to improve educational equity and quality, whilst
+          promoting personalisation and better access to education;
+
+     G.   whereas culture plays a central role in the use of AI at scale and is emerging as a key
+          discipline for cultural heritage thanks to the development of innovative technologies and
+          tools and their effective application to respond to the needs of the sector;
+
+     H.   whereas AI can be used to create innovative ways to make datasets of cultural artefacts
+          held by cultural institutions across the Union widely accessible whilst allowing users to
+          navigate the vast amount of cultural and creative content;
+
+     I.   whereas the use of AI for media content, notably personalised content
+          recommendations, raises issues regarding cultural and linguistic diversity;
+
+     J.   whereas AI could have a substantial impact on special needs education, as well as on
+          the accessibility of cultural and creative content for people with disabilities;
+
+     K.   whereas AI-generated fake content, such as ‘deepfakes’, is growing exponentially and
+          constitutes an imminent threat to democracy;
+
+     1.   Reiterates the importance of developing quality and inclusive data systems for use in
+          deep learning as the use of low-quality, outdated, incomplete or incorrect data may lead
+          to poor predictions and in turn discrimination and bias; highlights that it is essential to
+          develop capabilities at both national and Union level to improve data collection and
+          systematisation;
+
+     2.   Stresses the need to address the ethical and legal issues raised by the use of AI such as
+          the transparency and accountability of algorithms and the ownership, collection, use and
+          dissemination of data;
+
+          Education
+
+
+     PE655.862v01-00                              4/10                           PR\1211077EN.docx
+
+
+EN
+3.    Recalls the importance of strengthening digital skills at Union level as a prerequisite for
+      the use of AI in education; calls on the Commission, in that regard, to make AI-related
+      skills one of the main priorities of its next Digital Education Action Plan;
+
+4.    Stresses that the learning benefits of using AI in education will depend not on AI itself,
+      but on how teachers use AI to meet the needs of both students and teachers; points out,
+      therefore, the need for AI programmers to involve teachers in designing AI-sustainable
+      solutions that are suitable for real-life educational environments;
+
+5.    Highlights, moreover, the need to train teachers so they can adapt to the realities of AI-
+      powered education and acquire the necessary skills to use AI in a pedagogical and
+      meaningful way;
+
+6.    Underlines the importance of training highly skilled professionals in the field of AI and
+      of upskilling the future workforce to enable it to cope with the realities of an AI-driven
+      labour market; thus encourages the Member States to upgrade their educational offers
+      with AI-related skills and to put in place specific curricula for AI developers;
+
+      Cultural heritage
+
+7.    Stresses that AI can play a significant role in preserving, promoting and managing
+      cultural heritage, notably by monitoring and analysing changes to cultural heritage sites
+      caused by threats such as climate change, natural disasters and armed conflicts;
+
+8.    Stresses that AI provides new opportunities for cultural institutions, such as museums,
+      to produce innovative tools for documenting and accessing cultural heritage sites,
+      notably through 3D modelling and augmented virtual reality;
+
+9.    Stresses that good practices in AI for cultural heritage accessibility should be identified
+      and shared amongst cultural networks across the Union;
+
+10.   Stresses that AI can also be used to monitor the illicit trafficking of cultural objects and
+      the destruction of cultural property, whilst supporting data collection for recovery and
+      reconstruction efforts;
+
+      Cultural and creative sectors (CCS)
+
+11.   Deplores the fact that culture is not amongst the priorities outlined in policy options and
+      recommendations on AI at Union level, notably in the Commission’s white paper of 19
+      February 2020 on AI;
+
+12.   Stresses the need to set up a coherent vision of AI in the CCS at Union level; calls on
+      the Member States to strengthen the focus on culture in their AI national strategies to
+      ensure that cultural diversity is safeguarded and promoted at Union level in the new
+      digital context;
+
+13.   Calls on the Commission and the Member States to support critical public discourse on
+      AI and to raise awareness of the benefits of its use in the CCS;
+
+      Audiovisual sector
+
+14.   Stresses that algorithms used by media service providers and video sharing platforms
+
+PR\1211077EN.docx                              5/10                              PE655.862v01-00
+
+
+                                                                                                     EN
+           should be designed in such a way that they do not privilege specific works by limiting
+           their ‘personalised’ suggestions to the most popular works, for targeted advertising,
+           commercial purposes or to maximise profit;
+
+     15.   Stresses, moreover, that the use of AI in algorithm-based content recommendations on
+           online audiovisual media services, such video on demand services, may have a serious
+           impact on cultural diversity, notably regarding the obligation to ensure the prominence
+           of European works under Article 13 of the Audiovisual Media Services Directive
+           (Directive (EU) 2018/1808);
+
+     16.   Suggests establishing a clear ethical framework for the use of AI in media to ensure
+           access to culturally and linguistically diverse content at Union level, based on
+           accountable, transparent and inclusive algorithms; stresses, in that regard, that the
+           framework should also address the misuse of AI to disseminate fake news and online
+           misinformation;
+
+           Online disinformation: deepfakes
+
+     17.   Recalls that with new techniques rapidly emerging, detecting deepfakes is becoming
+           increasingly challenging because malicious deepfake makers can generate algorithms
+           that can be trained to evade detection;
+
+     18.   Welcomes recent initiatives and projects to create more efficient deepfake-detecting
+           tools and transparency requirements; stresses, in that regard, the need to explore and
+           invest in methods for tackling deepfakes as a crucial step in combatting misinformation;
+
+                                                      °
+
+                                                 °          °
+
+     19.   Instructs its President to forward this resolution to the Council and the Commission.
+
+
+
+
+     PE655.862v01-00                                 6/10                       PR\1211077EN.docx
+
+
+EN
+                                EXPLANATORY STATEMENT
+
+
+“I believe that at the end of the century the use of words and general educated opinion will
+have altered so much that one will be able to speak of machines thinking without expecting to
+be contradicted”
+
+Alan Turing, 1947
+
+
+The last decade has been transformative for AI, arousing both fear and excitement for
+humanity. Seen as ‘the new electricity’, AI has advanced to the point that it will have such
+a systemic impact that it could substantially change all aspects of society for the next century.
+Whilst it is easy to understand the potential effects of AI on sectors such telecommunications,
+transportation, traffic management, health care, evaluating its long-term effects on education,
+culture and the audiovisual sector is considerably more challenging. Although there is a
+consensus that AI and automation is likely to create more wealth and to simplify a vast array
+of processes, the use of AI has also raised serious concerns that it may result in an increase in
+inequality, discrimination and unemployment.
+
+The potential impact of AI on education, culture and the audiovisual sector is however rarely
+discussed and is mostly unknown. Yet this question is of utmost importance because AI is
+already being used to teach curricula, as well as to produce movies, songs, stories and
+paintings.
+
+The purpose of this report is therefore to understand concretely how AI currently impacts
+these sectors and how future technological advances in AI will impact them further over the
+next decade. In particular, the Rapporteur reflects on how AI may transform these sectors and
+which particular regulatory challenges the Union may have to face in that regard.
+
+
+(i) AI is reshaping education
+
+AI is transforming learning, teaching, and education radically. The whirlwind speed of
+technological development accelerates the radical transformation of educational practices,
+institutions and policies. In this field, AI has many applications, such as customisable
+approaches to learning, AI-based tutors, textbooks and course material with customised
+content, smart algorithms to determine best teaching methods, AI game engines, and adaptive
+user models in personalised learning environments (PLE) which can allow early identification
+of difficulties, such as dyslexia or risks of early school leaving.
+
+Personalised learning experience is the cornerstone of the use of AI in education. It would
+allow students to enjoy an educational approach that is fully tailored to their individual
+abilities, needs and difficulties, whilst enabling teachers to closely monitor students’ progress.
+However in order to make personalised education a reality, large amounts of personal data
+need to be collected, used and analysed.
+
+The Rapporteur stresses in that regard that the current lack of access to personal data on
+students is likely to prevent the successful implementation of AI in education. It is thus
+essential to ensure the safety and transparency of personal data collection, use, management
+
+PR\1211077EN.docx                              7/10                              PE655.862v01-00
+
+
+                                                                                                     EN
+     and dissemination, whilst safeguarding confidentiality and privacy of learners’ personal data.
+     Moreover, addressing the risks of AI potential bias, as well as tackling the issue of data
+     storage should be a priority in any initiatives for the wide deployment of AI in the education
+     system at Union level.
+
+     Although there is little chance that teachers will be replaced by machines in the near future,
+     the increasing use of AI in education implies the need to rethink education overall, as well as
+     to reflect on the redefinition of teaching, the role of the teachers, and, as a result, the
+     subsequent retraining required to adapt to a AI-based educational system.
+     Considering that less than 40% of teachers in the Union have received courses on ICT
+     inclusion in the classroom throughout their Initial Teacher Education (ITE), the Rapporteur
+     would like to stress the crucial importance of training teachers so they acquire digital skills
+     as a prerequisite to becoming familiar with AI. They could then take advantage of AI
+     technologies, but also make them aware of the potential dangers of AI.
+
+     This issue can also be seen more widely, with 42% of the Union population still lacking basic
+     digital skills. There are also serious regional discrepancies in access to digital infrastructure
+     and in digital skills attainment across the Union.
+
+     Emerging technology trends related to digital transformation, such as AI, have profound
+     implications in terms of the skills required for the evolving digital economy. In particular, the
+     notion of lifelong learning in AI has emerged as one of the key strategies for job security and
+     employment in the digital era.
+
+     The Rapporteur suggests that citizens are trained to acquire the necessary digital skills, whilst
+     carefully assessing what AI-related skills are needed today and in the future, and that the
+     necessary measures are taken to address existing and emerging skill gaps.
+
+     It also crucial to ensure that the prerequisites for the deployment and the relevant use of AI, in
+     terms of internet access, connectivity, networks and infrastructures, are met.
+
+
+     (ii) AI can be used to safeguard and promote cultural heritage
+
+     In recent years, AI has been of increasing relevance to cultural heritage, notably in response to
+     potential modern threats, such as climate change or conflicts. AI can have various
+     applications in that regard: it can be used to enhance users’ experience by enabling visitors of
+     cultural institutions and museums to create personal narrative trails or to enjoy virtual tour
+     guides. Conversational bots could communicate in an interactive way about cultural heritage
+     on any topics and in any language. They would also make the access to information easier
+     whilst providing a vivid cultural experience to users.
+
+     AI could also facilitate the understanding of the history of the Union, such as how the ‘Time
+     Machine Project’ aims to create advanced AI technologies to make sense of vast amounts of
+     information from complex historical data sets stored in archives and museums. This enables
+     the transformation of fragmented data into useable knowledge by mapping Union’s entire
+     social, cultural and geographical evolution. This may facilitate the exploration of the cultural,
+     economic, and historical development of European cities, and improve understanding thereof.
+
+
+
+     PE655.862v01-00                                8/10                           PR\1211077EN.docx
+
+
+EN
+(iii) AI changes the way the cultural and creative industries work, in particular the
+audiovisual sector
+
+AI use is rapidly expanding in media with many applications:
+
+   -   Data-driven marketing and advertising, by training machine learning algorithms to
+       develop promotional movie trailers and design advertisements,
+
+   -   Personalisation of users’ experience, by using machine learning to recommend
+       personalised content based on data from user activity and behaviour,
+
+   -   Search optimisation, by using AI to improve the speed and efficiency of the media
+       production process and the ability to organise visual assets,
+
+   -   Content creation, by generating video clips from automatic video segments ready for
+       broadcast and special effects, such as re-creating a younger version of an actor digitally
+       or creating new content with a deceased actor,
+
+   -   Script writing such as simple factual text creation (sports and news reports produced by
+       robots), but also for writing fictional stories, such as the experimental short movie
+       ‘Sunspring’,
+
+   -   Viewer interaction on complex story lines, such as the last episode of the British series
+       ‘Black Mirror’, ‘Bandersnatch’,
+
+   -   Automated captioning and subtitling, such audio-to-text processes, for viewers with
+       disabilities
+
+   -   Automated content moderation on audiovisual content.
+
+
+Whilst AI offers a wide range of opportunities in producing high quality cultural and creative
+content, the centralised distribution and access to such content raises a number of ethical and
+legal issues, notably on data protection, freedom of expression and cultural diversity.
+
+Cultural and creative works, notably audiovisual works, are mainly distributed through
+large centralised platforms, which conditions media consumption to the proprietary
+algorithms developed by these platforms.
+
+The Rapporteur points out that algorithm-based personalised recommendations are potentially
+detrimental to cultural and linguistic diversity, preventing under-represented cultural and
+creative content from appearing in suggestions provided by these systems. On the largest
+platforms, the criteria used to select or recommend a work are neither transparent nor
+auditable, and are likely to be decided on the basis of economic factors that solely benefit
+these platforms.
+
+The question of cultural and linguistic diversity in recommendation systems is therefore
+crucial and must be addressed. The Rapporteur stresses the need to set up a clear legal
+framework for transparent, accountable and inclusive algorithms, in order to safeguard
+and promote cultural and linguistic diversity.
+
+
+PR\1211077EN.docx                             9/10                             PE655.862v01-00
+
+
+                                                                                                    EN
+     Regulatory challenges triggered by AI applications within the audiovisual sector are also
+     linked to existing legal acts, such as the AVMSD. Thus a more in-depth assessment might be
+     needed as to the urgency and/or political momentum for future adaptions of these files to AI.
+
+     Whilst AI can help empower many creators, making CCS more prosperous and driving
+     cultural diversity, the large majority of artists and entrepreneurs may not still be familiar with
+     AI tools.
+
+     There is a lack of technical knowledge among creators precluding them from experimenting
+     with machine learning and reaping the benefits they can bring. Therefore it is essential to
+     assess which skills would be needed in the near future, whilst at the same time improving
+     training systems, including upskilling and reskilling, guaranteeing lifelong learning
+     throughout the whole working life and beyond.
+
+     In that context, the Rapporteur suggests setting up an AI observatory with an objective of
+     harmonising and facilitating evidence-based scrutiny of new developments in AI in
+     order to tackle the question of auditability and accountability of AI applications in CCS.
+
+
+     (v) Countering fake news
+
+     AI-technologies are increasingly used to disseminate fake news, notably through the use of
+     ‘deepfakes’.
+     Deepfakes are synthetic images or videos generated by AI using ‘deep learning machines’ and
+     generative adversial networks (GAN). Humans cannot distinguish deepfakes from authentic
+     content. Deepfakes can be used for all kinds of trickery, most commonly used for ‘face
+     swaps’, from harmless satires and film tweaks to malicious hoaxes, targeted harassment,
+     deepfake porn or financial fraud, The danger of deepfakes is to make people believe
+     something is real when it is not, and thus may be used as a particularly powerful and potent
+     weapon for online disinformation, spreading virally on platforms and social media, where
+     they can influence public opinion, voting processes and election results.
+
+     Whilst AI is frequently singled out for its role in spreading fake news, it could also play a
+     significant role in countering and combating fake news and disinformation, as evidenced by
+     projects such as “Fake News Challenge”. AI systems can reverse-engineer AI generated fake
+     news, and help spot manipulated content. However algorithms generating deepfakes are
+     getting more and more sophisticated, and detecting them as a result is getting increasingly
+     difficult.
+
+     The Rapporteur therefore stresses the need to tackle the misuse of AI in disseminating fake
+     news and online misinformation, notably by exploring ways to efficiently detect
+     deepfakes.
+
+
+
+
+     PE655.862v01-00                               10/10                           PR\1211077EN.docx
+
+
+EN
+

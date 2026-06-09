@@ -1,0 +1,56 @@
+                                   Session
+
+  The Future of 3D Cultural Heritage: Are We FAIR
+                 Enough? (UHDL)
+Chairpersons:
+Fabrizio I. Apollonio (University of Bologna) - Italy
+Federico Fallavollita (University of Bologna) - Italy
+Igor P. Bajena (Hochschule Mainz – University of Applied Sciences) - Germany
+
+Descrip.on and Mo.va.on:
+The ﬁeld of virtual reconstrucIons has experienced signiﬁcant growth across
+architecture, archaeology, and cultural heritage domains. These reconstrucIons
+serve diverse purposes, ranging from popular disseminaIon to scienIﬁc inquiry,
+and from recreaIonal to commercial applicaIons. UIlizing various visualizaIon
+methods—2D, 3D, staIc, or dynamic—they act as pivotal tools for encoding and
+transmiRng knowledge in numerous contexts. Despite their widespread
+adopIon, the absence of common standards and methodological guidelines
+limits the applicaIon of core principles such as transparency, reproducibility,
+veriﬁability, and long-term accessibility, aligned with FAIR principles (Findable,
+Accessible, Interoperable, and Reusable).
+
+This session seeks to invesIgate the scienIﬁc foundaIons and methodological
+approaches underpinning virtual and hypotheIcal reconstrucIons, speciﬁcally
+within architectural, urban, and archaeological heritage contexts. We aim to
+gather contribuIons that address both theoreIcal frameworks and pracIcal
+applicaIons, emphasizing the ability to:
+· Represent conﬁdence levels in 3D geometric modelling of hypotheIcal
+reconstrucIons,
+· Address various degrees of uncertainty while ensuring transparency regarding
+source data, archival materials, and interpretaIve conjectures,
+· Metadata schemas tailored for 3D cultural heritage models,
+· Best pracIces for archiving and preserving 3D projects,
+· Ontologies and data models speciﬁc to 3D cultural heritage,
+· Developing criIcal and semanIcally structured 3D models,
+· Ensuring transparency in scienIﬁc processes,
+· ValidaIng the quality and reusability of 3D models,
+· DocumenIng scienIﬁc and operaIonal workﬂows,
+· Proposing documentaIon standards and protocols,
+· Deﬁning Uncertainty Scale to assess hypotheIcal reconstrucIons,
+· PromoIng interoperability of data,
+· Deﬁning methods of digital representaIon and modelling techniques,
+· Deﬁning 3D Models typology in the ﬁeld of Virtual ReconstrucIon.
+
+Target Audience:
+Researchers, pracIIoners, and scholars in archaeology, art history, architecture,
+and digital humaniIes who create, study, or uIlise 3D cultural heritage models.
+The session will also interest those involved in data preservaIon, repository
+management, and metadata development.
+
+Keywords:
+HypotheIcal ReconstrucIon; Virtual ReconstrucIon; FAIR Principles; 3D
+Modelling; Cultural Heritage
+
+
+Click here to make a submission!
+

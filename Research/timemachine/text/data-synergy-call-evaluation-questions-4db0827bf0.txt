@@ -1,0 +1,54 @@
+                       Data Synergy Call - Evaluation Questions
+
+
+
+Interest &      How would you judge the cultural relevance and preservation need of the
+Reusability     real-world heritage assets?
+                1 - not very relevant and not important to preserve
+                5 - extremely relevant and important to preserve
+Interest &      How important are the heritage assets for different stakeholders and
+Reusability     relevant to focus areas (i.e. young people, Eastern Partnership, disaster
+                management, health, democracy) of the European Commission?
+                1 - not very important
+                5 - very important
+Impact          What is the potential information and accessibility gain when publishing
+                the digitized assets?
+                1 - very low (due to already existing, public assets)
+                5 - very high (due to new, potentially concealed assets)
+Quantity        Which amount and variety of 3D assets will be contributed?
+                1 - few similar assets
+                5 - many different assets
+Quality         How would you judge the appearance of the 3D assets in general?
+                1 - very unalluring
+                5 - very appealing
+Quality         How would you judge the technical quality of the 3D assets in terms of
+                accuracy and detail?
+                [for reality-based assets]
+                1 - The accuracy is very low and only one level of detail has been produced.
+                5 - The accuracy is very high and multiple level of details have been
+                produced.
+
+                [for source-based assets]
+                1 - The accuracy and details are much lower than the underlying sources
+                allow it.
+                5 - The accuracy and details are as high as the underlying sources allow it.
+Scientificity   How clear has the digitization process been described in general?
+                1 - not very comprehensible
+                5 - very comprehensible
+Scientificity   How would you evaluate the digitization process in terms of technical and
+                scientific soundness?
+                1 - The applied methods are outdated and not very appropriate.
+                5 - The applied methods are state-of-the art and very appropriate.
+Feasibility     How would you judge the capacity and experience of the applicant and
+                project partner to fulfil the requirements of the call?
+                1 - not very adequate and not very qualified
+                5 - very adequate and very qualified
+Feasibility     How well can the applicant and project partner manage any potential risks
+                and obligations?
+                1 - The project has high risks/many obligations that likely cannot be
+                addressed.
+                5 - The project has either no risks/obligations or small risks/few obligations
+                that can easily be addressed.
+Miscellaneous   Do you have any other comments on the project?
+                Free text
+
