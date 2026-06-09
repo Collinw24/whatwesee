@@ -188,6 +188,11 @@ Capture S₀       Labels &         S₁ vs S₀             Conservative       
 
 **Phase 1** (in progress): Baseline capture complete. Sparse reconstruction validated. Staged for dense reconstruction and Splatfacto rendering.
 
+<p align="center">
+  <img src="docs/images/strip.png" alt="Sparse reconstruction (left) and camera pose network (right) — 305/308 images registered, 73,367 sparse points" width="100%">
+  <br><sub><em>Sparse point cloud (left) and 305-registered-camera pose network (right).<br>COLMAP global_mapper, M3 Max, ~41 min. Mean reprojection error: 0.000363 px.</em></sub>
+</p>
+
 ---
 
 ## Three-Machine Architecture
